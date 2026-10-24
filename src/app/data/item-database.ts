@@ -2,6 +2,7 @@ import armorData from './items/valheim_armaduras_bilingue.json';
 import meadData from './items/valheim_meads_bilingue.json';
 import recipeData from './items/valheim_receitas_bilingue.json';
 import weaponData from './items/valheim_armas_bilingue.json';
+import weaponMaterialData from './items/valheim_armas_materiais_bilingue.json';
 import buildingData from './items/valheim_construcoes_bilingue.json';
 import { ConstructionItem, ConstructionMaterial } from '../pages/home/construction-list.model';
 
@@ -76,18 +77,64 @@ const armors: CatalogEntry[] = armorData.map((armor) => ({
     })
 }));
 
-const weapons: CatalogEntry[] = weaponData.map((weapon) => ({
-    id: `weapon_${weapon.id}`,
-    name: weapon.name['pt-BR'],
-    nameEn: weapon.name.en,
-    aliases: [...weapon.aliases['pt-BR'], ...weapon.aliases.en],
-    kind: 'weapon',
-    icon: 'sword',
-    unitDescription: Object.entries(weapon.stats)
-        .map(([stat, value]) => `${stat}: ${value}`)
-        .join(' · '),
-    materials: []
-}));
+const weaponCategoryLabels: Record<string, string> = {
+    Axes: 'Machados',
+    Clubs: 'Clavas',
+    Swords: 'Espadas',
+    Spears: 'Lanças',
+    Polearms: 'Armas de haste',
+    Knives: 'Facas',
+    Fists: 'Punhos',
+    Shields: 'Escudos',
+    Bows: 'Arcos',
+    Crossbows: 'Bestas',
+    'Elemental magic': 'Magia elemental',
+    'Blood magic': 'Magia de sangue',
+    Arrows: 'Flechas',
+    Bolts: 'Virotes',
+    Missiles: 'Projéteis',
+    Bombs: 'Bombas',
+    'Blob bombs': 'Bombas de gosma'
+};
+
+function weaponMaterialsFor(weaponId: string): ConstructionMaterial[] {
+    const recipe = weaponMaterialData.recipes.find((entry) => entry.weaponId === weaponId);
+    if (!recipe) {
+        return [];
+    }
+
+    return recipe.ingredients.map((ingredient) => {
+        const material = weaponMaterialData.materials.find(
+            (entry) => entry.id === ingredient.materialId
+        );
+        if (!material) {
+            throw new TypeError(`Unknown weapon material: ${ingredient.materialId}`);
+        }
+
+        return {
+            name: material.name['pt-BR'],
+            amount: ingredient.quantity
+        };
+    });
+}
+
+const weapons: CatalogEntry[] = weaponData.map((weapon) => {
+    const category = weaponCategoryLabels[weapon.category];
+    if (!category) {
+        throw new TypeError(`Unknown weapon category: ${weapon.category}`);
+    }
+
+    return {
+        id: `weapon_${weapon.id}`,
+        name: weapon.name['pt-BR'],
+        nameEn: weapon.name.en,
+        aliases: [...weapon.aliases['pt-BR'], ...weapon.aliases.en],
+        kind: 'weapon',
+        icon: 'sword',
+        unitDescription: `Categoria: ${category}`,
+        materials: weaponMaterialsFor(weapon.id)
+    };
+});
 
 const existingBuildingNames = new Set(['Workbench', 'Bed', 'Chest', 'Campfire', 'Portal']);
 const buildings: CatalogEntry[] = buildingData

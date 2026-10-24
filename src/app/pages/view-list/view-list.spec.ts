@@ -142,7 +142,13 @@ describe('ViewList route', () => {
 
         const match = component.matchingCatalog().find((entry) => entry.id === 'weapon_mistwalker');
         expect(match?.name).toBe('Andarilho da névoa');
-        expect(match?.unitDescription).toContain('Damage:');
+        expect(match?.unitDescription).toBe('Categoria: Espadas');
+        expect(match?.materials).toEqual([
+            { name: 'Madeira nobre', amount: 3 },
+            { name: 'Ferro', amount: 15 },
+            { name: 'Eitr refinado', amount: 10 },
+            { name: 'Fogo-fátuo', amount: 3 }
+        ]);
 
         if (!match) {
             throw new Error('The weapon search did not return Mistwalker.');
@@ -152,6 +158,7 @@ describe('ViewList route', () => {
         const addedWeapon = listStore.findById(list.id)?.constructionItems[0];
         expect(addedWeapon?.kind).toBe('weapon');
         expect(addedWeapon?.nameEn).toBe('Mistwalker');
+        expect(addedWeapon?.materials).toEqual(match.materials);
     });
 
     it('searches and adds building data in Portuguese and English', async () => {

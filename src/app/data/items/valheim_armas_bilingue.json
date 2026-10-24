@@ -1255,11 +1255,11 @@
         "id": "wood_tower_shield",
         "name": {
             "en": "Wood tower shield",
-            "pt-BR": "Escudo torre de madeira"
+            "pt-BR": "Escudo-torre de madeira"
         },
         "aliases": {
             "en": ["Wood tower shield"],
-            "pt-BR": ["Escudo torre de madeira"]
+            "pt-BR": ["Escudo-torre de madeira"]
         },
         "category": "Shields",
         "type": "shield",
@@ -1280,11 +1280,11 @@
         "id": "bone_tower_shield",
         "name": {
             "en": "Bone tower shield",
-            "pt-BR": "Escudo torre de osso"
+            "pt-BR": "Escudo-torre de osso"
         },
         "aliases": {
             "en": ["Bone tower shield"],
-            "pt-BR": ["Escudo torre de osso"]
+            "pt-BR": ["Escudo-torre de osso"]
         },
         "category": "Shields",
         "type": "shield",
@@ -1404,11 +1404,11 @@
         "id": "iron_tower_shield",
         "name": {
             "en": "Iron tower shield",
-            "pt-BR": "Escudo torre de ferro"
+            "pt-BR": "Escudo-torre de ferro"
         },
         "aliases": {
             "en": ["Iron tower shield"],
-            "pt-BR": ["Escudo torre de ferro"]
+            "pt-BR": ["Escudo-torre de ferro"]
         },
         "category": "Shields",
         "type": "shield",
@@ -1504,11 +1504,11 @@
         "id": "black_metal_tower_shield",
         "name": {
             "en": "Black metal tower shield",
-            "pt-BR": "Escudo torre de metal negro"
+            "pt-BR": "Escudo-torre de metal negro"
         },
         "aliases": {
             "en": ["Black metal tower shield"],
-            "pt-BR": ["Escudo torre de metal negro"]
+            "pt-BR": ["Escudo-torre de metal negro"]
         },
         "category": "Shields",
         "type": "shield",
@@ -1604,11 +1604,11 @@
         "id": "flametal_tower_shield",
         "name": {
             "en": "Flametal tower shield",
-            "pt-BR": "Escudo torre de flametal"
+            "pt-BR": "Escudo-torre de metal flamejante"
         },
         "aliases": {
             "en": ["Flametal tower shield"],
-            "pt-BR": ["Escudo torre de flametal"]
+            "pt-BR": ["Escudo-torre de metal flamejante"]
         },
         "category": "Shields",
         "type": "shield",
@@ -1797,11 +1797,11 @@
         "id": "arbalest",
         "name": {
             "en": "Arbalest",
-            "pt-BR": "Arbalesta"
+            "pt-BR": "Besta"
         },
         "aliases": {
             "en": ["Arbalest"],
-            "pt-BR": ["Arbalesta"]
+            "pt-BR": ["Besta"]
         },
         "category": "Crossbows",
         "type": "ranged",
@@ -2454,11 +2454,11 @@
         "id": "wooden_missile",
         "name": {
             "en": "Wooden missile",
-            "pt-BR": "Míssil de madeira"
+            "pt-BR": "Projétil de madeira"
         },
         "aliases": {
             "en": ["Wooden missile"],
-            "pt-BR": ["Míssil de madeira"]
+            "pt-BR": ["Projétil de madeira"]
         },
         "category": "Missiles",
         "type": "ammunition",
@@ -2477,11 +2477,11 @@
         "id": "black_metal_missile",
         "name": {
             "en": "Black metal missile",
-            "pt-BR": "Míssil de metal negro"
+            "pt-BR": "Projétil de metal negro"
         },
         "aliases": {
             "en": ["Black metal missile"],
-            "pt-BR": ["Míssil de metal negro"]
+            "pt-BR": ["Projétil de metal negro"]
         },
         "category": "Missiles",
         "type": "ammunition",
@@ -2500,11 +2500,11 @@
         "id": "flametal_missile",
         "name": {
             "en": "Flametal missile",
-            "pt-BR": "Míssil de flametal"
+            "pt-BR": "Projétil de metal flamejante"
         },
         "aliases": {
             "en": ["Flametal missile"],
-            "pt-BR": ["Míssil de flametal"]
+            "pt-BR": ["Projétil de metal flamejante"]
         },
         "category": "Missiles",
         "type": "ammunition",
@@ -2604,11 +2604,11 @@
         "id": "blob_bomb_poison",
         "name": {
             "en": "Blob Bomb: Poison",
-            "pt-BR": "Bomba de blob: veneno"
+            "pt-BR": "Bomba de gosma venenosa"
         },
         "aliases": {
             "en": ["Blob Bomb: Poison"],
-            "pt-BR": ["Bomba de blob: veneno"]
+            "pt-BR": ["Bomba de gosma venenosa"]
         },
         "category": "Blob bombs",
         "type": "ammunition",
@@ -2627,11 +2627,11 @@
         "id": "blob_bomb_elite_poison_x2",
         "name": {
             "en": "Blob Bomb: Elite poison (x2)",
-            "pt-BR": "Bomba de blob: veneno de elite (x2)"
+            "pt-BR": "Bomba de gosma venenosa de elite (x2)"
         },
         "aliases": {
             "en": ["Blob Bomb: Elite poison (x2)"],
-            "pt-BR": ["Bomba de blob: veneno de elite (x2)"]
+            "pt-BR": ["Bomba de gosma venenosa de elite (x2)"]
         },
         "category": "Blob bombs",
         "type": "ammunition",
@@ -2650,11 +2650,11 @@
         "id": "blob_bomb_frost",
         "name": {
             "en": "Blob Bomb: Frost",
-            "pt-BR": "Bomba de blob: gelo"
+            "pt-BR": "Bomba de gosma congelante"
         },
         "aliases": {
             "en": ["Blob Bomb: Frost"],
-            "pt-BR": ["Bomba de blob: gelo"]
+            "pt-BR": ["Bomba de gosma congelante"]
         },
         "category": "Blob bombs",
         "type": "ammunition",
@@ -2673,11 +2673,11 @@
         "id": "blob_bomb_tar",
         "name": {
             "en": "Blob Bomb: Tar",
-            "pt-BR": "Bomba de blob: piche"
+            "pt-BR": "Bomba de gosma de piche"
         },
         "aliases": {
             "en": ["Blob Bomb: Tar"],
-            "pt-BR": ["Bomba de blob: piche"]
+            "pt-BR": ["Bomba de gosma de piche"]
         },
         "category": "Blob bombs",
         "type": "ammunition",
@@ -2696,11 +2696,11 @@
         "id": "blob_bomb_lava",
         "name": {
             "en": "Blob Bomb: Lava",
-            "pt-BR": "Bomba de blob: lava"
+            "pt-BR": "Bomba de gosma de lava"
         },
         "aliases": {
             "en": ["Blob Bomb: Lava"],
-            "pt-BR": ["Bomba de blob: lava"]
+            "pt-BR": ["Bomba de gosma de lava"]
         },
         "category": "Blob bombs",
         "type": "ammunition",

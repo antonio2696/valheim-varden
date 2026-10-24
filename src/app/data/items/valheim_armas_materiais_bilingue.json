@@ -1,0 +1,760 @@
+{
+    "materials": [
+        { "id": "wood", "name": { "en": "Wood", "pt-BR": "Madeira" } },
+        { "id": "stone", "name": { "en": "Stone", "pt-BR": "Pedra" } },
+        { "id": "flint", "name": { "en": "Flint", "pt-BR": "Sílex" } },
+        { "id": "bronze", "name": { "en": "Bronze", "pt-BR": "Bronze" } },
+        {
+            "id": "leather_scraps",
+            "name": { "en": "Leather scraps", "pt-BR": "Retalhos de couro" }
+        },
+        { "id": "iron", "name": { "en": "Iron", "pt-BR": "Ferro" } },
+        { "id": "finewood", "name": { "en": "Finewood", "pt-BR": "Madeira nobre" } },
+        { "id": "black_metal", "name": { "en": "Black metal", "pt-BR": "Metal negro" } },
+        { "id": "linen_thread", "name": { "en": "Linen thread", "pt-BR": "Fio de linho" } },
+        {
+            "id": "yggdrasil_wood",
+            "name": { "en": "Yggdrasil wood", "pt-BR": "Madeira de Yggdrasil" }
+        },
+        { "id": "bilebag", "name": { "en": "Bilebag", "pt-BR": "Bolsa de bile" } },
+        { "id": "refined_eitr", "name": { "en": "Refined eitr", "pt-BR": "Eitr refinado" } },
+        {
+            "id": "curious_axe_head",
+            "name": { "en": "Curious axe head", "pt-BR": "Cabeça de machado curiosa" }
+        },
+        {
+            "id": "mysterious_axe_head",
+            "name": { "en": "Mysterious axe head", "pt-BR": "Cabeça de machado misteriosa" }
+        },
+        { "id": "charred_bone", "name": { "en": "Charred bone", "pt-BR": "Osso carbonizado" } },
+        { "id": "flametal", "name": { "en": "Flametal", "pt-BR": "Metal flamejante" } },
+        { "id": "sulfur", "name": { "en": "Sulfur", "pt-BR": "Enxofre" } },
+        { "id": "morgen_sinew", "name": { "en": "Morgen sinew", "pt-BR": "Tendão de morgen" } },
+        { "id": "asksvin_hide", "name": { "en": "Asksvin hide", "pt-BR": "Pele de asksvin" } },
+        { "id": "ancient_bark", "name": { "en": "Ancient bark", "pt-BR": "Casca ancestral" } },
+        { "id": "silver", "name": { "en": "Silver", "pt-BR": "Prata" } },
+        { "id": "crystal", "name": { "en": "Crystal", "pt-BR": "Cristal" } },
+        { "id": "linen", "name": { "en": "Linen", "pt-BR": "Linho" } },
+        { "id": "resin", "name": { "en": "Resin", "pt-BR": "Resina" } },
+        { "id": "ymir_flesh", "name": { "en": "Ymir flesh", "pt-BR": "Carne de Ymir" } },
+        { "id": "freeze_gland", "name": { "en": "Freeze gland", "pt-BR": "Glândula de gelo" } },
+        { "id": "needle", "name": { "en": "Needle", "pt-BR": "Agulha" } },
+        { "id": "corewood", "name": { "en": "Corewood", "pt-BR": "Madeira de cerne" } },
+        { "id": "deer_trophy", "name": { "en": "Deer trophy", "pt-BR": "Troféu de cervo" } },
+        {
+            "id": "draugr_elite_trophy",
+            "name": { "en": "Draugr Elite trophy", "pt-BR": "Troféu de draugr elite" }
+        },
+        { "id": "wisp", "name": { "en": "Wisp", "pt-BR": "Fogo-fátuo" } },
+        {
+            "id": "dyrnwyn_hilt_fragment",
+            "name": { "en": "Dyrnwyn hilt fragment", "pt-BR": "Fragmento do punho de Dyrnwyn" }
+        },
+        {
+            "id": "dyrnwyn_blade_fragment",
+            "name": { "en": "Dyrnwyn blade fragment", "pt-BR": "Fragmento da lâmina de Dyrnwyn" }
+        },
+        {
+            "id": "dyrnwyn_tip_fragment",
+            "name": { "en": "Dyrnwyn tip fragment", "pt-BR": "Fragmento da ponta de Dyrnwyn" }
+        },
+        { "id": "bloodstone", "name": { "en": "Bloodstone", "pt-BR": "Pedra de sangue" } },
+        { "id": "scale_hide", "name": { "en": "Scale hide", "pt-BR": "Pele de escama" } },
+        { "id": "troll_hide", "name": { "en": "Troll hide", "pt-BR": "Pele de troll" } },
+        { "id": "wolf_fang", "name": { "en": "Wolf fang", "pt-BR": "Presa de lobo" } },
+        { "id": "carapace", "name": { "en": "Carapace", "pt-BR": "Carapaça" } },
+        { "id": "mandible", "name": { "en": "Mandible", "pt-BR": "Mandíbula" } },
+        { "id": "ashwood", "name": { "en": "Ashwood", "pt-BR": "Madeira de freixo" } },
+        {
+            "id": "bonemaw_tooth",
+            "name": { "en": "Bonemaw tooth", "pt-BR": "Dente de mandibulóssea" }
+        },
+        { "id": "copper", "name": { "en": "Copper", "pt-BR": "Cobre" } },
+        { "id": "bear_hide", "name": { "en": "Bear hide", "pt-BR": "Pele de urso" } },
+        { "id": "bear_paw", "name": { "en": "Bear paw", "pt-BR": "Pata de urso" } },
+        { "id": "vile_ribcage", "name": { "en": "Vile ribcage", "pt-BR": "Caixa torácica vil" } },
+        { "id": "chain", "name": { "en": "Chain", "pt-BR": "Corrente" } },
+        { "id": "deer_hide", "name": { "en": "Deer hide", "pt-BR": "Pele de cervo" } },
+        { "id": "feathers", "name": { "en": "Feathers", "pt-BR": "Penas" } },
+        { "id": "guck", "name": { "en": "Guck", "pt-BR": "Guck" } },
+        { "id": "fenris_hair", "name": { "en": "Fenris hair", "pt-BR": "Pelo de Fenris" } },
+        { "id": "fenris_claw", "name": { "en": "Fenris claw", "pt-BR": "Garra de Fenris" } },
+        { "id": "serpent_scale", "name": { "en": "Serpent scale", "pt-BR": "Escama de serpente" } },
+        { "id": "fiddlehead", "name": { "en": "Fiddlehead", "pt-BR": "Broto de samambaia" } },
+        {
+            "id": "celestial_feather",
+            "name": { "en": "Celestial feather", "pt-BR": "Pena celestial" }
+        },
+        { "id": "jade", "name": { "en": "Jade", "pt-BR": "Jade" } },
+        { "id": "blood_clot", "name": { "en": "Blood clot", "pt-BR": "Coágulo de sangue" } },
+        { "id": "surtling_core", "name": { "en": "Surtling core", "pt-BR": "Núcleo de Surtling" } },
+        {
+            "id": "bone_fragments",
+            "name": { "en": "Bone fragments", "pt-BR": "Fragmentos de osso" }
+        },
+        {
+            "id": "skeleton_trophy",
+            "name": { "en": "Skeleton trophy", "pt-BR": "Troféu de esqueleto" }
+        },
+        { "id": "troll_trophy", "name": { "en": "Troll trophy", "pt-BR": "Troféu de troll" } },
+        { "id": "root", "name": { "en": "Root", "pt-BR": "Raiz" } },
+        { "id": "chitin", "name": { "en": "Chitin", "pt-BR": "Quitina" } },
+        {
+            "id": "proustite_powder",
+            "name": { "en": "Proustite powder", "pt-BR": "Pó de proustita" }
+        }
+    ],
+    "recipes": [
+        {
+            "weaponId": "stone_axe",
+            "ingredients": [
+                { "materialId": "wood", "quantity": 5 },
+                { "materialId": "stone", "quantity": 4 }
+            ]
+        },
+        {
+            "weaponId": "flint_axe",
+            "ingredients": [
+                { "materialId": "wood", "quantity": 4 },
+                { "materialId": "flint", "quantity": 6 }
+            ]
+        },
+        {
+            "weaponId": "bronze_axe",
+            "ingredients": [
+                { "materialId": "wood", "quantity": 4 },
+                { "materialId": "bronze", "quantity": 8 },
+                { "materialId": "leather_scraps", "quantity": 2 }
+            ]
+        },
+        {
+            "weaponId": "iron_axe",
+            "ingredients": [
+                { "materialId": "wood", "quantity": 4 },
+                { "materialId": "iron", "quantity": 20 },
+                { "materialId": "leather_scraps", "quantity": 2 }
+            ]
+        },
+        {
+            "weaponId": "black_metal_axe",
+            "ingredients": [
+                { "materialId": "finewood", "quantity": 6 },
+                { "materialId": "black_metal", "quantity": 20 },
+                { "materialId": "linen_thread", "quantity": 5 }
+            ]
+        },
+        {
+            "weaponId": "jotun_bane",
+            "ingredients": [
+                { "materialId": "yggdrasil_wood", "quantity": 5 },
+                { "materialId": "iron", "quantity": 15 },
+                { "materialId": "bilebag", "quantity": 3 },
+                { "materialId": "refined_eitr", "quantity": 10 }
+            ]
+        },
+        {
+            "weaponId": "early_axes",
+            "ingredients": [
+                { "materialId": "curious_axe_head", "quantity": 1 },
+                { "materialId": "mysterious_axe_head", "quantity": 1 },
+                { "materialId": "wood", "quantity": 4 }
+            ]
+        },
+        {
+            "weaponId": "berserkir_axes",
+            "ingredients": [
+                { "materialId": "charred_bone", "quantity": 15 },
+                { "materialId": "flametal", "quantity": 24 },
+                { "materialId": "asksvin_hide", "quantity": 3 }
+            ]
+        },
+        {
+            "weaponId": "battleaxe",
+            "ingredients": [
+                { "materialId": "ancient_bark", "quantity": 30 },
+                { "materialId": "iron", "quantity": 35 },
+                { "materialId": "leather_scraps", "quantity": 4 }
+            ]
+        },
+        {
+            "weaponId": "crystal_battleaxe",
+            "ingredients": [
+                { "materialId": "ancient_bark", "quantity": 40 },
+                { "materialId": "silver", "quantity": 30 },
+                { "materialId": "crystal", "quantity": 10 }
+            ]
+        },
+        {
+            "weaponId": "black_metal_battleaxe",
+            "ingredients": [
+                { "materialId": "linen", "quantity": 5 },
+                { "materialId": "black_metal", "quantity": 30 },
+                { "materialId": "finewood", "quantity": 10 }
+            ]
+        },
+        {
+            "weaponId": "skull_splittur",
+            "ingredients": [
+                { "materialId": "yggdrasil_wood", "quantity": 15 },
+                { "materialId": "iron", "quantity": 30 },
+                { "materialId": "refined_eitr", "quantity": 10 }
+            ]
+        },
+        {
+            "weaponId": "torch",
+            "ingredients": [
+                { "materialId": "wood", "quantity": 1 },
+                { "materialId": "resin", "quantity": 1 }
+            ]
+        },
+        { "weaponId": "club", "ingredients": [{ "materialId": "wood", "quantity": 6 }] },
+        {
+            "weaponId": "bronze_mace",
+            "ingredients": [
+                { "materialId": "wood", "quantity": 4 },
+                { "materialId": "bronze", "quantity": 8 },
+                { "materialId": "leather_scraps", "quantity": 3 }
+            ]
+        },
+        {
+            "weaponId": "iron_mace",
+            "ingredients": [
+                { "materialId": "wood", "quantity": 4 },
+                { "materialId": "iron", "quantity": 20 },
+                { "materialId": "leather_scraps", "quantity": 3 }
+            ]
+        },
+        {
+            "weaponId": "frostner",
+            "ingredients": [
+                { "materialId": "ancient_bark", "quantity": 10 },
+                { "materialId": "silver", "quantity": 30 },
+                { "materialId": "ymir_flesh", "quantity": 5 },
+                { "materialId": "freeze_gland", "quantity": 5 }
+            ]
+        },
+        {
+            "weaponId": "porcupine",
+            "ingredients": [
+                { "materialId": "finewood", "quantity": 5 },
+                { "materialId": "iron", "quantity": 20 },
+                { "materialId": "needle", "quantity": 5 },
+                { "materialId": "linen_thread", "quantity": 10 }
+            ]
+        },
+        {
+            "weaponId": "flametal_mace",
+            "ingredients": [
+                { "materialId": "charred_bone", "quantity": 10 },
+                { "materialId": "flametal", "quantity": 15 },
+                { "materialId": "sulfur", "quantity": 5 },
+                { "materialId": "asksvin_hide", "quantity": 3 }
+            ]
+        },
+        {
+            "weaponId": "stagbreaker",
+            "ingredients": [
+                { "materialId": "corewood", "quantity": 20 },
+                { "materialId": "deer_trophy", "quantity": 5 },
+                { "materialId": "leather_scraps", "quantity": 2 }
+            ]
+        },
+        {
+            "weaponId": "iron_sledge",
+            "ingredients": [
+                { "materialId": "ancient_bark", "quantity": 10 },
+                { "materialId": "iron", "quantity": 30 },
+                { "materialId": "ymir_flesh", "quantity": 4 },
+                { "materialId": "draugr_elite_trophy", "quantity": 1 }
+            ]
+        },
+        {
+            "weaponId": "demolisher",
+            "ingredients": [
+                { "materialId": "yggdrasil_wood", "quantity": 10 },
+                { "materialId": "iron", "quantity": 20 },
+                { "materialId": "refined_eitr", "quantity": 10 }
+            ]
+        },
+        {
+            "weaponId": "bronze_sword",
+            "ingredients": [
+                { "materialId": "wood", "quantity": 2 },
+                { "materialId": "bronze", "quantity": 8 },
+                { "materialId": "leather_scraps", "quantity": 2 }
+            ]
+        },
+        {
+            "weaponId": "iron_sword",
+            "ingredients": [
+                { "materialId": "wood", "quantity": 2 },
+                { "materialId": "iron", "quantity": 20 },
+                { "materialId": "leather_scraps", "quantity": 3 }
+            ]
+        },
+        {
+            "weaponId": "silver_sword",
+            "ingredients": [
+                { "materialId": "wood", "quantity": 2 },
+                { "materialId": "silver", "quantity": 40 },
+                { "materialId": "leather_scraps", "quantity": 3 },
+                { "materialId": "iron", "quantity": 5 }
+            ]
+        },
+        {
+            "weaponId": "black_metal_sword",
+            "ingredients": [
+                { "materialId": "finewood", "quantity": 2 },
+                { "materialId": "black_metal", "quantity": 20 },
+                { "materialId": "linen_thread", "quantity": 5 }
+            ]
+        },
+        {
+            "weaponId": "mistwalker",
+            "ingredients": [
+                { "materialId": "finewood", "quantity": 3 },
+                { "materialId": "iron", "quantity": 15 },
+                { "materialId": "refined_eitr", "quantity": 10 },
+                { "materialId": "wisp", "quantity": 3 }
+            ]
+        },
+        {
+            "weaponId": "nidhogg",
+            "ingredients": [
+                { "materialId": "charred_bone", "quantity": 3 },
+                { "materialId": "flametal", "quantity": 12 },
+                { "materialId": "asksvin_hide", "quantity": 2 }
+            ]
+        },
+        {
+            "weaponId": "dyrnwyn",
+            "ingredients": [
+                { "materialId": "dyrnwyn_hilt_fragment", "quantity": 1 },
+                { "materialId": "dyrnwyn_blade_fragment", "quantity": 1 },
+                { "materialId": "dyrnwyn_tip_fragment", "quantity": 1 },
+                { "materialId": "flametal", "quantity": 20 },
+                { "materialId": "bloodstone", "quantity": 1 }
+            ]
+        },
+        {
+            "weaponId": "krom",
+            "ingredients": [
+                { "materialId": "iron", "quantity": 30 },
+                { "materialId": "bronze", "quantity": 20 },
+                { "materialId": "scale_hide", "quantity": 5 }
+            ]
+        },
+        {
+            "weaponId": "slayer",
+            "ingredients": [
+                { "materialId": "flametal", "quantity": 30 },
+                { "materialId": "morgen_sinew", "quantity": 3 },
+                { "materialId": "asksvin_hide", "quantity": 5 }
+            ]
+        },
+        {
+            "weaponId": "flint_spear",
+            "ingredients": [
+                { "materialId": "wood", "quantity": 5 },
+                { "materialId": "flint", "quantity": 10 },
+                { "materialId": "leather_scraps", "quantity": 2 }
+            ]
+        },
+        {
+            "weaponId": "bronze_spear",
+            "ingredients": [
+                { "materialId": "wood", "quantity": 5 },
+                { "materialId": "bronze", "quantity": 6 },
+                { "materialId": "deer_hide", "quantity": 2 }
+            ]
+        },
+        {
+            "weaponId": "ancient_bark_spear",
+            "ingredients": [
+                { "materialId": "troll_hide", "quantity": 4 },
+                { "materialId": "iron", "quantity": 10 },
+                { "materialId": "ancient_bark", "quantity": 10 }
+            ]
+        },
+        {
+            "weaponId": "fang_spear",
+            "ingredients": [
+                { "materialId": "ancient_bark", "quantity": 10 },
+                { "materialId": "wolf_fang", "quantity": 4 },
+                { "materialId": "leather_scraps", "quantity": 2 },
+                { "materialId": "silver", "quantity": 2 }
+            ]
+        },
+        {
+            "weaponId": "carapace_spear",
+            "ingredients": [
+                { "materialId": "yggdrasil_wood", "quantity": 10 },
+                { "materialId": "carapace", "quantity": 4 },
+                { "materialId": "mandible", "quantity": 2 }
+            ]
+        },
+        {
+            "weaponId": "splitnir",
+            "ingredients": [
+                { "materialId": "ashwood", "quantity": 10 },
+                { "materialId": "flametal", "quantity": 6 },
+                { "materialId": "asksvin_hide", "quantity": 2 },
+                { "materialId": "bonemaw_tooth", "quantity": 3 }
+            ]
+        },
+        {
+            "weaponId": "bronze_atgeir",
+            "ingredients": [
+                { "materialId": "wood", "quantity": 10 },
+                { "materialId": "bronze", "quantity": 8 },
+                { "materialId": "leather_scraps", "quantity": 2 }
+            ]
+        },
+        {
+            "weaponId": "iron_atgeir",
+            "ingredients": [
+                { "materialId": "wood", "quantity": 10 },
+                { "materialId": "iron", "quantity": 30 },
+                { "materialId": "leather_scraps", "quantity": 2 }
+            ]
+        },
+        {
+            "weaponId": "black_metal_atgeir",
+            "ingredients": [
+                { "materialId": "finewood", "quantity": 10 },
+                { "materialId": "black_metal", "quantity": 30 },
+                { "materialId": "linen_thread", "quantity": 5 }
+            ]
+        },
+        {
+            "weaponId": "himminafl",
+            "ingredients": [
+                { "materialId": "yggdrasil_wood", "quantity": 10 },
+                { "materialId": "refined_eitr", "quantity": 15 },
+                { "materialId": "silver", "quantity": 5 },
+                { "materialId": "mandible", "quantity": 2 }
+            ]
+        },
+        {
+            "weaponId": "flint_knife",
+            "ingredients": [
+                { "materialId": "wood", "quantity": 2 },
+                { "materialId": "flint", "quantity": 4 },
+                { "materialId": "leather_scraps", "quantity": 2 }
+            ]
+        },
+        {
+            "weaponId": "copper_knife",
+            "ingredients": [
+                { "materialId": "wood", "quantity": 2 },
+                { "materialId": "copper", "quantity": 8 }
+            ]
+        },
+        {
+            "weaponId": "abyssal_razor",
+            "ingredients": [
+                { "materialId": "finewood", "quantity": 4 },
+                { "materialId": "chitin", "quantity": 20 },
+                { "materialId": "leather_scraps", "quantity": 2 }
+            ]
+        },
+        {
+            "weaponId": "silver_knife",
+            "ingredients": [
+                { "materialId": "wood", "quantity": 2 },
+                { "materialId": "silver", "quantity": 10 },
+                { "materialId": "leather_scraps", "quantity": 3 },
+                { "materialId": "iron", "quantity": 2 }
+            ]
+        },
+        {
+            "weaponId": "black_metal_knife",
+            "ingredients": [
+                { "materialId": "finewood", "quantity": 4 },
+                { "materialId": "black_metal", "quantity": 10 },
+                { "materialId": "linen_thread", "quantity": 5 }
+            ]
+        },
+        {
+            "weaponId": "skoll_and_hati",
+            "ingredients": [
+                { "materialId": "finewood", "quantity": 4 },
+                { "materialId": "iron", "quantity": 10 },
+                { "materialId": "black_metal", "quantity": 10 }
+            ]
+        },
+        {
+            "weaponId": "paws_of_the_bear",
+            "ingredients": [
+                { "materialId": "bear_hide", "quantity": 2 },
+                { "materialId": "bear_paw", "quantity": 2 },
+                { "materialId": "leather_scraps", "quantity": 4 }
+            ]
+        },
+        {
+            "weaponId": "flesh_rippers",
+            "ingredients": [
+                { "materialId": "fenris_hair", "quantity": 10 },
+                { "materialId": "fenris_claw", "quantity": 6 },
+                { "materialId": "silver", "quantity": 10 }
+            ]
+        },
+        {
+            "weaponId": "vilebone_maulclaws",
+            "ingredients": [
+                { "materialId": "bear_hide", "quantity": 2 },
+                { "materialId": "vile_ribcage", "quantity": 2 },
+                { "materialId": "black_metal", "quantity": 2 },
+                { "materialId": "linen_thread", "quantity": 4 }
+            ]
+        },
+        {
+            "weaponId": "wood_shield",
+            "ingredients": [
+                { "materialId": "wood", "quantity": 10 },
+                { "materialId": "resin", "quantity": 4 },
+                { "materialId": "leather_scraps", "quantity": 4 }
+            ]
+        },
+        {
+            "weaponId": "wood_tower_shield",
+            "ingredients": [
+                { "materialId": "wood", "quantity": 10 },
+                { "materialId": "leather_scraps", "quantity": 6 }
+            ]
+        },
+        {
+            "weaponId": "bone_tower_shield",
+            "ingredients": [
+                { "materialId": "wood", "quantity": 10 },
+                { "materialId": "bone_fragments", "quantity": 10 },
+                { "materialId": "skeleton_trophy", "quantity": 3 }
+            ]
+        },
+        {
+            "weaponId": "bronze_buckler",
+            "ingredients": [
+                { "materialId": "bronze", "quantity": 10 },
+                { "materialId": "wood", "quantity": 4 }
+            ]
+        },
+        {
+            "weaponId": "banded_shield",
+            "ingredients": [
+                { "materialId": "finewood", "quantity": 10 },
+                { "materialId": "iron", "quantity": 8 }
+            ]
+        },
+        {
+            "weaponId": "iron_buckler",
+            "ingredients": [
+                { "materialId": "iron", "quantity": 10 },
+                { "materialId": "ancient_bark", "quantity": 4 }
+            ]
+        },
+        {
+            "weaponId": "iron_tower_shield",
+            "ingredients": [
+                { "materialId": "finewood", "quantity": 15 },
+                { "materialId": "iron", "quantity": 10 }
+            ]
+        },
+        {
+            "weaponId": "silver_shield",
+            "ingredients": [
+                { "materialId": "finewood", "quantity": 10 },
+                { "materialId": "silver", "quantity": 8 }
+            ]
+        },
+        {
+            "weaponId": "serpent_scale_shield",
+            "ingredients": [
+                { "materialId": "finewood", "quantity": 10 },
+                { "materialId": "iron", "quantity": 4 },
+                { "materialId": "serpent_scale", "quantity": 8 }
+            ]
+        },
+        {
+            "weaponId": "black_metal_shield",
+            "ingredients": [
+                { "materialId": "finewood", "quantity": 10 },
+                { "materialId": "black_metal", "quantity": 8 },
+                { "materialId": "chain", "quantity": 5 }
+            ]
+        },
+        {
+            "weaponId": "black_metal_tower_shield",
+            "ingredients": [
+                { "materialId": "finewood", "quantity": 15 },
+                { "materialId": "black_metal", "quantity": 10 },
+                { "materialId": "chain", "quantity": 7 }
+            ]
+        },
+        {
+            "weaponId": "carapace_buckler",
+            "ingredients": [
+                { "materialId": "carapace", "quantity": 16 },
+                { "materialId": "scale_hide", "quantity": 3 },
+                { "materialId": "refined_eitr", "quantity": 10 }
+            ]
+        },
+        {
+            "weaponId": "carapace_shield",
+            "ingredients": [
+                { "materialId": "carapace", "quantity": 20 },
+                { "materialId": "scale_hide", "quantity": 3 },
+                { "materialId": "refined_eitr", "quantity": 10 }
+            ]
+        },
+        {
+            "weaponId": "flametal_shield",
+            "ingredients": [
+                { "materialId": "ashwood", "quantity": 10 },
+                { "materialId": "flametal", "quantity": 8 },
+                { "materialId": "asksvin_hide", "quantity": 2 }
+            ]
+        },
+        {
+            "weaponId": "flametal_tower_shield",
+            "ingredients": [
+                { "materialId": "ashwood", "quantity": 15 },
+                { "materialId": "flametal", "quantity": 10 },
+                { "materialId": "asksvin_hide", "quantity": 5 }
+            ]
+        },
+        {
+            "weaponId": "crude_bow",
+            "ingredients": [
+                { "materialId": "wood", "quantity": 10 },
+                { "materialId": "leather_scraps", "quantity": 8 }
+            ]
+        },
+        {
+            "weaponId": "finewood_bow",
+            "ingredients": [
+                { "materialId": "finewood", "quantity": 10 },
+                { "materialId": "corewood", "quantity": 10 },
+                { "materialId": "deer_hide", "quantity": 2 }
+            ]
+        },
+        {
+            "weaponId": "huntsman_bow",
+            "ingredients": [
+                { "materialId": "finewood", "quantity": 10 },
+                { "materialId": "iron", "quantity": 20 },
+                { "materialId": "feathers", "quantity": 10 },
+                { "materialId": "deer_hide", "quantity": 2 }
+            ]
+        },
+        {
+            "weaponId": "draugr_fang",
+            "ingredients": [
+                { "materialId": "ancient_bark", "quantity": 10 },
+                { "materialId": "silver", "quantity": 20 },
+                { "materialId": "deer_hide", "quantity": 2 },
+                { "materialId": "guck", "quantity": 10 }
+            ]
+        },
+        {
+            "weaponId": "spinesnap",
+            "ingredients": [
+                { "materialId": "finewood", "quantity": 10 },
+                { "materialId": "bone_fragments", "quantity": 40 },
+                { "materialId": "refined_eitr", "quantity": 10 }
+            ]
+        },
+        {
+            "weaponId": "ash_fang",
+            "ingredients": [
+                { "materialId": "ashwood", "quantity": 10 },
+                { "materialId": "charred_bone", "quantity": 16 },
+                { "materialId": "flametal", "quantity": 5 },
+                { "materialId": "bonemaw_tooth", "quantity": 5 }
+            ]
+        },
+        {
+            "weaponId": "arbalest",
+            "ingredients": [
+                { "materialId": "wood", "quantity": 10 },
+                { "materialId": "iron", "quantity": 8 },
+                { "materialId": "root", "quantity": 4 }
+            ]
+        },
+        {
+            "weaponId": "ripper",
+            "ingredients": [
+                { "materialId": "ashwood", "quantity": 10 },
+                { "materialId": "flametal", "quantity": 8 },
+                { "materialId": "morgen_sinew", "quantity": 2 },
+                { "materialId": "bonemaw_tooth", "quantity": 4 }
+            ]
+        },
+        {
+            "weaponId": "staff_of_embers",
+            "ingredients": [
+                { "materialId": "yggdrasil_wood", "quantity": 20 },
+                { "materialId": "surtling_core", "quantity": 4 },
+                { "materialId": "refined_eitr", "quantity": 16 }
+            ]
+        },
+        {
+            "weaponId": "staff_of_frost",
+            "ingredients": [
+                { "materialId": "yggdrasil_wood", "quantity": 20 },
+                { "materialId": "freeze_gland", "quantity": 4 },
+                { "materialId": "refined_eitr", "quantity": 16 }
+            ]
+        },
+        {
+            "weaponId": "dundr",
+            "ingredients": [
+                { "materialId": "ashwood", "quantity": 10 },
+                { "materialId": "flametal", "quantity": 4 },
+                { "materialId": "celestial_feather", "quantity": 3 },
+                { "materialId": "bloodstone", "quantity": 1 }
+            ]
+        },
+        {
+            "weaponId": "staff_of_the_wild",
+            "ingredients": [
+                { "materialId": "ashwood", "quantity": 15 },
+                { "materialId": "fiddlehead", "quantity": 10 },
+                { "materialId": "celestial_feather", "quantity": 3 },
+                { "materialId": "jade", "quantity": 1 }
+            ]
+        },
+        {
+            "weaponId": "staff_of_fracturing",
+            "ingredients": [
+                { "materialId": "charred_bone", "quantity": 15 },
+                { "materialId": "ashwood", "quantity": 5 },
+                { "materialId": "proustite_powder", "quantity": 8 }
+            ]
+        },
+        {
+            "weaponId": "staff_of_protection",
+            "ingredients": [
+                { "materialId": "yggdrasil_wood", "quantity": 20 },
+                { "materialId": "blood_clot", "quantity": 4 },
+                { "materialId": "refined_eitr", "quantity": 16 }
+            ]
+        },
+        {
+            "weaponId": "dead_raiser",
+            "ingredients": [
+                { "materialId": "bone_fragments", "quantity": 10 },
+                { "materialId": "refined_eitr", "quantity": 16 },
+                { "materialId": "skeleton_trophy", "quantity": 4 }
+            ]
+        },
+        {
+            "weaponId": "trollstav",
+            "ingredients": [
+                { "materialId": "charred_bone", "quantity": 15 },
+                { "materialId": "troll_trophy", "quantity": 1 },
+                { "materialId": "flametal", "quantity": 3 },
+                { "materialId": "bloodstone", "quantity": 1 }
+            ]
+        }
+    ]
+}
