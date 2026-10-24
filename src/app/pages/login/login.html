@@ -1,0 +1,93 @@
+<main class="mx-auto flex min-h-[calc(100vh-2.5rem)] w-full max-w-md items-center text-[#eee8db]">
+    <section class="w-full rounded-md border border-[#30362f] bg-[#1c211d] p-6 sm:p-8">
+        <p class="text-sm font-semibold uppercase tracking-wide text-[#d6ab62]">
+            Códice do construtor
+        </p>
+        <h1 class="mt-2 text-3xl">{{ registering() ? 'Criar conta' : 'Entrar' }}</h1>
+        <p class="mt-2 text-sm text-[#a9ada3]">
+            Acesse suas listas pessoais e os projetos compartilhados.
+        </p>
+
+        <form class="mt-6 space-y-4" [formGroup]="form" (ngSubmit)="submit()">
+            <div>
+                <label for="username" class="mb-1 block text-sm font-medium text-[#d4d2c9]">
+                    Usuário
+                </label>
+                <input
+                    id="username"
+                    type="text"
+                    formControlName="username"
+                    autocomplete="username"
+                    required
+                    minlength="3"
+                    maxlength="32"
+                    class="w-full rounded border border-[#3a4038] bg-[#141715] px-3 py-3 text-base outline-none focus:border-[#d6ab62] focus:ring-1 focus:ring-[#d6ab62]"
+                    [attr.aria-invalid]="form.controls.username.invalid && form.controls.username.touched"
+                />
+            </div>
+
+            @if (registering()) {
+            <div>
+                <label for="email" class="mb-1 block text-sm font-medium text-[#d4d2c9]">
+                    E-mail
+                </label>
+                <input
+                    id="email"
+                    type="email"
+                    formControlName="email"
+                    autocomplete="email"
+                    required
+                    maxlength="254"
+                    class="w-full rounded border border-[#3a4038] bg-[#141715] px-3 py-3 text-base outline-none focus:border-[#d6ab62] focus:ring-1 focus:ring-[#d6ab62]"
+                    [attr.aria-invalid]="form.controls.email.invalid && form.controls.email.touched"
+                />
+            </div>
+            }
+
+            <div>
+                <label for="password" class="mb-1 block text-sm font-medium text-[#d4d2c9]">
+                    Senha
+                </label>
+                <input
+                    id="password"
+                    type="password"
+                    formControlName="password"
+                    [autocomplete]="registering() ? 'new-password' : 'current-password'"
+                    required
+                    minlength="8"
+                    maxlength="128"
+                    class="w-full rounded border border-[#3a4038] bg-[#141715] px-3 py-3 text-base outline-none focus:border-[#d6ab62] focus:ring-1 focus:ring-[#d6ab62]"
+                    [attr.aria-invalid]="form.controls.password.invalid && form.controls.password.touched"
+                />
+                @if (registering()) {
+                <p class="mt-1 text-xs text-[#858b80]">Use de 8 a 128 caracteres.</p>
+                }
+            </div>
+
+            @if (error(); as error) {
+            <p
+                role="alert"
+                class="rounded border border-[#7c453c] bg-[#321f1d] p-3 text-sm text-[#f0b5a8]"
+            >
+                {{ error }}
+            </p>
+            }
+
+            <button
+                type="submit"
+                [disabled]="submitting()"
+                class="w-full rounded bg-[#d6ab62] px-4 py-3 font-semibold text-[#141715] transition-colors hover:bg-[#e3bd7d] disabled:cursor-wait disabled:opacity-60 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#d6ab62]"
+            >
+                {{ submitting() ? 'Aguarde...' : registering() ? 'Criar conta' : 'Entrar' }}
+            </button>
+        </form>
+
+        <button
+            type="button"
+            class="mt-4 w-full text-sm text-[#d6ab62] underline underline-offset-4 hover:text-[#eee8db] focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#d6ab62]"
+            (click)="toggleMode()"
+        >
+            {{ registering() ? 'Já tem uma conta? Entrar' : 'Ainda não tem conta? Criar conta' }}
+        </button>
+    </section>
+</main>

@@ -15,6 +15,8 @@ const recipes: CatalogEntry[] = recipeData.map((recipe) => ({
     aliases: [...recipe.aliases['pt-BR'], ...recipe.aliases.en],
     kind: 'recipe',
     icon: 'campfire',
+    outputQuantity:
+        recipe.craftingMultiplierUnit === 'items' ? recipe.craftingMultiplier : undefined,
     unitDescription: [
         recipe.craftingStation?.name['pt-BR']
             ? `Estação: ${recipe.craftingStation.name['pt-BR']}`
@@ -39,6 +41,7 @@ const meads: CatalogEntry[] = meadData.map((mead) => ({
     aliases: [...mead.aliases['pt-BR'], ...mead.aliases.en],
     kind: 'mead',
     icon: 'portal',
+    outputQuantity: mead.recipeOutput,
     unitDescription: [
         `Rendimento: ${mead.recipeOutput}`,
         mead.effect['pt-BR'] ? `Efeito: ${mead.effect['pt-BR']}` : '',

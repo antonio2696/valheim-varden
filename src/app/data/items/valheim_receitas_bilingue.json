@@ -545,7 +545,7 @@
   {
     "name": {
       "en": "Pulled Bear",
-      "pt-BR": "Carne de urso desfiada"
+      "pt-BR": "Urso desfiado"
     },
     "biome": "Black Forest",
     "ingredients": [
@@ -1844,7 +1844,7 @@
   {
     "name": {
       "en": "Magecap",
-      "pt-BR": "Cogumelo mágico"
+      "pt-BR": "Chapéu de magos"
     },
     "biome": "Mistlands",
     "ingredients": [],
@@ -2257,7 +2257,7 @@
         "id": "magecap",
         "name": {
           "en": "Magecap",
-          "pt-BR": "Cogumelo mágico"
+          "pt-BR": "Chapéu de magos"
         },
         "quantity": 3
       },
@@ -2365,7 +2365,7 @@
         "id": "magecap",
         "name": {
           "en": "Magecap",
-          "pt-BR": "Cogumelo mágico"
+          "pt-BR": "Chapéu de magos"
         },
         "quantity": 2
       },
@@ -2463,7 +2463,7 @@
   {
     "name": {
       "en": "Smoke puff",
-      "pt-BR": "Sopro de fumaça"
+      "pt-BR": "Sopra-fumaça"
     },
     "biome": "Ashlands",
     "ingredients": [],
@@ -2664,7 +2664,7 @@
         "id": "smoke_puff",
         "name": {
           "en": "Smoke puff",
-          "pt-BR": "Sopro de fumaça"
+          "pt-BR": "Sopra-fumaça"
         },
         "quantity": 1
       }
@@ -2993,7 +2993,7 @@
   {
     "name": {
       "en": "Sparkling shroomshake",
-      "pt-BR": "Vitamina de cogumelos espumante"
+      "pt-BR": "Vitamina espumante de cogumelo"
     },
     "biome": "Ashlands",
     "ingredients": [
@@ -3009,7 +3009,7 @@
         "id": "magecap",
         "name": {
           "en": "Magecap",
-          "pt-BR": "Cogumelo mágico"
+          "pt-BR": "Chapéu de magos"
         },
         "quantity": 2
       },
@@ -3025,7 +3025,7 @@
         "id": "smoke_puff",
         "name": {
           "en": "Smoke puff",
-          "pt-BR": "Sopro de fumaça"
+          "pt-BR": "Sopra-fumaça"
         },
         "quantity": 2
       }
@@ -3067,7 +3067,7 @@
         "id": "magecap",
         "name": {
           "en": "Magecap",
-          "pt-BR": "Cogumelo mágico"
+          "pt-BR": "Chapéu de magos"
         },
         "quantity": 2
       },
@@ -3083,7 +3083,7 @@
         "id": "smoke_puff",
         "name": {
           "en": "Smoke puff",
-          "pt-BR": "Sopro de fumaça"
+          "pt-BR": "Sopra-fumaça"
         },
         "quantity": 2
       }

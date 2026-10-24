@@ -123,7 +123,7 @@
         "id": "jotun_bane",
         "name": {
             "en": "Jotun Bane",
-            "pt-BR": "Jotun Bane"
+            "pt-BR": "Ruína dos Jotun"
         },
         "aliases": {
             "en": ["Jotun Bane"],
@@ -195,7 +195,7 @@
         "id": "battleaxe",
         "name": {
             "en": "Battleaxe",
-            "pt-BR": "Machado de batalha"
+            "pt-BR": "Machado de guerra"
         },
         "aliases": {
             "en": ["Battleaxe"],
@@ -219,7 +219,7 @@
         "id": "crystal_battleaxe",
         "name": {
             "en": "Crystal battleaxe",
-            "pt-BR": "Machado de batalha de cristal"
+            "pt-BR": "Machado de guerra de cristal"
         },
         "aliases": {
             "en": ["Crystal battleaxe"],
@@ -243,7 +243,7 @@
         "id": "black_metal_battleaxe",
         "name": {
             "en": "Black metal battleaxe",
-            "pt-BR": "Machado de batalha de metal negro"
+            "pt-BR": "Machado de guerra de metal negro"
         },
         "aliases": {
             "en": ["Black metal battleaxe"],
@@ -267,7 +267,7 @@
         "id": "skull_splittur",
         "name": {
             "en": "Skull Splittur",
-            "pt-BR": "Skull Splittur"
+            "pt-BR": "Quebra-crânios"
         },
         "aliases": {
             "en": ["Skull Splittur"],
@@ -315,7 +315,7 @@
         "id": "club",
         "name": {
             "en": "Club",
-            "pt-BR": "Clava"
+            "pt-BR": "Porrete"
         },
         "aliases": {
             "en": ["Club"],
@@ -459,7 +459,7 @@
         "id": "stagbreaker",
         "name": {
             "en": "Stagbreaker",
-            "pt-BR": "Quebra-cervos"
+            "pt-BR": "Quebragamos"
         },
         "aliases": {
             "en": ["Stagbreaker"],
@@ -626,7 +626,7 @@
         "id": "mistwalker",
         "name": {
             "en": "Mistwalker",
-            "pt-BR": "Andarilho da névoa"
+            "pt-BR": "Caminhante da névoa"
         },
         "aliases": {
             "en": ["Mistwalker"],
@@ -718,7 +718,7 @@
         "id": "slayer",
         "name": {
             "en": "Slayer",
-            "pt-BR": "Matador"
+            "pt-BR": "Matadora"
         },
         "aliases": {
             "en": ["Slayer"],
@@ -1330,7 +1330,7 @@
         "id": "banded_shield",
         "name": {
             "en": "Banded shield",
-            "pt-BR": "Escudo reforçado"
+            "pt-BR": "Escudo anelado"
         },
         "aliases": {
             "en": ["Banded shield"],
@@ -1380,7 +1380,7 @@
         "id": "shield_of_roots",
         "name": {
             "en": "Shield of Roots",
-            "pt-BR": "Escudo das Raízes"
+            "pt-BR": "Escudo de raízes"
         },
         "aliases": {
             "en": ["Shield of Roots"],
@@ -1604,7 +1604,7 @@
         "id": "flametal_tower_shield",
         "name": {
             "en": "Flametal tower shield",
-            "pt-BR": "Escudo-torre de metal flamejante"
+            "pt-BR": "Escudo-torre de flametal"
         },
         "aliases": {
             "en": ["Flametal tower shield"],
@@ -1657,7 +1657,7 @@
         "id": "finewood_bow",
         "name": {
             "en": "Finewood bow",
-            "pt-BR": "Arco de madeira nobre"
+            "pt-BR": "Arco de madeira boa"
         },
         "aliases": {
             "en": ["Finewood bow"],
@@ -1713,7 +1713,7 @@
         "id": "draugr_fang",
         "name": {
             "en": "Draugr Fang",
-            "pt-BR": "Presa de draugr"
+            "pt-BR": "Presa de Draugr"
         },
         "aliases": {
             "en": ["Draugr Fang"],
@@ -1797,7 +1797,7 @@
         "id": "arbalest",
         "name": {
             "en": "Arbalest",
-            "pt-BR": "Besta"
+            "pt-BR": "Besta grande"
         },
         "aliases": {
             "en": ["Arbalest"],
@@ -1826,7 +1826,7 @@
         "id": "ripper",
         "name": {
             "en": "Ripper",
-            "pt-BR": "Retalhador"
+            "pt-BR": "Estripadora"
         },
         "aliases": {
             "en": ["Ripper"],
@@ -1882,7 +1882,7 @@
         "id": "staff_of_frost",
         "name": {
             "en": "Staff of Frost",
-            "pt-BR": "Cajado do Gelo"
+            "pt-BR": "Vingança do norte"
         },
         "aliases": {
             "en": ["Staff of Frost"],
@@ -2229,7 +2229,7 @@
         "id": "frost_arrow",
         "name": {
             "en": "Frost arrow",
-            "pt-BR": "Flecha de gelo"
+            "pt-BR": "Flecha gélida"
         },
         "aliases": {
             "en": ["Frost arrow"],
@@ -2321,7 +2321,7 @@
         "id": "charred_arrow",
         "name": {
             "en": "Charred arrow",
-            "pt-BR": "Flecha chamuscada"
+            "pt-BR": "Flecha carbonizada"
         },
         "aliases": {
             "en": ["Charred arrow"],
@@ -2344,7 +2344,7 @@
         "id": "bone_bolt",
         "name": {
             "en": "Bone bolt",
-            "pt-BR": "Virote de osso"
+            "pt-BR": "Virote de ossos"
         },
         "aliases": {
             "en": ["Bone bolt"],
@@ -2432,7 +2432,7 @@
         "id": "charred_bolt",
         "name": {
             "en": "Charred bolt",
-            "pt-BR": "Virote chamuscado"
+            "pt-BR": "Virote carbonizado"
         },
         "aliases": {
             "en": ["Charred bolt"],
@@ -2550,7 +2550,7 @@
         "id": "bile_bomb",
         "name": {
             "en": "Bile bomb",
-            "pt-BR": "Bomba de bile"
+            "pt-BR": "Bomba de vesícula"
         },
         "aliases": {
             "en": ["Bile bomb"],
@@ -2604,7 +2604,7 @@
         "id": "blob_bomb_poison",
         "name": {
             "en": "Blob Bomb: Poison",
-            "pt-BR": "Bomba de gosma venenosa"
+            "pt-BR": "Bomba de bolha: veneno"
         },
         "aliases": {
             "en": ["Blob Bomb: Poison"],
@@ -2627,7 +2627,7 @@
         "id": "blob_bomb_elite_poison_x2",
         "name": {
             "en": "Blob Bomb: Elite poison (x2)",
-            "pt-BR": "Bomba de gosma venenosa de elite (x2)"
+            "pt-BR": "Bomba de bolha: Veneno elite"
         },
         "aliases": {
             "en": ["Blob Bomb: Elite poison (x2)"],
@@ -2650,7 +2650,7 @@
         "id": "blob_bomb_frost",
         "name": {
             "en": "Blob Bomb: Frost",
-            "pt-BR": "Bomba de gosma congelante"
+            "pt-BR": "Bomba de bolha: Gelo"
         },
         "aliases": {
             "en": ["Blob Bomb: Frost"],
@@ -2673,7 +2673,7 @@
         "id": "blob_bomb_tar",
         "name": {
             "en": "Blob Bomb: Tar",
-            "pt-BR": "Bomba de gosma de piche"
+            "pt-BR": "Bomba de bolha: Betume"
         },
         "aliases": {
             "en": ["Blob Bomb: Tar"],
@@ -2696,7 +2696,7 @@
         "id": "blob_bomb_lava",
         "name": {
             "en": "Blob Bomb: Lava",
-            "pt-BR": "Bomba de gosma de lava"
+            "pt-BR": "Bomba de bolha: Lava"
         },
         "aliases": {
             "en": ["Blob Bomb: Lava"],

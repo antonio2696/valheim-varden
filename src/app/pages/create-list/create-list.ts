@@ -19,11 +19,14 @@ export class CreateList {
     readonly backIcon = 'arrowLeft';
     readonly plusIcon = 'plus';
     readonly images = valheimImages;
+    readonly listStoreError = this.listStore.error;
+    readonly submitting = signal(false);
     readonly imagePickerOpen = signal(false);
     readonly form = this.formBuilder.group({
         title: ['', [Validators.required, Validators.maxLength(100)]],
         region: ['', Validators.required],
         description: [''],
+        isShared: [false],
         imageId: [
             valheimImages[Math.floor(Math.random() * valheimImages.length)].id,
             Validators.required
@@ -40,13 +43,20 @@ export class CreateList {
         this.imagePickerOpen.set(false);
     }
 
-    createList(): void {
-        if (this.form.invalid) {
+    async createList(): Promise<void> {
+        if (this.form.invalid || this.submitting()) {
             this.form.markAllAsTouched();
             return;
         }
 
-        const list = this.listStore.addList(this.form.getRawValue());
-        void this.router.navigate(['/view-list', list.id]);
+        this.submitting.set(true);
+        try {
+            const list = await this.listStore.addList(this.form.getRawValue());
+            if (list) {
+                await this.router.navigate(['/view-list', list.id]);
+            }
+        } finally {
+            this.submitting.set(false);
+        }
     }
 }

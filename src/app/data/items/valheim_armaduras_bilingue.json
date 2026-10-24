@@ -145,7 +145,7 @@
     "id": "troll_hide_cape",
     "name": {
       "en": "Troll hide cape",
-      "pt-BR": "Capa de pele de troll"
+      "pt-BR": "Capa de pele de Troll"
     },
     "aliases": {
       "en": [
@@ -300,7 +300,7 @@
     "id": "lox_cape",
     "name": {
       "en": "Lox cape",
-      "pt-BR": "Capa de lox"
+      "pt-BR": "Capa de Lox"
     },
     "aliases": {
       "en": [
@@ -681,7 +681,7 @@
     "id": "midsummer_crown",
     "name": {
       "en": "Midsummer Crown",
-      "pt-BR": "Coroa de Solstício de Verão"
+      "pt-BR": "Coroa de Verão"
     },
     "aliases": {
       "en": [
@@ -1004,7 +1004,7 @@
     "id": "leather_helmet",
     "name": {
       "en": "Leather helmet",
-      "pt-BR": "Capacete de couro"
+      "pt-BR": "Elmo de couro"
     },
     "aliases": {
       "en": [
@@ -1075,7 +1075,7 @@
     "id": "troll_leather_helmet",
     "name": {
       "en": "Troll leather helmet",
-      "pt-BR": "Capacete de couro de troll"
+      "pt-BR": "Elmo de couro de Troll"
     },
     "aliases": {
       "en": [
@@ -1217,7 +1217,7 @@
     "id": "bronze_helmet",
     "name": {
       "en": "Bronze helmet",
-      "pt-BR": "Capacete de bronze"
+      "pt-BR": "Elmo de bronze"
     },
     "aliases": {
       "en": [
@@ -1359,7 +1359,7 @@
     "id": "iron_helmet",
     "name": {
       "en": "Iron helmet",
-      "pt-BR": "Capacete de ferro"
+      "pt-BR": "Elmo de ferro"
     },
     "aliases": {
       "en": [
@@ -1514,7 +1514,7 @@
     "id": "drake_helmet",
     "name": {
       "en": "Drake helmet",
-      "pt-BR": "Capacete de draco"
+      "pt-BR": "Elmo de Dragão"
     },
     "aliases": {
       "en": [
@@ -1598,7 +1598,7 @@
     "id": "padded_helmet",
     "name": {
       "en": "Padded helmet",
-      "pt-BR": "Capacete acolchoado"
+      "pt-BR": "Elmo acolchoado"
     },
     "aliases": {
       "en": [
@@ -2089,7 +2089,7 @@
     "id": "flametal_helmet",
     "name": {
       "en": "Flametal helmet",
-      "pt-BR": "Capacete de metal flamejante"
+      "pt-BR": "Elmo de flametal"
     },
     "aliases": {
       "en": [
@@ -2805,7 +2805,7 @@
     "id": "wolf_armor_chest",
     "name": {
       "en": "Wolf armor chest",
-      "pt-BR": "Peitoral de lobo"
+      "pt-BR": "Armadura de lobo: peito"
     },
     "aliases": {
       "en": [
@@ -4067,7 +4067,7 @@
     "id": "wolf_armor_legs",
     "name": {
       "en": "Wolf armor legs",
-      "pt-BR": "Perneiras de lobo"
+      "pt-BR": "Armadura de lobo: pernas"
     },
     "aliases": {
       "en": [
@@ -4151,7 +4151,7 @@
     "id": "padded_greaves",
     "name": {
       "en": "Padded greaves",
-      "pt-BR": "Grevas acolchoadas"
+      "pt-BR": "Perneiras acolchoadas"
     },
     "aliases": {
       "en": [

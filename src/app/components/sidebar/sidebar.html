@@ -1,9 +1,9 @@
 <aside
-    class="relative flex w-full shrink-0 flex-col border-b border-[#30362f] bg-[#101310] px-4 py-4 md:fixed md:inset-y-0 md:left-0 md:z-40 md:w-64 md:border-b-0 md:border-r md:px-5 md:py-6"
+    class="relative flex max-h-[52vh] w-full shrink-0 flex-col border-b border-[#30362f] bg-[#101310] px-4 py-4 md:fixed md:inset-y-0 md:left-0 md:z-40 md:h-screen md:max-h-none md:w-64 md:border-b-0 md:border-r md:px-5 md:py-6"
 >
     <a
-        routerLink="/home"
-        class="flex w-fit items-center gap-3 rounded-sm focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#d6ab62]"
+        routerLink="/my-lists"
+        class="flex w-fit shrink-0 items-center gap-3 rounded-sm focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#d6ab62]"
         aria-label="Varden — Minhas listas"
     >
         <span
@@ -21,41 +21,138 @@
         </span>
     </a>
 
-    <nav aria-label="Navegação das listas" class="mt-5 md:mt-7">
-        <h2
-            class="mb-3 font-cinzel text-[14px] font-semibold uppercase tracking-wide text-[#d6ab62]"
+    <nav
+        aria-label="Navegação das listas"
+        class="mt-5 min-h-0 flex-1 space-y-5 overflow-y-auto overscroll-contain pr-1 md:mt-7"
+    >
+        <a
+            routerLink="/home"
+            routerLinkActive="!text-[#d6ab62] font-cinzel"
+            [routerLinkActiveOptions]="{ exact: true }"
+            class="block rounded-sm px-2 py-2 text-[14px] font-semibold text-[#b7b9af] transition-colors hover:bg-[#1c211d] hover:text-[#eee8db] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#d6ab62]"
         >
-            Minhas listas
-        </h2>
-        <ul
-            class="flex gap-2 overflow-x-auto pb-1 md:flex-col md:gap-1 md:overflow-visible md:pb-0"
-        >
-            @for (item of items(); track item.id) {
-            <li class="shrink-0 md:shrink">
-                <a
-                    [routerLink]="['/view-list', item.id]"
-                    [title]="item.label"
-                    routerLinkActive="!text-[#d6ab62] font-cinzel"
-                    [routerLinkActiveOptions]="{ exact: true }"
-                    class="group flex w-full min-w-0 items-center gap-2 rounded-sm px-2 py-2 text-[14px] text-[#969b90] transition-colors hover:bg-[#1c211d] hover:text-[#eee8db] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#d6ab62]"
-                >
-                    <span
-                        aria-hidden="true"
-                        class="text-[#657060] transition-colors group-hover:text-[#d6ab62]"
-                        >◆</span
+            Todas as listas
+        </a>
+
+        <section aria-labelledby="my-lists-heading">
+            <a
+                id="my-lists-heading"
+                routerLink="/my-lists"
+                routerLinkActive="!text-[#eee8db]"
+                [routerLinkActiveOptions]="{ exact: true }"
+                class="mb-2 block rounded-sm px-2 py-1 font-cinzel text-[14px] font-semibold uppercase tracking-wide text-[#d6ab62] hover:text-[#eee8db] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#d6ab62]"
+            >
+                Minhas Listas
+            </a>
+            <ul class="space-y-1">
+                @for (item of (showAllPrivate() ? privateLists() : privateLists().slice(0, 5));
+                track item.id) {
+                <li>
+                    <a
+                        [routerLink]="['/view-list', item.id]"
+                        [title]="item.label"
+                        routerLinkActive="!text-[#d6ab62] font-cinzel"
+                        [routerLinkActiveOptions]="{ exact: true }"
+                        class="group flex min-w-0 items-center gap-2 rounded-sm px-2 py-2 text-[14px] text-[#969b90] transition-colors hover:bg-[#1c211d] hover:text-[#eee8db] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#d6ab62]"
                     >
-                    <span class="min-w-0 flex-1 truncate">{{ item.label }}</span>
-                </a>
-            </li>
-            }
-        </ul>
+                        <span aria-hidden="true" class="text-[#657060] group-hover:text-[#d6ab62]"
+                            >◆</span
+                        >
+                        <span class="min-w-0 flex-1 truncate">{{ item.label }}</span>
+                    </a>
+                </li>
+                } @if (privateLists().length > 5) {
+                <li>
+                    <button
+                        type="button"
+                        class="px-2 py-1 font-cinzel text-xs italic text-[#d6ab62] underline underline-offset-4 hover:text-[#eee8db] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#d6ab62]"
+                        (click)="showAllPrivate.update((show) => !show)"
+                    >
+                        {{ showAllPrivate() ? 'Ver menos' : 'Ver mais' }}
+                    </button>
+                </li>
+                }
+            </ul>
+        </section>
+
+        <section aria-labelledby="shared-lists-heading">
+            <a
+                id="shared-lists-heading"
+                routerLink="/shared-lists"
+                routerLinkActive="!text-[#eee8db]"
+                [routerLinkActiveOptions]="{ exact: true }"
+                class="mb-2 block rounded-sm px-2 py-1 font-cinzel text-[14px] font-semibold uppercase tracking-wide text-[#d6ab62] hover:text-[#eee8db] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#d6ab62]"
+            >
+                Listas Compartilhadas
+            </a>
+            <ul class="space-y-1">
+                @for (item of (showAllShared() ? sharedLists() : sharedLists().slice(0, 5)); track
+                item.id) {
+                <li>
+                    <a
+                        [routerLink]="['/view-list', item.id]"
+                        [title]="item.label"
+                        routerLinkActive="!text-[#d6ab62] font-cinzel"
+                        [routerLinkActiveOptions]="{ exact: true }"
+                        class="group flex min-w-0 items-center gap-2 rounded-sm px-2 py-2 text-[14px] text-[#969b90] transition-colors hover:bg-[#1c211d] hover:text-[#eee8db] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#d6ab62]"
+                    >
+                        <span aria-hidden="true" class="text-[#657060] group-hover:text-[#d6ab62]"
+                            >◆</span
+                        >
+                        <span class="min-w-0 flex-1 truncate">{{ item.label }}</span>
+                    </a>
+                </li>
+                } @if (sharedLists().length > 5) {
+                <li>
+                    <button
+                        type="button"
+                        class="px-2 py-1 font-cinzel text-xs italic text-[#d6ab62] underline underline-offset-4 hover:text-[#eee8db] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#d6ab62]"
+                        (click)="showAllShared.update((show) => !show)"
+                    >
+                        {{ showAllShared() ? 'Ver menos' : 'Ver mais' }}
+                    </button>
+                </li>
+                }
+            </ul>
+        </section>
+
+        <a
+            routerLink="/create-list"
+            class="block rounded-sm px-2 py-2 text-[14px] text-[#969b90] transition-colors hover:bg-[#1c211d] hover:text-[#eee8db] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#d6ab62]"
+        >
+            + Criar lista
+        </a>
+        <button
+            type="button"
+            class="block w-full rounded-sm px-2 py-2 text-left text-[14px] text-[#969b90] transition-colors hover:bg-[#1c211d] hover:text-[#eee8db] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#d6ab62] md:hidden"
+            [disabled]="isLoading()"
+            [attr.aria-busy]="isLoading()"
+            (click)="logout()"
+        >
+            {{ isLoading() ? 'Saindo...' : 'Sair da conta' }}
+        </button>
+        @if (error(); as error) {
+        <p role="alert" class="mt-2 text-xs text-[#f0b5a8]">{{ error }}</p>
+        }
     </nav>
 
-    <div class="mt-5 hidden rounded border border-[#30362f] p-4 md:mt-auto md:block">
+    <div class="mt-4 hidden shrink-0 rounded border border-[#30362f] p-4 md:block">
         <svg [vardenIcon]="tipIcon" [size]="18" class="text-[#d6ab62]" aria-hidden="true"></svg>
         <p class="mt-3 text-[14px] leading-5 text-[#a9ada3]">
             Planeje em terra firme. Construa além do horizonte.
         </p>
         <p class="mt-3 text-[14px] uppercase tracking-wide text-[#858b80]">De Viking para Viking</p>
+        <button
+            type="button"
+            class="mt-4 text-xs text-[#9a9f94] underline underline-offset-4 hover:text-[#eee8db] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#d6ab62]"
+            [disabled]="isLoading()"
+            [attr.aria-busy]="isLoading()"
+            (click)="logout()"
+        >
+            {{ isLoading() ? 'Saindo...' : 'Sair da conta' }}
+        </button>
+        @if (error(); as error) {
+        <p role="alert" class="mt-2 text-xs text-[#f0b5a8]">{{ error }}</p>
+        }
     </div>
 </aside>

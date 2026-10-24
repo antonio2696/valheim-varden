@@ -1,5 +1,26 @@
-<varden-sidebar [items]="sidebarItems()" />
+@if (isAuthenticated()) {
+<varden-sidebar [privateLists]="privateLists()" [sharedLists]="sharedLists()" />
+} @if (isLoading()) {
+<div
+    role="status"
+    aria-live="polite"
+    class="fixed inset-x-0 top-0 z-50 flex justify-center px-4 pt-2"
+>
+    <span
+        class="inline-flex items-center gap-2 rounded border border-[#62543b] bg-[#141715] px-3 py-2 text-sm text-[#d6ab62]"
+    >
+        <span
+            aria-hidden="true"
+            class="size-4 animate-spin rounded-full border-2 border-[#62543b] border-t-[#d6ab62] motion-reduce:animate-none"
+        ></span>
+        Processando...
+    </span>
+</div>
+}
 
-<div class="min-h-screen min-w-0 px-4 py-5 md:ml-64 md:px-10 md:py-7">
+<div
+    class="min-h-screen min-w-0 px-4 py-5 md:ml-64 md:px-10 md:py-7"
+    [attr.aria-busy]="isLoading()"
+>
     <router-outlet />
 </div>

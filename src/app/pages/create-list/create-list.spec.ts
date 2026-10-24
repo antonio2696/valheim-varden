@@ -4,6 +4,7 @@ import { ConstructionListStore } from '../home/construction-list.store';
 import { routes } from '../../app.routes';
 import { valheimImages } from '../../data/valheim-images';
 import { CreateList } from './create-list';
+import { provideTestApi } from '../../../testing/in-memory-api';
 
 describe('CreateList', () => {
     beforeEach(() => localStorage.clear());
@@ -13,7 +14,7 @@ describe('CreateList', () => {
         vi.spyOn(Math, 'random').mockReturnValue(0.14);
         await TestBed.configureTestingModule({
             imports: [CreateList],
-            providers: [provideRouter(routes)]
+            providers: [...provideTestApi(), provideRouter(routes)]
         }).compileComponents();
 
         const fixture = TestBed.createComponent(CreateList);
@@ -37,7 +38,7 @@ describe('CreateList', () => {
     it('updates the selected cover and closes the image options after selection', async () => {
         await TestBed.configureTestingModule({
             imports: [CreateList],
-            providers: [provideRouter(routes)]
+            providers: [...provideTestApi(), provideRouter(routes)]
         }).compileComponents();
 
         const fixture = TestBed.createComponent(CreateList);
@@ -61,7 +62,7 @@ describe('CreateList', () => {
     it('creates a list with a UUID and opens its detail route', async () => {
         await TestBed.configureTestingModule({
             imports: [CreateList],
-            providers: [provideRouter(routes)]
+            providers: [...provideTestApi(), provideRouter(routes)]
         }).compileComponents();
 
         const fixture = TestBed.createComponent(CreateList);
@@ -70,13 +71,15 @@ describe('CreateList', () => {
             title: 'Salão de teste',
             region: 'Montanhas',
             description: 'Uma construção para testar.',
+            isShared: false,
             imageId: valheimImages[7].id
         });
 
-        component.createList();
+        await component.createList();
         await fixture.whenStable();
 
         const createdList = TestBed.inject(ConstructionListStore).lists()[0];
+        expect(createdList).toBeDefined();
         expect(createdList.title).toBe('Salão de teste');
         expect(createdList.region).toBe('Montanhas');
         expect(createdList.imageUrl).toBe(valheimImages[7].url);
@@ -89,20 +92,40 @@ describe('CreateList', () => {
     it('does not create a list with invalid required fields', async () => {
         await TestBed.configureTestingModule({
             imports: [CreateList],
-            providers: [provideRouter(routes)]
+            providers: [...provideTestApi(), provideRouter(routes)]
         }).compileComponents();
 
         const fixture = TestBed.createComponent(CreateList);
-        fixture.componentInstance.createList();
+        await fixture.componentInstance.createList();
 
         expect(TestBed.inject(ConstructionListStore).lists()).toHaveLength(0);
         expect(fixture.componentInstance.form.controls.title.touched).toBe(true);
     });
 
+    it('allows a new list to be created as shared', async () => {
+        await TestBed.configureTestingModule({
+            imports: [CreateList],
+            providers: [...provideTestApi(), provideRouter(routes)]
+        }).compileComponents();
+
+        const component = TestBed.createComponent(CreateList).componentInstance;
+        component.form.setValue({
+            title: 'Salão compartilhado',
+            region: 'Montanhas',
+            description: '',
+            isShared: true,
+            imageId: valheimImages[0].id
+        });
+
+        await component.createList();
+
+        expect(TestBed.inject(ConstructionListStore).lists()[0]?.isShared).toBe(true);
+    });
+
     it('includes the latest released biomes', async () => {
         await TestBed.configureTestingModule({
             imports: [CreateList],
-            providers: [provideRouter(routes)]
+            providers: [...provideTestApi(), provideRouter(routes)]
         }).compileComponents();
 
         const fixture = TestBed.createComponent(CreateList);

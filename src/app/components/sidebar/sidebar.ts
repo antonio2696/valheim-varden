@@ -1,5 +1,6 @@
-import { Component, input } from '@angular/core';
-import { RouterLink, RouterLinkActive } from '@angular/router';
+import { Component, inject, input, signal } from '@angular/core';
+import { Router, RouterLink, RouterLinkActive } from '@angular/router';
+import { AuthStore } from '../../auth/auth.store';
 import { VardenIcon } from '../icon/icon';
 
 export interface SidebarItem {
@@ -13,7 +14,20 @@ export interface SidebarItem {
     imports: [RouterLink, RouterLinkActive, VardenIcon]
 })
 export class Sidebar {
-    readonly items = input.required<SidebarItem[]>();
+    private readonly auth = inject(AuthStore);
+    private readonly router = inject(Router);
+    readonly privateLists = input.required<SidebarItem[]>();
+    readonly sharedLists = input.required<SidebarItem[]>();
+    readonly error = this.auth.error;
+    readonly isLoading = this.auth.isLoading;
+    readonly showAllPrivate = signal(false);
+    readonly showAllShared = signal(false);
     readonly brandIcon = 'pickaxe';
     readonly tipIcon = 'compass';
+
+    async logout(): Promise<void> {
+        if (await this.auth.logout()) {
+            await this.router.navigate(['/login']);
+        }
+    }
 }

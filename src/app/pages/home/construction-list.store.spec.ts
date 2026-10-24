@@ -1,128 +1,149 @@
+import { TestBed } from '@angular/core/testing';
+import { provideTestApi } from '../../../testing/in-memory-api';
+import { valheimImages } from '../../data/valheim-images';
 import { ConstructionListStore } from './construction-list.store';
 import { constructionCatalog } from './construction-catalog';
-import { valheimImages } from '../../data/valheim-images';
 
 describe('ConstructionListStore', () => {
-    beforeEach(() => localStorage.clear());
+    beforeEach(async () => {
+        localStorage.clear();
+        await TestBed.configureTestingModule({ providers: provideTestApi() }).compileComponents();
+    });
+
     afterEach(() => {
         vi.useRealTimers();
         vi.restoreAllMocks();
     });
 
-    it('persists list changes and restores them from localStorage', () => {
-        const store = new ConstructionListStore();
-        const list = store.addList({
+    it('persists construction changes through the list API and reloads them', async () => {
+        const store = TestBed.inject(ConstructionListStore);
+        const list = await store.addList({
             title: 'Refúgio salvo',
             region: 'Pradarias',
             description: '',
             imageId: valheimImages[0].id
         });
+        if (!list) {
+            throw new Error('The API did not create the list.');
+        }
 
-        store.addConstruction(list.id, constructionCatalog[0]);
-        store.updateItem(list.id, 'workbench', (item) => ({ ...item, completed: true }));
-        store.addConstruction(list.id, constructionCatalog[0]);
-        store.removeConstruction(list.id, 'workbench');
+        expect(list.decomposeMaterials).toBe(true);
+        expect(await store.setDecomposeMaterials(list.id, false)).toBe(true);
+        await store.addConstruction(list.id, constructionCatalog[0]);
+        await store.updateItem(list.id, 'workbench', (item) => ({ ...item, completed: true }));
+        await store.addConstruction(list.id, constructionCatalog[0]);
+        await store.removeConstruction(list.id, 'workbench');
+        await store.loadLists();
 
-        const restoredStore = new ConstructionListStore();
-        const restoredList = restoredStore.findById(list.id);
-
+        const restoredList = store.findById(list.id);
         expect(restoredList?.title).toBe('Refúgio salvo');
+        expect(restoredList?.decomposeMaterials).toBe(false);
         expect(restoredList?.imageUrl).toBe(valheimImages[0].url);
         expect(restoredList?.imageThumbnailUrl).toBe(valheimImages[0].thumbnailUrl);
         expect(restoredList?.constructionItems).toEqual([]);
         expect(restoredList?.status).toBe('planning');
     });
 
-    it('returns an empty list and reports invalid persisted data', () => {
-        localStorage.setItem('varden.construction-lists.v1', '{invalid');
-        const error = vi.spyOn(console, 'error').mockImplementation(() => undefined);
+    it('deletes a list through the API and keeps other lists', async () => {
+        const store = TestBed.inject(ConstructionListStore);
+        const firstList = await store.addList({
+            title: 'Primeira lista',
+            region: 'Pradarias',
+            description: '',
+            imageId: valheimImages[0].id
+        });
+        const secondList = await store.addList({
+            title: 'Segunda lista',
+            region: 'Floresta Negra',
+            description: '',
+            imageId: valheimImages[0].id
+        });
+        if (!firstList || !secondList) {
+            throw new Error('The API did not create the test lists.');
+        }
 
-        expect(new ConstructionListStore().lists()).toEqual([]);
-        expect(error).toHaveBeenCalled();
+        expect(await store.deleteList(firstList.id)).toBe(true);
+        expect(await store.deleteList('lista-inexistente')).toBe(false);
+        await store.loadLists();
+        expect(store.lists().map((list) => list.id)).toEqual([secondList.id]);
     });
 
-    it('stores a real creation timestamp and updates it when renamed', () => {
+    it('stores a real creation timestamp and updates it when renamed', async () => {
         vi.useFakeTimers();
         vi.setSystemTime(new Date('2026-10-24T00:00:00.000Z'));
-        const store = new ConstructionListStore();
-        const list = store.addList({
+        const store = TestBed.inject(ConstructionListStore);
+        const list = await store.addList({
             title: 'Refúgio salvo',
             region: 'Pradarias',
             description: '',
             imageId: valheimImages[0].id
         });
+        if (!list) {
+            throw new Error('The API did not create the test list.');
+        }
 
         expect(list.updatedAt).toBe('2026-10-24T00:00:00.000Z');
         vi.advanceTimersByTime(60_000);
 
-        expect(store.renameList(list.id, '  Refúgio renovado  ')).toBe(true);
+        expect(await store.renameList(list.id, '  Refúgio renovado  ')).toBe(true);
         expect(store.findById(list.id)?.title).toBe('Refúgio renovado');
         expect(store.findById(list.id)?.updatedAt).toBe('2026-10-24T00:01:00.000Z');
 
-        const restoredStore = new ConstructionListStore();
-        expect(restoredStore.findById(list.id)?.title).toBe('Refúgio renovado');
+        await store.loadLists();
+        expect(store.findById(list.id)?.title).toBe('Refúgio renovado');
     });
 
-    it('migrates previously saved creation labels to real timestamps', () => {
-        vi.useFakeTimers();
-        vi.setSystemTime(new Date('2026-10-24T00:00:00.000Z'));
-        const store = new ConstructionListStore();
-        const list = store.addList({
-            title: 'Lista antiga',
-            region: 'Pradarias',
-            description: '',
-            imageId: valheimImages[0].id
-        });
-        const saved = JSON.parse(localStorage.getItem('varden.construction-lists.v1') ?? '{}') as {
-            version: number;
-            lists: Array<Record<string, unknown>>;
-        };
-        saved.lists[0]['updatedAt'] = 'Criada agora';
-        localStorage.setItem('varden.construction-lists.v1', JSON.stringify(saved));
-
-        const restoredStore = new ConstructionListStore();
-
-        expect(restoredStore.findById(list.id)?.updatedAt).toBe('2026-10-24T00:00:00.000Z');
-        const migrated = JSON.parse(
-            localStorage.getItem('varden.construction-lists.v1') ?? '{}'
-        ) as { lists: Array<Record<string, unknown>> };
-        expect(migrated.lists[0]['updatedAt']).toBe('2026-10-24T00:00:00.000Z');
-    });
-
-    it('adds a thumbnail URL to existing saved lists without replacing their full cover', () => {
-        const store = new ConstructionListStore();
-        const list = store.addList({
-            title: 'Lista antiga',
-            region: 'Pradarias',
-            description: '',
-            imageId: valheimImages[0].id
-        });
-        const saved = JSON.parse(localStorage.getItem('varden.construction-lists.v1') ?? '{}') as {
-            version: number;
-            lists: Array<Record<string, unknown>>;
-        };
-        delete saved.lists[0]['imageThumbnailUrl'];
-        localStorage.setItem('varden.construction-lists.v1', JSON.stringify(saved));
-
-        const restoredList = new ConstructionListStore().findById(list.id);
-
-        expect(restoredList?.imageUrl).toBe(valheimImages[0].url);
-        expect(restoredList?.imageThumbnailUrl).toBe(valheimImages[0].thumbnailUrl);
-    });
-
-    it('rejects empty or overlong names without changing the list', () => {
-        const store = new ConstructionListStore();
-        const list = store.addList({
+    it('rejects empty or overlong names without changing the list', async () => {
+        const store = TestBed.inject(ConstructionListStore);
+        const list = await store.addList({
             title: 'Refúgio salvo',
             region: 'Pradarias',
             description: '',
             imageId: valheimImages[0].id
         });
+        if (!list) {
+            throw new Error('The API did not create the test list.');
+        }
         const originalUpdatedAt = list.updatedAt;
 
-        expect(store.renameList(list.id, '   ')).toBe(false);
-        expect(store.renameList(list.id, 'a'.repeat(101))).toBe(false);
+        expect(await store.renameList(list.id, '   ')).toBe(false);
+        expect(await store.renameList(list.id, 'a'.repeat(101))).toBe(false);
         expect(store.findById(list.id)?.title).toBe('Refúgio salvo');
         expect(store.findById(list.id)?.updatedAt).toBe(originalUpdatedAt);
+    });
+
+    it('offers an explicit, non-destructive import of older browser lists', async () => {
+        const legacyList = {
+            id: '8a70c452-d0d7-4f6b-b5b6-4d4aaf0e2854',
+            title: 'Lista antiga',
+            region: 'Pradarias',
+            description: 'Salva no navegador',
+            completedUnits: 0,
+            totalUnits: 0,
+            buildings: 0,
+            progress: 0,
+            updatedAt: '2026-10-23T00:00:00.000Z',
+            imageUrl: valheimImages[0].url,
+            imageAlt: valheimImages[0].alt,
+            priority: false,
+            status: 'planning',
+            updatedOrder: 1,
+            constructionItems: []
+        };
+        localStorage.setItem(
+            'varden.construction-lists.v1',
+            JSON.stringify({ version: 1, lists: [legacyList] })
+        );
+        const store = TestBed.inject(ConstructionListStore);
+
+        await store.loadLists();
+        expect(store.legacyListsAvailable()).toBe(true);
+        await store.importLegacyLists();
+
+        expect(store.findById(legacyList.id)?.title).toBe('Lista antiga');
+        expect(store.findById(legacyList.id)?.isShared).toBe(false);
+        expect(store.findById(legacyList.id)?.decomposeMaterials).toBe(true);
+        expect(store.legacyListsAvailable()).toBe(false);
+        expect(localStorage.getItem('varden.construction-lists.v1')).not.toBeNull();
     });
 });

@@ -1,13 +1,7 @@
 <main class="mx-auto w-full max-w-[1440px] space-y-6 text-[#eee8db]">
     <header class="flex flex-col gap-5 sm:flex-row sm:items-center sm:justify-between">
         <div>
-            <p class="text-sm font-semibold uppercase tracking-[0.16em] text-[#d6ab62]">
-                Seu códice de construções
-            </p>
-            <h1 class="mt-1">Minhas listas</h1>
-            <p class="mt-2 text-base text-[#ACB1A3]">
-                Do primeiro abrigo ao próximo grande salão. Cada peça, no seu lugar.
-            </p>
+            <h1>{{ pageTitle() }}</h1>
         </div>
 
         <button varden-button type="button" [icon]="plusIcon" routerLink="/create-list">
@@ -15,20 +9,28 @@
         </button>
     </header>
 
-    <section aria-label="Resumo das listas" class="grid gap-3 md:grid-cols-3">
-        @for (summary of summaries(); track summary.label) {
-        <article
-            class="flex items-center gap-4 rounded border border-[#30362f] bg-[#1c211d] px-4 py-4"
+    @if (legacyListsAvailable()) {
+    <section
+        aria-label="Importar listas deste navegador"
+        class="flex flex-col gap-3 rounded border border-[#62543b] bg-[#302a1e] p-4 sm:flex-row sm:items-center sm:justify-between"
+    >
+        <p class="text-sm text-[#d4d2c9]">
+            Há listas antigas salvas neste navegador. Importe-as para sua conta; a cópia local será
+            mantida.
+        </p>
+        <button
+            type="button"
+            class="shrink-0 rounded bg-[#d6ab62] px-3 py-2 text-sm font-semibold text-[#141715] hover:bg-[#e3bd7d] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#d6ab62]"
+            (click)="importLegacyLists()"
         >
-            <svg [vardenIcon]="summary.icon" [size]="19" class="shrink-0 text-[#d6ab62]"></svg>
-            <div class="min-w-0 flex-1">
-                <h2 class="text-base font-medium text-[#d4d2c9]">{{ summary.label }}</h2>
-                <p class="mt-1 text-sm text-[#858b80]">{{ summary.description }}</p>
-            </div>
-            <span class="font-cinzel text-2xl text-[#eee8db]">{{ summary.count }}</span>
-        </article>
-        }
+            Importar listas antigas
+        </button>
     </section>
+    } @if (error(); as message) {
+    <p role="alert" class="rounded border border-[#7c453c] bg-[#321f1d] p-4 text-sm text-[#f0b5a8]">
+        {{ message }}
+    </p>
+    }
 
     <section aria-label="Listas de construções">
         <div class="mb-4 flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
@@ -96,8 +98,8 @@
 
                     <div class="flex items-center justify-between gap-3 text-sm">
                         <span class="text-[#a9ada3]"
-                            >{{ list.completedUnits }} de {{ list.totalUnits }} unidades feitas · {{
-                            list.buildings }} construções</span
+                            >{{ list.completedUnits }} de {{ list.totalUnits }} unidades
+                            feitas</span
                         >
                         <span
                             class="shrink-0 font-semibold"
@@ -123,6 +125,12 @@
                     </div>
 
                     <p class="text-sm text-[#858b80]">{{ formatUpdatedAt(list.updatedAt) }}</p>
+                    <span
+                        class="inline-flex rounded border px-2 py-1 text-xs uppercase tracking-wide"
+                        [class]="list.isShared ? 'border-[#587064] text-[#a8c29e]' : 'border-[#62543b] text-[#d6ab62]'"
+                    >
+                        {{ list.isShared ? 'Compartilhada' : 'Privada' }}
+                    </span>
 
                     <button
                         varden-button
@@ -137,43 +145,30 @@
                     <div
                         class="flex items-center justify-between border-t border-[#30362f] pt-3 text-sm text-[#b7b9af]"
                     >
+                        @if (canEdit(list.id)) {
                         <varden-rename-list-action [listId]="list.id" [title]="list.title" />
-                        <span class="inline-flex items-center gap-2 text-[#bd897b]">
+                        } @if (isOwner(list.id)) {
+                        <button
+                            type="button"
+                            class="inline-flex items-center gap-2 text-[#bd897b] transition-colors hover:text-[#e3a394] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#d6ab62]"
+                            [attr.aria-label]="'Excluir lista ' + list.title"
+                            (click)="deleteList(list.id, list.title)"
+                        >
                             <svg [vardenIcon]="deleteIcon" [size]="13" aria-hidden="true"></svg>
                             Excluir
-                        </span>
+                        </button>
+                        }
                     </div>
                 </div>
             </article>
             } @empty {
             <p class="rounded border border-[#30362f] bg-[#1c211d] p-5 text-base text-[#9a9f94]">
-                {{ lists().length === 0 ? 'Você ainda não criou listas. Use “Criar nova lista” para
-                começar.' : 'Nenhuma lista encontrada para este filtro.' }}
+                @if (isLoading()) { Carregando listas... } @else if (error()) { Não foi possível
+                exibir suas listas. } @else { {{ lists().length === 0 ? 'Você ainda não criou
+                listas. Use “Criar nova lista” para começar.' : 'Nenhuma lista encontrada para este
+                filtro.' }} }
             </p>
             }
         </div>
     </section>
-
-    <section>
-        <aside class="rounded-md border border-[#51442f] bg-[#302a1e] p-4">
-            <div class="flex items-center gap-2 text-[#d6ab62]">
-                <svg [vardenIcon]="tipIcon" [size]="15" aria-hidden="true"></svg>
-                <p class="text-xs font-semibold uppercase tracking-wide">
-                    Antes de erguer as paredes
-                </p>
-            </div>
-            <h2 class="mt-3 font-cinzel text-lg text-[#e3ddcf]">Leve só o que precisa.</h2>
-            <p class="mt-2 text-base leading-6 text-[#a9a394]">
-                O resumo de matérias-primas separa o plano completo dos recursos que ainda faltam
-                construir.
-            </p>
-        </aside>
-    </section>
-
-    <footer
-        class="flex flex-col gap-2 pt-1 text-xs uppercase tracking-wide text-[#697067] sm:flex-row sm:items-center sm:justify-between"
-    >
-        <p>Varden · Seu próximo lar começa aqui</p>
-        <p>Projeto de fã · Não afiliado à Iron Gate</p>
-    </footer>
 </main>

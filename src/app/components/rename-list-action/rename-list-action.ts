@@ -29,13 +29,13 @@ export class RenameListAction {
         this.editing.set(false);
     }
 
-    save(): void {
+    async save(): Promise<void> {
         if (this.form.invalid) {
             this.form.markAllAsTouched();
             return;
         }
 
-        if (this.listStore.renameList(this.listId(), this.form.controls.title.value)) {
+        if (await this.listStore.renameList(this.listId(), this.form.controls.title.value)) {
             this.editing.set(false);
         }
     }

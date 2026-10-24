@@ -1,0 +1,254 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-24T11:51:30-03:00",
+  "title": "Design System: Varden — Valheim",
+  "extensions": {
+    "colorMeta": {
+      "gold-accent": {
+        "role": "primary",
+        "displayName": "Dourado de construção",
+        "canonical": "#d6ab62",
+        "tonalRamp": [
+          "oklch(15% 0.11 78)",
+          "oklch(25% 0.11 78)",
+          "oklch(35% 0.11 78)",
+          "oklch(45% 0.11 78)",
+          "oklch(55% 0.11 78)",
+          "oklch(65% 0.11 78)",
+          "oklch(75% 0.11 78)",
+          "oklch(95% 0.11 78)"
+        ]
+      },
+      "night-bg": {
+        "role": "neutral",
+        "displayName": "Carvão-floresta",
+        "canonical": "#141715",
+        "tonalRamp": [
+          "oklch(15% 0.01 150)",
+          "oklch(25% 0.01 150)",
+          "oklch(35% 0.01 150)",
+          "oklch(45% 0.01 150)",
+          "oklch(55% 0.01 150)",
+          "oklch(65% 0.01 150)",
+          "oklch(75% 0.01 150)",
+          "oklch(95% 0.01 150)"
+        ]
+      },
+      "sidebar-bg": {
+        "role": "neutral",
+        "displayName": "Sombra da navegação",
+        "canonical": "#101310",
+        "tonalRamp": [
+          "oklch(15% 0.01 150)",
+          "oklch(25% 0.01 150)",
+          "oklch(35% 0.01 150)",
+          "oklch(45% 0.01 150)",
+          "oklch(55% 0.01 150)",
+          "oklch(65% 0.01 150)",
+          "oklch(75% 0.01 150)",
+          "oklch(95% 0.01 150)"
+        ]
+      },
+      "forest-surface": {
+        "role": "neutral",
+        "displayName": "Verde de superfície",
+        "canonical": "#1c211d",
+        "tonalRamp": [
+          "oklch(15% 0.01 150)",
+          "oklch(25% 0.01 150)",
+          "oklch(35% 0.01 150)",
+          "oklch(45% 0.01 150)",
+          "oklch(55% 0.01 150)",
+          "oklch(65% 0.01 150)",
+          "oklch(75% 0.01 150)",
+          "oklch(95% 0.01 150)"
+        ]
+      },
+      "parchment": {
+        "role": "neutral",
+        "displayName": "Papel-pergaminho",
+        "canonical": "#eee8db",
+        "tonalRamp": [
+          "oklch(15% 0.015 85)",
+          "oklch(25% 0.015 85)",
+          "oklch(35% 0.015 85)",
+          "oklch(45% 0.015 85)",
+          "oklch(55% 0.015 85)",
+          "oklch(65% 0.015 85)",
+          "oklch(75% 0.015 85)",
+          "oklch(95% 0.015 85)"
+        ]
+      },
+      "sage-muted": {
+        "role": "neutral",
+        "displayName": "Sálvia de apoio",
+        "canonical": "#a9ada3",
+        "tonalRamp": [
+          "oklch(15% 0.015 135)",
+          "oklch(25% 0.015 135)",
+          "oklch(35% 0.015 135)",
+          "oklch(45% 0.015 135)",
+          "oklch(55% 0.015 135)",
+          "oklch(65% 0.015 135)",
+          "oklch(75% 0.015 135)",
+          "oklch(95% 0.015 135)"
+        ]
+      },
+      "moss-border": {
+        "role": "neutral",
+        "displayName": "Borda musgo",
+        "canonical": "#30362f",
+        "tonalRamp": [
+          "oklch(15% 0.015 145)",
+          "oklch(25% 0.015 145)",
+          "oklch(35% 0.015 145)",
+          "oklch(45% 0.015 145)",
+          "oklch(55% 0.015 145)",
+          "oklch(65% 0.015 145)",
+          "oklch(75% 0.015 145)",
+          "oklch(95% 0.015 145)"
+        ]
+      },
+      "success-sage": {
+        "role": "tertiary",
+        "displayName": "Sálvia de conclusão",
+        "canonical": "#a8c29e",
+        "tonalRamp": [
+          "oklch(15% 0.04 140)",
+          "oklch(25% 0.04 140)",
+          "oklch(35% 0.04 140)",
+          "oklch(45% 0.04 140)",
+          "oklch(55% 0.04 140)",
+          "oklch(65% 0.04 140)",
+          "oklch(75% 0.04 140)",
+          "oklch(95% 0.04 140)"
+        ]
+      },
+      "error-rose": {
+        "role": "secondary",
+        "displayName": "Rosa de erro",
+        "canonical": "#f0b5a8",
+        "tonalRamp": [
+          "oklch(15% 0.07 35)",
+          "oklch(25% 0.07 35)",
+          "oklch(35% 0.07 35)",
+          "oklch(45% 0.07 35)",
+          "oklch(55% 0.07 35)",
+          "oklch(65% 0.07 35)",
+          "oklch(75% 0.07 35)",
+          "oklch(95% 0.07 35)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Cinzel",
+        "purpose": "Títulos principais da interface."
+      },
+      "body": {
+        "displayName": "Inter",
+        "purpose": "Texto corrido, campos e controles."
+      }
+    },
+    "shadows": [],
+    "motion": [
+      {
+        "name": "button-transition",
+        "value": "300ms ease-in",
+        "purpose": "Transição do botão compartilhado entre os estados visuais."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "sm",
+        "value": "640px"
+      },
+      {
+        "name": "md",
+        "value": "768px"
+      },
+      {
+        "name": "xl",
+        "value": "1280px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Botão principal",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Ação primária em dourado sólido com texto escuro.",
+      "html": "<button class=\"ds-btn-primary\" type=\"button\">Criar nova lista</button>",
+      "css": ".ds-btn-primary { cursor: pointer; background: #d6ab62; color: #141715; border: 1px solid #d6ab62; border-radius: 2px; padding: 12px 16px; font: 600 16px Inter, sans-serif; transition: all 300ms ease-in; } .ds-btn-primary:hover { background: #e8bf79; border-color: #f2d49c; } .ds-btn-primary:focus-visible { outline: 2px solid #d6ab62; outline-offset: 2px; } .ds-btn-primary:active { background: #d6ab62; }"
+    },
+    {
+      "name": "Cartão de lista",
+      "kind": "card",
+      "refersTo": "card",
+      "description": "Contêiner de conteúdo com superfície verde-escura e borda fina.",
+      "html": "<article class=\"ds-card\"><h2>Refúgio nas pradarias</h2><p>Planejamento da construção</p></article>",
+      "css": ".ds-card { background: #1c211d; color: #eee8db; border: 1px solid #30362f; border-radius: 6px; padding: 16px; transition: border-color 200ms; } .ds-card:hover { border-color: #62543b; } .ds-card h2 { margin: 0 0 8px; font: 400 20px/1.375 Cinzel, serif; } .ds-card p { margin: 0; color: #a9ada3; font: 400 16px/1.5 Inter, sans-serif; }"
+    },
+    {
+      "name": "Campo de texto",
+      "kind": "input",
+      "refersTo": "input",
+      "description": "Campo escuro com texto claro e foco dourado.",
+      "html": "<label class=\"ds-field\"><span>Nome da lista</span><input type=\"text\" placeholder=\"Ex.: Refúgio nas pradarias\"></label>",
+      "css": ".ds-field { display: grid; gap: 4px; color: #d4d2c9; font: 500 14px Inter, sans-serif; } .ds-field input { background: #141715; color: #eee8db; border: 1px solid #3a4038; border-radius: 4px; padding: 12px; font: 400 16px Inter, sans-serif; } .ds-field input::placeholder { color: #697067; } .ds-field input:focus { outline: none; border-color: #d6ab62; box-shadow: 0 0 0 1px #d6ab62; }"
+    },
+    {
+      "name": "Navegação lateral",
+      "kind": "nav",
+      "description": "Links empilhados sobre o fundo mais escuro da barra lateral.",
+      "html": "<nav class=\"ds-nav\"><a href=\"#\">Todas as listas</a><a class=\"ds-nav-active\" href=\"#\">Minhas listas</a></nav>",
+      "css": ".ds-nav { display: grid; gap: 4px; background: #101310; padding: 12px; } .ds-nav a { color: #969b90; border-radius: 2px; padding: 8px; text-decoration: none; font: 400 14px Inter, sans-serif; transition: color 200ms, background 200ms; } .ds-nav a:hover { color: #eee8db; background: #1c211d; } .ds-nav a:focus-visible { outline: 2px solid #d6ab62; outline-offset: 2px; } .ds-nav .ds-nav-active { color: #d6ab62; font-family: Cinzel, serif; }"
+    },
+    {
+      "name": "Etiqueta de status",
+      "kind": "chip",
+      "description": "Etiqueta compacta para distinguir listas compartilhadas.",
+      "html": "<span class=\"ds-status-chip\">Compartilhada</span>",
+      "css": ".ds-status-chip { display: inline-flex; align-items: center; border: 1px solid #587064; border-radius: 4px; padding: 4px 8px; color: #a8c29e; font: 400 12px Inter, sans-serif; text-transform: uppercase; letter-spacing: 0.04em; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "O Códice da Floresta",
+    "overview": "Varden combina a atmosfera de um códice de construção com uma interface de trabalho legível: fundos de carvão esverdeado e superfícies de floresta sustentam a navegação, enquanto o dourado envelhecido destaca ações, seleção e progresso. Cinzel dá caráter aos títulos; Inter mantém formulários e informação operacional claros.\n\nA composição é funcional e densa sem abandonar respiros consistentes: painéis delimitados por bordas discretas, capas ilustradas nas listas e acentos de cor reservados para estado e ação. A interface responde a larguras menores reorganizando a navegação e as grades, em vez de comprimir o conteúdo em uma única coluna rígida.",
+    "keyCharacteristics": [
+      "Fundo escuro de carvão com matiz verde e superfícies próximas em tonalidade.",
+      "Dourado quente como acento de ação; verde-sálvia e rosa suave comunicam estados.",
+      "Títulos serifados em Cinzel combinados com texto utilitário em Inter.",
+      "Contornos finos e cantos discretamente arredondados, sem sombras de elevação."
+    ],
+    "rules": [
+      {
+        "name": "The Acento de Forja Rule",
+        "body": "Use o dourado para ações e estados ativos, não como preenchimento indiscriminado de grandes superfícies.",
+        "section": "colors"
+      },
+      {
+        "name": "The Hierarquia de Códice Rule",
+        "body": "Reserve Cinzel para títulos e destaques curtos; mantenha textos de leitura, controles e descrições em Inter.",
+        "section": "typography"
+      },
+      {
+        "name": "The Camadas Tonais Rule",
+        "body": "Diferencie painéis do fundo com os tons escuros existentes e bordas discretas, não com sombras projetadas.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "**Do** mantenha fundos, painéis e contornos nas famílias de carvão e verde escuro já aplicadas.",
+      "**Do** use o dourado existente para ações, foco e estado ativo, com texto escuro em botões preenchidos.",
+      "**Do** use Cinzel em títulos curtos e Inter para texto corrido, rótulos e controles.",
+      "**Do** preserve contorno de foco visível e contraste entre texto e superfície."
+    ],
+    "donts": [
+      "**Don't** introduza sombras como substituto das bordas e camadas tonais existentes.",
+      "**Don't** substitua o dourado por uma cor de ação saturada alheia à paleta.",
+      "**Don't** use Cinzel em blocos longos de texto ou Inter como substituto genérico dos títulos serifados já usados."
+    ]
+  }
+}

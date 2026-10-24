@@ -1,44 +1,105 @@
-import { Injectable, computed, signal } from '@angular/core';
+import { HttpClient, HttpErrorResponse } from '@angular/common/http';
+import { Injectable, inject, signal } from '@angular/core';
+import { firstValueFrom } from 'rxjs';
+import { AuthStore } from '../../auth/auth.store';
 import { valheimImages } from '../../data/valheim-images';
 import { createUuidV4 } from '../../utils/uuid';
 import { ConstructionItem, ConstructionList } from './construction-list.model';
 
-const storageKey = 'varden.construction-lists.v1';
+interface ListsResponse {
+    success: boolean;
+    lists: ConstructionList[];
+}
+
+interface ListResponse {
+    success: boolean;
+    list: ConstructionList;
+}
+
+const legacyStorageKey = 'varden.construction-lists.v1';
 
 @Injectable({ providedIn: 'root' })
 export class ConstructionListStore {
-    readonly lists = signal<ConstructionList[]>(this.loadLists());
-    readonly summaries = computed(() => [
-        {
-            label: 'Listas cadastradas',
-            description: 'Seus projetos reunidos',
-            icon: 'clipboardList' as const,
-            count: this.lists().length
-        },
-        {
-            label: 'Em planejamento',
-            description: 'Ainda há trabalho a fazer',
-            icon: 'hammer' as const,
-            count: this.lists().filter((list) => list.status === 'planning').length
-        },
-        {
-            label: 'Lista concluída',
-            description: 'Pronta para a próxima aventura',
-            icon: 'circleCheck' as const,
-            count: this.lists().filter((list) => list.status === 'completed').length
+    private readonly http = inject(HttpClient);
+    private readonly auth = inject(AuthStore);
+    readonly lists = signal<ConstructionList[]>([]);
+    readonly error = signal<string | null>(null);
+    readonly isLoading = signal(false);
+    readonly legacyListsAvailable = signal(false);
+    private activeRequests = 0;
+
+    async loadLists(): Promise<void> {
+        this.error.set(null);
+        await this.trackRequest(async () => {
+            try {
+                const response = await firstValueFrom(
+                    this.http.get<ListsResponse>('/api/lists', { withCredentials: true })
+                );
+                this.lists.set(
+                    response.lists.map((list) => ({
+                        ...list,
+                        decomposeMaterials: list.decomposeMaterials ?? true
+                    }))
+                );
+                const hasPrivateLists = response.lists.some((list) => !list.isShared);
+                if (hasPrivateLists) {
+                    this.markLegacyImportComplete();
+                }
+                this.legacyListsAvailable.set(
+                    !hasPrivateLists &&
+                        !this.isLegacyImportComplete() &&
+                        this.readLegacyLists().length > 0
+                );
+            } catch (error) {
+                this.reportError(error, 'Não foi possível carregar as listas.');
+            }
+        });
+    }
+
+    async importLegacyLists(): Promise<void> {
+        const legacyLists = this.readLegacyLists();
+        if (!legacyLists.length) {
+            this.legacyListsAvailable.set(false);
+            return;
         }
-    ]);
+
+        for (const list of legacyLists) {
+            if (this.findById(list.id)) {
+                continue;
+            }
+
+            const response = await this.request<ListResponse>(
+                () =>
+                    firstValueFrom(
+                        this.http.post<ListResponse>(
+                            '/api/lists',
+                            { list, shared: false },
+                            { withCredentials: true }
+                        )
+                    ),
+                `Não foi possível importar a lista "${list.title}".`
+            );
+            if (!response) {
+                return;
+            }
+            this.upsert(response.list);
+        }
+
+        this.legacyListsAvailable.set(false);
+        this.markLegacyImportComplete();
+    }
 
     findById(id: string | null): ConstructionList | undefined {
         return this.lists().find((list) => list.id === id);
     }
 
-    addList(details: {
+    async addList(details: {
         title: string;
         region: string;
         description: string;
         imageId: string;
-    }): ConstructionList {
+        isShared?: boolean;
+    }): Promise<ConstructionList | undefined> {
         const selectedImage = valheimImages.find((image) => image.id === details.imageId);
         if (!selectedImage) {
             throw new TypeError(`Unknown Valheim image: ${details.imageId}`);
@@ -46,7 +107,7 @@ export class ConstructionListStore {
 
         const list: ConstructionList = {
             id: createUuidV4(),
-            title: details.title,
+            title: details.title.trim(),
             region: details.region,
             description: details.description || 'Um novo projeto de construção.',
             completedUnits: 0,
@@ -60,186 +121,210 @@ export class ConstructionListStore {
             priority: false,
             status: 'planning',
             updatedOrder: this.nextUpdatedOrder(),
-            constructionItems: []
+            constructionItems: [],
+            ownerUserId: 0,
+            isShared: details.isShared ?? false,
+            allowEditing: false,
+            decomposeMaterials: true
         };
 
-        this.lists.update((lists) => [list, ...lists]);
-        this.persistLists();
-        return list;
-    }
-
-    renameList(listId: string, title: string): boolean {
-        const normalizedTitle = title.trim();
-        if (!normalizedTitle || normalizedTitle.length > 100) {
-            return false;
+        const response = await this.request<ListResponse>(
+            () =>
+                firstValueFrom(
+                    this.http.post<ListResponse>(
+                        '/api/lists',
+                        { list, shared: list.isShared },
+                        { withCredentials: true }
+                    )
+                ),
+            'Não foi possível criar a lista.'
+        );
+        if (!response) {
+            return undefined;
         }
 
+        this.upsert(response.list);
+        return response.list;
+    }
+
+    async renameList(listId: string, title: string): Promise<boolean> {
+        const normalizedTitle = title.trim();
         const list = this.findById(listId);
-        if (!list) {
+        if (!normalizedTitle || normalizedTitle.length > 100 || !list) {
             return false;
         }
         if (list.title === normalizedTitle) {
             return true;
         }
 
-        this.lists.update((lists) =>
-            lists.map((current) =>
-                current.id === listId
-                    ? {
-                          ...current,
-                          title: normalizedTitle,
-                          updatedAt: new Date().toISOString(),
-                          updatedOrder: this.nextUpdatedOrder()
-                      }
-                    : current
-            )
+        return this.save({
+            ...list,
+            title: normalizedTitle,
+            updatedAt: new Date().toISOString(),
+            updatedOrder: this.nextUpdatedOrder()
+        });
+    }
+
+    async deleteList(listId: string): Promise<boolean> {
+        if (!this.findById(listId)) {
+            return false;
+        }
+
+        const succeeded = await this.request(
+            () =>
+                firstValueFrom(
+                    this.http.delete<{ success: boolean }>(
+                        `/api/lists/${encodeURIComponent(listId)}`,
+                        {
+                            withCredentials: true
+                        }
+                    )
+                ),
+            'Não foi possível excluir a lista.'
         );
-        this.persistLists();
+        if (!succeeded) {
+            return false;
+        }
+
+        this.lists.update((lists) => lists.filter((list) => list.id !== listId));
         return true;
     }
 
-    updateItem(
+    async updateItem(
         listId: string,
         itemId: string,
         update: (item: ConstructionItem) => ConstructionItem
-    ): void {
-        this.lists.update((lists) =>
-            lists.map((list) =>
-                list.id === listId
-                    ? this.withUpdatedItems(
-                          list,
-                          list.constructionItems.map((item) =>
-                              item.id === itemId ? update(item) : item
-                          )
-                      )
-                    : list
-            )
-        );
-        this.persistLists();
-    }
-
-    addConstruction(listId: string, item: Omit<ConstructionItem, 'quantity' | 'completed'>): void {
-        this.lists.update((lists) =>
-            lists.map((list) => {
-                if (list.id !== listId) {
-                    return list;
-                }
-
-                const existing = list.constructionItems.find(
-                    (construction) => construction.id === item.id
-                );
-                const constructionItems = existing
-                    ? list.constructionItems.map((construction) =>
-                          construction.id === item.id
-                              ? { ...construction, quantity: construction.quantity + 1 }
-                              : construction
-                      )
-                    : [...list.constructionItems, { ...item, quantity: 1, completed: false }];
-
-                return this.withUpdatedItems(list, constructionItems);
-            })
-        );
-        this.persistLists();
-    }
-
-    removeConstruction(listId: string, itemId: string): void {
-        this.lists.update((lists) =>
-            lists.map((list) =>
-                list.id === listId
-                    ? this.withUpdatedItems(
-                          list,
-                          list.constructionItems.filter((item) => item.id !== itemId)
-                      )
-                    : list
-            )
-        );
-        this.persistLists();
-    }
-
-    private loadLists(): ConstructionList[] {
-        const storage = this.getStorage();
-        if (!storage) {
-            return [];
-        }
-
-        let serialized: string | null;
-        try {
-            serialized = storage.getItem(storageKey);
-        } catch (error) {
-            console.error('Unable to read construction lists from localStorage.', error);
-            return [];
-        }
-
-        if (!serialized) {
-            return [];
-        }
-
-        let storedValue: unknown;
-        try {
-            storedValue = JSON.parse(serialized);
-        } catch (error) {
-            if (!(error instanceof SyntaxError)) {
-                throw error;
-            }
-            console.error('Construction list data in localStorage is not valid JSON.', error);
-            return [];
-        }
-
-        if (
-            !isRecord(storedValue) ||
-            storedValue['version'] !== 1 ||
-            !Array.isArray(storedValue['lists']) ||
-            !storedValue['lists'].every(isConstructionList)
-        ) {
-            console.error('Construction list data in localStorage has an invalid format.');
-            return [];
-        }
-
-        const lists = storedValue['lists'];
-        const now = new Date().toISOString();
-        const migratedLists = lists.map((list) => {
-            const thumbnailUrl =
-                list.imageThumbnailUrl ??
-                valheimImages.find((image) => image.url === list.imageUrl)?.thumbnailUrl ??
-                list.imageUrl;
-            const updatedAt = list.updatedAt === 'Criada agora' ? now : list.updatedAt;
-
-            return thumbnailUrl === list.imageThumbnailUrl && updatedAt === list.updatedAt
-                ? list
-                : { ...list, imageThumbnailUrl: thumbnailUrl, updatedAt };
-        });
-
-        if (migratedLists.some((list, index) => list !== lists[index])) {
-            try {
-                storage.setItem(storageKey, JSON.stringify({ version: 1, lists: migratedLists }));
-            } catch (error) {
-                console.error('Unable to migrate list timestamps in localStorage.', error);
-            }
-        }
-
-        return migratedLists;
-    }
-
-    private persistLists(): void {
-        const storage = this.getStorage();
-        if (!storage) {
+    ): Promise<void> {
+        const list = this.findById(listId);
+        if (!list) {
             return;
         }
 
+        const updated = this.withUpdatedItems(
+            list,
+            list.constructionItems.map((item) => (item.id === itemId ? update(item) : item))
+        );
+        await this.save(updated);
+    }
+
+    async addConstruction(
+        listId: string,
+        item: Omit<ConstructionItem, 'quantity' | 'completed'>
+    ): Promise<void> {
+        const list = this.findById(listId);
+        if (!list) {
+            return;
+        }
+
+        const existing = list.constructionItems.find((construction) => construction.id === item.id);
+        const constructionItems = existing
+            ? list.constructionItems.map((construction) =>
+                  construction.id === item.id
+                      ? { ...construction, quantity: construction.quantity + 1 }
+                      : construction
+              )
+            : [...list.constructionItems, { ...item, quantity: 1, completed: false }];
+
+        await this.save(this.withUpdatedItems(list, constructionItems));
+    }
+
+    async removeConstruction(listId: string, itemId: string): Promise<void> {
+        const list = this.findById(listId);
+        if (!list) {
+            return;
+        }
+
+        await this.save(
+            this.withUpdatedItems(
+                list,
+                list.constructionItems.filter((item) => item.id !== itemId)
+            )
+        );
+    }
+
+    async setSharing(listId: string, isShared: boolean): Promise<boolean> {
+        const list = this.findById(listId);
+        return list ? this.save({ ...list, isShared, updatedAt: new Date().toISOString() }) : false;
+    }
+
+    async setAllowEditing(listId: string, allowEditing: boolean): Promise<boolean> {
+        const list = this.findById(listId);
+        return list
+            ? this.save({ ...list, allowEditing, updatedAt: new Date().toISOString() })
+            : false;
+    }
+
+    async setDecomposeMaterials(listId: string, decomposeMaterials: boolean): Promise<boolean> {
+        const list = this.findById(listId);
+        return list
+            ? this.save({ ...list, decomposeMaterials, updatedAt: new Date().toISOString() })
+            : false;
+    }
+
+    canEdit(list: ConstructionList, userId: number | undefined): boolean {
+        return list.ownerUserId === userId || list.allowEditing;
+    }
+
+    private async save(list: ConstructionList): Promise<boolean> {
+        const response = await this.request<ListResponse>(
+            () =>
+                firstValueFrom(
+                    this.http.put<ListResponse>(
+                        `/api/lists/${encodeURIComponent(list.id)}`,
+                        { list, shared: list.isShared },
+                        { withCredentials: true }
+                    )
+                ),
+            'Não foi possível salvar as alterações da lista.'
+        );
+        if (!response) {
+            return false;
+        }
+
+        this.upsert(response.list);
+        return true;
+    }
+
+    private async request<T>(
+        request: () => Promise<T>,
+        fallbackMessage: string
+    ): Promise<T | undefined> {
+        this.error.set(null);
+        return this.trackRequest(async () => {
+            try {
+                return await request();
+            } catch (error) {
+                this.reportError(error, fallbackMessage);
+                return undefined;
+            }
+        });
+    }
+
+    private async trackRequest<T>(request: () => Promise<T>): Promise<T> {
+        this.activeRequests += 1;
+        this.isLoading.set(true);
         try {
-            storage.setItem(storageKey, JSON.stringify({ version: 1, lists: this.lists() }));
-        } catch (error) {
-            console.error('Unable to save construction lists to localStorage.', error);
+            return await request();
+        } finally {
+            this.activeRequests -= 1;
+            this.isLoading.set(this.activeRequests > 0);
         }
     }
 
-    private getStorage(): Storage | undefined {
-        try {
-            return typeof localStorage === 'undefined' ? undefined : localStorage;
-        } catch (error) {
-            console.error('localStorage is unavailable.', error);
-            return undefined;
-        }
+    private reportError(error: unknown, fallbackMessage: string): void {
+        const apiMessage =
+            error instanceof HttpErrorResponse &&
+            typeof error.error === 'object' &&
+            error.error !== null &&
+            'message' in error.error &&
+            typeof error.error.message === 'string'
+                ? error.error.message
+                : null;
+        this.error.set(apiMessage ?? fallbackMessage);
+    }
+
+    private upsert(list: ConstructionList): void {
+        this.lists.update((lists) => [list, ...lists.filter((current) => current.id !== list.id)]);
     }
 
     private withUpdatedItems(
@@ -268,16 +353,82 @@ export class ConstructionListStore {
     private nextUpdatedOrder(): number {
         return Math.max(0, ...this.lists().map((list) => list.updatedOrder)) + 1;
     }
+
+    private readLegacyLists(): ConstructionList[] {
+        let serialized: string | null;
+        try {
+            serialized = localStorage.getItem(legacyStorageKey);
+        } catch (error) {
+            this.reportError(error, 'Não foi possível acessar as listas antigas deste navegador.');
+            return [];
+        }
+
+        if (!serialized) {
+            return [];
+        }
+
+        try {
+            const storedValue: unknown = JSON.parse(serialized);
+            if (
+                !isRecord(storedValue) ||
+                storedValue['version'] !== 1 ||
+                !Array.isArray(storedValue['lists'])
+            ) {
+                return [];
+            }
+
+            return storedValue['lists'].filter(isLegacyList).map((list) => ({
+                ...list,
+                imageThumbnailUrl: list.imageThumbnailUrl ?? list.imageUrl,
+                ownerUserId: 0,
+                isShared: false,
+                allowEditing: false,
+                decomposeMaterials: list.decomposeMaterials ?? true
+            }));
+        } catch (error) {
+            this.reportError(error, 'Não foi possível ler as listas antigas deste navegador.');
+            return [];
+        }
+    }
+
+    private isLegacyImportComplete(): boolean {
+        try {
+            return localStorage.getItem(this.legacyImportMarker()) === 'true';
+        } catch (error) {
+            this.reportError(error, 'Não foi possível verificar a importação das listas antigas.');
+            return false;
+        }
+    }
+
+    private markLegacyImportComplete(): void {
+        try {
+            localStorage.setItem(this.legacyImportMarker(), 'true');
+        } catch (error) {
+            this.reportError(error, 'Não foi possível registrar a importação das listas antigas.');
+        }
+    }
+
+    private legacyImportMarker(): string {
+        return `varden.legacy-imported.v1.${this.auth.user()?.id ?? 'anonymous'}`;
+    }
 }
 
 function isRecord(value: unknown): value is Record<string, unknown> {
     return typeof value === 'object' && value !== null;
 }
 
-function isConstructionList(value: unknown): value is ConstructionList {
+function isLegacyList(
+    value: unknown
+): value is Omit<ConstructionList, 'ownerUserId' | 'isShared' | 'allowEditing'> {
+    if (!isRecord(value)) {
+        return false;
+    }
+
     return (
-        isRecord(value) &&
         typeof value['id'] === 'string' &&
+        /^[0-9a-f]{8}-[0-9a-f]{4}-[1-8][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i.test(
+            value['id']
+        ) &&
         typeof value['title'] === 'string' &&
         typeof value['region'] === 'string' &&
         typeof value['description'] === 'string' &&
@@ -286,24 +437,29 @@ function isConstructionList(value: unknown): value is ConstructionList {
         typeof value['buildings'] === 'number' &&
         typeof value['progress'] === 'number' &&
         typeof value['updatedAt'] === 'string' &&
+        typeof value['updatedOrder'] === 'number' &&
         typeof value['imageUrl'] === 'string' &&
         (value['imageThumbnailUrl'] === undefined ||
             typeof value['imageThumbnailUrl'] === 'string') &&
         typeof value['imageAlt'] === 'string' &&
         typeof value['priority'] === 'boolean' &&
         (value['status'] === 'planning' || value['status'] === 'completed') &&
-        typeof value['updatedOrder'] === 'number' &&
         Array.isArray(value['constructionItems']) &&
-        value['constructionItems'].every(isConstructionItem)
+        value['constructionItems'].every(isLegacyItem)
     );
 }
 
-function isConstructionItem(value: unknown): value is ConstructionItem {
+function isLegacyItem(value: unknown): boolean {
+    if (!isRecord(value)) {
+        return false;
+    }
+
     return (
-        isRecord(value) &&
         typeof value['id'] === 'string' &&
         typeof value['name'] === 'string' &&
-        ['workbench', 'bed', 'chest', 'campfire', 'portal'].includes(String(value['icon'])) &&
+        ['workbench', 'bed', 'chest', 'campfire', 'portal', 'sword'].includes(
+            String(value['icon'])
+        ) &&
         typeof value['unitDescription'] === 'string' &&
         typeof value['quantity'] === 'number' &&
         typeof value['completed'] === 'boolean' &&

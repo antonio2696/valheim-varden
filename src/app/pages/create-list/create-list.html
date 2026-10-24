@@ -1,6 +1,6 @@
 <main class="mx-auto w-full max-w-3xl space-y-6 text-[#eee8db]">
     <a
-        routerLink="/home"
+        routerLink="/my-lists"
         class="inline-flex items-center gap-2 text-sm text-[#9a9f94] transition-colors hover:text-[#eee8db] focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#d6ab62]"
     >
         <svg [vardenIcon]="backIcon" [size]="16" aria-hidden="true"></svg>
@@ -87,6 +87,31 @@
             ></textarea>
         </div>
 
+        <label
+            class="flex cursor-pointer items-start gap-3 rounded border border-[#3a4038] bg-[#141715] p-4 text-sm text-[#d4d2c9] focus-within:border-[#d6ab62]"
+        >
+            <input
+                type="checkbox"
+                formControlName="isShared"
+                class="mt-0.5 size-4 accent-[#d6ab62] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#d6ab62]"
+            />
+            <span>
+                <span class="block font-medium">Criar como lista compartilhada</span>
+                <span class="mt-1 block text-xs text-[#858b80]">
+                    Outros usuários autenticados poderão visualizar esta lista.
+                </span>
+            </span>
+        </label>
+
+        @if (listStoreError(); as message) {
+        <p
+            role="alert"
+            class="rounded border border-[#7c453c] bg-[#321f1d] p-3 text-sm text-[#f0b5a8]"
+        >
+            {{ message }}
+        </p>
+        }
+
         <fieldset>
             <legend class="mb-2 text-sm font-medium text-[#d4d2c9]">Imagem da lista</legend>
             <div class="flex flex-col gap-3 sm:flex-row sm:items-center">
@@ -159,13 +184,20 @@
             class="flex flex-col-reverse gap-3 border-t border-[#30362f] pt-5 sm:flex-row sm:justify-end"
         >
             <a
-                routerLink="/home"
+                routerLink="/my-lists"
                 class="rounded border border-[#3a4038] px-4 py-3 text-center text-base text-[#b7b9af] transition-colors hover:bg-[#252a23] focus-visible:outline-2 focus-visible:outline-[#d6ab62]"
             >
                 Cancelar
             </a>
-            <button varden-button type="submit" [icon]="plusIcon" class="justify-center">
-                Gerar nova lista
+            <button
+                varden-button
+                type="submit"
+                [icon]="plusIcon"
+                class="justify-center"
+                [disabled]="submitting()"
+                [attr.aria-busy]="submitting()"
+            >
+                {{ submitting() ? 'Criando lista...' : 'Criar lista' }}
             </button>
         </div>
     </form>

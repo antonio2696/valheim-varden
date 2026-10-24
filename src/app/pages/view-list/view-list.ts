@@ -1,12 +1,109 @@
 import { NgOptimizedImage } from '@angular/common';
 import { Component, computed, inject, signal } from '@angular/core';
 import { toSignal } from '@angular/core/rxjs-interop';
-import { ActivatedRoute, RouterLink } from '@angular/router';
+import { ActivatedRoute, Router, RouterLink } from '@angular/router';
 import { ConstructionListStore } from '../home/construction-list.store';
 import { constructionCatalog } from '../home/construction-catalog';
-import { ConstructionItem, formatListUpdatedAt } from '../home/construction-list.model';
+import {
+    ConstructionItem,
+    ConstructionMaterial,
+    formatListUpdatedAt
+} from '../home/construction-list.model';
 import { VardenIcon, VardenIconName } from '../../components/icon/icon';
 import { RenameListAction } from '../../components/rename-list-action/rename-list-action';
+import { AuthStore } from '../../auth/auth.store';
+
+interface MaterialTotals {
+    name: string;
+    total: number;
+    remaining: number;
+}
+
+type CatalogEntry = Omit<ConstructionItem, 'quantity' | 'completed'>;
+
+const catalogById = new Map(constructionCatalog.map((item) => [item.id, item]));
+const catalogByName = indexCatalogByName(constructionCatalog);
+
+function normalizeMaterialName(name: string): string {
+    return name
+        .normalize('NFD')
+        .replace(/[\u0300-\u036f]/g, '')
+        .toLowerCase()
+        .replace(/[^a-z0-9]+/g, ' ')
+        .trim();
+}
+
+function indexCatalogByName(items: CatalogEntry[]): Map<string, CatalogEntry> {
+    const byName = new Map<string, CatalogEntry>();
+    for (const item of items) {
+        for (const name of [item.name, item.nameEn, ...(item.aliases ?? [])]) {
+            if (!name) {
+                continue;
+            }
+
+            const normalizedName = normalizeMaterialName(name);
+            const indexedItem = byName.get(normalizedName);
+            if (!indexedItem || (!indexedItem.materials.length && item.materials.length)) {
+                byName.set(normalizedName, item);
+            }
+        }
+    }
+    return byName;
+}
+
+function outputQuantity(item: Pick<ConstructionItem, 'outputQuantity'> | undefined): number {
+    return item?.outputQuantity && item.outputQuantity > 0 ? item.outputQuantity : 1;
+}
+
+function calculateMaterials(items: ConstructionItem[], decompose: boolean): MaterialTotals[] {
+    const totals = new Map<string, MaterialTotals>();
+
+    const addMaterial = (name: string, amount: number, completed: boolean) => {
+        const current = totals.get(name) ?? { name, total: 0, remaining: 0 };
+        current.total += amount;
+        if (!completed) {
+            current.remaining += amount;
+        }
+        totals.set(name, current);
+    };
+
+    const addIngredients = (
+        materials: ConstructionMaterial[],
+        multiplier: number,
+        completed: boolean,
+        ancestors: ReadonlySet<string>
+    ) => {
+        for (const material of materials) {
+            const amount = material.amount * multiplier;
+            const ingredient = catalogByName.get(normalizeMaterialName(material.name));
+            if (!decompose || !ingredient?.materials.length || ancestors.has(ingredient.id)) {
+                addMaterial(material.name, amount, completed);
+                continue;
+            }
+
+            const batches = Math.ceil(amount / outputQuantity(ingredient));
+            addIngredients(
+                ingredient.materials,
+                batches,
+                completed,
+                new Set([...ancestors, ingredient.id])
+            );
+        }
+    };
+
+    for (const item of items) {
+        const catalogItem = catalogById.get(item.id) ?? item;
+        const batches = Math.ceil(item.quantity / outputQuantity(catalogItem));
+        if (!decompose) {
+            addIngredients(item.materials, batches, item.completed, new Set());
+            continue;
+        }
+
+        addIngredients(item.materials, batches, item.completed, new Set([item.id]));
+    }
+
+    return [...totals.values()];
+}
 
 @Component({
     selector: 'varden-view-list',
@@ -15,17 +112,26 @@ import { RenameListAction } from '../../components/rename-list-action/rename-lis
 })
 export class ViewList {
     private readonly route = inject(ActivatedRoute);
+    private readonly router = inject(Router);
+    private readonly auth = inject(AuthStore);
     private readonly listStore = inject(ConstructionListStore);
     private readonly params = toSignal(this.route.paramMap, {
         initialValue: this.route.snapshot.paramMap
     });
     readonly list = computed(() => this.listStore.findById(this.params().get('id')));
+    readonly canEdit = computed(() => {
+        const list = this.list();
+        return list ? this.listStore.canEdit(list, this.auth.user()?.id) : false;
+    });
+    readonly isOwner = computed(() => this.list()?.ownerUserId === this.auth.user()?.id);
+    readonly error = this.listStore.error;
+    readonly isLoading = this.listStore.isLoading;
+    readonly formatUpdatedAt = formatListUpdatedAt;
     readonly filter = signal<'all' | 'pending' | 'done'>('all');
     readonly activeTab = signal<'constructions' | 'materials'>('constructions');
     readonly search = signal('');
     readonly activeCatalogIndex = signal(0);
     readonly catalog = constructionCatalog;
-    readonly formatUpdatedAt = formatListUpdatedAt;
     readonly filterOptions = [
         { label: 'Todos', value: 'all' },
         { label: 'Pendentes', value: 'pending' },
@@ -82,19 +188,11 @@ export class ViewList {
         () => this.matchingCatalog()[this.activeCatalogIndex()] ?? this.matchingCatalog()[0]
     );
     readonly materials = computed(() => {
-        const totals = new Map<string, { total: number; remaining: number }>();
-        for (const item of this.list()?.constructionItems ?? []) {
-            for (const material of item.materials) {
-                const current = totals.get(material.name) ?? { total: 0, remaining: 0 };
-                const amount = material.amount * item.quantity;
-                current.total += amount;
-                if (!item.completed) {
-                    current.remaining += amount;
-                }
-                totals.set(material.name, current);
-            }
-        }
-        return [...totals.entries()].map(([name, amounts]) => ({ name, ...amounts }));
+        const list = this.list();
+        return calculateMaterials(
+            list?.constructionItems ?? [],
+            list?.decomposeMaterials !== false
+        );
     });
     readonly totalMaterialUnits = computed(() =>
         this.materials().reduce((total, material) => total + material.total, 0)
@@ -168,22 +266,35 @@ export class ViewList {
     }
 
     formatTotalMaterials(item: ConstructionItem): string {
-        return item.materials
-            .map((material) => `${material.amount * item.quantity} ${material.name}`)
+        return calculateMaterials([item], this.list()?.decomposeMaterials !== false)
+            .map((material) => `${material.total} ${material.name}`)
             .join(' · ');
+    }
+
+    setDecomposeMaterials(event: Event): void {
+        const list = this.list();
+        if (list && this.canEdit()) {
+            void this.listStore.setDecomposeMaterials(
+                list.id,
+                (event.target as HTMLInputElement).checked
+            );
+        }
     }
 
     setItemCompleted(item: ConstructionItem, completed: boolean): void {
         const list = this.list();
-        if (list) {
-            this.listStore.updateItem(list.id, item.id, (current) => ({ ...current, completed }));
+        if (list && this.canEdit()) {
+            void this.listStore.updateItem(list.id, item.id, (current) => ({
+                ...current,
+                completed
+            }));
         }
     }
 
     changeQuantity(item: ConstructionItem, difference: number): void {
         const list = this.list();
-        if (list) {
-            this.listStore.updateItem(list.id, item.id, (current) => ({
+        if (list && this.canEdit()) {
+            void this.listStore.updateItem(list.id, item.id, (current) => ({
                 ...current,
                 quantity: Math.max(1, current.quantity + difference)
             }));
@@ -192,8 +303,8 @@ export class ViewList {
 
     addFromCatalog(item: (typeof constructionCatalog)[number]): void {
         const list = this.list();
-        if (list) {
-            this.listStore.addConstruction(list.id, item);
+        if (list && this.canEdit()) {
+            void this.listStore.addConstruction(list.id, item);
             this.search.set('');
             this.activeCatalogIndex.set(0);
         }
@@ -209,8 +320,34 @@ export class ViewList {
 
     removeItem(item: ConstructionItem): void {
         const list = this.list();
-        if (list) {
-            this.listStore.removeConstruction(list.id, item.id);
+        if (list && this.canEdit()) {
+            void this.listStore.removeConstruction(list.id, item.id);
+        }
+    }
+
+    async deleteList(): Promise<void> {
+        const list = this.list();
+        if (
+            list &&
+            this.isOwner() &&
+            window.confirm(`Excluir a lista "${list.title}"? Esta ação não pode ser desfeita.`) &&
+            (await this.listStore.deleteList(list.id))
+        ) {
+            await this.router.navigate(['/my-lists']);
+        }
+    }
+
+    async setShared(isShared: boolean): Promise<void> {
+        const list = this.list();
+        if (list && this.isOwner()) {
+            await this.listStore.setSharing(list.id, isShared);
+        }
+    }
+
+    async setCollaborativeEditing(allowEditing: boolean): Promise<void> {
+        const list = this.list();
+        if (list && this.isOwner() && list.isShared) {
+            await this.listStore.setAllowEditing(list.id, allowEditing);
         }
     }
 }

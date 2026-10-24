@@ -44,6 +44,9 @@ Build and start the production site:
 docker compose up -d --build
 ```
 
+Start the API Compose project from its repository first. The frontend Compose
+project uses the API's `varden-api-network` Docker network.
+
 By default, the site listens on port `8080` of the VM. If that host port is
 already in use, choose another one:
 
@@ -61,8 +64,23 @@ To stop the site:
 docker compose down
 ```
 
-Lists are stored in each visitor's browser using `localStorage`; they are not
-shared between visitors or devices.
+Lists are stored by the Valheim Varden API in SQLite and are associated with the
+signed-in account. Shared lists are visible to authenticated users. Local
+browser storage is no longer the source of truth. If older lists are found in
+this browser and the account has no private lists yet, the home screen offers
+an explicit import; the browser copy is preserved.
+
+## Running the frontend with the API
+
+For local development, start the API on port `3000` in its project directory,
+then run `npm start` here. The Angular development server proxies `/api` to
+`http://localhost:3000`.
+
+For Docker deployment, start the API Compose project first so it creates the
+`varden-api-network` network, then start this frontend's Compose project. The
+web container proxies `/api` to the API service over that private Docker
+network. Configure HTTPS at the public reverse proxy so production session
+cookies remain secure.
 
 ## Running unit tests
 

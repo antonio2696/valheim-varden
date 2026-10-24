@@ -6,3 +6,10 @@ services:
     restart: unless-stopped
     ports:
       - "${WEB_PORT:-8080}:8080"
+    networks:
+      - varden-api
+
+networks:
+  varden-api:
+    name: varden-api-network
+    external: true

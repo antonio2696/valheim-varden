@@ -281,7 +281,7 @@
         "id": "smoke_puff",
         "name": {
           "en": "Smoke puff",
-          "pt-BR": "Sopro de fumaça"
+          "pt-BR": "Sopra-fumaça"
         },
         "quantity": 10
       }
@@ -481,7 +481,7 @@
         "id": "magecap",
         "name": {
           "en": "Magecap",
-          "pt-BR": "Cogumelo mágico"
+          "pt-BR": "Chapéu de magos"
         },
         "quantity": 5
       }
@@ -529,7 +529,7 @@
         "id": "magecap",
         "name": {
           "en": "Magecap",
-          "pt-BR": "Cogumelo mágico"
+          "pt-BR": "Chapéu de magos"
         },
         "quantity": 10
       }
@@ -1002,7 +1002,7 @@
         "id": "magecap",
         "name": {
           "en": "Magecap",
-          "pt-BR": "Cogumelo mágico"
+          "pt-BR": "Chapéu de magos"
         },
         "quantity": 5
       }

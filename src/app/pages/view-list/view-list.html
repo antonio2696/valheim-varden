@@ -1,7 +1,7 @@
 @if (list(); as currentList) {
 <main class="mx-auto w-full max-w-[1440px] space-y-6 text-[#eee8db]">
     <a
-        routerLink="/home"
+        routerLink="/my-lists"
         class="inline-flex items-center gap-2 text-sm text-[#9a9f94] transition-colors hover:text-[#eee8db] focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#d6ab62]"
     >
         <svg [vardenIcon]="backIcon" [size]="16" aria-hidden="true"></svg>
@@ -17,9 +17,13 @@
             </p>
             <h1 class="mt-2">{{ currentList.title }}</h1>
             <p class="mt-2 text-base text-[#a9ada3]">{{ currentList.description }}</p>
-            <p class="mt-2 text-sm text-[#858b80]">
-                {{ formatUpdatedAt(currentList.updatedAt) }} <span class="px-1">·</span>
-                {{ currentList.buildings }} tipos de construção
+            <p class="mt-2 flex flex-wrap items-center gap-2 text-sm text-[#858b80]">
+                <span
+                    class="rounded border px-2 py-0.5 text-xs uppercase tracking-wide"
+                    [class]="currentList.isShared ? 'border-[#587064] text-[#a8c29e]' : 'border-[#62543b] text-[#d6ab62]'"
+                >
+                    {{ currentList.isShared ? 'Compartilhada' : 'Privada' }}
+                </span>
             </p>
         </div>
 
@@ -36,21 +40,61 @@
                     class="object-cover"
                 />
             </div>
-            <div class="flex gap-2 sm:flex-col">
+            <div class="flex flex-wrap gap-2 sm:flex-col">
+                @if (canEdit()) {
                 <varden-rename-list-action [listId]="currentList.id" [title]="currentList.title" />
+                } @if (isOwner()) {
                 <button
                     type="button"
-                    class="rounded px-3 py-2 text-sm text-[#bd897b] transition-colors hover:bg-[#261d1b] focus-visible:outline-2 focus-visible:outline-[#bd897b]"
+                    class="rounded border border-[#7c453c] px-3 py-2 text-sm text-[#bd897b] transition-colors hover:bg-[#261d1b] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#bd897b]"
+                    [attr.aria-label]="'Excluir lista ' + currentList.title"
+                    (click)="deleteList()"
                 >
                     Excluir lista
                 </button>
+                @if (currentList.isShared) {
+                <button
+                    type="button"
+                    class="rounded border border-[#587064] px-3 py-2 text-sm text-[#a8c29e] transition-colors hover:bg-[#202a23] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#a8c29e]"
+                    [attr.aria-pressed]="currentList.allowEditing"
+                    (click)="setCollaborativeEditing(!currentList.allowEditing)"
+                >
+                    {{ currentList.allowEditing ? 'Desativar edição compartilhada' : 'Permitir
+                    edição' }}
+                </button>
+                <button
+                    type="button"
+                    class="rounded border border-[#62543b] px-3 py-2 text-sm text-[#d6ab62] transition-colors hover:bg-[#302a1e] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#d6ab62]"
+                    (click)="setShared(false)"
+                >
+                    Tornar lista privada
+                </button>
+                } @else {
+                <button
+                    type="button"
+                    class="rounded border border-[#587064] px-3 py-2 text-sm text-[#a8c29e] transition-colors hover:bg-[#202a23] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#a8c29e]"
+                    (click)="setShared(true)"
+                >
+                    Compartilhar lista
+                </button>
+                } } @else if (currentList.isShared && currentList.allowEditing) {
+                <span class="rounded border border-[#587064] px-3 py-2 text-xs text-[#a8c29e]">
+                    Edição colaborativa
+                </span>
+                }
             </div>
         </div>
     </header>
 
+    @if (error(); as message) {
+    <p role="alert" class="rounded border border-[#7c453c] bg-[#321f1d] p-4 text-sm text-[#f0b5a8]">
+        {{ message }}
+    </p>
+    }
+
     <section
         aria-label="Progresso da lista"
-        class="grid gap-3 rounded border border-[#30362f] bg-[#1c211d] p-4 sm:grid-cols-[auto_minmax(0,1fr)_auto_auto] sm:items-center"
+        class="grid gap-3 rounded border border-[#30362f] bg-[#1c211d] p-4 sm:grid-cols-[auto_minmax(0,1fr)_auto] sm:items-center"
     >
         <div class="flex items-center gap-2 text-sm font-semibold">
             <svg
@@ -75,9 +119,6 @@
             ></div>
         </div>
         <span class="text-sm font-semibold text-[#d6ab62]">{{ currentList.progress }}%</span>
-        <span class="text-sm text-[#858b80]">
-            {{ currentList.totalUnits - currentList.completedUnits }} unidades pendentes
-        </span>
     </section>
 
     <div class="flex gap-5 border-b border-[#30362f]" role="tablist" aria-label="Conteúdo da lista">
@@ -92,7 +133,6 @@
         >
             <svg [vardenIcon]="constructionIcon" [size]="16" aria-hidden="true"></svg>
             Construções
-            <span>{{ currentList.buildings }}</span>
         </button>
         <button
             type="button"
@@ -105,13 +145,33 @@
         >
             <svg [vardenIcon]="materialsIcon" [size]="16" aria-hidden="true"></svg>
             Matérias-primas
-            <span>{{ materials().length }}</span>
         </button>
     </div>
+
+    <label class="inline-flex max-w-full items-start gap-3 text-sm text-[#d4d2c9]">
+        <input
+            type="checkbox"
+            class="mt-0.5 size-4 accent-[#d6ab62] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#d6ab62]"
+            [checked]="currentList.decomposeMaterials !== false"
+            [disabled]="!canEdit() || isLoading()"
+            (change)="setDecomposeMaterials($event)"
+        />
+        <span>
+            <span class="block">Decompor em matérias-primas</span>
+            <span class="mt-1 block text-xs text-[#9a9f94]">
+                @if (canEdit()) {
+                Substitui receitas intermediárias pelos ingredientes necessários para produzi-las.
+                } @else {
+                Apenas o criador e colaboradores podem alterar esta preferência.
+                }
+            </span>
+        </span>
+    </label>
 
     @if (activeTab() === 'constructions') {
     <div class="grid gap-5 xl:grid-cols-[minmax(0,1fr)_320px]">
         <section aria-label="Construções planejadas" class="min-w-0 space-y-3">
+            @if (canEdit()) {
             <label
                 class="flex items-center gap-3 rounded border border-[#30362f] bg-[#1c211d] px-3 py-3 focus-within:border-[#62543b]"
             >
@@ -185,6 +245,10 @@
             <p class="rounded border border-[#30362f] bg-[#1c211d] p-3 text-sm text-[#9a9f94]">
                 Nenhum item encontrado em português ou inglês.
             </p>
+            } } @else {
+            <p class="rounded border border-[#30362f] bg-[#1c211d] p-3 text-sm text-[#9a9f94]">
+                Esta lista está disponível apenas para leitura.
+            </p>
             }
 
             <div class="flex flex-wrap items-center justify-between gap-3">
@@ -206,15 +270,13 @@
                     </button>
                     }
                 </div>
-                <span class="text-xs text-[#858b80]"
-                    >{{ currentList.totalUnits }} unidades planejadas</span
-                >
             </div>
 
             @for (item of filteredItems(); track item.id) {
             <article
                 class="grid gap-3 rounded border border-[#30362f] bg-[#1c211d] p-3 sm:grid-cols-[auto_auto_minmax(0,1fr)_auto] sm:items-start"
             >
+                @if (canEdit()) {
                 <button
                     type="button"
                     class="mt-1 flex size-5 items-center justify-center rounded-sm border border-[#697067] text-[#a8c29e] focus-visible:outline-2 focus-visible:outline-[#d6ab62]"
@@ -227,6 +289,16 @@
                     <svg [vardenIcon]="completedIcon" [size]="14" aria-hidden="true"></svg>
                     }
                 </button>
+                } @else {
+                <span
+                    class="mt-1 flex size-5 items-center justify-center rounded-sm border border-[#30362f] text-[#a8c29e]"
+                    [attr.aria-label]="item.completed ? 'Construção feita' : 'Construção pendente'"
+                >
+                    @if (item.completed) {
+                    <svg [vardenIcon]="completedIcon" [size]="14" aria-hidden="true"></svg>
+                    }
+                </span>
+                }
                 <span
                     class="flex size-10 items-center justify-center rounded border border-[#30362f] bg-[#242a24] text-[#d6ab62]"
                 >
@@ -266,6 +338,7 @@
                         {{ item.completed ? 'Feito' : 'Pendente' }}
                     </span>
                     <div class="flex items-center gap-2">
+                        @if (canEdit()) {
                         <div class="flex items-center rounded border border-[#30362f]">
                             <button
                                 type="button"
@@ -293,6 +366,9 @@
                         >
                             <svg [vardenIcon]="removeIcon" [size]="14" aria-hidden="true"></svg>
                         </button>
+                        } @else {
+                        <span class="text-sm text-[#a9ada3]">Quantidade: {{ item.quantity }}</span>
+                        }
                     </div>
                 </div>
             </article>

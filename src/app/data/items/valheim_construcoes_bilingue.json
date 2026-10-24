@@ -117,7 +117,7 @@
         "id": "armor_stand",
         "name": {
             "en": "Armor Stand",
-            "pt-BR": "Suporte de armadura"
+            "pt-BR": "Suporte de armaduras"
         },
         "aliases": {
             "en": ["Armor Stand"],
@@ -269,7 +269,7 @@
         "id": "asksvin_carrion",
         "name": {
             "en": "Asksvin Carrion",
-            "pt-BR": "Carcaça de asksvin"
+            "pt-BR": "Costelas de asksvin"
         },
         "aliases": {
             "en": ["Asksvin Carrion"],
@@ -759,7 +759,7 @@
         "id": "bonfire",
         "name": {
             "en": "Bonfire",
-            "pt-BR": "Fogueira grande"
+            "pt-BR": "Pira"
         },
         "aliases": {
             "en": ["Bonfire"],
@@ -3759,7 +3759,7 @@
         "id": "windmill",
         "name": {
             "en": "Windmill",
-            "pt-BR": "Moinho de vento"
+            "pt-BR": "Moinho"
         },
         "aliases": {
             "en": ["Windmill"],

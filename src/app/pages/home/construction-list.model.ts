@@ -17,6 +17,10 @@ export interface ConstructionList {
     status: Exclude<ListFilter, 'all'>;
     updatedOrder: number;
     constructionItems: ConstructionItem[];
+    ownerUserId: number;
+    isShared: boolean;
+    allowEditing: boolean;
+    decomposeMaterials?: boolean;
 }
 
 export interface ConstructionMaterial {
@@ -37,6 +41,7 @@ export interface ConstructionItem {
     quantity: number;
     completed: boolean;
     materials: ConstructionMaterial[];
+    outputQuantity?: number;
 }
 
 export function formatListUpdatedAt(updatedAt: string): string {
