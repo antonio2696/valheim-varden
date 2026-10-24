@@ -36,6 +36,34 @@ ng build
 
 This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
 
+## Deploying with Docker Compose
+
+Build and start the production site:
+
+```bash
+docker compose up -d --build
+```
+
+By default, the site listens on port `8080` of the VM. If that host port is
+already in use, choose another one:
+
+```bash
+WEB_PORT=8085 docker compose up -d --build
+```
+
+Allow the chosen TCP port in the Oracle Cloud ingress rules and the VM firewall,
+then open `http://<VM-public-IP>:<WEB_PORT>`. When using a reverse proxy, forward
+requests to the site on port `8080`.
+
+To stop the site:
+
+```bash
+docker compose down
+```
+
+Lists are stored in each visitor's browser using `localStorage`; they are not
+shared between visitors or devices.
+
 ## Running unit tests
 
 To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
