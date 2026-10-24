@@ -1,5 +1,6 @@
 import { Injectable, computed, signal } from '@angular/core';
 import { valheimImages } from '../../data/valheim-images';
+import { createUuidV4 } from '../../utils/uuid';
 import { ConstructionItem, ConstructionList } from './construction-list.model';
 
 const storageKey = 'varden.construction-lists.v1';
@@ -44,7 +45,7 @@ export class ConstructionListStore {
         }
 
         const list: ConstructionList = {
-            id: crypto.randomUUID(),
+            id: createUuidV4(),
             title: details.title,
             region: details.region,
             description: details.description || 'Um novo projeto de construção.',
