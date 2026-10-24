@@ -1,0 +1,54 @@
+@if (editing()) {
+<form
+    class="flex flex-wrap items-end gap-2"
+    [formGroup]="form"
+    (ngSubmit)="save()"
+    aria-label="Renomear lista"
+>
+    <div class="min-w-0 flex-1">
+        <label
+            [for]="'rename-list-' + listId()"
+            class="mb-1 block text-xs font-medium text-[#d4d2c9]"
+        >
+            Novo nome
+        </label>
+        <input
+            [id]="'rename-list-' + listId()"
+            type="text"
+            formControlName="title"
+            maxlength="100"
+            required
+            class="w-full rounded border border-[#3a4038] bg-[#141715] px-2 py-2 text-sm text-[#eee8db] outline-none focus:border-[#d6ab62] focus:ring-1 focus:ring-[#d6ab62]"
+            [attr.aria-invalid]="form.controls.title.invalid && form.controls.title.touched"
+            [attr.aria-describedby]="'rename-list-hint-' + listId()"
+        />
+        <span [id]="'rename-list-hint-' + listId()" class="mt-1 block text-xs text-[#858b80]">
+            Até 100 caracteres.
+        </span>
+    </div>
+    <button
+        type="submit"
+        [disabled]="form.invalid"
+        class="rounded bg-[#d6ab62] px-3 py-2 text-sm font-semibold text-[#141715] hover:bg-[#e3bd7d] disabled:cursor-not-allowed disabled:opacity-50 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#d6ab62]"
+    >
+        Salvar
+    </button>
+    <button
+        type="button"
+        class="rounded border border-[#30362f] px-3 py-2 text-sm text-[#d4d2c9] hover:bg-[#1c211d] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#d6ab62]"
+        (click)="cancelEditing()"
+    >
+        Cancelar
+    </button>
+</form>
+} @else {
+<button
+    type="button"
+    class="inline-flex items-center gap-2 text-sm text-[#b7b9af] hover:text-[#eee8db] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#d6ab62]"
+    [attr.aria-label]="'Renomear ' + title()"
+    (click)="startEditing()"
+>
+    <svg [vardenIcon]="editIcon" [size]="13" aria-hidden="true"></svg>
+    Renomear
+</button>
+}

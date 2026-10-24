@@ -1,0 +1,29 @@
+@import 'tailwindcss';
+
+:root {
+    --font-cinzel: 'Cinzel', serif;
+    --font-inter: 'Inter', sans-serif;
+    font-size: 16px;
+}
+
+body {
+    margin: 0;
+    font-family: var(--font-inter);
+    font-size: 1rem;
+    min-height: 100vh;
+    background: #141715;
+}
+
+h1 {
+    font-family: var(--font-cinzel);
+    text-transform: uppercase;
+    color: #eee8db;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.5rem;
+    line-height: 145%;
+}
+
+.font-cinzel {
+    font-family: var(--font-cinzel);
+}

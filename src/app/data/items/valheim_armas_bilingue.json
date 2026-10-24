@@ -1,0 +1,2718 @@
+[
+    {
+        "id": "stone_axe",
+        "name": {
+            "en": "Stone axe",
+            "pt-BR": "Machado de pedra"
+        },
+        "aliases": {
+            "en": ["Stone axe"],
+            "pt-BR": ["Machado de pedra"]
+        },
+        "category": "Axes",
+        "type": "melee",
+        "stats": {
+            "Damage": "Slash: 15/30 ? Chop: 20/29",
+            "Stamina (primary)": "5",
+            "Stamina (secondary)": "10",
+            "Able to chop": "Up to Pine"
+        },
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/2/2f/Stone_Axe.png/revision/latest?cb=20210215131326",
+        "source": {
+            "page": "Weapons",
+            "url": "https://valheim.fandom.com/wiki/Stone_axe"
+        }
+    },
+    {
+        "id": "flint_axe",
+        "name": {
+            "en": "Flint axe",
+            "pt-BR": "Machado de sílex"
+        },
+        "aliases": {
+            "en": ["Flint axe"],
+            "pt-BR": ["Machado de sílex"]
+        },
+        "category": "Axes",
+        "type": "melee",
+        "stats": {
+            "Damage": "Slash: 20/35 ? Chop: 30/39",
+            "Stamina (primary)": "6",
+            "Stamina (secondary)": "12",
+            "Able to chop": "Up to Pine"
+        },
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/9/92/Flint_Axe.png/revision/latest?cb=20230101110252",
+        "source": {
+            "page": "Weapons",
+            "url": "https://valheim.fandom.com/wiki/Flint_axe"
+        }
+    },
+    {
+        "id": "bronze_axe",
+        "name": {
+            "en": "Bronze axe",
+            "pt-BR": "Machado de bronze"
+        },
+        "aliases": {
+            "en": ["Bronze axe"],
+            "pt-BR": ["Machado de bronze"]
+        },
+        "category": "Axes",
+        "type": "melee",
+        "stats": {
+            "Damage": "Slash: 40/55 ? Chop: 40/49",
+            "Stamina (primary)": "8",
+            "Stamina (secondary)": "16",
+            "Able to chop": "Up to Birch and Oak"
+        },
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/0/09/BronzeAxeIcon.png/revision/latest?cb=20210205025539",
+        "source": {
+            "page": "Weapons",
+            "url": "https://valheim.fandom.com/wiki/Bronze_axe"
+        }
+    },
+    {
+        "id": "iron_axe",
+        "name": {
+            "en": "Iron axe",
+            "pt-BR": "Machado de ferro"
+        },
+        "aliases": {
+            "en": ["Iron axe"],
+            "pt-BR": ["Machado de ferro"]
+        },
+        "category": "Axes",
+        "type": "melee",
+        "stats": {
+            "Damage": "Slash: 60/75 ? Chop: 50/59",
+            "Stamina (primary)": "10",
+            "Stamina (secondary)": "20",
+            "Able to chop": "Up to Birch and Oak"
+        },
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/8/81/Iron_Axe.png/revision/latest?cb=20210215131323",
+        "source": {
+            "page": "Weapons",
+            "url": "https://valheim.fandom.com/wiki/Iron_axe"
+        }
+    },
+    {
+        "id": "black_metal_axe",
+        "name": {
+            "en": "Black metal axe",
+            "pt-BR": "Machado de metal negro"
+        },
+        "aliases": {
+            "en": ["Black metal axe"],
+            "pt-BR": ["Machado de metal negro"]
+        },
+        "category": "Axes",
+        "type": "melee",
+        "stats": {
+            "Damage": "Slash: 100/115 ? Chop: 60/69",
+            "Stamina (primary)": "14",
+            "Stamina (secondary)": "28",
+            "Able to chop": "Up to Yggdrasil shoots"
+        },
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/b/b6/Black_Metal_Axe.png/revision/latest?cb=20210215131319",
+        "source": {
+            "page": "Weapons",
+            "url": "https://valheim.fandom.com/wiki/Black_metal_axe"
+        }
+    },
+    {
+        "id": "jotun_bane",
+        "name": {
+            "en": "Jotun Bane",
+            "pt-BR": "Jotun Bane"
+        },
+        "aliases": {
+            "en": ["Jotun Bane"],
+            "pt-BR": ["Jotun Bane"]
+        },
+        "category": "Axes",
+        "type": "melee",
+        "stats": {
+            "Damage": "Slash: 80/95 ? Poison: 40/40 ? Chop: 70/79",
+            "Stamina (primary)": "16",
+            "Stamina (secondary)": "32",
+            "Able to chop": "Up to Yggdrasil shoots"
+        },
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/6/6b/Jotun_Bane.png/revision/latest?cb=20221129135932",
+        "source": {
+            "page": "Weapons",
+            "url": "https://valheim.fandom.com/wiki/Jotun_Bane"
+        }
+    },
+    {
+        "id": "early_axes",
+        "name": {
+            "en": "Early axes",
+            "pt-BR": "Machados iniciais"
+        },
+        "aliases": {
+            "en": ["Early axes"],
+            "pt-BR": ["Machados iniciais"]
+        },
+        "category": "Axes",
+        "type": "melee",
+        "stats": {
+            "Damage": "Slash: 30/45 ? Chop: 35/44",
+            "Stamina (primary)": "6",
+            "Stamina (secondary)": "16",
+            "Able to chop": "Up to Birch and Oak"
+        },
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/8/82/Early_Axes.png/revision/latest?cb=20260202203953",
+        "source": {
+            "page": "Weapons",
+            "url": "https://valheim.fandom.com/wiki/Early_axes"
+        }
+    },
+    {
+        "id": "berserkir_axes",
+        "name": {
+            "en": "Berserkir axes",
+            "pt-BR": "Machados Berserkir"
+        },
+        "aliases": {
+            "en": ["Berserkir axes"],
+            "pt-BR": ["Machados Berserkir"]
+        },
+        "category": "Axes",
+        "type": "melee",
+        "stats": {
+            "Damage": "Slash: 140/155 ? Chop: 80/89",
+            "Stamina (primary)": "16",
+            "Stamina (secondary)": "32",
+            "Able to chop": "Up to Yggdrasil shoots"
+        },
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/2/2f/Berserkir_Axes.png/revision/latest?cb=20240426064325",
+        "source": {
+            "page": "Weapons",
+            "url": "https://valheim.fandom.com/wiki/Berserkir_axes"
+        }
+    },
+    {
+        "id": "battleaxe",
+        "name": {
+            "en": "Battleaxe",
+            "pt-BR": "Machado de batalha"
+        },
+        "aliases": {
+            "en": ["Battleaxe"],
+            "pt-BR": ["Machado de batalha"]
+        },
+        "category": "Axes",
+        "type": "melee",
+        "stats": {
+            "Damage": "Slash: 70/88 ? Chop: 40/47.5",
+            "Stamina (primary)": "16",
+            "Stamina (secondary)": "8",
+            "Able to chop": "Up to Birch and Oak"
+        },
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/6/63/BattleAxe.png/revision/latest?cb=20210215131342",
+        "source": {
+            "page": "Weapons",
+            "url": "https://valheim.fandom.com/wiki/Battleaxe"
+        }
+    },
+    {
+        "id": "crystal_battleaxe",
+        "name": {
+            "en": "Crystal battleaxe",
+            "pt-BR": "Machado de batalha de cristal"
+        },
+        "aliases": {
+            "en": ["Crystal battleaxe"],
+            "pt-BR": ["Machado de batalha de cristal"]
+        },
+        "category": "Axes",
+        "type": "melee",
+        "stats": {
+            "Damage": "Slash: 90/108 ? Spirit: 30/30 ? Chop: 50/57.5",
+            "Stamina (primary)": "18",
+            "Stamina (secondary)": "9",
+            "Able to chop": "Up to Birch and Oak"
+        },
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/d/d7/Crystal_Battleaxe.png/revision/latest?cb=20210922134352",
+        "source": {
+            "page": "Weapons",
+            "url": "https://valheim.fandom.com/wiki/Crystal_battleaxe"
+        }
+    },
+    {
+        "id": "black_metal_battleaxe",
+        "name": {
+            "en": "Black metal battleaxe",
+            "pt-BR": "Machado de batalha de metal negro"
+        },
+        "aliases": {
+            "en": ["Black metal battleaxe"],
+            "pt-BR": ["Machado de batalha de metal negro"]
+        },
+        "category": "Axes",
+        "type": "melee",
+        "stats": {
+            "Damage": "Slash: 110/128 ? Chop: 60/67.5",
+            "Stamina (primary)": "20",
+            "Stamina (secondary)": "10",
+            "Able to chop": "Up to Yggdrasil shoots"
+        },
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/0/09/Black_Metal_Battleaxe.png/revision/latest?cb=20250821211530",
+        "source": {
+            "page": "Weapons",
+            "url": "https://valheim.fandom.com/wiki/Black_metal_battleaxe"
+        }
+    },
+    {
+        "id": "skull_splittur",
+        "name": {
+            "en": "Skull Splittur",
+            "pt-BR": "Skull Splittur"
+        },
+        "aliases": {
+            "en": ["Skull Splittur"],
+            "pt-BR": ["Skull Splittur"]
+        },
+        "category": "Axes",
+        "type": "melee",
+        "stats": {
+            "Damage": "Slash: 130/148 ? Chop: 70/77.5",
+            "Stamina (primary)": "22",
+            "Stamina (secondary)": "11",
+            "Able to chop": "Up to Yggdrasil shoots"
+        },
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/0/08/Skull_Splittur.png/revision/latest?cb=20250821212432",
+        "source": {
+            "page": "Weapons",
+            "url": "https://valheim.fandom.com/wiki/Skull_Splittur"
+        }
+    },
+    {
+        "id": "torch",
+        "name": {
+            "en": "Torch",
+            "pt-BR": "Tocha"
+        },
+        "aliases": {
+            "en": ["Torch"],
+            "pt-BR": ["Tocha"]
+        },
+        "category": "Clubs",
+        "type": "melee",
+        "stats": {
+            "Damage": "Blunt: 4 ? Fire: 15",
+            "Knockback": "30",
+            "Stamina (primary)": "4",
+            "Stamina (secondary)": "—"
+        },
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/b/b2/Torch.png/revision/latest/scale-to-width-down/50?cb=20210208235814",
+        "source": {
+            "page": "Weapons",
+            "url": "https://valheim.fandom.com/wiki/Torch"
+        }
+    },
+    {
+        "id": "club",
+        "name": {
+            "en": "Club",
+            "pt-BR": "Clava"
+        },
+        "aliases": {
+            "en": ["Club"],
+            "pt-BR": ["Clava"]
+        },
+        "category": "Clubs",
+        "type": "melee",
+        "stats": {
+            "Damage": "Blunt: 12/30",
+            "Knockback": "30",
+            "Stamina (primary)": "6",
+            "Stamina (secondary)": "—"
+        },
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/5/50/Club.png/revision/latest/scale-to-width-down/50?cb=20210215131512",
+        "source": {
+            "page": "Weapons",
+            "url": "https://valheim.fandom.com/wiki/Club"
+        }
+    },
+    {
+        "id": "bronze_mace",
+        "name": {
+            "en": "Bronze mace",
+            "pt-BR": "Maça de bronze"
+        },
+        "aliases": {
+            "en": ["Bronze mace"],
+            "pt-BR": ["Maça de bronze"]
+        },
+        "category": "Clubs",
+        "type": "melee",
+        "stats": {
+            "Damage": "Blunt: 35/53",
+            "Knockback": "80",
+            "Stamina (primary)": "8",
+            "Stamina (secondary)": "16"
+        },
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/8/85/Bronze_Mace.png/revision/latest/scale-to-width-down/50?cb=20210214053814",
+        "source": {
+            "page": "Weapons",
+            "url": "https://valheim.fandom.com/wiki/Bronze_mace"
+        }
+    },
+    {
+        "id": "iron_mace",
+        "name": {
+            "en": "Iron mace",
+            "pt-BR": "Maça de ferro"
+        },
+        "aliases": {
+            "en": ["Iron mace"],
+            "pt-BR": ["Maça de ferro"]
+        },
+        "category": "Clubs",
+        "type": "melee",
+        "stats": {
+            "Damage": "Blunt: 55/73",
+            "Knockback": "90",
+            "Stamina (primary)": "10",
+            "Stamina (secondary)": "20"
+        },
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/e/ee/Iron_Mace.png/revision/latest/scale-to-width-down/50?cb=20210213023958",
+        "source": {
+            "page": "Weapons",
+            "url": "https://valheim.fandom.com/wiki/Iron_mace"
+        }
+    },
+    {
+        "id": "frostner",
+        "name": {
+            "en": "Frostner",
+            "pt-BR": "Frostner"
+        },
+        "aliases": {
+            "en": ["Frostner"],
+            "pt-BR": ["Frostner"]
+        },
+        "category": "Clubs",
+        "type": "melee",
+        "stats": {
+            "Damage": "Frost: 40/58 ? Blunt: 35/35 ? Spirit: 20/20",
+            "Knockback": "100",
+            "Stamina (primary)": "12",
+            "Stamina (secondary)": "24"
+        },
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/7/71/Frostner.png/revision/latest/scale-to-width-down/50?cb=20210215131728",
+        "source": {
+            "page": "Weapons",
+            "url": "https://valheim.fandom.com/wiki/Frostner"
+        }
+    },
+    {
+        "id": "porcupine",
+        "name": {
+            "en": "Porcupine",
+            "pt-BR": "Porco-espinho"
+        },
+        "aliases": {
+            "en": ["Porcupine"],
+            "pt-BR": ["Porco-espinho"]
+        },
+        "category": "Clubs",
+        "type": "melee",
+        "stats": {
+            "Damage": "Blunt: 50/50 ? Pierce: 45/63",
+            "Knockback": "100",
+            "Stamina (primary)": "14",
+            "Stamina (secondary)": "28"
+        },
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/1/1c/Porcupine.png/revision/latest/scale-to-width-down/50?cb=20210215131727",
+        "source": {
+            "page": "Weapons",
+            "url": "https://valheim.fandom.com/wiki/Porcupine"
+        }
+    },
+    {
+        "id": "flametal_mace",
+        "name": {
+            "en": "Flametal mace",
+            "pt-BR": "Maça de flametal"
+        },
+        "aliases": {
+            "en": ["Flametal mace"],
+            "pt-BR": ["Maça de flametal"]
+        },
+        "category": "Clubs",
+        "type": "melee",
+        "stats": {
+            "Damage": "Blunt: 135/153",
+            "Knockback": "100",
+            "Stamina (primary)": "16",
+            "Stamina (secondary)": "28"
+        },
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/9/97/Flametal_Mace.png/revision/latest/scale-to-width-down/50?cb=20240423140644",
+        "source": {
+            "page": "Weapons",
+            "url": "https://valheim.fandom.com/wiki/Flametal_mace"
+        }
+    },
+    {
+        "id": "stagbreaker",
+        "name": {
+            "en": "Stagbreaker",
+            "pt-BR": "Quebra-cervos"
+        },
+        "aliases": {
+            "en": ["Stagbreaker"],
+            "pt-BR": ["Quebra-cervos"]
+        },
+        "category": "Clubs",
+        "type": "melee",
+        "stats": {
+            "Damage": "Blunt: 20/38 ? Pierce: 5/5",
+            "Knockback": "150",
+            "Stamina (primary)": "12",
+            "Stamina (secondary)": "—",
+            "Notes": "AoE damage"
+        },
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/7/73/Stagbreaker.png/revision/latest/scale-to-width-down/50?cb=20210214051616",
+        "source": {
+            "page": "Weapons",
+            "url": "https://valheim.fandom.com/wiki/Stagbreaker"
+        }
+    },
+    {
+        "id": "iron_sledge",
+        "name": {
+            "en": "Iron sledge",
+            "pt-BR": "Marreta de ferro"
+        },
+        "aliases": {
+            "en": ["Iron sledge"],
+            "pt-BR": ["Marreta de ferro"]
+        },
+        "category": "Clubs",
+        "type": "melee",
+        "stats": {
+            "Damage": "Blunt: 55/73",
+            "Knockback": "200",
+            "Stamina (primary)": "20",
+            "Stamina (secondary)": "—",
+            "Notes": "2x stagger, ? AoE damage"
+        },
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/e/ea/Iron_Sledge.png/revision/latest/scale-to-width-down/50?cb=20210215131947",
+        "source": {
+            "page": "Weapons",
+            "url": "https://valheim.fandom.com/wiki/Iron_sledge"
+        }
+    },
+    {
+        "id": "demolisher",
+        "name": {
+            "en": "Demolisher",
+            "pt-BR": "Demolidor"
+        },
+        "aliases": {
+            "en": ["Demolisher"],
+            "pt-BR": ["Demolidor"]
+        },
+        "category": "Clubs",
+        "type": "melee",
+        "stats": {
+            "Damage": "Blunt: 145/163",
+            "Knockback": "210",
+            "Stamina (primary)": "28",
+            "Stamina (secondary)": "—",
+            "Notes": "2x stagger, ? AoE damage"
+        },
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/a/aa/Demolisher.png/revision/latest/scale-to-width-down/50?cb=20221126154828",
+        "source": {
+            "page": "Weapons",
+            "url": "https://valheim.fandom.com/wiki/Demolisher"
+        }
+    },
+    {
+        "id": "bronze_sword",
+        "name": {
+            "en": "Bronze sword",
+            "pt-BR": "Espada de bronze"
+        },
+        "aliases": {
+            "en": ["Bronze sword"],
+            "pt-BR": ["Espada de bronze"]
+        },
+        "category": "Swords",
+        "type": "melee",
+        "stats": {
+            "Damage": "Slash: 35/53",
+            "Stamina (primary)": "8",
+            "Stamina (secondary)": "16"
+        },
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/9/9f/Bronze_Sword.png/revision/latest?cb=20210209165118",
+        "source": {
+            "page": "Weapons",
+            "url": "https://valheim.fandom.com/wiki/Bronze_sword"
+        }
+    },
+    {
+        "id": "iron_sword",
+        "name": {
+            "en": "Iron sword",
+            "pt-BR": "Espada de ferro"
+        },
+        "aliases": {
+            "en": ["Iron sword"],
+            "pt-BR": ["Espada de ferro"]
+        },
+        "category": "Swords",
+        "type": "melee",
+        "stats": {
+            "Damage": "Slash: 55/73",
+            "Stamina (primary)": "10",
+            "Stamina (secondary)": "20"
+        },
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/c/c7/Iron_Sword.png/revision/latest?cb=20210215132020",
+        "source": {
+            "page": "Weapons",
+            "url": "https://valheim.fandom.com/wiki/Iron_sword"
+        }
+    },
+    {
+        "id": "silver_sword",
+        "name": {
+            "en": "Silver sword",
+            "pt-BR": "Espada de prata"
+        },
+        "aliases": {
+            "en": ["Silver sword"],
+            "pt-BR": ["Espada de prata"]
+        },
+        "category": "Swords",
+        "type": "melee",
+        "stats": {
+            "Damage": "Slash: 75/93 ? Spirit: 30/45",
+            "Stamina (primary)": "12",
+            "Stamina (secondary)": "24"
+        },
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/9/99/Silver_Sword.png/revision/latest?cb=20210215132021",
+        "source": {
+            "page": "Weapons",
+            "url": "https://valheim.fandom.com/wiki/Silver_sword"
+        }
+    },
+    {
+        "id": "black_metal_sword",
+        "name": {
+            "en": "Black metal sword",
+            "pt-BR": "Espada de metal negro"
+        },
+        "aliases": {
+            "en": ["Black metal sword"],
+            "pt-BR": ["Espada de metal negro"]
+        },
+        "category": "Swords",
+        "type": "melee",
+        "stats": {
+            "Damage": "Slash: 95/113",
+            "Stamina (primary)": "14",
+            "Stamina (secondary)": "28"
+        },
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/d/d1/Black_Metal_Sword.png/revision/latest?cb=20210215132015",
+        "source": {
+            "page": "Weapons",
+            "url": "https://valheim.fandom.com/wiki/Black_metal_sword"
+        }
+    },
+    {
+        "id": "mistwalker",
+        "name": {
+            "en": "Mistwalker",
+            "pt-BR": "Andarilho da névoa"
+        },
+        "aliases": {
+            "en": ["Mistwalker"],
+            "pt-BR": ["Andarilho da névoa"]
+        },
+        "category": "Swords",
+        "type": "melee",
+        "stats": {
+            "Damage": "Slash: 75/75 ? Frost: 40/58 ? Spirit: 0/15",
+            "Stamina (primary)": "16",
+            "Stamina (secondary)": "32"
+        },
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/d/d5/Mistwalker.png/revision/latest?cb=20221126192442",
+        "source": {
+            "page": "Weapons",
+            "url": "https://valheim.fandom.com/wiki/Mistwalker"
+        }
+    },
+    {
+        "id": "nidhogg",
+        "name": {
+            "en": "Nidhögg",
+            "pt-BR": "Nidhögg"
+        },
+        "aliases": {
+            "en": ["Nidhögg"],
+            "pt-BR": ["Nidhögg"]
+        },
+        "category": "Swords",
+        "type": "melee",
+        "stats": {
+            "Damage": "Slash: 135/153",
+            "Stamina (primary)": "16",
+            "Stamina (secondary)": "32"
+        },
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/6/6f/Nidh%C3%B6gg.png/revision/latest?cb=20240423143638",
+        "source": {
+            "page": "Weapons",
+            "url": "https://valheim.fandom.com/wiki/Nidh%C3%B6gg"
+        }
+    },
+    {
+        "id": "dyrnwyn",
+        "name": {
+            "en": "Dyrnwyn",
+            "pt-BR": "Dyrnwyn"
+        },
+        "aliases": {
+            "en": ["Dyrnwyn"],
+            "pt-BR": ["Dyrnwyn"]
+        },
+        "category": "Swords",
+        "type": "melee",
+        "stats": {
+            "Damage": "Slash: 145/163 ? Fire: 10",
+            "Stamina (primary)": "16",
+            "Stamina (secondary)": "32"
+        },
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/4/4a/Dyrnwyn.png/revision/latest?cb=20240519224851",
+        "source": {
+            "page": "Weapons",
+            "url": "https://valheim.fandom.com/wiki/Dyrnwyn"
+        }
+    },
+    {
+        "id": "krom",
+        "name": {
+            "en": "Krom",
+            "pt-BR": "Krom"
+        },
+        "aliases": {
+            "en": ["Krom"],
+            "pt-BR": ["Krom"]
+        },
+        "category": "Swords",
+        "type": "melee",
+        "stats": {
+            "Damage": "Slash: 150/168",
+            "Stamina (primary)": "20",
+            "Stamina (secondary)": "40"
+        },
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/1/18/Krom.png/revision/latest?cb=20221126192358",
+        "source": {
+            "page": "Weapons",
+            "url": "https://valheim.fandom.com/wiki/Krom"
+        }
+    },
+    {
+        "id": "slayer",
+        "name": {
+            "en": "Slayer",
+            "pt-BR": "Matador"
+        },
+        "aliases": {
+            "en": ["Slayer"],
+            "pt-BR": ["Matador"]
+        },
+        "category": "Swords",
+        "type": "melee",
+        "stats": {
+            "Damage": "Slash: 170/188",
+            "Stamina (primary)": "20",
+            "Stamina (secondary)": "40"
+        },
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/6/6e/Slayer.png/revision/latest?cb=20240423143929",
+        "source": {
+            "page": "Weapons",
+            "url": "https://valheim.fandom.com/wiki/Slayer"
+        }
+    },
+    {
+        "id": "flint_spear",
+        "name": {
+            "en": "Flint spear",
+            "pt-BR": "Lança de sílex"
+        },
+        "aliases": {
+            "en": ["Flint spear"],
+            "pt-BR": ["Lança de sílex"]
+        },
+        "category": "Spears",
+        "type": "melee",
+        "stats": {
+            "Damage": "Pierce: 20/38",
+            "Stamina (primary)": "6",
+            "Stamina (secondary)": "8"
+        },
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/6/6b/Flint_Spear.png/revision/latest?cb=20210209152025",
+        "source": {
+            "page": "Weapons",
+            "url": "https://valheim.fandom.com/wiki/Flint_spear"
+        }
+    },
+    {
+        "id": "bronze_spear",
+        "name": {
+            "en": "Bronze spear",
+            "pt-BR": "Lança de bronze"
+        },
+        "aliases": {
+            "en": ["Bronze spear"],
+            "pt-BR": ["Lança de bronze"]
+        },
+        "category": "Spears",
+        "type": "melee",
+        "stats": {
+            "Damage": "Pierce: 35/53",
+            "Stamina (primary)": "8",
+            "Stamina (secondary)": "10"
+        },
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/d/d7/Bronze_Spear.png/revision/latest?cb=20210214054201",
+        "source": {
+            "page": "Weapons",
+            "url": "https://valheim.fandom.com/wiki/Bronze_spear"
+        }
+    },
+    {
+        "id": "ancient_bark_spear",
+        "name": {
+            "en": "Ancient bark spear",
+            "pt-BR": "Lança de casca antiga"
+        },
+        "aliases": {
+            "en": ["Ancient bark spear"],
+            "pt-BR": ["Lança de casca antiga"]
+        },
+        "category": "Spears",
+        "type": "melee",
+        "stats": {
+            "Damage": "Pierce: 55/73",
+            "Stamina (primary)": "10",
+            "Stamina (secondary)": "12"
+        },
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/f/f0/Ancient_Bark_Spear.png/revision/latest?cb=20210213030612",
+        "source": {
+            "page": "Weapons",
+            "url": "https://valheim.fandom.com/wiki/Ancient_bark_spear"
+        }
+    },
+    {
+        "id": "fang_spear",
+        "name": {
+            "en": "Fang spear",
+            "pt-BR": "Lança de presa"
+        },
+        "aliases": {
+            "en": ["Fang spear"],
+            "pt-BR": ["Lança de presa"]
+        },
+        "category": "Spears",
+        "type": "melee",
+        "stats": {
+            "Damage": "Pierce: 75/93",
+            "Stamina (primary)": "12",
+            "Stamina (secondary)": "14"
+        },
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/6/62/Fang_Spear.png/revision/latest?cb=20210215131955",
+        "source": {
+            "page": "Weapons",
+            "url": "https://valheim.fandom.com/wiki/Fang_spear"
+        }
+    },
+    {
+        "id": "carapace_spear",
+        "name": {
+            "en": "Carapace spear",
+            "pt-BR": "Lança de carapaça"
+        },
+        "aliases": {
+            "en": ["Carapace spear"],
+            "pt-BR": ["Lança de carapaça"]
+        },
+        "category": "Spears",
+        "type": "melee",
+        "stats": {
+            "Damage": "Pierce: 115/133",
+            "Stamina (primary)": "16",
+            "Stamina (secondary)": "18"
+        },
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/4/43/Carapace_Spear.png/revision/latest?cb=20221126154642",
+        "source": {
+            "page": "Weapons",
+            "url": "https://valheim.fandom.com/wiki/Carapace_spear"
+        }
+    },
+    {
+        "id": "splitnir",
+        "name": {
+            "en": "Splitnir",
+            "pt-BR": "Splitnir"
+        },
+        "aliases": {
+            "en": ["Splitnir"],
+            "pt-BR": ["Splitnir"]
+        },
+        "category": "Spears",
+        "type": "melee",
+        "stats": {
+            "Damage": "Pierce: 135/153",
+            "Stamina (primary)": "16",
+            "Stamina (secondary)": "18"
+        },
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/0/0c/Splitnir.png/revision/latest?cb=20240423142310",
+        "source": {
+            "page": "Weapons",
+            "url": "https://valheim.fandom.com/wiki/Splitnir"
+        }
+    },
+    {
+        "id": "bronze_atgeir",
+        "name": {
+            "en": "Bronze atgeir",
+            "pt-BR": "Atgeir de bronze"
+        },
+        "aliases": {
+            "en": ["Bronze atgeir"],
+            "pt-BR": ["Atgeir de bronze"]
+        },
+        "category": "Polearms",
+        "type": "melee",
+        "stats": {
+            "Damage": "Pierce: 45/63",
+            "Stamina (primary)": "12",
+            "Stamina (secondary)": "24",
+            "Block armor": "16"
+        },
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/e/e2/Bronze_Atgeir.png/revision/latest?cb=20210215131315",
+        "source": {
+            "page": "Weapons",
+            "url": "https://valheim.fandom.com/wiki/Bronze_atgeir"
+        }
+    },
+    {
+        "id": "iron_atgeir",
+        "name": {
+            "en": "Iron atgeir",
+            "pt-BR": "Atgeir de ferro"
+        },
+        "aliases": {
+            "en": ["Iron atgeir"],
+            "pt-BR": ["Atgeir de ferro"]
+        },
+        "category": "Polearms",
+        "type": "melee",
+        "stats": {
+            "Damage": "Pierce: 65/83",
+            "Stamina (primary)": "14",
+            "Stamina (secondary)": "28",
+            "Block armor": "28"
+        },
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/e/eb/Iron_Atgeir.png/revision/latest?cb=20210213024703",
+        "source": {
+            "page": "Weapons",
+            "url": "https://valheim.fandom.com/wiki/Iron_atgeir"
+        }
+    },
+    {
+        "id": "black_metal_atgeir",
+        "name": {
+            "en": "Black metal atgeir",
+            "pt-BR": "Atgeir de metal negro"
+        },
+        "aliases": {
+            "en": ["Black metal atgeir"],
+            "pt-BR": ["Atgeir de metal negro"]
+        },
+        "category": "Polearms",
+        "type": "melee",
+        "stats": {
+            "Damage": "Pierce: 105/123",
+            "Stamina (primary)": "18",
+            "Stamina (secondary)": "36",
+            "Block armor": "52"
+        },
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/6/64/Black_Metal_Atgeir.png/revision/latest?cb=20210215131314",
+        "source": {
+            "page": "Weapons",
+            "url": "https://valheim.fandom.com/wiki/Black_metal_atgeir"
+        }
+    },
+    {
+        "id": "himminafl",
+        "name": {
+            "en": "Himminafl",
+            "pt-BR": "Himminafl"
+        },
+        "aliases": {
+            "en": ["Himminafl"],
+            "pt-BR": ["Himminafl"]
+        },
+        "category": "Polearms",
+        "type": "melee",
+        "stats": {
+            "Damage": "Pierce: 85/85 ? Lightning: 40/58",
+            "Stamina (primary)": "20",
+            "Stamina (secondary)": "40",
+            "Block armor": "64"
+        },
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/3/3c/Himminafl.png/revision/latest?cb=20221126191602",
+        "source": {
+            "page": "Weapons",
+            "url": "https://valheim.fandom.com/wiki/Himminafl"
+        }
+    },
+    {
+        "id": "flint_knife",
+        "name": {
+            "en": "Flint knife",
+            "pt-BR": "Faca de sílex"
+        },
+        "aliases": {
+            "en": ["Flint knife"],
+            "pt-BR": ["Faca de sílex"]
+        },
+        "category": "Knives",
+        "type": "melee",
+        "stats": {
+            "Damage": "Slash: 5/8 ? Pierce: 5/8",
+            "Stamina (primary)": "4",
+            "Stamina (secondary)": "12"
+        },
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/e/e8/Flint_Knife.png/revision/latest?cb=20210209001832",
+        "source": {
+            "page": "Weapons",
+            "url": "https://valheim.fandom.com/wiki/Flint_knife"
+        }
+    },
+    {
+        "id": "copper_knife",
+        "name": {
+            "en": "Copper knife",
+            "pt-BR": "Faca de cobre"
+        },
+        "aliases": {
+            "en": ["Copper knife"],
+            "pt-BR": ["Faca de cobre"]
+        },
+        "category": "Knives",
+        "type": "melee",
+        "stats": {
+            "Damage": "Slash: 12/15 ? Pierce: 12/15",
+            "Stamina (primary)": "6",
+            "Stamina (secondary)": "18"
+        },
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/c/c5/Copper_Knife.png/revision/latest?cb=20210214053705",
+        "source": {
+            "page": "Weapons",
+            "url": "https://valheim.fandom.com/wiki/Copper_knife"
+        }
+    },
+    {
+        "id": "butcher_knife",
+        "name": {
+            "en": "Butcher knife",
+            "pt-BR": "Faca de açougueiro"
+        },
+        "aliases": {
+            "en": ["Butcher knife"],
+            "pt-BR": ["Faca de açougueiro"]
+        },
+        "category": "Knives",
+        "type": "melee",
+        "stats": {
+            "Damage": "Pure: 1000",
+            "Stamina (primary)": "5",
+            "Stamina (secondary)": "-",
+            "Notes": "Does damage only to tamed animals"
+        },
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/9/9d/Butcher_Knife.png/revision/latest?cb=20210927091424",
+        "source": {
+            "page": "Weapons",
+            "url": "https://valheim.fandom.com/wiki/Butcher_knife"
+        }
+    },
+    {
+        "id": "abyssal_razor",
+        "name": {
+            "en": "Abyssal Razor",
+            "pt-BR": "Navalha abissal"
+        },
+        "aliases": {
+            "en": ["Abyssal Razor"],
+            "pt-BR": ["Navalha abissal"]
+        },
+        "category": "Knives",
+        "type": "melee",
+        "stats": {
+            "Damage": "Slash: 20/23 ? Pierce: 20/23",
+            "Stamina (primary)": "8",
+            "Stamina (secondary)": "24"
+        },
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/8/86/Abyssal_Razor.png/revision/latest?cb=20210215131714",
+        "source": {
+            "page": "Weapons",
+            "url": "https://valheim.fandom.com/wiki/Abyssal_Razor"
+        }
+    },
+    {
+        "id": "silver_knife",
+        "name": {
+            "en": "Silver knife",
+            "pt-BR": "Faca de prata"
+        },
+        "aliases": {
+            "en": ["Silver knife"],
+            "pt-BR": ["Faca de prata"]
+        },
+        "category": "Knives",
+        "type": "melee",
+        "stats": {
+            "Damage": "Slash: 25/28 ? Pierce: 25/28 ? Spirit: 12",
+            "Stamina (primary)": "10",
+            "Stamina (secondary)": "30"
+        },
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/b/b7/Silver_Knife.png/revision/latest?cb=20210927090905",
+        "source": {
+            "page": "Weapons",
+            "url": "https://valheim.fandom.com/wiki/Silver_knife"
+        }
+    },
+    {
+        "id": "black_metal_knife",
+        "name": {
+            "en": "Black metal knife",
+            "pt-BR": "Faca de metal negro"
+        },
+        "aliases": {
+            "en": ["Black metal knife"],
+            "pt-BR": ["Faca de metal negro"]
+        },
+        "category": "Knives",
+        "type": "melee",
+        "stats": {
+            "Damage": "Slash: 34/37 ? Pierce: 34/37",
+            "Stamina (primary)": "12",
+            "Stamina (secondary)": "36"
+        },
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/a/a1/Black_Metal_Knife.png/revision/latest?cb=20210215131713",
+        "source": {
+            "page": "Weapons",
+            "url": "https://valheim.fandom.com/wiki/Black_metal_knife"
+        }
+    },
+    {
+        "id": "skoll_and_hati",
+        "name": {
+            "en": "Skoll and Hati",
+            "pt-BR": "Skoll e Hati"
+        },
+        "aliases": {
+            "en": ["Skoll and Hati"],
+            "pt-BR": ["Skoll e Hati"]
+        },
+        "category": "Knives",
+        "type": "melee",
+        "stats": {
+            "Damage": "Slash: 45/48 ? Pierce: 45/48",
+            "Stamina (primary)": "14",
+            "Stamina (secondary)": "42",
+            "Notes": "Dual-wielded"
+        },
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/d/d5/Skoll_and_Hati.png/revision/latest?cb=20221126192204",
+        "source": {
+            "page": "Weapons",
+            "url": "https://valheim.fandom.com/wiki/Skoll_and_Hati"
+        }
+    },
+    {
+        "id": "bare_fists",
+        "name": {
+            "en": "Bare fists",
+            "pt-BR": "Punhos nus"
+        },
+        "aliases": {
+            "en": ["Bare fists"],
+            "pt-BR": ["Punhos nus"]
+        },
+        "category": "Fists",
+        "type": "melee",
+        "stats": {
+            "Damage": "blunt: 5",
+            "Knockback": "5",
+            "Stamina": "4"
+        },
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/9/95/Bare_Fists.png/revision/latest/scale-to-width-down/50?cb=20250608062443",
+        "source": {
+            "page": "Weapons",
+            "url": "https://valheim.fandom.com/wiki/Bare_fists"
+        }
+    },
+    {
+        "id": "paws_of_the_bear",
+        "name": {
+            "en": "Paws of the Bear",
+            "pt-BR": "Patas do Urso"
+        },
+        "aliases": {
+            "en": ["Paws of the Bear"],
+            "pt-BR": ["Patas do Urso"]
+        },
+        "category": "Fists",
+        "type": "melee",
+        "stats": {
+            "Damage": "slash: 25/37",
+            "Knockback": "10",
+            "Stamina": "6"
+        },
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/7/7a/Paws_of_the_Bear.png/revision/latest/scale-to-width-down/50?cb=20250821123859",
+        "source": {
+            "page": "Weapons",
+            "url": "https://valheim.fandom.com/wiki/Paws_of_the_Bear"
+        }
+    },
+    {
+        "id": "flesh_rippers",
+        "name": {
+            "en": "Flesh Rippers",
+            "pt-BR": "Retalhadores de carne"
+        },
+        "aliases": {
+            "en": ["Flesh Rippers"],
+            "pt-BR": ["Retalhadores de carne"]
+        },
+        "category": "Fists",
+        "type": "melee",
+        "stats": {
+            "Damage": "slash: 60/72",
+            "Knockback": "20",
+            "Stamina": "10"
+        },
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/d/d5/Flesh_Rippers.png/revision/latest/scale-to-width-down/50?cb=20221010171314",
+        "source": {
+            "page": "Weapons",
+            "url": "https://valheim.fandom.com/wiki/Flesh_Rippers"
+        }
+    },
+    {
+        "id": "vilebone_maulclaws",
+        "name": {
+            "en": "Vilebone Maulclaws",
+            "pt-BR": "Garras de osso vil"
+        },
+        "aliases": {
+            "en": ["Vilebone Maulclaws"],
+            "pt-BR": ["Garras de osso vil"]
+        },
+        "category": "Fists",
+        "type": "melee",
+        "stats": {
+            "Damage": "pierce: 60 slash: 20/32",
+            "Knockback": "10",
+            "Stamina": "12"
+        },
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/1/13/Vilebone_Maulclaws.png/revision/latest/scale-to-width-down/50?cb=20250821175734",
+        "source": {
+            "page": "Weapons",
+            "url": "https://valheim.fandom.com/wiki/Vilebone_Maulclaws"
+        }
+    },
+    {
+        "id": "wood_shield",
+        "name": {
+            "en": "Wood shield",
+            "pt-BR": "Escudo de madeira"
+        },
+        "aliases": {
+            "en": ["Wood shield"],
+            "pt-BR": ["Escudo de madeira"]
+        },
+        "category": "Shields",
+        "type": "shield",
+        "stats": {
+            "Type": "Round",
+            "Block armor (Min/Max)": "6/18",
+            "Block force (Min/Max)": "20/30",
+            "Parry bonus": "1.5x",
+            "Movement speed": "-5%"
+        },
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/2/21/Wood_Shield.png/revision/latest?cb=20210209151144",
+        "source": {
+            "page": "Weapons",
+            "url": "https://valheim.fandom.com/wiki/Wood_shield"
+        }
+    },
+    {
+        "id": "wood_tower_shield",
+        "name": {
+            "en": "Wood tower shield",
+            "pt-BR": "Escudo torre de madeira"
+        },
+        "aliases": {
+            "en": ["Wood tower shield"],
+            "pt-BR": ["Escudo torre de madeira"]
+        },
+        "category": "Shields",
+        "type": "shield",
+        "stats": {
+            "Type": "Tower",
+            "Block armor (Min/Max)": "10/22",
+            "Block force (Min/Max)": "100/110",
+            "Parry bonus": "-",
+            "Movement speed": "-10%"
+        },
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/5/54/Wood_Tower_Shield.png/revision/latest?cb=20210209151641",
+        "source": {
+            "page": "Weapons",
+            "url": "https://valheim.fandom.com/wiki/Wood_tower_shield"
+        }
+    },
+    {
+        "id": "bone_tower_shield",
+        "name": {
+            "en": "Bone tower shield",
+            "pt-BR": "Escudo torre de osso"
+        },
+        "aliases": {
+            "en": ["Bone tower shield"],
+            "pt-BR": ["Escudo torre de osso"]
+        },
+        "category": "Shields",
+        "type": "shield",
+        "stats": {
+            "Type": "Tower",
+            "Block armor (Min/Max)": "32/44",
+            "Block force (Min/Max)": "100/110",
+            "Parry bonus": "-",
+            "Movement speed": "-10%"
+        },
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/5/59/Bone_Tower_Shield.png/revision/latest?cb=20210926160650",
+        "source": {
+            "page": "Weapons",
+            "url": "https://valheim.fandom.com/wiki/Bone_tower_shield"
+        }
+    },
+    {
+        "id": "bronze_buckler",
+        "name": {
+            "en": "Bronze buckler",
+            "pt-BR": "Broquel de bronze"
+        },
+        "aliases": {
+            "en": ["Bronze buckler"],
+            "pt-BR": ["Broquel de bronze"]
+        },
+        "category": "Shields",
+        "type": "shield",
+        "stats": {
+            "Type": "Buckler",
+            "Block armor (Min/Max)": "16/28",
+            "Block force (Min/Max)": "30",
+            "Parry bonus": "2.5x",
+            "Movement speed": "-5%"
+        },
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/e/ef/Bronze_Buckler.png/revision/latest?cb=20210209160608",
+        "source": {
+            "page": "Weapons",
+            "url": "https://valheim.fandom.com/wiki/Bronze_buckler"
+        }
+    },
+    {
+        "id": "banded_shield",
+        "name": {
+            "en": "Banded shield",
+            "pt-BR": "Escudo reforçado"
+        },
+        "aliases": {
+            "en": ["Banded shield"],
+            "pt-BR": ["Escudo reforçado"]
+        },
+        "category": "Shields",
+        "type": "shield",
+        "stats": {
+            "Type": "Round",
+            "Block armor (Min/Max)": "42/54",
+            "Block force (Min/Max)": "40/50",
+            "Parry bonus": "1.5x",
+            "Movement speed": "-5%"
+        },
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/e/e9/Banded_Shield.png/revision/latest?cb=20210215131850",
+        "source": {
+            "page": "Weapons",
+            "url": "https://valheim.fandom.com/wiki/Banded_shield"
+        }
+    },
+    {
+        "id": "iron_buckler",
+        "name": {
+            "en": "Iron buckler",
+            "pt-BR": "Broquel de ferro"
+        },
+        "aliases": {
+            "en": ["Iron buckler"],
+            "pt-BR": ["Broquel de ferro"]
+        },
+        "category": "Shields",
+        "type": "shield",
+        "stats": {
+            "Type": "Buckler",
+            "Block armor (Min/Max)": "28/40",
+            "Block force (Min/Max)": "30",
+            "Parry bonus": "2.5x",
+            "Movement speed": "-5%"
+        },
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/1/1f/Iron_Buckler.png/revision/latest?cb=20210927003525",
+        "source": {
+            "page": "Weapons",
+            "url": "https://valheim.fandom.com/wiki/Iron_buckler"
+        }
+    },
+    {
+        "id": "shield_of_roots",
+        "name": {
+            "en": "Shield of Roots",
+            "pt-BR": "Escudo das Raízes"
+        },
+        "aliases": {
+            "en": ["Shield of Roots"],
+            "pt-BR": ["Escudo das Raízes"]
+        },
+        "category": "Shields",
+        "type": "shield",
+        "stats": {
+            "Type": "Round",
+            "Block armor (Min/Max)": "48/60",
+            "Block force (Min/Max)": "40/50",
+            "Parry bonus": "1.5x",
+            "Movement speed": "-0%"
+        },
+        "source": {
+            "page": "Weapons",
+            "url": "https://valheim.fandom.com/wiki/Shield_of_Roots"
+        }
+    },
+    {
+        "id": "iron_tower_shield",
+        "name": {
+            "en": "Iron tower shield",
+            "pt-BR": "Escudo torre de ferro"
+        },
+        "aliases": {
+            "en": ["Iron tower shield"],
+            "pt-BR": ["Escudo torre de ferro"]
+        },
+        "category": "Shields",
+        "type": "shield",
+        "stats": {
+            "Type": "Tower",
+            "Block armor (Min/Max)": "52/64",
+            "Block force (Min/Max)": "100/110",
+            "Parry bonus": "-",
+            "Movement speed": "-10%"
+        },
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/d/d3/Iron_Tower_Shield.png/revision/latest?cb=20210215131910",
+        "source": {
+            "page": "Weapons",
+            "url": "https://valheim.fandom.com/wiki/Iron_tower_shield"
+        }
+    },
+    {
+        "id": "silver_shield",
+        "name": {
+            "en": "Silver shield",
+            "pt-BR": "Escudo de prata"
+        },
+        "aliases": {
+            "en": ["Silver shield"],
+            "pt-BR": ["Escudo de prata"]
+        },
+        "category": "Shields",
+        "type": "shield",
+        "stats": {
+            "Type": "Round",
+            "Block armor (Min/Max)": "60/72",
+            "Block force (Min/Max)": "40/50",
+            "Parry bonus": "1.5x",
+            "Movement speed": "-5%"
+        },
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/0/08/Silver_Shield.png/revision/latest?cb=20210215131920",
+        "source": {
+            "page": "Weapons",
+            "url": "https://valheim.fandom.com/wiki/Silver_shield"
+        }
+    },
+    {
+        "id": "serpent_scale_shield",
+        "name": {
+            "en": "Serpent scale shield",
+            "pt-BR": "Escudo de escamas de serpente"
+        },
+        "aliases": {
+            "en": ["Serpent scale shield"],
+            "pt-BR": ["Escudo de escamas de serpente"]
+        },
+        "category": "Shields",
+        "type": "shield",
+        "stats": {
+            "Type": "Tower",
+            "Block armor (Min/Max)": "60/72 ? Resistant vs. Pierce",
+            "Block force (Min/Max)": "100/110",
+            "Parry bonus": "-",
+            "Movement speed": "-10%"
+        },
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/0/06/Serpent_Scale_Shield.png/revision/latest?cb=20210215131919",
+        "source": {
+            "page": "Weapons",
+            "url": "https://valheim.fandom.com/wiki/Serpent_scale_shield"
+        }
+    },
+    {
+        "id": "black_metal_shield",
+        "name": {
+            "en": "Black metal shield",
+            "pt-BR": "Escudo de metal negro"
+        },
+        "aliases": {
+            "en": ["Black metal shield"],
+            "pt-BR": ["Escudo de metal negro"]
+        },
+        "category": "Shields",
+        "type": "shield",
+        "stats": {
+            "Type": "Round",
+            "Block armor (Min/Max)": "78/90",
+            "Block force (Min/Max)": "50/60",
+            "Parry bonus": "1.5x",
+            "Movement speed": "-5%"
+        },
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/e/e8/Black_Metal_Shield.png/revision/latest?cb=20210215131854",
+        "source": {
+            "page": "Weapons",
+            "url": "https://valheim.fandom.com/wiki/Black_metal_shield"
+        }
+    },
+    {
+        "id": "black_metal_tower_shield",
+        "name": {
+            "en": "Black metal tower shield",
+            "pt-BR": "Escudo torre de metal negro"
+        },
+        "aliases": {
+            "en": ["Black metal tower shield"],
+            "pt-BR": ["Escudo torre de metal negro"]
+        },
+        "category": "Shields",
+        "type": "shield",
+        "stats": {
+            "Type": "Tower",
+            "Block armor (Min/Max)": "104/116",
+            "Block force (Min/Max)": "150/160",
+            "Parry bonus": "-",
+            "Movement speed": "-10%"
+        },
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/4/4e/Black_Metal_Tower_Shield.png/revision/latest?cb=20210215131902",
+        "source": {
+            "page": "Weapons",
+            "url": "https://valheim.fandom.com/wiki/Black_metal_tower_shield"
+        }
+    },
+    {
+        "id": "carapace_buckler",
+        "name": {
+            "en": "Carapace buckler",
+            "pt-BR": "Broquel de carapaça"
+        },
+        "aliases": {
+            "en": ["Carapace buckler"],
+            "pt-BR": ["Broquel de carapaça"]
+        },
+        "category": "Shields",
+        "type": "shield",
+        "stats": {
+            "Type": "Buckler",
+            "Block armor (Min/Max)": "78/90",
+            "Block force (Min/Max)": "50/60",
+            "Parry bonus": "2.5x",
+            "Movement speed": "-5%"
+        },
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/e/eb/Carapace_Buckler.png/revision/latest?cb=20221126191431",
+        "source": {
+            "page": "Weapons",
+            "url": "https://valheim.fandom.com/wiki/Carapace_buckler"
+        }
+    },
+    {
+        "id": "carapace_shield",
+        "name": {
+            "en": "Carapace shield",
+            "pt-BR": "Escudo de carapaça"
+        },
+        "aliases": {
+            "en": ["Carapace shield"],
+            "pt-BR": ["Escudo de carapaça"]
+        },
+        "category": "Shields",
+        "type": "shield",
+        "stats": {
+            "Type": "Round",
+            "Block armor (Min/Max)": "96/108",
+            "Block force (Min/Max)": "60/70",
+            "Parry bonus": "1.5x",
+            "Movement speed": "-5%"
+        },
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/6/6e/Carapace_Shield.png/revision/latest?cb=20221126191504",
+        "source": {
+            "page": "Weapons",
+            "url": "https://valheim.fandom.com/wiki/Carapace_shield"
+        }
+    },
+    {
+        "id": "flametal_shield",
+        "name": {
+            "en": "Flametal shield",
+            "pt-BR": "Escudo de flametal"
+        },
+        "aliases": {
+            "en": ["Flametal shield"],
+            "pt-BR": ["Escudo de flametal"]
+        },
+        "category": "Shields",
+        "type": "shield",
+        "stats": {
+            "Type": "Round",
+            "Block armor (Min/Max)": "114/126",
+            "Block force (Min/Max)": "50/60",
+            "Parry bonus": "1.5x",
+            "Movement speed": "-5%"
+        },
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/2/27/Flametal_Shield.png/revision/latest?cb=20240423141156",
+        "source": {
+            "page": "Weapons",
+            "url": "https://valheim.fandom.com/wiki/Flametal_shield"
+        }
+    },
+    {
+        "id": "flametal_tower_shield",
+        "name": {
+            "en": "Flametal tower shield",
+            "pt-BR": "Escudo torre de flametal"
+        },
+        "aliases": {
+            "en": ["Flametal tower shield"],
+            "pt-BR": ["Escudo torre de flametal"]
+        },
+        "category": "Shields",
+        "type": "shield",
+        "stats": {
+            "Type": "Tower",
+            "Block armor (Min/Max)": "140/152",
+            "Block force (Min/Max)": "150/160",
+            "Parry bonus": "-",
+            "Movement speed": "-10%"
+        },
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/1/17/Flametal_Tower_Shield.png/revision/latest?cb=20240423141500",
+        "source": {
+            "page": "Weapons",
+            "url": "https://valheim.fandom.com/wiki/Flametal_tower_shield"
+        }
+    },
+    {
+        "id": "crude_bow",
+        "name": {
+            "en": "Crude bow",
+            "pt-BR": "Arco rudimentar"
+        },
+        "aliases": {
+            "en": ["Crude bow"],
+            "pt-BR": ["Arco rudimentar"]
+        },
+        "category": "Bows",
+        "type": "ranged",
+        "stats": {
+            "Stamina": "4 / s",
+            "Damage Types (Min/Max)": "Pierce: 22/31",
+            "Knock back": "0",
+            "Back stab": "3x",
+            "Velocity": "2 m/s",
+            "Spread": "35 m/s",
+            "Attack noise": "1°",
+            "Hit noise": "20°"
+        },
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/b/be/Crude_Bow.png/revision/latest?cb=20210208233336",
+        "source": {
+            "page": "Weapons",
+            "url": "https://valheim.fandom.com/wiki/Crude_bow"
+        }
+    },
+    {
+        "id": "finewood_bow",
+        "name": {
+            "en": "Finewood bow",
+            "pt-BR": "Arco de madeira nobre"
+        },
+        "aliases": {
+            "en": ["Finewood bow"],
+            "pt-BR": ["Arco de madeira nobre"]
+        },
+        "category": "Bows",
+        "type": "ranged",
+        "stats": {
+            "Stamina": "6 / s",
+            "Damage Types (Min/Max)": "Pierce: 32/41",
+            "Knock back": "5",
+            "Back stab": "3x",
+            "Velocity": "2 m/s",
+            "Spread": "50 m/s",
+            "Attack noise": "1°",
+            "Hit noise": "20°"
+        },
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/a/a6/Finewood_Bow.png/revision/latest?cb=20210214051911",
+        "source": {
+            "page": "Weapons",
+            "url": "https://valheim.fandom.com/wiki/Finewood_bow"
+        }
+    },
+    {
+        "id": "huntsman_bow",
+        "name": {
+            "en": "Huntsman bow",
+            "pt-BR": "Arco de caçador"
+        },
+        "aliases": {
+            "en": ["Huntsman bow"],
+            "pt-BR": ["Arco de caçador"]
+        },
+        "category": "Bows",
+        "type": "ranged",
+        "stats": {
+            "Stamina": "8 / s",
+            "Damage Types (Min/Max)": "Pierce: 42/51",
+            "Knock back": "10",
+            "Back stab": "3x",
+            "Velocity": "2 m/s",
+            "Spread": "50 m/s",
+            "Attack noise": "0°",
+            "Hit noise": "20°"
+        },
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/8/85/Huntsman_Bow.png/revision/latest?cb=20210215131418",
+        "source": {
+            "page": "Weapons",
+            "url": "https://valheim.fandom.com/wiki/Huntsman_bow"
+        }
+    },
+    {
+        "id": "draugr_fang",
+        "name": {
+            "en": "Draugr Fang",
+            "pt-BR": "Presa de draugr"
+        },
+        "aliases": {
+            "en": ["Draugr Fang"],
+            "pt-BR": ["Presa de draugr"]
+        },
+        "category": "Bows",
+        "type": "ranged",
+        "stats": {
+            "Stamina": "10 / s",
+            "Damage Types (Min/Max)": "Pierce: 47/56 ? Poison: 5/20",
+            "Knock back": "20",
+            "Back stab": "3x",
+            "Velocity": "2 m/s",
+            "Spread": "60 m/s",
+            "Attack noise": "0°",
+            "Hit noise": "20°"
+        },
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/7/78/Draugr_Fang.png/revision/latest?cb=20210215131416",
+        "source": {
+            "page": "Weapons",
+            "url": "https://valheim.fandom.com/wiki/Draugr_Fang"
+        }
+    },
+    {
+        "id": "spinesnap",
+        "name": {
+            "en": "Spinesnap",
+            "pt-BR": "Estalo de espinhos"
+        },
+        "aliases": {
+            "en": ["Spinesnap"],
+            "pt-BR": ["Estalo de espinhos"]
+        },
+        "category": "Bows",
+        "type": "ranged",
+        "stats": {
+            "Stamina": "14 / s",
+            "Damage Types (Min/Max)": "Pierce: 72/84 ? Spirit: 5/20",
+            "Knock back": "25",
+            "Back stab": "3x",
+            "Velocity": "2 m/s",
+            "Spread": "60 m/s",
+            "Attack noise": "0°",
+            "Hit noise": "20°"
+        },
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/b/bd/Spinesnap.png/revision/latest?cb=20221126192021",
+        "source": {
+            "page": "Weapons",
+            "url": "https://valheim.fandom.com/wiki/Spinesnap"
+        }
+    },
+    {
+        "id": "ash_fang",
+        "name": {
+            "en": "Ash Fang",
+            "pt-BR": "Presa das cinzas"
+        },
+        "aliases": {
+            "en": ["Ash Fang"],
+            "pt-BR": ["Presa das cinzas"]
+        },
+        "category": "Bows",
+        "type": "ranged",
+        "stats": {
+            "Stamina": "14 / s",
+            "Damage Types (Min/Max)": "Pierce: 82/94 Spirit: 0/15",
+            "Knock back": "25",
+            "Back stab": "3x",
+            "Velocity": "2 m/s",
+            "Spread": "60 m/s",
+            "Attack noise": "0°",
+            "Hit noise": "20°"
+        },
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/c/c7/Ash_Fang.png/revision/latest?cb=20240423135937",
+        "source": {
+            "page": "Weapons",
+            "url": "https://valheim.fandom.com/wiki/Ash_Fang"
+        }
+    },
+    {
+        "id": "arbalest",
+        "name": {
+            "en": "Arbalest",
+            "pt-BR": "Arbalesta"
+        },
+        "aliases": {
+            "en": ["Arbalest"],
+            "pt-BR": ["Arbalesta"]
+        },
+        "category": "Crossbows",
+        "type": "ranged",
+        "stats": {
+            "Reload Speed": "3.5s",
+            "Stamina": "1/s",
+            "Damage Types (Min/Max)": "Pierce: 200/209",
+            "Knock back": "210",
+            "Back stab": "3x",
+            "Velocity": "200 m/s",
+            "Spread": "0°",
+            "Attack noise": "15m",
+            "Hit noise": "8m"
+        },
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/f/ff/Arbalest.png/revision/latest?cb=20221126192112",
+        "source": {
+            "page": "Weapons",
+            "url": "https://valheim.fandom.com/wiki/Arbalest"
+        }
+    },
+    {
+        "id": "ripper",
+        "name": {
+            "en": "Ripper",
+            "pt-BR": "Retalhador"
+        },
+        "aliases": {
+            "en": ["Ripper"],
+            "pt-BR": ["Retalhador"]
+        },
+        "category": "Crossbows",
+        "type": "ranged",
+        "stats": {
+            "Reload Speed": "3.5s",
+            "Stamina": "1/s",
+            "Damage Types (Min/Max)": "Pierce: 220/229",
+            "Knock back": "210",
+            "Back stab": "3x",
+            "Velocity": "200 m/s",
+            "Spread": "0°",
+            "Attack noise": "15m",
+            "Hit noise": "8m"
+        },
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/4/44/Ripper.png/revision/latest?cb=20240423140246",
+        "source": {
+            "page": "Weapons",
+            "url": "https://valheim.fandom.com/wiki/Ripper"
+        }
+    },
+    {
+        "id": "staff_of_embers",
+        "name": {
+            "en": "Staff of Embers",
+            "pt-BR": "Cajado das Brasas"
+        },
+        "aliases": {
+            "en": ["Staff of Embers"],
+            "pt-BR": ["Cajado das Brasas"]
+        },
+        "category": "Elemental magic",
+        "type": "magic",
+        "stats": {
+            "Damage": "Blunt: 120 ? Fire: 120/138",
+            "Eitr Used": "35",
+            "Block armor": "48-72",
+            "Block force": "20",
+            "Parry bonus": "2x",
+            "Knockback": "100",
+            "Movement speed": "-5%"
+        },
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/3/33/Staff_of_Embers.png/revision/latest?cb=20221126161013",
+        "source": {
+            "page": "Weapons",
+            "url": "https://valheim.fandom.com/wiki/Staff_of_Embers"
+        }
+    },
+    {
+        "id": "staff_of_frost",
+        "name": {
+            "en": "Staff of Frost",
+            "pt-BR": "Cajado do Gelo"
+        },
+        "aliases": {
+            "en": ["Staff of Frost"],
+            "pt-BR": ["Cajado do Gelo"]
+        },
+        "category": "Elemental magic",
+        "type": "magic",
+        "stats": {
+            "Damage": "Frost: 30/36",
+            "Eitr Used": "5",
+            "Block armor": "48-72",
+            "Block force": "20",
+            "Parry bonus": "2x",
+            "Knockback": "10",
+            "Movement speed": "-5%"
+        },
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/c/c3/Staff_of_Frost.png/revision/latest?cb=20221126161127",
+        "source": {
+            "page": "Weapons",
+            "url": "https://valheim.fandom.com/wiki/Staff_of_Frost"
+        }
+    },
+    {
+        "id": "dundr",
+        "name": {
+            "en": "Dundr",
+            "pt-BR": "Dundr"
+        },
+        "aliases": {
+            "en": ["Dundr"],
+            "pt-BR": ["Dundr"]
+        },
+        "category": "Elemental magic",
+        "type": "magic",
+        "stats": {
+            "Damage": "Lightning: ? 12x20/ ? 12x26",
+            "Eitr Used": "25",
+            "Block armor": "48-72",
+            "Block force": "20",
+            "Parry bonus": "2x",
+            "Knockback": "210",
+            "Movement speed": "-5%"
+        },
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/5/5c/Dundr.png/revision/latest?cb=20240423142649",
+        "source": {
+            "page": "Weapons",
+            "url": "https://valheim.fandom.com/wiki/Dundr"
+        }
+    },
+    {
+        "id": "staff_of_the_wild",
+        "name": {
+            "en": "Staff of the Wild",
+            "pt-BR": "Cajado da Natureza"
+        },
+        "aliases": {
+            "en": ["Staff of the Wild"],
+            "pt-BR": ["Cajado da Natureza"]
+        },
+        "category": "Elemental magic",
+        "type": "magic",
+        "stats": {
+            "Damage": "Blunt: ? 20/60 ? Poison: ? 20/60",
+            "Eitr Used": "55",
+            "Block armor": "48-72",
+            "Block force": "20",
+            "Parry bonus": "2x",
+            "Knockback": "100",
+            "Movement speed": "-5%"
+        },
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/6/6d/Staff_of_the_Wild.png/revision/latest?cb=20240423142508",
+        "source": {
+            "page": "Weapons",
+            "url": "https://valheim.fandom.com/wiki/Staff_of_the_Wild"
+        }
+    },
+    {
+        "id": "staff_of_fracturing",
+        "name": {
+            "en": "Staff of Fracturing",
+            "pt-BR": "Cajado da Fratura"
+        },
+        "aliases": {
+            "en": ["Staff of Fracturing"],
+            "pt-BR": ["Cajado da Fratura"]
+        },
+        "category": "Elemental magic",
+        "type": "magic",
+        "stats": {
+            "Damage": "Blunt: ? 12x12 ? Fire: ? 12x12/ ? 12x24",
+            "Eitr Used": "30",
+            "Block armor": "48-72",
+            "Block force": "20",
+            "Parry bonus": "2x",
+            "Knockback": "100",
+            "Movement speed": "-5%"
+        },
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/d/d6/Staff_of_Fracturing.png/revision/latest?cb=20240425195018",
+        "source": {
+            "page": "Weapons",
+            "url": "https://valheim.fandom.com/wiki/Staff_of_Fracturing"
+        }
+    },
+    {
+        "id": "staff_of_protection",
+        "name": {
+            "en": "Staff of Protection",
+            "pt-BR": "Cajado da Proteção"
+        },
+        "aliases": {
+            "en": ["Staff of Protection"],
+            "pt-BR": ["Cajado da Proteção"]
+        },
+        "category": "Blood magic",
+        "type": "magic",
+        "stats": {
+            "Eitr used": "60",
+            "Health drained": "40%",
+            "Hp/Shield": "200",
+            "Damage": "0",
+            "Duration": "1/2/3/4 minutes per Staff level",
+            "Limit max Summon": "1 per ally"
+        },
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/2/20/Staff_of_Protection.png/revision/latest?cb=20221126161219",
+        "source": {
+            "page": "Weapons",
+            "url": "https://valheim.fandom.com/wiki/Staff_of_Protection"
+        }
+    },
+    {
+        "id": "dead_raiser",
+        "name": {
+            "en": "Dead Raiser",
+            "pt-BR": "Erguidor de mortos"
+        },
+        "aliases": {
+            "en": ["Dead Raiser"],
+            "pt-BR": ["Erguidor de mortos"]
+        },
+        "category": "Blood magic",
+        "type": "magic",
+        "stats": {
+            "Eitr used": "100",
+            "Health drained": "40%",
+            "Hp/Shield": "400",
+            "Damage": "Summon: 50 slash/40 pierce",
+            "Duration": "Unlimited",
+            "Limit max Summon": "Up to 4 based on Dead Raiser level"
+        },
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/8/8b/Dead_Raiser.png/revision/latest?cb=20221126161312",
+        "source": {
+            "page": "Weapons",
+            "url": "https://valheim.fandom.com/wiki/Dead_Raiser"
+        }
+    },
+    {
+        "id": "trollstav",
+        "name": {
+            "en": "Trollstav",
+            "pt-BR": "Trollstav"
+        },
+        "aliases": {
+            "en": ["Trollstav"],
+            "pt-BR": ["Trollstav"]
+        },
+        "category": "Blood magic",
+        "type": "magic",
+        "stats": {
+            "Eitr used": "120",
+            "Health drained": "60%",
+            "Hp/Shield": "2000",
+            "Damage": "On cast: 300 fire, 50 pure Summon: 60-80 blunt",
+            "Duration": "Unlimited",
+            "Limit max Summon": "2"
+        },
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/9/91/Trollstav.png/revision/latest?cb=20240423142727",
+        "source": {
+            "page": "Weapons",
+            "url": "https://valheim.fandom.com/wiki/Trollstav"
+        }
+    },
+    {
+        "id": "wood_arrow",
+        "name": {
+            "en": "Wood arrow",
+            "pt-BR": "Flecha de madeira"
+        },
+        "aliases": {
+            "en": ["Wood arrow"],
+            "pt-BR": ["Flecha de madeira"]
+        },
+        "category": "Arrows",
+        "type": "ammunition",
+        "stats": {
+            "Total Damage": "22",
+            "Damage Type": "Pierce: 22",
+            "Knockback": "10"
+        },
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/5/53/Wood_Arrow.png/revision/latest?cb=20210208233924",
+        "source": {
+            "page": "Weapons",
+            "url": "https://valheim.fandom.com/wiki/Wood_arrow"
+        }
+    },
+    {
+        "id": "flinthead_arrow",
+        "name": {
+            "en": "Flinthead arrow",
+            "pt-BR": "Flecha de ponta de sílex"
+        },
+        "aliases": {
+            "en": ["Flinthead arrow"],
+            "pt-BR": ["Flecha de ponta de sílex"]
+        },
+        "category": "Arrows",
+        "type": "ammunition",
+        "stats": {
+            "Total Damage": "27",
+            "Damage Type": "Pierce: 27",
+            "Knockback": "10"
+        },
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/a/a0/Flinthead_Arrow.png/revision/latest?cb=20210215131256",
+        "source": {
+            "page": "Weapons",
+            "url": "https://valheim.fandom.com/wiki/Flinthead_arrow"
+        }
+    },
+    {
+        "id": "bronzehead_arrow",
+        "name": {
+            "en": "Bronzehead arrow",
+            "pt-BR": "Flecha de ponta de bronze"
+        },
+        "aliases": {
+            "en": ["Bronzehead arrow"],
+            "pt-BR": ["Flecha de ponta de bronze"]
+        },
+        "category": "Arrows",
+        "type": "ammunition",
+        "stats": {
+            "Total Damage": "32",
+            "Damage Type": "Pierce: 32",
+            "Knockback": "10"
+        },
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/3/3a/Bronzehead_Arrow.png/revision/latest?cb=20210209170500",
+        "source": {
+            "page": "Weapons",
+            "url": "https://valheim.fandom.com/wiki/Bronzehead_arrow"
+        }
+    },
+    {
+        "id": "fire_arrow",
+        "name": {
+            "en": "Fire arrow",
+            "pt-BR": "Flecha de fogo"
+        },
+        "aliases": {
+            "en": ["Fire arrow"],
+            "pt-BR": ["Flecha de fogo"]
+        },
+        "category": "Arrows",
+        "type": "ammunition",
+        "stats": {
+            "Total Damage": "33",
+            "Damage Type": "Pierce: 11 ? Fire: 22",
+            "Knockback": "10"
+        },
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/9/9e/Fire_Arrow.png/revision/latest?cb=20210209150050",
+        "source": {
+            "page": "Weapons",
+            "url": "https://valheim.fandom.com/wiki/Fire_arrow"
+        }
+    },
+    {
+        "id": "ironhead_arrow",
+        "name": {
+            "en": "Ironhead arrow",
+            "pt-BR": "Flecha de ponta de ferro"
+        },
+        "aliases": {
+            "en": ["Ironhead arrow"],
+            "pt-BR": ["Flecha de ponta de ferro"]
+        },
+        "category": "Arrows",
+        "type": "ammunition",
+        "stats": {
+            "Total Damage": "42",
+            "Damage Type": "Pierce: 42",
+            "Knockback": "10"
+        },
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/0/04/Ironhead_Arrow.png/revision/latest?cb=20210215131304",
+        "source": {
+            "page": "Weapons",
+            "url": "https://valheim.fandom.com/wiki/Ironhead_arrow"
+        }
+    },
+    {
+        "id": "poison_arrow",
+        "name": {
+            "en": "Poison arrow",
+            "pt-BR": "Flecha venenosa"
+        },
+        "aliases": {
+            "en": ["Poison arrow"],
+            "pt-BR": ["Flecha venenosa"]
+        },
+        "category": "Arrows",
+        "type": "ammunition",
+        "stats": {
+            "Total Damage": "78",
+            "Damage Type": "Pierce: 26 ? Poison: 52",
+            "Knockback": "10"
+        },
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/a/a7/Poison_Arrow.png/revision/latest?cb=20210215131307",
+        "source": {
+            "page": "Weapons",
+            "url": "https://valheim.fandom.com/wiki/Poison_arrow"
+        }
+    },
+    {
+        "id": "obsidian_arrow",
+        "name": {
+            "en": "Obsidian arrow",
+            "pt-BR": "Flecha de obsidiana"
+        },
+        "aliases": {
+            "en": ["Obsidian arrow"],
+            "pt-BR": ["Flecha de obsidiana"]
+        },
+        "category": "Arrows",
+        "type": "ammunition",
+        "stats": {
+            "Total Damage": "52",
+            "Damage Type": "Pierce: 52",
+            "Knockback": "10"
+        },
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/f/ff/Obsidian_Arrow.png/revision/latest?cb=20210215131305",
+        "source": {
+            "page": "Weapons",
+            "url": "https://valheim.fandom.com/wiki/Obsidian_arrow"
+        }
+    },
+    {
+        "id": "frost_arrow",
+        "name": {
+            "en": "Frost arrow",
+            "pt-BR": "Flecha de gelo"
+        },
+        "aliases": {
+            "en": ["Frost arrow"],
+            "pt-BR": ["Flecha de gelo"]
+        },
+        "category": "Arrows",
+        "type": "ammunition",
+        "stats": {
+            "Total Damage": "78",
+            "Damage Type": "Pierce: 26 ? Frost: 52",
+            "Knockback": "10"
+        },
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/d/d8/Frost_Arrow.png/revision/latest?cb=20210215131303",
+        "source": {
+            "page": "Weapons",
+            "url": "https://valheim.fandom.com/wiki/Frost_arrow"
+        }
+    },
+    {
+        "id": "silver_arrow",
+        "name": {
+            "en": "Silver arrow",
+            "pt-BR": "Flecha de prata"
+        },
+        "aliases": {
+            "en": ["Silver arrow"],
+            "pt-BR": ["Flecha de prata"]
+        },
+        "category": "Arrows",
+        "type": "ammunition",
+        "stats": {
+            "Total Damage": "72",
+            "Damage Type": "Pierce: 52 ? Spirit: 20",
+            "Knockback": "10"
+        },
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/6/6b/Silver_Arrow.png/revision/latest?cb=20210215131308",
+        "source": {
+            "page": "Weapons",
+            "url": "https://valheim.fandom.com/wiki/Silver_arrow"
+        }
+    },
+    {
+        "id": "needle_arrow",
+        "name": {
+            "en": "Needle arrow",
+            "pt-BR": "Flecha de agulha"
+        },
+        "aliases": {
+            "en": ["Needle arrow"],
+            "pt-BR": ["Flecha de agulha"]
+        },
+        "category": "Arrows",
+        "type": "ammunition",
+        "stats": {
+            "Total Damage": "62",
+            "Damage Type": "Pierce: 62",
+            "Knockback": "15"
+        },
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/e/e4/Needle_Arrow.png/revision/latest?cb=20210215131304",
+        "source": {
+            "page": "Weapons",
+            "url": "https://valheim.fandom.com/wiki/Needle_arrow"
+        }
+    },
+    {
+        "id": "carapace_arrow",
+        "name": {
+            "en": "Carapace arrow",
+            "pt-BR": "Flecha de carapaça"
+        },
+        "aliases": {
+            "en": ["Carapace arrow"],
+            "pt-BR": ["Flecha de carapaça"]
+        },
+        "category": "Arrows",
+        "type": "ammunition",
+        "stats": {
+            "Total Damage": "72",
+            "Damage Type": "Pierce: 72",
+            "Knockback": "15"
+        },
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/7/7e/Carapace_Arrow.png/revision/latest?cb=20221126191347",
+        "source": {
+            "page": "Weapons",
+            "url": "https://valheim.fandom.com/wiki/Carapace_arrow"
+        }
+    },
+    {
+        "id": "charred_arrow",
+        "name": {
+            "en": "Charred arrow",
+            "pt-BR": "Flecha chamuscada"
+        },
+        "aliases": {
+            "en": ["Charred arrow"],
+            "pt-BR": ["Flecha chamuscada"]
+        },
+        "category": "Arrows",
+        "type": "ammunition",
+        "stats": {
+            "Total Damage": "82",
+            "Damage Type": "Pierce: 82",
+            "Knockback": "15"
+        },
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/6/68/Charred_Arrow.png/revision/latest?cb=20240423150410",
+        "source": {
+            "page": "Weapons",
+            "url": "https://valheim.fandom.com/wiki/Charred_arrow"
+        }
+    },
+    {
+        "id": "bone_bolt",
+        "name": {
+            "en": "Bone bolt",
+            "pt-BR": "Virote de osso"
+        },
+        "aliases": {
+            "en": ["Bone bolt"],
+            "pt-BR": ["Virote de osso"]
+        },
+        "category": "Bolts",
+        "type": "ammunition",
+        "stats": {
+            "Damage": "Pierce: 32",
+            "Knockback": "0"
+        },
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/b/b6/Bone_Bolt.png/revision/latest?cb=20221126191721",
+        "source": {
+            "page": "Weapons",
+            "url": "https://valheim.fandom.com/wiki/Bone_bolt"
+        }
+    },
+    {
+        "id": "iron_bolt",
+        "name": {
+            "en": "Iron bolt",
+            "pt-BR": "Virote de ferro"
+        },
+        "aliases": {
+            "en": ["Iron bolt"],
+            "pt-BR": ["Virote de ferro"]
+        },
+        "category": "Bolts",
+        "type": "ammunition",
+        "stats": {
+            "Damage": "Pierce: 42",
+            "Knockback": "0"
+        },
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/6/62/Iron_Bolt.png/revision/latest?cb=20221130073318",
+        "source": {
+            "page": "Weapons",
+            "url": "https://valheim.fandom.com/wiki/Iron_bolt"
+        }
+    },
+    {
+        "id": "black_metal_bolt",
+        "name": {
+            "en": "Black metal bolt",
+            "pt-BR": "Virote de metal negro"
+        },
+        "aliases": {
+            "en": ["Black metal bolt"],
+            "pt-BR": ["Virote de metal negro"]
+        },
+        "category": "Bolts",
+        "type": "ammunition",
+        "stats": {
+            "Damage": "Pierce: 62",
+            "Knockback": "0"
+        },
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/5/5f/Black_Metal_Bolt.png/revision/latest?cb=20221126191823",
+        "source": {
+            "page": "Weapons",
+            "url": "https://valheim.fandom.com/wiki/Black_metal_bolt"
+        }
+    },
+    {
+        "id": "carapace_bolt",
+        "name": {
+            "en": "Carapace bolt",
+            "pt-BR": "Virote de carapaça"
+        },
+        "aliases": {
+            "en": ["Carapace bolt"],
+            "pt-BR": ["Virote de carapaça"]
+        },
+        "category": "Bolts",
+        "type": "ammunition",
+        "stats": {
+            "Damage": "Pierce: 72",
+            "Knockback": "0"
+        },
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/4/4e/Carapace_Bolt.png/revision/latest?cb=20221126191923",
+        "source": {
+            "page": "Weapons",
+            "url": "https://valheim.fandom.com/wiki/Carapace_bolt"
+        }
+    },
+    {
+        "id": "charred_bolt",
+        "name": {
+            "en": "Charred bolt",
+            "pt-BR": "Virote chamuscado"
+        },
+        "aliases": {
+            "en": ["Charred bolt"],
+            "pt-BR": ["Virote chamuscado"]
+        },
+        "category": "Bolts",
+        "type": "ammunition",
+        "stats": {
+            "Damage": "Pierce: 82",
+            "Knockback": "0"
+        },
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/1/12/Charred_Bolt.png/revision/latest?cb=20240423150452",
+        "source": {
+            "page": "Weapons",
+            "url": "https://valheim.fandom.com/wiki/Charred_bolt"
+        }
+    },
+    {
+        "id": "wooden_missile",
+        "name": {
+            "en": "Wooden missile",
+            "pt-BR": "Míssil de madeira"
+        },
+        "aliases": {
+            "en": ["Wooden missile"],
+            "pt-BR": ["Míssil de madeira"]
+        },
+        "category": "Missiles",
+        "type": "ammunition",
+        "stats": {
+            "Damage": "Pierce: 75",
+            "Knockback": "45",
+            "ID": "TurretBoltWood"
+        },
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/7/7b/Wooden_Missile.png/revision/latest?cb=20221126160541",
+        "source": {
+            "page": "Weapons",
+            "url": "https://valheim.fandom.com/wiki/Wooden_missile"
+        }
+    },
+    {
+        "id": "black_metal_missile",
+        "name": {
+            "en": "Black metal missile",
+            "pt-BR": "Míssil de metal negro"
+        },
+        "aliases": {
+            "en": ["Black metal missile"],
+            "pt-BR": ["Míssil de metal negro"]
+        },
+        "category": "Missiles",
+        "type": "ammunition",
+        "stats": {
+            "Damage": "Pierce: 120",
+            "Knockback": "60",
+            "ID": "TurretBolt"
+        },
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/b/b3/Black_Metal_Missile.png/revision/latest?cb=20221126160608",
+        "source": {
+            "page": "Weapons",
+            "url": "https://valheim.fandom.com/wiki/Black_metal_missile"
+        }
+    },
+    {
+        "id": "flametal_missile",
+        "name": {
+            "en": "Flametal missile",
+            "pt-BR": "Míssil de flametal"
+        },
+        "aliases": {
+            "en": ["Flametal missile"],
+            "pt-BR": ["Míssil de flametal"]
+        },
+        "category": "Missiles",
+        "type": "ammunition",
+        "stats": {
+            "Damage": "Pierce: 140",
+            "Knockback": "60",
+            "ID": "TurretBoltFlametal"
+        },
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/8/80/Flametal_Missile.png/revision/latest?cb=20240423150543",
+        "source": {
+            "page": "Weapons",
+            "url": "https://valheim.fandom.com/wiki/Flametal_missile"
+        }
+    },
+    {
+        "id": "ooze_bomb",
+        "name": {
+            "en": "Ooze bomb",
+            "pt-BR": "Bomba de gosma"
+        },
+        "aliases": {
+            "en": ["Ooze bomb"],
+            "pt-BR": ["Bomba de gosma"]
+        },
+        "category": "Bombs",
+        "type": "ammunition",
+        "stats": {
+            "Damage": "5",
+            "Damage type": "Blunt",
+            "AoE damage": "poison: 40",
+            "AoE radius": "4 m",
+            "AoE duration": "10 s",
+            "Backstab": "3x",
+            "Knockback": "40"
+        },
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/c/ca/Ooze_Bomb.png/revision/latest?cb=20210215131407",
+        "source": {
+            "page": "Weapons",
+            "url": "https://valheim.fandom.com/wiki/Ooze_bomb"
+        }
+    },
+    {
+        "id": "bile_bomb",
+        "name": {
+            "en": "Bile bomb",
+            "pt-BR": "Bomba de bile"
+        },
+        "aliases": {
+            "en": ["Bile bomb"],
+            "pt-BR": ["Bomba de bile"]
+        },
+        "category": "Bombs",
+        "type": "ammunition",
+        "stats": {
+            "Damage": "5",
+            "Damage type": "Blunt",
+            "AoE damage": "fire: 15 ? poison: 30",
+            "AoE radius": "4 m",
+            "AoE duration": "10 s",
+            "Backstab": "3x",
+            "Knockback": "40"
+        },
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/a/ab/Bile_Bomb.png/revision/latest?cb=20221130101225",
+        "source": {
+            "page": "Weapons",
+            "url": "https://valheim.fandom.com/wiki/Bile_bomb"
+        }
+    },
+    {
+        "id": "smoke_bomb",
+        "name": {
+            "en": "Smoke bomb",
+            "pt-BR": "Bomba de fumaça"
+        },
+        "aliases": {
+            "en": ["Smoke bomb"],
+            "pt-BR": ["Bomba de fumaça"]
+        },
+        "category": "Bombs",
+        "type": "ammunition",
+        "stats": {
+            "Damage": "5",
+            "Damage type": "Blunt",
+            "AoE damage": "smoked: 2/s",
+            "AoE radius": "3 m",
+            "AoE duration": "10 s",
+            "Backstab": "3x",
+            "Knockback": "40"
+        },
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/e/eb/Smoke_Bomb.png/revision/latest?cb=20240423135354",
+        "source": {
+            "page": "Weapons",
+            "url": "https://valheim.fandom.com/wiki/Smoke_bomb"
+        }
+    },
+    {
+        "id": "blob_bomb_poison",
+        "name": {
+            "en": "Blob Bomb: Poison",
+            "pt-BR": "Bomba de blob: veneno"
+        },
+        "aliases": {
+            "en": ["Blob Bomb: Poison"],
+            "pt-BR": ["Bomba de blob: veneno"]
+        },
+        "category": "Blob bombs",
+        "type": "ammunition",
+        "stats": {
+            "Crafting": "Corked vial x1 Resin x3 Blob trophy x1",
+            "Blob": "Blob",
+            "id": "BombBlob_Poison"
+        },
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/6/69/Blob_bomb_Poison.png/revision/latest?cb=20250821213603",
+        "source": {
+            "page": "Weapons",
+            "url": "https://valheim.fandom.com/wiki/Weapons"
+        }
+    },
+    {
+        "id": "blob_bomb_elite_poison_x2",
+        "name": {
+            "en": "Blob Bomb: Elite poison (x2)",
+            "pt-BR": "Bomba de blob: veneno de elite (x2)"
+        },
+        "aliases": {
+            "en": ["Blob Bomb: Elite poison (x2)"],
+            "pt-BR": ["Bomba de blob: veneno de elite (x2)"]
+        },
+        "category": "Blob bombs",
+        "type": "ammunition",
+        "stats": {
+            "Crafting": "Corked vial x1 Resin x3 Blob trophy x3",
+            "Blob": "Oozer",
+            "id": "BombBlob_PoisonElite"
+        },
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/6/69/Blob_bomb_Elite_poison.png/revision/latest?cb=20250821213534",
+        "source": {
+            "page": "Weapons",
+            "url": "https://valheim.fandom.com/wiki/Weapons"
+        }
+    },
+    {
+        "id": "blob_bomb_frost",
+        "name": {
+            "en": "Blob Bomb: Frost",
+            "pt-BR": "Bomba de blob: gelo"
+        },
+        "aliases": {
+            "en": ["Blob Bomb: Frost"],
+            "pt-BR": ["Bomba de blob: gelo"]
+        },
+        "category": "Blob bombs",
+        "type": "ammunition",
+        "stats": {
+            "Crafting": "Corked vial x1 Resin x3 Drake trophy x1",
+            "Blob": "Frost Blob",
+            "id": "BombBlob_Frost"
+        },
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/3/30/Blob_bomb_Frost.png/revision/latest?cb=20250821213544",
+        "source": {
+            "page": "Weapons",
+            "url": "https://valheim.fandom.com/wiki/Weapons"
+        }
+    },
+    {
+        "id": "blob_bomb_tar",
+        "name": {
+            "en": "Blob Bomb: Tar",
+            "pt-BR": "Bomba de blob: piche"
+        },
+        "aliases": {
+            "en": ["Blob Bomb: Tar"],
+            "pt-BR": ["Bomba de blob: piche"]
+        },
+        "category": "Blob bombs",
+        "type": "ammunition",
+        "stats": {
+            "Crafting": "Corked vial x1 Tar x3 Growth trophy x1",
+            "Blob": "Growth",
+            "id": "BombBlob_Tar"
+        },
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/e/e2/Blob_bomb_Tar.png/revision/latest?cb=20250821213613",
+        "source": {
+            "page": "Weapons",
+            "url": "https://valheim.fandom.com/wiki/Weapons"
+        }
+    },
+    {
+        "id": "blob_bomb_lava",
+        "name": {
+            "en": "Blob Bomb: Lava",
+            "pt-BR": "Bomba de blob: lava"
+        },
+        "aliases": {
+            "en": ["Blob Bomb: Lava"],
+            "pt-BR": ["Bomba de blob: lava"]
+        },
+        "category": "Blob bombs",
+        "type": "ammunition",
+        "stats": {
+            "Crafting": "Corked vial x1 Sulfur x10 Proustite powder x10",
+            "Blob": "Lava Blob",
+            "id": "BombBlob_Lava"
+        },
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/4/41/Blob_bomb_Lava.png/revision/latest?cb=20250821213555",
+        "source": {
+            "page": "Weapons",
+            "url": "https://valheim.fandom.com/wiki/Weapons"
+        }
+    }
+]

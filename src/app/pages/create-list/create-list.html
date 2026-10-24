@@ -1,0 +1,172 @@
+<main class="mx-auto w-full max-w-3xl space-y-6 text-[#eee8db]">
+    <a
+        routerLink="/home"
+        class="inline-flex items-center gap-2 text-sm text-[#9a9f94] transition-colors hover:text-[#eee8db] focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#d6ab62]"
+    >
+        <svg [vardenIcon]="backIcon" [size]="16" aria-hidden="true"></svg>
+        Voltar às listas
+    </a>
+
+    <header>
+        <p class="text-sm font-semibold uppercase tracking-wide text-[#d6ab62]">
+            Seu códice de construções
+        </p>
+        <h1 class="mt-2">Criar nova lista</h1>
+        <p class="mt-2 text-base text-[#a9ada3]">
+            Dê um nome ao seu próximo projeto e comece a planejar.
+        </p>
+    </header>
+
+    <form
+        [formGroup]="form"
+        (ngSubmit)="createList()"
+        class="space-y-5 rounded-md border border-[#30362f] bg-[#1c211d] p-5 sm:p-6"
+    >
+        <div>
+            <label for="list-title" class="mb-2 block text-sm font-medium text-[#d4d2c9]">
+                Nome da lista <span class="text-[#d6ab62]">*</span>
+            </label>
+            <input
+                id="list-title"
+                type="text"
+                formControlName="title"
+                maxlength="100"
+                required
+                autocomplete="off"
+                placeholder="Ex.: Refúgio nas pradarias"
+                class="w-full rounded border border-[#3a4038] bg-[#141715] px-3 py-3 text-base text-[#eee8db] outline-none placeholder:text-[#697067] focus:border-[#d6ab62] focus:ring-1 focus:ring-[#d6ab62]"
+                [attr.aria-invalid]="form.controls.title.invalid && form.controls.title.touched"
+                aria-describedby="title-hint title-error"
+            />
+            <p id="title-hint" class="mt-2 text-xs text-[#858b80]">Máximo de 100 caracteres.</p>
+            @if (form.controls.title.invalid && form.controls.title.touched) {
+            <p id="title-error" class="mt-1 text-sm text-[#e39b88]">
+                Informe um nome com até 100 caracteres.
+            </p>
+            }
+        </div>
+
+        <div>
+            <label for="list-region" class="mb-2 block text-sm font-medium text-[#d4d2c9]">
+                Bioma <span class="text-[#d6ab62]">*</span>
+            </label>
+            <select
+                id="list-region"
+                formControlName="region"
+                required
+                class="w-full rounded border border-[#3a4038] bg-[#141715] px-3 py-3 text-base text-[#eee8db] outline-none focus:border-[#d6ab62] focus:ring-1 focus:ring-[#d6ab62]"
+                [attr.aria-invalid]="form.controls.region.invalid && form.controls.region.touched"
+                aria-describedby="region-error"
+            >
+                <option value="" disabled>Selecione um bioma</option>
+                <option value="Pradarias">Pradarias</option>
+                <option value="Floresta Negra">Floresta Negra</option>
+                <option value="Pântano">Pântano</option>
+                <option value="Montanhas">Montanhas</option>
+                <option value="Planícies">Planícies</option>
+                <option value="Terras Nevoentas">Terras Nevoentas</option>
+                <option value="Terras Cinzentas">Terras Cinzentas</option>
+                <option value="Norte Profundo">Norte Profundo</option>
+                <option value="Outro">Outro</option>
+            </select>
+            @if (form.controls.region.invalid && form.controls.region.touched) {
+            <p id="region-error" class="mt-1 text-sm text-[#e39b88]">Selecione um bioma.</p>
+            }
+        </div>
+
+        <div>
+            <label for="list-description" class="mb-2 block text-sm font-medium text-[#d4d2c9]">
+                Descrição <span class="text-[#858b80]">(opcional)</span>
+            </label>
+            <textarea
+                id="list-description"
+                formControlName="description"
+                rows="3"
+                placeholder="Descreva os planos para sua construção..."
+                class="w-full resize-y rounded border border-[#3a4038] bg-[#141715] px-3 py-3 text-base text-[#eee8db] outline-none placeholder:text-[#697067] focus:border-[#d6ab62] focus:ring-1 focus:ring-[#d6ab62]"
+            ></textarea>
+        </div>
+
+        <fieldset>
+            <legend class="mb-2 text-sm font-medium text-[#d4d2c9]">Imagem da lista</legend>
+            <div class="flex flex-col gap-3 sm:flex-row sm:items-center">
+                <img
+                    [src]="selectedImage().thumbnailUrl"
+                    [alt]="selectedImage().alt"
+                    class="h-32 w-full rounded border border-[#3a4038] object-cover sm:w-56"
+                />
+                <div>
+                    <p class="text-sm text-[#858b80]">Uma capa foi selecionada para sua lista.</p>
+                    <button
+                        type="button"
+                        class="mt-2 rounded border border-[#62543b] px-3 py-2 text-sm font-medium text-[#d6ab62] transition-colors hover:bg-[#302a1e] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#d6ab62]"
+                        [attr.aria-expanded]="imagePickerOpen()"
+                        aria-controls="cover-image-options"
+                        (click)="imagePickerOpen.update((open) => !open)"
+                    >
+                        {{ imagePickerOpen() ? 'Fechar capas' : 'Alterar capa' }}
+                    </button>
+                </div>
+            </div>
+            @if (imagePickerOpen()) {
+            <div id="cover-image-options" class="mt-4">
+                <p class="mb-3 text-sm text-[#858b80]">
+                    Escolha uma arte da
+                    <a
+                        href="https://imgur.com/a/valheim-art-by-mats-minnhagen-as-of-01-10-2026-BYGIJ6x"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="text-[#d6ab62] underline underline-offset-2 hover:text-[#eee8db]"
+                    >
+                        galeria de Valheim </a
+                    >.
+                </p>
+                <div class="grid grid-cols-2 gap-3 sm:grid-cols-3 md:grid-cols-4">
+                    @for (image of images; track image.id) {
+                    <label
+                        class="group relative cursor-pointer overflow-hidden rounded border-2 bg-[#141715] focus-within:ring-2 focus-within:ring-[#d6ab62] focus-within:ring-offset-2 focus-within:ring-offset-[#1c211d]"
+                        [style.border-color]="form.controls.imageId.value === image.id ? '#d6ab62' : '#3a4038'"
+                    >
+                        <input
+                            class="peer sr-only"
+                            type="radio"
+                            formControlName="imageId"
+                            [value]="image.id"
+                            [attr.aria-label]="'Selecionar ' + image.alt"
+                            (change)="closeImagePicker()"
+                        />
+                        <img
+                            [src]="image.thumbnailUrl"
+                            [alt]="image.alt"
+                            loading="lazy"
+                            class="h-24 w-full object-cover transition-opacity group-hover:opacity-80"
+                        />
+                        @if (form.controls.imageId.value === image.id) {
+                        <span
+                            class="absolute right-2 top-2 rounded bg-[#141715]/90 px-2 py-1 text-xs text-[#d6ab62]"
+                        >
+                            Selecionada
+                        </span>
+                        }
+                    </label>
+                    }
+                </div>
+            </div>
+            }
+        </fieldset>
+
+        <div
+            class="flex flex-col-reverse gap-3 border-t border-[#30362f] pt-5 sm:flex-row sm:justify-end"
+        >
+            <a
+                routerLink="/home"
+                class="rounded border border-[#3a4038] px-4 py-3 text-center text-base text-[#b7b9af] transition-colors hover:bg-[#252a23] focus-visible:outline-2 focus-visible:outline-[#d6ab62]"
+            >
+                Cancelar
+            </a>
+            <button varden-button type="submit" [icon]="plusIcon" class="justify-center">
+                Gerar nova lista
+            </button>
+        </div>
+    </form>
+</main>

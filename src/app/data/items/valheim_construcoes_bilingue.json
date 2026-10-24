@@ -1,0 +1,4102 @@
+[
+    {
+        "id": "adornments",
+        "name": {
+            "en": "Adornments",
+            "pt-BR": "Adornos"
+        },
+        "aliases": {
+            "en": ["Adornments"],
+            "pt-BR": ["Adornos"]
+        },
+        "categories": [
+            {
+                "en": "Building structures",
+                "pt-BR": "Estruturas de construção"
+            },
+            {
+                "en": "Misc structures",
+                "pt-BR": "Estruturas diversas"
+            }
+        ],
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/d/d7/Wood_Dragon_Adornment.jpg/revision/latest/scale-to-width-down/96?cb=20210216053925",
+        "source": {
+            "page": "Category:Building",
+            "url": "https://valheim.fandom.com/wiki/Adornments"
+        }
+    },
+    {
+        "id": "adze",
+        "name": {
+            "en": "Adze",
+            "pt-BR": "Enxó"
+        },
+        "aliases": {
+            "en": ["Adze"],
+            "pt-BR": ["Enxó"]
+        },
+        "categories": [
+            {
+                "en": "Crafting structures",
+                "pt-BR": "Estruturas de criação"
+            }
+        ],
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/a/a1/Adze_appearance.png/revision/latest/scale-to-width-down/96?cb=20210204053245",
+        "source": {
+            "page": "Category:Building",
+            "url": "https://valheim.fandom.com/wiki/Adze"
+        }
+    },
+    {
+        "id": "ancient_pot",
+        "name": {
+            "en": "Ancient Pot",
+            "pt-BR": "Pote ancestral"
+        },
+        "aliases": {
+            "en": ["Ancient Pot"],
+            "pt-BR": ["Pote ancestral"]
+        },
+        "categories": [
+            {
+                "en": "Objects",
+                "pt-BR": "Objetos"
+            }
+        ],
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/3/3f/Ashlands_pot_01_cropped.png/revision/latest/scale-to-width-down/68?cb=20240604065358",
+        "source": {
+            "page": "Category:Building",
+            "url": "https://valheim.fandom.com/wiki/Ancient_Pot"
+        }
+    },
+    {
+        "id": "anvils",
+        "name": {
+            "en": "Anvils",
+            "pt-BR": "Bigornas"
+        },
+        "aliases": {
+            "en": ["Anvils"],
+            "pt-BR": ["Bigornas"]
+        },
+        "categories": [
+            {
+                "en": "Crafting structures",
+                "pt-BR": "Estruturas de criação"
+            }
+        ],
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/7/78/Anvils_appearance.png/revision/latest/scale-to-width-down/77?cb=20210209030808",
+        "source": {
+            "page": "Category:Building",
+            "url": "https://valheim.fandom.com/wiki/Anvils"
+        }
+    },
+    {
+        "id": "archery_target",
+        "name": {
+            "en": "Archery Target",
+            "pt-BR": "Alvo de arquearia"
+        },
+        "aliases": {
+            "en": ["Archery Target"],
+            "pt-BR": ["Alvo de arquearia"]
+        },
+        "categories": [
+            {
+                "en": "Misc structures",
+                "pt-BR": "Estruturas diversas"
+            }
+        ],
+        "imageUrl": null,
+        "source": {
+            "page": "Category:Building",
+            "url": "https://valheim.fandom.com/wiki/Archery_Target"
+        }
+    },
+    {
+        "id": "armor_stand",
+        "name": {
+            "en": "Armor Stand",
+            "pt-BR": "Suporte de armadura"
+        },
+        "aliases": {
+            "en": ["Armor Stand"],
+            "pt-BR": ["Suporte de armadura"]
+        },
+        "categories": [
+            {
+                "en": "Furniture",
+                "pt-BR": "Móveis"
+            },
+            {
+                "en": "Grants Comfort",
+                "pt-BR": "Concede conforto"
+            },
+            {
+                "en": "Storage",
+                "pt-BR": "Armazenamento"
+            }
+        ],
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/2/2c/Armor_Stand_Display.png/revision/latest/scale-to-width-down/96?cb=20220122190933",
+        "source": {
+            "page": "Category:Building",
+            "url": "https://valheim.fandom.com/wiki/Armor_Stand"
+        }
+    },
+    {
+        "id": "artisan_table",
+        "name": {
+            "en": "Artisan Table",
+            "pt-BR": "Mesa do artesão"
+        },
+        "aliases": {
+            "en": ["Artisan Table"],
+            "pt-BR": ["Mesa do artesão"]
+        },
+        "categories": [
+            {
+                "en": "Crafting structures",
+                "pt-BR": "Estruturas de criação"
+            }
+        ],
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/5/5b/Artisan_table_appearance.png/revision/latest/scale-to-width-down/96?cb=20241207111518",
+        "source": {
+            "page": "Category:Building",
+            "url": "https://valheim.fandom.com/wiki/Artisan_Table"
+        }
+    },
+    {
+        "id": "ashwood_bed",
+        "name": {
+            "en": "Ashwood Bed",
+            "pt-BR": "Cama de freixo"
+        },
+        "aliases": {
+            "en": ["Ashwood Bed"],
+            "pt-BR": ["Cama de freixo"]
+        },
+        "categories": [
+            {
+                "en": "Beds",
+                "pt-BR": "Camas"
+            },
+            {
+                "en": "Furniture",
+                "pt-BR": "Móveis"
+            }
+        ],
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/c/c7/Ashwood_bed_appearance.png/revision/latest/scale-to-width-down/96?cb=20250512123240",
+        "source": {
+            "page": "Category:Building",
+            "url": "https://valheim.fandom.com/wiki/Ashwood_Bed"
+        }
+    },
+    {
+        "id": "ashwood_stack",
+        "name": {
+            "en": "Ashwood Stack",
+            "pt-BR": "Pilha de madeira de freixo"
+        },
+        "aliases": {
+            "en": ["Ashwood Stack"],
+            "pt-BR": ["Pilha de madeira de freixo"]
+        },
+        "categories": [
+            {
+                "en": "Misc structures",
+                "pt-BR": "Estruturas diversas"
+            },
+            {
+                "en": "Stacks & Piles",
+                "pt-BR": "Pilhas e montes"
+            }
+        ],
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/1/1f/Ashwood_stack_appearance.png/revision/latest/scale-to-width-down/96?cb=20250511093558",
+        "source": {
+            "page": "Category:Building",
+            "url": "https://valheim.fandom.com/wiki/Ashwood_Stack"
+        }
+    },
+    {
+        "id": "ashwood_stakewall",
+        "name": {
+            "en": "Ashwood Stakewall",
+            "pt-BR": "Estacada de freixo"
+        },
+        "aliases": {
+            "en": ["Ashwood Stakewall"],
+            "pt-BR": ["Estacada de freixo"]
+        },
+        "categories": [
+            {
+                "en": "Building structures",
+                "pt-BR": "Estruturas de construção"
+            },
+            {
+                "en": "Misc structures",
+                "pt-BR": "Estruturas diversas"
+            }
+        ],
+        "imageUrl": null,
+        "source": {
+            "page": "Category:Building",
+            "url": "https://valheim.fandom.com/wiki/Ashwood_Stakewall"
+        }
+    },
+    {
+        "id": "ashwood_structures",
+        "name": {
+            "en": "Ashwood Structures",
+            "pt-BR": "Estruturas de madeira de freixo"
+        },
+        "aliases": {
+            "en": ["Ashwood Structures"],
+            "pt-BR": ["Estruturas de madeira de freixo"]
+        },
+        "categories": [
+            {
+                "en": "Building structures",
+                "pt-BR": "Estruturas de construção"
+            }
+        ],
+        "imageUrl": null,
+        "source": {
+            "page": "Category:Building",
+            "url": "https://valheim.fandom.com/wiki/Ashwood_Structures"
+        }
+    },
+    {
+        "id": "asksvin_carrion",
+        "name": {
+            "en": "Asksvin Carrion",
+            "pt-BR": "Carcaça de asksvin"
+        },
+        "aliases": {
+            "en": ["Asksvin Carrion"],
+            "pt-BR": ["Carcaça de asksvin"]
+        },
+        "categories": [
+            {
+                "en": "Objects",
+                "pt-BR": "Objetos"
+            }
+        ],
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/b/b7/Asksvin_carrion_1.png/revision/latest/scale-to-width-down/96?cb=20240604091417",
+        "source": {
+            "page": "Category:Building",
+            "url": "https://valheim.fandom.com/wiki/Asksvin_Carrion"
+        }
+    },
+    {
+        "id": "asksvin_skeleton",
+        "name": {
+            "en": "Asksvin Skeleton",
+            "pt-BR": "Esqueleto de asksvin"
+        },
+        "aliases": {
+            "en": ["Asksvin Skeleton"],
+            "pt-BR": ["Esqueleto de asksvin"]
+        },
+        "categories": [
+            {
+                "en": "Furniture",
+                "pt-BR": "Móveis"
+            }
+        ],
+        "imageUrl": null,
+        "source": {
+            "page": "Category:Building",
+            "url": "https://valheim.fandom.com/wiki/Asksvin_Skeleton"
+        }
+    },
+    {
+        "id": "ballista",
+        "name": {
+            "en": "Ballista",
+            "pt-BR": "Balista"
+        },
+        "aliases": {
+            "en": ["Ballista"],
+            "pt-BR": ["Balista"]
+        },
+        "categories": [
+            {
+                "en": "Misc structures",
+                "pt-BR": "Estruturas diversas"
+            }
+        ],
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/4/47/Ballista_appearance1.png/revision/latest/scale-to-width-down/96?cb=20230114190348",
+        "source": {
+            "page": "Category:Building",
+            "url": "https://valheim.fandom.com/wiki/Ballista"
+        }
+    },
+    {
+        "id": "banners",
+        "name": {
+            "en": "Banners",
+            "pt-BR": "Bandeiras"
+        },
+        "aliases": {
+            "en": ["Banners"],
+            "pt-BR": ["Bandeiras"]
+        },
+        "categories": [
+            {
+                "en": "Furniture",
+                "pt-BR": "Móveis"
+            }
+        ],
+        "imageUrl": null,
+        "source": {
+            "page": "Category:Building",
+            "url": "https://valheim.fandom.com/wiki/Banners"
+        }
+    },
+    {
+        "id": "barber_station",
+        "name": {
+            "en": "Barber Station",
+            "pt-BR": "Estação de barbeiro"
+        },
+        "aliases": {
+            "en": ["Barber Station"],
+            "pt-BR": ["Estação de barbeiro"]
+        },
+        "categories": [
+            {
+                "en": "Crafting structures",
+                "pt-BR": "Estruturas de criação"
+            },
+            {
+                "en": "Grants Comfort",
+                "pt-BR": "Concede conforto"
+            }
+        ],
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/9/91/Barber_station_appearance.png/revision/latest/scale-to-width-down/96?cb=20230909184501",
+        "source": {
+            "page": "Category:Building",
+            "url": "https://valheim.fandom.com/wiki/Barber_Station"
+        }
+    },
+    {
+        "id": "barrel",
+        "name": {
+            "en": "Barrel",
+            "pt-BR": "Barril"
+        },
+        "aliases": {
+            "en": ["Barrel"],
+            "pt-BR": ["Barril"]
+        },
+        "categories": [
+            {
+                "en": "Furniture",
+                "pt-BR": "Móveis"
+            },
+            {
+                "en": "Storage",
+                "pt-BR": "Armazenamento"
+            }
+        ],
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/6/63/Barrel_appearance.png/revision/latest/scale-to-width-down/81?cb=20250512125809",
+        "source": {
+            "page": "Category:Building",
+            "url": "https://valheim.fandom.com/wiki/Barrel"
+        }
+    },
+    {
+        "id": "battering_ram",
+        "name": {
+            "en": "Battering Ram",
+            "pt-BR": "Aríete"
+        },
+        "aliases": {
+            "en": ["Battering Ram"],
+            "pt-BR": ["Aríete"]
+        },
+        "categories": [
+            {
+                "en": "Misc structures",
+                "pt-BR": "Estruturas diversas"
+            }
+        ],
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/9/9d/UnfueledBatteringRam.jpg/revision/latest/scale-to-width-down/96?cb=20240626011652",
+        "source": {
+            "page": "Category:Building",
+            "url": "https://valheim.fandom.com/wiki/Battering_Ram"
+        }
+    },
+    {
+        "id": "bed",
+        "name": {
+            "en": "Bed",
+            "pt-BR": "Cama"
+        },
+        "aliases": {
+            "en": ["Bed"],
+            "pt-BR": ["Cama"]
+        },
+        "categories": [
+            {
+                "en": "Beds",
+                "pt-BR": "Camas"
+            },
+            {
+                "en": "Furniture",
+                "pt-BR": "Móveis"
+            }
+        ],
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/d/de/Bed_appearance.png/revision/latest/scale-to-width-down/96?cb=20250512120309",
+        "source": {
+            "page": "Category:Building",
+            "url": "https://valheim.fandom.com/wiki/Bed"
+        }
+    },
+    {
+        "id": "beehive",
+        "name": {
+            "en": "Beehive",
+            "pt-BR": "Colmeia"
+        },
+        "aliases": {
+            "en": ["Beehive"],
+            "pt-BR": ["Colmeia"]
+        },
+        "categories": [
+            {
+                "en": "Crafting structures",
+                "pt-BR": "Estruturas de criação"
+            }
+        ],
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/d/da/Beehive_appearance.png/revision/latest/scale-to-width-down/96?cb=20250509101410",
+        "source": {
+            "page": "Category:Building",
+            "url": "https://valheim.fandom.com/wiki/Beehive"
+        }
+    },
+    {
+        "id": "birds_nest",
+        "name": {
+            "en": "Birds' Nest",
+            "pt-BR": "Ninho de pássaro"
+        },
+        "aliases": {
+            "en": ["Birds' Nest"],
+            "pt-BR": ["Ninho de pássaro"]
+        },
+        "categories": [
+            {
+                "en": "Crafting structures",
+                "pt-BR": "Estruturas de criação"
+            }
+        ],
+        "imageUrl": null,
+        "source": {
+            "page": "Category:Building",
+            "url": "https://valheim.fandom.com/wiki/Birds'_Nest"
+        }
+    },
+    {
+        "id": "black_forge",
+        "name": {
+            "en": "Black Forge",
+            "pt-BR": "Forja negra"
+        },
+        "aliases": {
+            "en": ["Black Forge"],
+            "pt-BR": ["Forja negra"]
+        },
+        "categories": [
+            {
+                "en": "Crafting structures",
+                "pt-BR": "Estruturas de criação"
+            }
+        ],
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/8/8c/Black_forge_appearance.png/revision/latest/scale-to-width-down/96?cb=20241207112128",
+        "source": {
+            "page": "Category:Building",
+            "url": "https://valheim.fandom.com/wiki/Black_Forge"
+        }
+    },
+    {
+        "id": "black_forge_cooler",
+        "name": {
+            "en": "Black Forge Cooler",
+            "pt-BR": "Resfriador da forja negra"
+        },
+        "aliases": {
+            "en": ["Black Forge Cooler"],
+            "pt-BR": ["Resfriador da forja negra"]
+        },
+        "categories": [
+            {
+                "en": "Crafting structures",
+                "pt-BR": "Estruturas de criação"
+            }
+        ],
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/1/1a/Black_forge_cooler_appearance.png/revision/latest/scale-to-width-down/96?cb=20221225141846",
+        "source": {
+            "page": "Category:Building",
+            "url": "https://valheim.fandom.com/wiki/Black_Forge_Cooler"
+        }
+    },
+    {
+        "id": "black_marble_pile",
+        "name": {
+            "en": "Black Marble Pile",
+            "pt-BR": "Pilha de mármore negro"
+        },
+        "aliases": {
+            "en": ["Black Marble Pile"],
+            "pt-BR": ["Pilha de mármore negro"]
+        },
+        "categories": [
+            {
+                "en": "Misc structures",
+                "pt-BR": "Estruturas diversas"
+            },
+            {
+                "en": "Stacks & Piles",
+                "pt-BR": "Pilhas e montes"
+            }
+        ],
+        "imageUrl": null,
+        "source": {
+            "page": "Category:Building",
+            "url": "https://valheim.fandom.com/wiki/Black_Marble_Pile"
+        }
+    },
+    {
+        "id": "black_marble_structures",
+        "name": {
+            "en": "Black Marble Structures",
+            "pt-BR": "Estruturas de mármore negro"
+        },
+        "aliases": {
+            "en": ["Black Marble Structures"],
+            "pt-BR": ["Estruturas de mármore negro"]
+        },
+        "categories": [
+            {
+                "en": "Building structures",
+                "pt-BR": "Estruturas de construção"
+            }
+        ],
+        "imageUrl": null,
+        "source": {
+            "page": "Category:Building",
+            "url": "https://valheim.fandom.com/wiki/Black_Marble_Structures"
+        }
+    },
+    {
+        "id": "black_metal_chest",
+        "name": {
+            "en": "Black Metal Chest",
+            "pt-BR": "Baú de metal negro"
+        },
+        "aliases": {
+            "en": ["Black Metal Chest"],
+            "pt-BR": ["Baú de metal negro"]
+        },
+        "categories": [
+            {
+                "en": "Furniture",
+                "pt-BR": "Móveis"
+            },
+            {
+                "en": "Storage",
+                "pt-BR": "Armazenamento"
+            }
+        ],
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/9/96/Black_metal_chest_appearance.png/revision/latest/scale-to-width-down/96?cb=20250512130909",
+        "source": {
+            "page": "Category:Building",
+            "url": "https://valheim.fandom.com/wiki/Black_Metal_Chest"
+        }
+    },
+    {
+        "id": "blast_furnace",
+        "name": {
+            "en": "Blast Furnace",
+            "pt-BR": "Alto-forno"
+        },
+        "aliases": {
+            "en": ["Blast Furnace"],
+            "pt-BR": ["Alto-forno"]
+        },
+        "categories": [
+            {
+                "en": "Crafting structures",
+                "pt-BR": "Estruturas de criação"
+            }
+        ],
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/f/fa/Blast_furnace_appearance.png/revision/latest/scale-to-width-down/74?cb=20250511073341",
+        "source": {
+            "page": "Category:Building",
+            "url": "https://valheim.fandom.com/wiki/Blast_Furnace"
+        }
+    },
+    {
+        "id": "blue_jute_curtain",
+        "name": {
+            "en": "Blue Jute Curtain",
+            "pt-BR": "Cortina azul de juta"
+        },
+        "aliases": {
+            "en": ["Blue Jute Curtain"],
+            "pt-BR": ["Cortina azul de juta"]
+        },
+        "categories": [
+            {
+                "en": "Furniture",
+                "pt-BR": "Móveis"
+            }
+        ],
+        "imageUrl": null,
+        "source": {
+            "page": "Category:Building",
+            "url": "https://valheim.fandom.com/wiki/Blue_Jute_Curtain"
+        }
+    },
+    {
+        "id": "blue_jute_drapes",
+        "name": {
+            "en": "Blue Jute Drapes",
+            "pt-BR": "Cortinas azuis de juta"
+        },
+        "aliases": {
+            "en": ["Blue Jute Drapes"],
+            "pt-BR": ["Cortinas azuis de juta"]
+        },
+        "categories": [
+            {
+                "en": "Furniture",
+                "pt-BR": "Móveis"
+            }
+        ],
+        "imageUrl": null,
+        "source": {
+            "page": "Category:Building",
+            "url": "https://valheim.fandom.com/wiki/Blue_Jute_Drapes"
+        }
+    },
+    {
+        "id": "blue_standing_brazier",
+        "name": {
+            "en": "Blue Standing Brazier",
+            "pt-BR": "Braseiro azul de chão"
+        },
+        "aliases": {
+            "en": ["Blue Standing Brazier"],
+            "pt-BR": ["Braseiro azul de chão"]
+        },
+        "categories": [
+            {
+                "en": "Fires",
+                "pt-BR": "Fogueiras"
+            },
+            {
+                "en": "Furniture",
+                "pt-BR": "Móveis"
+            }
+        ],
+        "imageUrl": null,
+        "source": {
+            "page": "Category:Building",
+            "url": "https://valheim.fandom.com/wiki/Blue_Standing_Brazier"
+        }
+    },
+    {
+        "id": "body_pile",
+        "name": {
+            "en": "Body Pile",
+            "pt-BR": "Pilha de corpos"
+        },
+        "aliases": {
+            "en": ["Body Pile"],
+            "pt-BR": ["Pilha de corpos"]
+        },
+        "categories": [
+            {
+                "en": "Building",
+                "pt-BR": "Construção"
+            }
+        ],
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/3/3d/Body_Pile.png/revision/latest/scale-to-width-down/96?cb=20250513081916",
+        "source": {
+            "page": "Category:Building",
+            "url": "https://valheim.fandom.com/wiki/Body_Pile"
+        }
+    },
+    {
+        "id": "bone_stack",
+        "name": {
+            "en": "Bone Stack",
+            "pt-BR": "Pilha de ossos"
+        },
+        "aliases": {
+            "en": ["Bone Stack"],
+            "pt-BR": ["Pilha de ossos"]
+        },
+        "categories": [
+            {
+                "en": "Misc structures",
+                "pt-BR": "Estruturas diversas"
+            },
+            {
+                "en": "Stacks & Piles",
+                "pt-BR": "Pilhas e montes"
+            }
+        ],
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/a/ac/Bone_stack_appearance.png/revision/latest/scale-to-width-down/96?cb=20250511101235",
+        "source": {
+            "page": "Category:Building",
+            "url": "https://valheim.fandom.com/wiki/Bone_Stack"
+        }
+    },
+    {
+        "id": "bonfire",
+        "name": {
+            "en": "Bonfire",
+            "pt-BR": "Fogueira grande"
+        },
+        "aliases": {
+            "en": ["Bonfire"],
+            "pt-BR": ["Fogueira grande"]
+        },
+        "categories": [
+            {
+                "en": "Fires",
+                "pt-BR": "Fogueiras"
+            },
+            {
+                "en": "Misc structures",
+                "pt-BR": "Estruturas diversas"
+            }
+        ],
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/8/84/Bonfire_appearance.png/revision/latest/scale-to-width-down/72?cb=20210210005057",
+        "source": {
+            "page": "Category:Building",
+            "url": "https://valheim.fandom.com/wiki/Bonfire"
+        }
+    },
+    {
+        "id": "butcher_s_table",
+        "name": {
+            "en": "Butcher's Table",
+            "pt-BR": "Mesa do açougueiro"
+        },
+        "aliases": {
+            "en": ["Butcher's Table"],
+            "pt-BR": ["Mesa do açougueiro"]
+        },
+        "categories": [
+            {
+                "en": "Crafting structures",
+                "pt-BR": "Estruturas de criação"
+            }
+        ],
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/e/eb/Butcher%27s_table_appearance.png/revision/latest/scale-to-width-down/96?cb=20240112170240",
+        "source": {
+            "page": "Category:Building",
+            "url": "https://valheim.fandom.com/wiki/Butcher's_Table"
+        }
+    },
+    {
+        "id": "cage_structures",
+        "name": {
+            "en": "Cage Structures",
+            "pt-BR": "Estruturas de jaula"
+        },
+        "aliases": {
+            "en": ["Cage Structures"],
+            "pt-BR": ["Estruturas de jaula"]
+        },
+        "categories": [
+            {
+                "en": "Building structures",
+                "pt-BR": "Estruturas de construção"
+            }
+        ],
+        "imageUrl": null,
+        "source": {
+            "page": "Category:Building",
+            "url": "https://valheim.fandom.com/wiki/Cage_Structures"
+        }
+    },
+    {
+        "id": "campfire",
+        "name": {
+            "en": "Campfire",
+            "pt-BR": "Fogueira"
+        },
+        "aliases": {
+            "en": ["Campfire"],
+            "pt-BR": ["Fogueira"]
+        },
+        "categories": [
+            {
+                "en": "Fires",
+                "pt-BR": "Fogueiras"
+            },
+            {
+                "en": "Misc structures",
+                "pt-BR": "Estruturas diversas"
+            }
+        ],
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/f/f4/Firepit-0.png/revision/latest/scale-to-width-down/94?cb=20180714234410",
+        "source": {
+            "page": "Category:Building",
+            "url": "https://valheim.fandom.com/wiki/Campfire"
+        }
+    },
+    {
+        "id": "cart",
+        "name": {
+            "en": "Cart",
+            "pt-BR": "Carroça"
+        },
+        "aliases": {
+            "en": ["Cart"],
+            "pt-BR": ["Carroça"]
+        },
+        "categories": [
+            {
+                "en": "Misc structures",
+                "pt-BR": "Estruturas diversas"
+            },
+            {
+                "en": "Storage",
+                "pt-BR": "Armazenamento"
+            }
+        ],
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/a/ae/Cart_appearance.png/revision/latest/scale-to-width-down/96?cb=20230114172609",
+        "source": {
+            "page": "Category:Building",
+            "url": "https://valheim.fandom.com/wiki/Cart"
+        }
+    },
+    {
+        "id": "cartography_table",
+        "name": {
+            "en": "Cartography Table",
+            "pt-BR": "Mesa de cartografia"
+        },
+        "aliases": {
+            "en": ["Cartography Table"],
+            "pt-BR": ["Mesa de cartografia"]
+        },
+        "categories": [
+            {
+                "en": "Misc structures",
+                "pt-BR": "Estruturas diversas"
+            }
+        ],
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/b/b4/Cartography_table_appearance.png/revision/latest/scale-to-width-down/96?cb=20230124164821",
+        "source": {
+            "page": "Category:Building",
+            "url": "https://valheim.fandom.com/wiki/Cartography_Table"
+        }
+    },
+    {
+        "id": "catapult",
+        "name": {
+            "en": "Catapult",
+            "pt-BR": "Catapulta"
+        },
+        "aliases": {
+            "en": ["Catapult"],
+            "pt-BR": ["Catapulta"]
+        },
+        "categories": [
+            {
+                "en": "Misc structures",
+                "pt-BR": "Estruturas diversas"
+            }
+        ],
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/8/8f/Catapult_appearance.png/revision/latest/scale-to-width-down/96?cb=20240521114859",
+        "source": {
+            "page": "Category:Building",
+            "url": "https://valheim.fandom.com/wiki/Catapult"
+        }
+    },
+    {
+        "id": "cauldron",
+        "name": {
+            "en": "Cauldron",
+            "pt-BR": "Caldeirão"
+        },
+        "aliases": {
+            "en": ["Cauldron"],
+            "pt-BR": ["Caldeirão"]
+        },
+        "categories": [
+            {
+                "en": "Crafting structures",
+                "pt-BR": "Estruturas de criação"
+            }
+        ],
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/d/df/Cauldron_appearance.png/revision/latest/scale-to-width-down/84?cb=20230624182033",
+        "source": {
+            "page": "Category:Building",
+            "url": "https://valheim.fandom.com/wiki/Cauldron"
+        }
+    },
+    {
+        "id": "chairs",
+        "name": {
+            "en": "Chairs",
+            "pt-BR": "Cadeiras"
+        },
+        "aliases": {
+            "en": ["Chairs"],
+            "pt-BR": ["Cadeiras"]
+        },
+        "categories": [
+            {
+                "en": "Furniture",
+                "pt-BR": "Móveis"
+            },
+            {
+                "en": "Grants Comfort",
+                "pt-BR": "Concede conforto"
+            }
+        ],
+        "imageUrl": null,
+        "source": {
+            "page": "Category:Building",
+            "url": "https://valheim.fandom.com/wiki/Chairs"
+        }
+    },
+    {
+        "id": "charcoal_kiln",
+        "name": {
+            "en": "Charcoal Kiln",
+            "pt-BR": "Forno de carvão"
+        },
+        "aliases": {
+            "en": ["Charcoal Kiln"],
+            "pt-BR": ["Forno de carvão"]
+        },
+        "categories": [
+            {
+                "en": "Crafting structures",
+                "pt-BR": "Estruturas de criação"
+            }
+        ],
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/c/cd/Charcoal_kiln_appearance.png/revision/latest/scale-to-width-down/92?cb=20250511075429",
+        "source": {
+            "page": "Category:Building",
+            "url": "https://valheim.fandom.com/wiki/Charcoal_Kiln"
+        }
+    },
+    {
+        "id": "chest",
+        "name": {
+            "en": "Chest",
+            "pt-BR": "Baú"
+        },
+        "aliases": {
+            "en": ["Chest"],
+            "pt-BR": ["Baú"]
+        },
+        "categories": [
+            {
+                "en": "Furniture",
+                "pt-BR": "Móveis"
+            },
+            {
+                "en": "Storage",
+                "pt-BR": "Armazenamento"
+            }
+        ],
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/0/06/Chest_appearance.png/revision/latest/scale-to-width-down/96?cb=20250512125301",
+        "source": {
+            "page": "Category:Building",
+            "url": "https://valheim.fandom.com/wiki/Chest"
+        }
+    },
+    {
+        "id": "chopping_block",
+        "name": {
+            "en": "Chopping Block",
+            "pt-BR": "Toco de corte"
+        },
+        "aliases": {
+            "en": ["Chopping Block"],
+            "pt-BR": ["Toco de corte"]
+        },
+        "categories": [
+            {
+                "en": "Crafting structures",
+                "pt-BR": "Estruturas de criação"
+            }
+        ],
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/2/24/Chopping_block_appearance.png/revision/latest/scale-to-width-down/92?cb=20210209032356",
+        "source": {
+            "page": "Category:Building",
+            "url": "https://valheim.fandom.com/wiki/Chopping_Block"
+        }
+    },
+    {
+        "id": "coal_pile",
+        "name": {
+            "en": "Coal Pile",
+            "pt-BR": "Pilha de carvão"
+        },
+        "aliases": {
+            "en": ["Coal Pile"],
+            "pt-BR": ["Pilha de carvão"]
+        },
+        "categories": [
+            {
+                "en": "Misc structures",
+                "pt-BR": "Estruturas diversas"
+            },
+            {
+                "en": "Stacks & Piles",
+                "pt-BR": "Pilhas e montes"
+            }
+        ],
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/c/cb/Coal_pile_appearance.png/revision/latest/scale-to-width-down/96?cb=20230120111455",
+        "source": {
+            "page": "Category:Building",
+            "url": "https://valheim.fandom.com/wiki/Coal_Pile"
+        }
+    },
+    {
+        "id": "coin_pile",
+        "name": {
+            "en": "Coin Pile",
+            "pt-BR": "Pilha de moedas"
+        },
+        "aliases": {
+            "en": ["Coin Pile"],
+            "pt-BR": ["Pilha de moedas"]
+        },
+        "categories": [
+            {
+                "en": "Misc structures",
+                "pt-BR": "Estruturas diversas"
+            },
+            {
+                "en": "Stacks & Piles",
+                "pt-BR": "Pilhas e montes"
+            }
+        ],
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/1/1e/Coin_pile_appearance.png/revision/latest/scale-to-width-down/96?cb=20230124163356",
+        "source": {
+            "page": "Category:Building",
+            "url": "https://valheim.fandom.com/wiki/Coin_Pile"
+        }
+    },
+    {
+        "id": "coin_stack",
+        "name": {
+            "en": "Coin Stack",
+            "pt-BR": "Pilha de moedas"
+        },
+        "aliases": {
+            "en": ["Coin Stack"],
+            "pt-BR": ["Pilha de moedas"]
+        },
+        "categories": [
+            {
+                "en": "Misc structures",
+                "pt-BR": "Estruturas diversas"
+            },
+            {
+                "en": "Stacks & Piles",
+                "pt-BR": "Pilhas e montes"
+            }
+        ],
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/b/b2/Coin_stack_appearance.png/revision/latest/scale-to-width-down/96?cb=20230124163816",
+        "source": {
+            "page": "Category:Building",
+            "url": "https://valheim.fandom.com/wiki/Coin_Stack"
+        }
+    },
+    {
+        "id": "cooking_station",
+        "name": {
+            "en": "Cooking Station",
+            "pt-BR": "Estação de cozinha"
+        },
+        "aliases": {
+            "en": ["Cooking Station"],
+            "pt-BR": ["Estação de cozinha"]
+        },
+        "categories": [
+            {
+                "en": "Crafting structures",
+                "pt-BR": "Estruturas de criação"
+            }
+        ],
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/d/d3/Cooking_station_appearance.png/revision/latest/scale-to-width-down/96?cb=20230124165742",
+        "source": {
+            "page": "Category:Building",
+            "url": "https://valheim.fandom.com/wiki/Cooking_Station"
+        }
+    },
+    {
+        "id": "corewood_stack",
+        "name": {
+            "en": "Corewood Stack",
+            "pt-BR": "Pilha de madeira nobre"
+        },
+        "aliases": {
+            "en": ["Corewood Stack"],
+            "pt-BR": ["Pilha de madeira nobre"]
+        },
+        "categories": [
+            {
+                "en": "Misc structures",
+                "pt-BR": "Estruturas diversas"
+            },
+            {
+                "en": "Stacks & Piles",
+                "pt-BR": "Pilhas e montes"
+            }
+        ],
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/5/54/Corewood_stack_appearance.png/revision/latest/scale-to-width-down/96?cb=20230114194408",
+        "source": {
+            "page": "Category:Building",
+            "url": "https://valheim.fandom.com/wiki/Corewood_Stack"
+        }
+    },
+    {
+        "id": "crystal_wall_1x1",
+        "name": {
+            "en": "Crystal Wall 1x1",
+            "pt-BR": "Parede de cristal 1x1"
+        },
+        "aliases": {
+            "en": ["Crystal Wall 1x1"],
+            "pt-BR": ["Parede de cristal 1x1"]
+        },
+        "categories": [
+            {
+                "en": "Building structures",
+                "pt-BR": "Estruturas de construção"
+            }
+        ],
+        "imageUrl": null,
+        "source": {
+            "page": "Category:Building",
+            "url": "https://valheim.fandom.com/wiki/Crystal_Wall_1x1"
+        }
+    },
+    {
+        "id": "darkwood_structures",
+        "name": {
+            "en": "Darkwood Structures",
+            "pt-BR": "Estruturas de madeira escura"
+        },
+        "aliases": {
+            "en": ["Darkwood Structures"],
+            "pt-BR": ["Estruturas de madeira escura"]
+        },
+        "categories": [
+            {
+                "en": "Building structures",
+                "pt-BR": "Estruturas de construção"
+            }
+        ],
+        "imageUrl": null,
+        "source": {
+            "page": "Category:Building",
+            "url": "https://valheim.fandom.com/wiki/Darkwood_Structures"
+        }
+    },
+    {
+        "id": "dragon_bed",
+        "name": {
+            "en": "Dragon Bed",
+            "pt-BR": "Cama de dragão"
+        },
+        "aliases": {
+            "en": ["Dragon Bed"],
+            "pt-BR": ["Cama de dragão"]
+        },
+        "categories": [
+            {
+                "en": "Beds",
+                "pt-BR": "Camas"
+            },
+            {
+                "en": "Furniture",
+                "pt-BR": "Móveis"
+            }
+        ],
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/c/cf/Dragon_bed_appearance.png/revision/latest/scale-to-width-down/96?cb=20250512122228",
+        "source": {
+            "page": "Category:Building",
+            "url": "https://valheim.fandom.com/wiki/Dragon_Bed"
+        }
+    },
+    {
+        "id": "drakkar",
+        "name": {
+            "en": "Drakkar",
+            "pt-BR": "Dracar"
+        },
+        "aliases": {
+            "en": ["Drakkar"],
+            "pt-BR": ["Dracar"]
+        },
+        "categories": [
+            {
+                "en": "Misc structures",
+                "pt-BR": "Estruturas diversas"
+            },
+            {
+                "en": "Storage",
+                "pt-BR": "Armazenamento"
+            }
+        ],
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/7/70/Drakkar_appearance.png/revision/latest/scale-to-width-down/96?cb=20240428074517",
+        "source": {
+            "page": "Category:Building",
+            "url": "https://valheim.fandom.com/wiki/Drakkar"
+        }
+    },
+    {
+        "id": "dvergr_ashlands_crate",
+        "name": {
+            "en": "Dvergr Ashlands crate",
+            "pt-BR": "Caixa dvergr das Terras de Cinzas"
+        },
+        "aliases": {
+            "en": ["Dvergr Ashlands crate"],
+            "pt-BR": ["Caixa dvergr das Terras de Cinzas"]
+        },
+        "categories": [
+            {
+                "en": "Objects",
+                "pt-BR": "Objetos"
+            }
+        ],
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/e/ed/Dvergr_Crate.png/revision/latest/scale-to-width-down/96?cb=20230211090151",
+        "source": {
+            "page": "Category:Building",
+            "url": "https://valheim.fandom.com/wiki/Dvergr_Ashlands_crate"
+        }
+    },
+    {
+        "id": "dvergr_barrel",
+        "name": {
+            "en": "Dvergr Barrel",
+            "pt-BR": "Barril dvergr"
+        },
+        "aliases": {
+            "en": ["Dvergr Barrel"],
+            "pt-BR": ["Barril dvergr"]
+        },
+        "categories": [
+            {
+                "en": "Objects",
+                "pt-BR": "Objetos"
+            }
+        ],
+        "imageUrl": null,
+        "source": {
+            "page": "Category:Building",
+            "url": "https://valheim.fandom.com/wiki/Dvergr_Barrel"
+        }
+    },
+    {
+        "id": "dvergr_component_crate",
+        "name": {
+            "en": "Dvergr Component Crate",
+            "pt-BR": "Caixa de componentes dvergr"
+        },
+        "aliases": {
+            "en": ["Dvergr Component Crate"],
+            "pt-BR": ["Caixa de componentes dvergr"]
+        },
+        "categories": [
+            {
+                "en": "Objects",
+                "pt-BR": "Objetos"
+            }
+        ],
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/d/d5/Dvergr_Component_Crate.png/revision/latest/scale-to-width-down/96?cb=20230211090852",
+        "source": {
+            "page": "Category:Building",
+            "url": "https://valheim.fandom.com/wiki/Dvergr_Component_Crate"
+        }
+    },
+    {
+        "id": "dvergr_crate",
+        "name": {
+            "en": "Dvergr Crate",
+            "pt-BR": "Caixa dvergr"
+        },
+        "aliases": {
+            "en": ["Dvergr Crate"],
+            "pt-BR": ["Caixa dvergr"]
+        },
+        "categories": [
+            {
+                "en": "Objects",
+                "pt-BR": "Objetos"
+            }
+        ],
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/e/ed/Dvergr_Crate.png/revision/latest/scale-to-width-down/96?cb=20230211090151",
+        "source": {
+            "page": "Category:Building",
+            "url": "https://valheim.fandom.com/wiki/Dvergr_Crate"
+        }
+    },
+    {
+        "id": "dvergr_lantern_pole",
+        "name": {
+            "en": "Dvergr Lantern Pole",
+            "pt-BR": "Poste de lanterna dvergr"
+        },
+        "aliases": {
+            "en": ["Dvergr Lantern Pole"],
+            "pt-BR": ["Poste de lanterna dvergr"]
+        },
+        "categories": [
+            {
+                "en": "Furniture",
+                "pt-BR": "Móveis"
+            }
+        ],
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/d/d1/Dvergr_lantern_pole_appearance.png/revision/latest/scale-to-width-down/47?cb=20250513134406",
+        "source": {
+            "page": "Category:Building",
+            "url": "https://valheim.fandom.com/wiki/Dvergr_Lantern_Pole"
+        }
+    },
+    {
+        "id": "dvergr_metal_wall",
+        "name": {
+            "en": "Dvergr metal wall",
+            "pt-BR": "Parede de metal dvergr"
+        },
+        "aliases": {
+            "en": ["Dvergr metal wall"],
+            "pt-BR": ["Parede de metal dvergr"]
+        },
+        "categories": [
+            {
+                "en": "Building structures",
+                "pt-BR": "Estruturas de construção"
+            }
+        ],
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/c/cb/DvergrCagevsIronCage1.jpg/revision/latest/scale-to-width-down/96?cb=20240526000547",
+        "source": {
+            "page": "Category:Building",
+            "url": "https://valheim.fandom.com/wiki/Dvergr_metal_wall"
+        }
+    },
+    {
+        "id": "dvergr_sharp_stakes",
+        "name": {
+            "en": "Dvergr Sharp Stakes",
+            "pt-BR": "Estacas afiadas dvergr"
+        },
+        "aliases": {
+            "en": ["Dvergr Sharp Stakes"],
+            "pt-BR": ["Estacas afiadas dvergr"]
+        },
+        "categories": [
+            {
+                "en": "Building structures",
+                "pt-BR": "Estruturas de construção"
+            },
+            {
+                "en": "Misc structures",
+                "pt-BR": "Estruturas diversas"
+            }
+        ],
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/d/dc/Dvergr_sharp_stakes_appearance.png/revision/latest/scale-to-width-down/96?cb=20230120180619",
+        "source": {
+            "page": "Category:Building",
+            "url": "https://valheim.fandom.com/wiki/Dvergr_Sharp_Stakes"
+        }
+    },
+    {
+        "id": "dvergr_stakewall",
+        "name": {
+            "en": "Dvergr Stakewall",
+            "pt-BR": "Estacada dvergr"
+        },
+        "aliases": {
+            "en": ["Dvergr Stakewall"],
+            "pt-BR": ["Estacada dvergr"]
+        },
+        "categories": [
+            {
+                "en": "Building structures",
+                "pt-BR": "Estruturas de construção"
+            },
+            {
+                "en": "Misc structures",
+                "pt-BR": "Estruturas diversas"
+            }
+        ],
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/b/bd/Dvergr_stakewall_appearance.png/revision/latest/scale-to-width-down/96?cb=20230120175602",
+        "source": {
+            "page": "Category:Building",
+            "url": "https://valheim.fandom.com/wiki/Dvergr_Stakewall"
+        }
+    },
+    {
+        "id": "dvergr_wall_lantern",
+        "name": {
+            "en": "Dvergr Wall Lantern",
+            "pt-BR": "Lanterna de parede dvergr"
+        },
+        "aliases": {
+            "en": ["Dvergr Wall Lantern"],
+            "pt-BR": ["Lanterna de parede dvergr"]
+        },
+        "categories": [
+            {
+                "en": "Furniture",
+                "pt-BR": "Móveis"
+            }
+        ],
+        "imageUrl": null,
+        "source": {
+            "page": "Category:Building",
+            "url": "https://valheim.fandom.com/wiki/Dvergr_Wall_Lantern"
+        }
+    },
+    {
+        "id": "dvergr_wood_structures",
+        "name": {
+            "en": "Dvergr Wood Structures",
+            "pt-BR": "Estruturas de madeira dvergr"
+        },
+        "aliases": {
+            "en": ["Dvergr Wood Structures"],
+            "pt-BR": ["Estruturas de madeira dvergr"]
+        },
+        "categories": [
+            {
+                "en": "Building structures",
+                "pt-BR": "Estruturas de construção"
+            }
+        ],
+        "imageUrl": null,
+        "source": {
+            "page": "Category:Building",
+            "url": "https://valheim.fandom.com/wiki/Dvergr_Wood_Structures"
+        }
+    },
+    {
+        "id": "effigy_of_malice",
+        "name": {
+            "en": "Effigy of Malice",
+            "pt-BR": "Efígie da malícia"
+        },
+        "aliases": {
+            "en": ["Effigy of Malice"],
+            "pt-BR": ["Efígie da malícia"]
+        },
+        "categories": [
+            {
+                "en": "Building",
+                "pt-BR": "Construção"
+            }
+        ],
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/7/71/Effigy_of_Malice.png/revision/latest/scale-to-width-down/83?cb=20240510095202",
+        "source": {
+            "page": "Category:Building",
+            "url": "https://valheim.fandom.com/wiki/Effigy_of_Malice"
+        }
+    },
+    {
+        "id": "eitr_refinery",
+        "name": {
+            "en": "Eitr Refinery",
+            "pt-BR": "Refinaria de eitr"
+        },
+        "aliases": {
+            "en": ["Eitr Refinery"],
+            "pt-BR": ["Refinaria de eitr"]
+        },
+        "categories": [
+            {
+                "en": "Crafting structures",
+                "pt-BR": "Estruturas de criação"
+            }
+        ],
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/e/e6/Eitr_refinery_appearance.png/revision/latest/scale-to-width-down/96?cb=20250509102507",
+        "source": {
+            "page": "Category:Building",
+            "url": "https://valheim.fandom.com/wiki/Eitr_Refinery"
+        }
+    },
+    {
+        "id": "eternal_pyre",
+        "name": {
+            "en": "Eternal Pyre",
+            "pt-BR": "Pira eterna"
+        },
+        "aliases": {
+            "en": ["Eternal Pyre"],
+            "pt-BR": ["Pira eterna"]
+        },
+        "categories": [
+            {
+                "en": "Crafting structures",
+                "pt-BR": "Estruturas de criação"
+            }
+        ],
+        "imageUrl": null,
+        "source": {
+            "page": "Category:Building",
+            "url": "https://valheim.fandom.com/wiki/Eternal_Pyre"
+        }
+    },
+    {
+        "id": "evil_bone_pile",
+        "name": {
+            "en": "Evil Bone Pile",
+            "pt-BR": "Pilha de ossos malignos"
+        },
+        "aliases": {
+            "en": ["Evil Bone Pile"],
+            "pt-BR": ["Pilha de ossos malignos"]
+        },
+        "categories": [
+            {
+                "en": "Building",
+                "pt-BR": "Construção"
+            }
+        ],
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/9/90/Evil_Bone_Pile.png/revision/latest/scale-to-width-down/96?cb=20250523141033",
+        "source": {
+            "page": "Category:Building",
+            "url": "https://valheim.fandom.com/wiki/Evil_Bone_Pile"
+        }
+    },
+    {
+        "id": "feathery_wreath",
+        "name": {
+            "en": "Feathery Wreath",
+            "pt-BR": "Guirlanda de penas"
+        },
+        "aliases": {
+            "en": ["Feathery Wreath"],
+            "pt-BR": ["Guirlanda de penas"]
+        },
+        "categories": [
+            {
+                "en": "Crafting structures",
+                "pt-BR": "Estruturas de criação"
+            }
+        ],
+        "imageUrl": null,
+        "source": {
+            "page": "Category:Building",
+            "url": "https://valheim.fandom.com/wiki/Feathery_Wreath"
+        }
+    },
+    {
+        "id": "fermenter",
+        "name": {
+            "en": "Fermenter",
+            "pt-BR": "Fermentador"
+        },
+        "aliases": {
+            "en": ["Fermenter"],
+            "pt-BR": ["Fermentador"]
+        },
+        "categories": [
+            {
+                "en": "Crafting structures",
+                "pt-BR": "Estruturas de criação"
+            }
+        ],
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/d/da/Fermenter_appearance.png/revision/latest/scale-to-width-down/85?cb=20250512123926",
+        "source": {
+            "page": "Category:Building",
+            "url": "https://valheim.fandom.com/wiki/Fermenter"
+        }
+    },
+    {
+        "id": "fey_lights",
+        "name": {
+            "en": "Fey Lights",
+            "pt-BR": "Luzes feéricas"
+        },
+        "aliases": {
+            "en": ["Fey Lights"],
+            "pt-BR": ["Luzes feéricas"]
+        },
+        "categories": [
+            {
+                "en": "Furniture",
+                "pt-BR": "Móveis"
+            }
+        ],
+        "imageUrl": null,
+        "source": {
+            "page": "Category:Building",
+            "url": "https://valheim.fandom.com/wiki/Fey_Lights"
+        }
+    },
+    {
+        "id": "finewood_stack",
+        "name": {
+            "en": "Finewood Stack",
+            "pt-BR": "Pilha de madeira nobre"
+        },
+        "aliases": {
+            "en": ["Finewood Stack"],
+            "pt-BR": ["Pilha de madeira nobre"]
+        },
+        "categories": [
+            {
+                "en": "Misc structures",
+                "pt-BR": "Estruturas diversas"
+            },
+            {
+                "en": "Stacks & Piles",
+                "pt-BR": "Pilhas e montes"
+            }
+        ],
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/b/ba/Finewood_stack_appearance.png/revision/latest/scale-to-width-down/96?cb=20230114193703",
+        "source": {
+            "page": "Category:Building",
+            "url": "https://valheim.fandom.com/wiki/Finewood_Stack"
+        }
+    },
+    {
+        "id": "flametal_structures",
+        "name": {
+            "en": "Flametal Structures",
+            "pt-BR": "Estruturas de flametal"
+        },
+        "aliases": {
+            "en": ["Flametal Structures"],
+            "pt-BR": ["Estruturas de flametal"]
+        },
+        "categories": [
+            {
+                "en": "Building structures",
+                "pt-BR": "Estruturas de construção"
+            }
+        ],
+        "imageUrl": null,
+        "source": {
+            "page": "Category:Building",
+            "url": "https://valheim.fandom.com/wiki/Flametal_Structures"
+        }
+    },
+    {
+        "id": "flower_garland",
+        "name": {
+            "en": "Flower Garland",
+            "pt-BR": "Guirlanda de flores"
+        },
+        "aliases": {
+            "en": ["Flower Garland"],
+            "pt-BR": ["Guirlanda de flores"]
+        },
+        "categories": [
+            {
+                "en": "Furniture",
+                "pt-BR": "Móveis"
+            }
+        ],
+        "imageUrl": null,
+        "source": {
+            "page": "Category:Building",
+            "url": "https://valheim.fandom.com/wiki/Flower_Garland"
+        }
+    },
+    {
+        "id": "food_preparation_table",
+        "name": {
+            "en": "Food Preparation Table",
+            "pt-BR": "Mesa de preparo de alimentos"
+        },
+        "aliases": {
+            "en": ["Food Preparation Table"],
+            "pt-BR": ["Mesa de preparo de alimentos"]
+        },
+        "categories": [
+            {
+                "en": "Crafting structures",
+                "pt-BR": "Estruturas de criação"
+            }
+        ],
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/e/ea/Food_preparation_table_appearance.png/revision/latest/scale-to-width-down/96?cb=20250506191950",
+        "source": {
+            "page": "Category:Building",
+            "url": "https://valheim.fandom.com/wiki/Food_Preparation_Table"
+        }
+    },
+    {
+        "id": "forge",
+        "name": {
+            "en": "Forge",
+            "pt-BR": "Forja"
+        },
+        "aliases": {
+            "en": ["Forge"],
+            "pt-BR": ["Forja"]
+        },
+        "categories": [
+            {
+                "en": "Building",
+                "pt-BR": "Construção"
+            },
+            {
+                "en": "Crafting structures",
+                "pt-BR": "Estruturas de criação"
+            }
+        ],
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/4/49/Forge_appearance.png/revision/latest/scale-to-width-down/96?cb=20241207105006",
+        "source": {
+            "page": "Category:Building",
+            "url": "https://valheim.fandom.com/wiki/Forge"
+        }
+    },
+    {
+        "id": "forge_bellows",
+        "name": {
+            "en": "Forge Bellows",
+            "pt-BR": "Fole de forja"
+        },
+        "aliases": {
+            "en": ["Forge Bellows"],
+            "pt-BR": ["Fole de forja"]
+        },
+        "categories": [
+            {
+                "en": "Crafting structures",
+                "pt-BR": "Estruturas de criação"
+            }
+        ],
+        "imageUrl": null,
+        "source": {
+            "page": "Category:Building",
+            "url": "https://valheim.fandom.com/wiki/Forge_Bellows"
+        }
+    },
+    {
+        "id": "forge_cooler",
+        "name": {
+            "en": "Forge Cooler",
+            "pt-BR": "Resfriador de forja"
+        },
+        "aliases": {
+            "en": ["Forge Cooler"],
+            "pt-BR": ["Resfriador de forja"]
+        },
+        "categories": [
+            {
+                "en": "Crafting structures",
+                "pt-BR": "Estruturas de criação"
+            }
+        ],
+        "imageUrl": null,
+        "source": {
+            "page": "Category:Building",
+            "url": "https://valheim.fandom.com/wiki/Forge_Cooler"
+        }
+    },
+    {
+        "id": "forge_toolrack",
+        "name": {
+            "en": "Forge Toolrack",
+            "pt-BR": "Suporte de ferramentas da forja"
+        },
+        "aliases": {
+            "en": ["Forge Toolrack"],
+            "pt-BR": ["Suporte de ferramentas da forja"]
+        },
+        "categories": [
+            {
+                "en": "Crafting structures",
+                "pt-BR": "Estruturas de criação"
+            }
+        ],
+        "imageUrl": null,
+        "source": {
+            "page": "Category:Building",
+            "url": "https://valheim.fandom.com/wiki/Forge_Toolrack"
+        }
+    },
+    {
+        "id": "galdr_table",
+        "name": {
+            "en": "Galdr Table",
+            "pt-BR": "Mesa galdr"
+        },
+        "aliases": {
+            "en": ["Galdr Table"],
+            "pt-BR": ["Mesa galdr"]
+        },
+        "categories": [
+            {
+                "en": "Crafting structures",
+                "pt-BR": "Estruturas de criação"
+            }
+        ],
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/a/ab/Galdr_table_appearance.png/revision/latest/scale-to-width-down/96?cb=20241207113659",
+        "source": {
+            "page": "Category:Building",
+            "url": "https://valheim.fandom.com/wiki/Galdr_Table"
+        }
+    },
+    {
+        "id": "gem_cutter",
+        "name": {
+            "en": "Gem Cutter",
+            "pt-BR": "Lapidador de gemas"
+        },
+        "aliases": {
+            "en": ["Gem Cutter"],
+            "pt-BR": ["Lapidador de gemas"]
+        },
+        "categories": [
+            {
+                "en": "Crafting structures",
+                "pt-BR": "Estruturas de criação"
+            }
+        ],
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/0/04/Gem_cutter_appearance.png/revision/latest/scale-to-width-down/96?cb=20240518035929",
+        "source": {
+            "page": "Category:Building",
+            "url": "https://valheim.fandom.com/wiki/Gem_Cutter"
+        }
+    },
+    {
+        "id": "grausten_pile",
+        "name": {
+            "en": "Grausten Pile",
+            "pt-BR": "Pilha de grausten"
+        },
+        "aliases": {
+            "en": ["Grausten Pile"],
+            "pt-BR": ["Pilha de grausten"]
+        },
+        "categories": [
+            {
+                "en": "Misc structures",
+                "pt-BR": "Estruturas diversas"
+            },
+            {
+                "en": "Stacks & Piles",
+                "pt-BR": "Pilhas e montes"
+            }
+        ],
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/e/eb/Grausten_pile_appearance.png/revision/latest/scale-to-width-down/96?cb=20250511101548",
+        "source": {
+            "page": "Category:Building",
+            "url": "https://valheim.fandom.com/wiki/Grausten_Pile"
+        }
+    },
+    {
+        "id": "grausten_roofs",
+        "name": {
+            "en": "Grausten Roofs",
+            "pt-BR": "Telhados de grausten"
+        },
+        "aliases": {
+            "en": ["Grausten Roofs"],
+            "pt-BR": ["Telhados de grausten"]
+        },
+        "categories": [
+            {
+                "en": "Building structures",
+                "pt-BR": "Estruturas de construção"
+            },
+            {
+                "en": "Roofs",
+                "pt-BR": "Telhados"
+            }
+        ],
+        "imageUrl": null,
+        "source": {
+            "page": "Category:Building",
+            "url": "https://valheim.fandom.com/wiki/Grausten_Roofs"
+        }
+    },
+    {
+        "id": "grausten_structures",
+        "name": {
+            "en": "Grausten Structures",
+            "pt-BR": "Estruturas de grausten"
+        },
+        "aliases": {
+            "en": ["Grausten Structures"],
+            "pt-BR": ["Estruturas de grausten"]
+        },
+        "categories": [
+            {
+                "en": "Building structures",
+                "pt-BR": "Estruturas de construção"
+            }
+        ],
+        "imageUrl": null,
+        "source": {
+            "page": "Category:Building",
+            "url": "https://valheim.fandom.com/wiki/Grausten_Structures"
+        }
+    },
+    {
+        "id": "greydwarf_nest",
+        "name": {
+            "en": "Greydwarf Nest",
+            "pt-BR": "Ninho de anão cinzento"
+        },
+        "aliases": {
+            "en": ["Greydwarf Nest"],
+            "pt-BR": ["Ninho de anão cinzento"]
+        },
+        "categories": [
+            {
+                "en": "Building",
+                "pt-BR": "Construção"
+            }
+        ],
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/8/82/Greydwarf_Nest_appearance.png/revision/latest/scale-to-width-down/96?cb=20210405180946",
+        "source": {
+            "page": "Category:Building",
+            "url": "https://valheim.fandom.com/wiki/Greydwarf_Nest"
+        }
+    },
+    {
+        "id": "grinding_wheel",
+        "name": {
+            "en": "Grinding Wheel",
+            "pt-BR": "Rebolo"
+        },
+        "aliases": {
+            "en": ["Grinding Wheel"],
+            "pt-BR": ["Rebolo"]
+        },
+        "categories": [
+            {
+                "en": "Crafting structures",
+                "pt-BR": "Estruturas de criação"
+            }
+        ],
+        "imageUrl": null,
+        "source": {
+            "page": "Category:Building",
+            "url": "https://valheim.fandom.com/wiki/Grinding_Wheel"
+        }
+    },
+    {
+        "id": "hammer",
+        "name": {
+            "en": "Hammer",
+            "pt-BR": "Martelo"
+        },
+        "aliases": {
+            "en": ["Hammer"],
+            "pt-BR": ["Martelo"]
+        },
+        "categories": [
+            {
+                "en": "Building",
+                "pt-BR": "Construção"
+            }
+        ],
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/b/b0/Craft_Hammer.jpg/revision/latest/scale-to-width-down/63?cb=20210211090102",
+        "source": {
+            "page": "Category:Building",
+            "url": "https://valheim.fandom.com/wiki/Hammer"
+        }
+    },
+    {
+        "id": "hanging_brazier",
+        "name": {
+            "en": "Hanging Brazier",
+            "pt-BR": "Braseiro suspenso"
+        },
+        "aliases": {
+            "en": ["Hanging Brazier"],
+            "pt-BR": ["Braseiro suspenso"]
+        },
+        "categories": [
+            {
+                "en": "Fires",
+                "pt-BR": "Fogueiras"
+            },
+            {
+                "en": "Furniture",
+                "pt-BR": "Móveis"
+            }
+        ],
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/f/fc/Hanging_brazier_appearance.png/revision/latest/scale-to-width-down/66?cb=20211208210848",
+        "source": {
+            "page": "Category:Building",
+            "url": "https://valheim.fandom.com/wiki/Hanging_Brazier"
+        }
+    },
+    {
+        "id": "hearth",
+        "name": {
+            "en": "Hearth",
+            "pt-BR": "Lareira"
+        },
+        "aliases": {
+            "en": ["Hearth"],
+            "pt-BR": ["Lareira"]
+        },
+        "categories": [
+            {
+                "en": "Fires",
+                "pt-BR": "Fogueiras"
+            },
+            {
+                "en": "Misc structures",
+                "pt-BR": "Estruturas diversas"
+            }
+        ],
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/d/d6/Hearth_appearance.png/revision/latest/scale-to-width-down/96?cb=20230114193117",
+        "source": {
+            "page": "Category:Building",
+            "url": "https://valheim.fandom.com/wiki/Hearth"
+        }
+    },
+    {
+        "id": "hot_tub",
+        "name": {
+            "en": "Hot Tub",
+            "pt-BR": "Banheira de hidromassagem"
+        },
+        "aliases": {
+            "en": ["Hot Tub"],
+            "pt-BR": ["Banheira de hidromassagem"]
+        },
+        "categories": [
+            {
+                "en": "Furniture",
+                "pt-BR": "Móveis"
+            },
+            {
+                "en": "Grants Comfort",
+                "pt-BR": "Concede conforto"
+            }
+        ],
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/8/84/Hot_tub_appearance.png/revision/latest/scale-to-width-down/96?cb=20250511082101",
+        "source": {
+            "page": "Category:Building",
+            "url": "https://valheim.fandom.com/wiki/Hot_Tub"
+        }
+    },
+    {
+        "id": "iron_cooking_station",
+        "name": {
+            "en": "Iron Cooking Station",
+            "pt-BR": "Estação de cozinha de ferro"
+        },
+        "aliases": {
+            "en": ["Iron Cooking Station"],
+            "pt-BR": ["Estação de cozinha de ferro"]
+        },
+        "categories": [
+            {
+                "en": "Crafting structures",
+                "pt-BR": "Estruturas de criação"
+            }
+        ],
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/3/3b/Iron_Cooking_station_appearance.png/revision/latest/scale-to-width-down/96?cb=20250511080712",
+        "source": {
+            "page": "Category:Building",
+            "url": "https://valheim.fandom.com/wiki/Iron_Cooking_Station"
+        }
+    },
+    {
+        "id": "iron_fire_pit",
+        "name": {
+            "en": "Iron Fire Pit",
+            "pt-BR": "Braseiro de ferro"
+        },
+        "aliases": {
+            "en": ["Iron Fire Pit"],
+            "pt-BR": ["Braseiro de ferro"]
+        },
+        "categories": [
+            {
+                "en": "Fires",
+                "pt-BR": "Fogueiras"
+            },
+            {
+                "en": "Misc structures",
+                "pt-BR": "Estruturas diversas"
+            }
+        ],
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/e/ee/Firepit_iron_appearance.png/revision/latest/scale-to-width-down/91?cb=20250511095548",
+        "source": {
+            "page": "Category:Building",
+            "url": "https://valheim.fandom.com/wiki/Iron_Fire_Pit"
+        }
+    },
+    {
+        "id": "item_stand",
+        "name": {
+            "en": "Item Stand",
+            "pt-BR": "Suporte de itens"
+        },
+        "aliases": {
+            "en": ["Item Stand"],
+            "pt-BR": ["Suporte de itens"]
+        },
+        "categories": [
+            {
+                "en": "Furniture",
+                "pt-BR": "Móveis"
+            },
+            {
+                "en": "Storage",
+                "pt-BR": "Armazenamento"
+            }
+        ],
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/3/31/Item_stands.png/revision/latest/scale-to-width-down/96?cb=20210214054913",
+        "source": {
+            "page": "Category:Building",
+            "url": "https://valheim.fandom.com/wiki/Item_Stand"
+        }
+    },
+    {
+        "id": "ivy",
+        "name": {
+            "en": "Ivy",
+            "pt-BR": "Hera"
+        },
+        "aliases": {
+            "en": ["Ivy"],
+            "pt-BR": ["Hera"]
+        },
+        "categories": [
+            {
+                "en": "Building",
+                "pt-BR": "Construção"
+            }
+        ],
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/0/0c/Valheim_ivy.png/revision/latest/scale-to-width-down/96?cb=20241104182039",
+        "source": {
+            "page": "Category:Building",
+            "url": "https://valheim.fandom.com/wiki/Ivy"
+        }
+    },
+    {
+        "id": "jack_o_turnip",
+        "name": {
+            "en": "Jack-O-Turnip",
+            "pt-BR": "Nabo iluminado"
+        },
+        "aliases": {
+            "en": ["Jack-O-Turnip"],
+            "pt-BR": ["Nabo iluminado"]
+        },
+        "categories": [
+            {
+                "en": "Furniture",
+                "pt-BR": "Móveis"
+            },
+            {
+                "en": "Seasonal Furniture",
+                "pt-BR": "Móveis sazonais"
+            }
+        ],
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/0/0f/Jackoturnip_appearance.png/revision/latest/scale-to-width-down/96?cb=20211005212536",
+        "source": {
+            "page": "Category:Building",
+            "url": "https://valheim.fandom.com/wiki/Jack-O-Turnip"
+        }
+    },
+    {
+        "id": "karve",
+        "name": {
+            "en": "Karve",
+            "pt-BR": "Karve"
+        },
+        "aliases": {
+            "en": ["Karve"],
+            "pt-BR": ["Karve"]
+        },
+        "categories": [
+            {
+                "en": "Misc structures",
+                "pt-BR": "Estruturas diversas"
+            },
+            {
+                "en": "Storage",
+                "pt-BR": "Armazenamento"
+            }
+        ],
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/8/82/Karve_appearance.png/revision/latest/scale-to-width-down/96?cb=20230123185726",
+        "source": {
+            "page": "Category:Building",
+            "url": "https://valheim.fandom.com/wiki/Karve"
+        }
+    },
+    {
+        "id": "lava_lantern",
+        "name": {
+            "en": "Lava Lantern",
+            "pt-BR": "Lanterna de lava"
+        },
+        "aliases": {
+            "en": ["Lava Lantern"],
+            "pt-BR": ["Lanterna de lava"]
+        },
+        "categories": [
+            {
+                "en": "Furniture",
+                "pt-BR": "Móveis"
+            },
+            {
+                "en": "Grants Comfort",
+                "pt-BR": "Concede conforto"
+            }
+        ],
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/8/89/Lava_lantern_appearance.png/revision/latest/scale-to-width-down/74?cb=20250512125039",
+        "source": {
+            "page": "Category:Building",
+            "url": "https://valheim.fandom.com/wiki/Lava_Lantern"
+        }
+    },
+    {
+        "id": "log_structures",
+        "name": {
+            "en": "Log Structures",
+            "pt-BR": "Estruturas de troncos"
+        },
+        "aliases": {
+            "en": ["Log Structures"],
+            "pt-BR": ["Estruturas de troncos"]
+        },
+        "categories": [
+            {
+                "en": "Building structures",
+                "pt-BR": "Estruturas de construção"
+            }
+        ],
+        "imageUrl": null,
+        "source": {
+            "page": "Category:Building",
+            "url": "https://valheim.fandom.com/wiki/Log_Structures"
+        }
+    },
+    {
+        "id": "longship",
+        "name": {
+            "en": "Longship",
+            "pt-BR": "Navio longo"
+        },
+        "aliases": {
+            "en": ["Longship"],
+            "pt-BR": ["Navio longo"]
+        },
+        "categories": [
+            {
+                "en": "Misc structures",
+                "pt-BR": "Estruturas diversas"
+            },
+            {
+                "en": "Storage",
+                "pt-BR": "Armazenamento"
+            }
+        ],
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/5/5c/Longship_appearance.png/revision/latest/scale-to-width-down/96?cb=20210211192246",
+        "source": {
+            "page": "Category:Building",
+            "url": "https://valheim.fandom.com/wiki/Longship"
+        }
+    },
+    {
+        "id": "maypole",
+        "name": {
+            "en": "Maypole",
+            "pt-BR": "Mastro de maio"
+        },
+        "aliases": {
+            "en": ["Maypole"],
+            "pt-BR": ["Mastro de maio"]
+        },
+        "categories": [
+            {
+                "en": "Furniture",
+                "pt-BR": "Móveis"
+            },
+            {
+                "en": "Grants Comfort",
+                "pt-BR": "Concede conforto"
+            },
+            {
+                "en": "Seasonal Furniture",
+                "pt-BR": "Móveis sazonais"
+            }
+        ],
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/b/bb/Maypole_appearance.png/revision/latest/scale-to-width-down/91?cb=20250511081349",
+        "source": {
+            "page": "Category:Building",
+            "url": "https://valheim.fandom.com/wiki/Maypole"
+        }
+    },
+    {
+        "id": "mead_ketill",
+        "name": {
+            "en": "Mead Ketill",
+            "pt-BR": "Caldeirão de hidromel"
+        },
+        "aliases": {
+            "en": ["Mead Ketill"],
+            "pt-BR": ["Caldeirão de hidromel"]
+        },
+        "categories": [
+            {
+                "en": "Crafting structures",
+                "pt-BR": "Estruturas de criação"
+            }
+        ],
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/0/05/Mead_Ketill_appearance.png/revision/latest/scale-to-width-down/96?cb=20250509100709",
+        "source": {
+            "page": "Category:Building",
+            "url": "https://valheim.fandom.com/wiki/Mead_Ketill"
+        }
+    },
+    {
+        "id": "metal_cutter",
+        "name": {
+            "en": "Metal Cutter",
+            "pt-BR": "Cortador de metal"
+        },
+        "aliases": {
+            "en": ["Metal Cutter"],
+            "pt-BR": ["Cortador de metal"]
+        },
+        "categories": [
+            {
+                "en": "Crafting structures",
+                "pt-BR": "Estruturas de criação"
+            }
+        ],
+        "imageUrl": null,
+        "source": {
+            "page": "Category:Building",
+            "url": "https://valheim.fandom.com/wiki/Metal_Cutter"
+        }
+    },
+    {
+        "id": "mistletoe",
+        "name": {
+            "en": "Mistletoe",
+            "pt-BR": "Visco"
+        },
+        "aliases": {
+            "en": ["Mistletoe"],
+            "pt-BR": ["Visco"]
+        },
+        "categories": [
+            {
+                "en": "Furniture",
+                "pt-BR": "Móveis"
+            },
+            {
+                "en": "Seasonal Furniture",
+                "pt-BR": "Móveis sazonais"
+            }
+        ],
+        "imageUrl": null,
+        "source": {
+            "page": "Category:Building",
+            "url": "https://valheim.fandom.com/wiki/Mistletoe"
+        }
+    },
+    {
+        "id": "monument_of_torment",
+        "name": {
+            "en": "Monument of Torment",
+            "pt-BR": "Monumento do tormento"
+        },
+        "aliases": {
+            "en": ["Monument of Torment"],
+            "pt-BR": ["Monumento do tormento"]
+        },
+        "categories": [
+            {
+                "en": "Building",
+                "pt-BR": "Construção"
+            }
+        ],
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/1/1b/Monument_of_Torment.png/revision/latest/scale-to-width-down/31?cb=20240510095220",
+        "source": {
+            "page": "Category:Building",
+            "url": "https://valheim.fandom.com/wiki/Monument_of_Torment"
+        }
+    },
+    {
+        "id": "monument_of_torment_elite",
+        "name": {
+            "en": "Monument of Torment (Elite)",
+            "pt-BR": "Monumento do tormento (elite)"
+        },
+        "aliases": {
+            "en": ["Monument of Torment (Elite)"],
+            "pt-BR": ["Monumento do tormento (elite)"]
+        },
+        "categories": [
+            {
+                "en": "Building",
+                "pt-BR": "Construção"
+            }
+        ],
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/c/c4/Monument_of_Torment_%28Elite%29.png/revision/latest/scale-to-width-down/46?cb=20240510095218",
+        "source": {
+            "page": "Category:Building",
+            "url": "https://valheim.fandom.com/wiki/Monument_of_Torment_(Elite)"
+        }
+    },
+    {
+        "id": "mortar_and_pestle",
+        "name": {
+            "en": "Mortar and Pestle",
+            "pt-BR": "Pilão e almofariz"
+        },
+        "aliases": {
+            "en": ["Mortar and Pestle"],
+            "pt-BR": ["Pilão e almofariz"]
+        },
+        "categories": [
+            {
+                "en": "Crafting structures",
+                "pt-BR": "Estruturas de criação"
+            }
+        ],
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/1/15/Mortar_and_pestle_appearance.png/revision/latest/scale-to-width-down/96?cb=20240121190918",
+        "source": {
+            "page": "Category:Building",
+            "url": "https://valheim.fandom.com/wiki/Mortar_and_Pestle"
+        }
+    },
+    {
+        "id": "mysterious_rock",
+        "name": {
+            "en": "Mysterious Rock",
+            "pt-BR": "Rocha misteriosa"
+        },
+        "aliases": {
+            "en": ["Mysterious Rock"],
+            "pt-BR": ["Rocha misteriosa"]
+        },
+        "categories": [
+            {
+                "en": "Misc structures",
+                "pt-BR": "Estruturas diversas"
+            },
+            {
+                "en": "Storage",
+                "pt-BR": "Armazenamento"
+            }
+        ],
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/8/8c/Mysterious_Rock_Smile.png/revision/latest/scale-to-width-down/96?cb=20250408205832",
+        "source": {
+            "page": "Category:Building",
+            "url": "https://valheim.fandom.com/wiki/Mysterious_Rock"
+        }
+    },
+    {
+        "id": "obliterator",
+        "name": {
+            "en": "Obliterator",
+            "pt-BR": "Obliterador"
+        },
+        "aliases": {
+            "en": ["Obliterator"],
+            "pt-BR": ["Obliterador"]
+        },
+        "categories": [
+            {
+                "en": "Crafting structures",
+                "pt-BR": "Estruturas de criação"
+            }
+        ],
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/e/ed/Obliterator_appearance.png/revision/latest/scale-to-width-down/81?cb=20250509104127",
+        "source": {
+            "page": "Category:Building",
+            "url": "https://valheim.fandom.com/wiki/Obliterator"
+        }
+    },
+    {
+        "id": "pathen",
+        "name": {
+            "en": "Pathen",
+            "pt-BR": "Pathen"
+        },
+        "aliases": {
+            "en": ["Pathen"],
+            "pt-BR": ["Pathen"]
+        },
+        "categories": [
+            {
+                "en": "Misc structures",
+                "pt-BR": "Estruturas diversas"
+            }
+        ],
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/0/0b/Pathen_appearance.jpg/revision/latest/scale-to-width-down/96?cb=20250520154201",
+        "source": {
+            "page": "Category:Building",
+            "url": "https://valheim.fandom.com/wiki/Pathen"
+        }
+    },
+    {
+        "id": "paved_road",
+        "name": {
+            "en": "Paved road",
+            "pt-BR": "Estrada pavimentada"
+        },
+        "aliases": {
+            "en": ["Paved road"],
+            "pt-BR": ["Estrada pavimentada"]
+        },
+        "categories": [
+            {
+                "en": "Misc structures",
+                "pt-BR": "Estruturas diversas"
+            }
+        ],
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/2/25/Paved_Road_Appearance.jpg/revision/latest/scale-to-width-down/96?cb=20250520152437",
+        "source": {
+            "page": "Category:Building",
+            "url": "https://valheim.fandom.com/wiki/Paved_road"
+        }
+    },
+    {
+        "id": "personal_chest",
+        "name": {
+            "en": "Personal Chest",
+            "pt-BR": "Baú pessoal"
+        },
+        "aliases": {
+            "en": ["Personal Chest"],
+            "pt-BR": ["Baú pessoal"]
+        },
+        "categories": [
+            {
+                "en": "Furniture",
+                "pt-BR": "Móveis"
+            },
+            {
+                "en": "Storage",
+                "pt-BR": "Armazenamento"
+            }
+        ],
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/c/c8/Personal_chest_appearance.png/revision/latest/scale-to-width-down/96?cb=20250512130501",
+        "source": {
+            "page": "Category:Building",
+            "url": "https://valheim.fandom.com/wiki/Personal_Chest"
+        }
+    },
+    {
+        "id": "pile_of_skulls",
+        "name": {
+            "en": "Pile of Skulls",
+            "pt-BR": "Pilha de crânios"
+        },
+        "aliases": {
+            "en": ["Pile of Skulls"],
+            "pt-BR": ["Pilha de crânios"]
+        },
+        "categories": [
+            {
+                "en": "Misc structures",
+                "pt-BR": "Estruturas diversas"
+            },
+            {
+                "en": "Stacks & Piles",
+                "pt-BR": "Pilhas e montes"
+            }
+        ],
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/2/2b/Pile_of_skulls_appearance.png/revision/latest/scale-to-width-down/96?cb=20250511100931",
+        "source": {
+            "page": "Category:Building",
+            "url": "https://valheim.fandom.com/wiki/Pile_of_Skulls"
+        }
+    },
+    {
+        "id": "portal",
+        "name": {
+            "en": "Portal",
+            "pt-BR": "Portal"
+        },
+        "aliases": {
+            "en": ["Portal"],
+            "pt-BR": ["Portal"]
+        },
+        "categories": [
+            {
+                "en": "Misc structures",
+                "pt-BR": "Estruturas diversas"
+            }
+        ],
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/a/ac/Portal_appearance.png/revision/latest/scale-to-width-down/96?cb=20230121093955",
+        "source": {
+            "page": "Category:Building",
+            "url": "https://valheim.fandom.com/wiki/Portal"
+        }
+    },
+    {
+        "id": "portal_stone",
+        "name": {
+            "en": "Portal stone",
+            "pt-BR": "Pedra de portal"
+        },
+        "aliases": {
+            "en": ["Portal stone"],
+            "pt-BR": ["Pedra de portal"]
+        },
+        "categories": [
+            {
+                "en": "Misc structures",
+                "pt-BR": "Estruturas diversas"
+            }
+        ],
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/9/97/Portal_stone_appearance.png/revision/latest/scale-to-width-down/96?cb=20250511093200",
+        "source": {
+            "page": "Category:Building",
+            "url": "https://valheim.fandom.com/wiki/Portal_stone"
+        }
+    },
+    {
+        "id": "pots",
+        "name": {
+            "en": "Pots",
+            "pt-BR": "Vasos"
+        },
+        "aliases": {
+            "en": ["Pots"],
+            "pt-BR": ["Vasos"]
+        },
+        "categories": [
+            {
+                "en": "Furniture",
+                "pt-BR": "Móveis"
+            },
+            {
+                "en": "Storage",
+                "pt-BR": "Armazenamento"
+            }
+        ],
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/f/fb/Small_green_pot_appearance.png/revision/latest/scale-to-width-down/96?cb=20250517115436",
+        "source": {
+            "page": "Category:Building",
+            "url": "https://valheim.fandom.com/wiki/Pots"
+        }
+    },
+    {
+        "id": "pots_and_pans",
+        "name": {
+            "en": "Pots and Pans",
+            "pt-BR": "Panelas"
+        },
+        "aliases": {
+            "en": ["Pots and Pans"],
+            "pt-BR": ["Panelas"]
+        },
+        "categories": [
+            {
+                "en": "Crafting structures",
+                "pt-BR": "Estruturas de criação"
+            }
+        ],
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/4/4e/Pots_and_pans_appearance.png/revision/latest/scale-to-width-down/96?cb=20240112170805",
+        "source": {
+            "page": "Category:Building",
+            "url": "https://valheim.fandom.com/wiki/Pots_and_Pans"
+        }
+    },
+    {
+        "id": "raft",
+        "name": {
+            "en": "Raft",
+            "pt-BR": "Jangada"
+        },
+        "aliases": {
+            "en": ["Raft"],
+            "pt-BR": ["Jangada"]
+        },
+        "categories": [
+            {
+                "en": "Misc structures",
+                "pt-BR": "Estruturas diversas"
+            }
+        ],
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/b/b9/Raft_appearance.png/revision/latest/scale-to-width-down/96?cb=20230624141756",
+        "source": {
+            "page": "Category:Building",
+            "url": "https://valheim.fandom.com/wiki/Raft"
+        }
+    },
+    {
+        "id": "raven_adornment",
+        "name": {
+            "en": "Raven Adornment",
+            "pt-BR": "Adorno de corvo"
+        },
+        "aliases": {
+            "en": ["Raven Adornment"],
+            "pt-BR": ["Adorno de corvo"]
+        },
+        "categories": [
+            {
+                "en": "Misc structures",
+                "pt-BR": "Estruturas diversas"
+            }
+        ],
+        "imageUrl": null,
+        "source": {
+            "page": "Category:Building",
+            "url": "https://valheim.fandom.com/wiki/Raven_Adornment"
+        }
+    },
+    {
+        "id": "red_jute_curtain",
+        "name": {
+            "en": "Red Jute Curtain",
+            "pt-BR": "Cortina vermelha de juta"
+        },
+        "aliases": {
+            "en": ["Red Jute Curtain"],
+            "pt-BR": ["Cortina vermelha de juta"]
+        },
+        "categories": [
+            {
+                "en": "Furniture",
+                "pt-BR": "Móveis"
+            }
+        ],
+        "imageUrl": null,
+        "source": {
+            "page": "Category:Building",
+            "url": "https://valheim.fandom.com/wiki/Red_Jute_Curtain"
+        }
+    },
+    {
+        "id": "reinforced_chest",
+        "name": {
+            "en": "Reinforced Chest",
+            "pt-BR": "Baú reforçado"
+        },
+        "aliases": {
+            "en": ["Reinforced Chest"],
+            "pt-BR": ["Baú reforçado"]
+        },
+        "categories": [
+            {
+                "en": "Furniture",
+                "pt-BR": "Móveis"
+            },
+            {
+                "en": "Storage",
+                "pt-BR": "Armazenamento"
+            }
+        ],
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/5/5a/Reinforced_chest_appearance.png/revision/latest/scale-to-width-down/96?cb=20250512130231",
+        "source": {
+            "page": "Category:Building",
+            "url": "https://valheim.fandom.com/wiki/Reinforced_Chest"
+        }
+    },
+    {
+        "id": "resin_candle",
+        "name": {
+            "en": "Resin candle",
+            "pt-BR": "Vela de resina"
+        },
+        "aliases": {
+            "en": ["Resin candle"],
+            "pt-BR": ["Vela de resina"]
+        },
+        "categories": [
+            {
+                "en": "Furniture",
+                "pt-BR": "Móveis"
+            }
+        ],
+        "imageUrl": null,
+        "source": {
+            "page": "Category:Building",
+            "url": "https://valheim.fandom.com/wiki/Resin_candle"
+        }
+    },
+    {
+        "id": "rolling_pins_and_cutting_boards",
+        "name": {
+            "en": "Rolling Pins and Cutting Boards",
+            "pt-BR": "Rolos e tábuas de corte"
+        },
+        "aliases": {
+            "en": ["Rolling Pins and Cutting Boards"],
+            "pt-BR": ["Rolos e tábuas de corte"]
+        },
+        "categories": [
+            {
+                "en": "Crafting structures",
+                "pt-BR": "Estruturas de criação"
+            }
+        ],
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/7/74/Rolling_Pins_and_Cutting_Boards_appearance.png/revision/latest/scale-to-width-down/90?cb=20240425151500",
+        "source": {
+            "page": "Category:Building",
+            "url": "https://valheim.fandom.com/wiki/Rolling_Pins_and_Cutting_Boards"
+        }
+    },
+    {
+        "id": "roof",
+        "name": {
+            "en": "Roof",
+            "pt-BR": "Telhado"
+        },
+        "aliases": {
+            "en": ["Roof"],
+            "pt-BR": ["Telhado"]
+        },
+        "categories": [
+            {
+                "en": "Building structures",
+                "pt-BR": "Estruturas de construção"
+            }
+        ],
+        "imageUrl": null,
+        "source": {
+            "page": "Category:Building",
+            "url": "https://valheim.fandom.com/wiki/Roof"
+        }
+    },
+    {
+        "id": "roundpole_fence",
+        "name": {
+            "en": "Roundpole Fence",
+            "pt-BR": "Cerca de estacas redondas"
+        },
+        "aliases": {
+            "en": ["Roundpole Fence"],
+            "pt-BR": ["Cerca de estacas redondas"]
+        },
+        "categories": [
+            {
+                "en": "Building structures",
+                "pt-BR": "Estruturas de construção"
+            },
+            {
+                "en": "Misc structures",
+                "pt-BR": "Estruturas diversas"
+            }
+        ],
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/d/dc/Roundpole_fence_appearance.png/revision/latest/scale-to-width-down/96?cb=20230120174456",
+        "source": {
+            "page": "Category:Building",
+            "url": "https://valheim.fandom.com/wiki/Roundpole_Fence"
+        }
+    },
+    {
+        "id": "rugs",
+        "name": {
+            "en": "Rugs",
+            "pt-BR": "Tapetes"
+        },
+        "aliases": {
+            "en": ["Rugs"],
+            "pt-BR": ["Tapetes"]
+        },
+        "categories": [
+            {
+                "en": "Furniture",
+                "pt-BR": "Móveis"
+            }
+        ],
+        "imageUrl": null,
+        "source": {
+            "page": "Category:Building",
+            "url": "https://valheim.fandom.com/wiki/Rugs"
+        }
+    },
+    {
+        "id": "rune_table",
+        "name": {
+            "en": "Rune Table",
+            "pt-BR": "Mesa de runas"
+        },
+        "aliases": {
+            "en": ["Rune Table"],
+            "pt-BR": ["Mesa de runas"]
+        },
+        "categories": [
+            {
+                "en": "Crafting structures",
+                "pt-BR": "Estruturas de criação"
+            }
+        ],
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/7/75/Rune_table_appearance.PNG/revision/latest/scale-to-width-down/74?cb=20221225135654",
+        "source": {
+            "page": "Category:Building",
+            "url": "https://valheim.fandom.com/wiki/Rune_Table"
+        }
+    },
+    {
+        "id": "sap_extractor",
+        "name": {
+            "en": "Sap Extractor",
+            "pt-BR": "Extrator de seiva"
+        },
+        "aliases": {
+            "en": ["Sap Extractor"],
+            "pt-BR": ["Extrator de seiva"]
+        },
+        "categories": [
+            {
+                "en": "Crafting structures",
+                "pt-BR": "Estruturas de criação"
+            }
+        ],
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/f/f0/Sap_extractor_appearance.png/revision/latest/scale-to-width-down/72?cb=20250511075930",
+        "source": {
+            "page": "Category:Building",
+            "url": "https://valheim.fandom.com/wiki/Sap_Extractor"
+        }
+    },
+    {
+        "id": "sconce",
+        "name": {
+            "en": "Sconce",
+            "pt-BR": "Arandela"
+        },
+        "aliases": {
+            "en": ["Sconce"],
+            "pt-BR": ["Arandela"]
+        },
+        "categories": [
+            {
+                "en": "Furniture",
+                "pt-BR": "Móveis"
+            }
+        ],
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/3/37/Wall_torch.png/revision/latest/scale-to-width-down/55?cb=20180715023947",
+        "source": {
+            "page": "Category:Building",
+            "url": "https://valheim.fandom.com/wiki/Sconce"
+        }
+    },
+    {
+        "id": "sharp_stakes",
+        "name": {
+            "en": "Sharp Stakes",
+            "pt-BR": "Estacas afiadas"
+        },
+        "aliases": {
+            "en": ["Sharp Stakes"],
+            "pt-BR": ["Estacas afiadas"]
+        },
+        "categories": [
+            {
+                "en": "Building structures",
+                "pt-BR": "Estruturas de construção"
+            },
+            {
+                "en": "Misc structures",
+                "pt-BR": "Estruturas diversas"
+            }
+        ],
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/0/01/Sharp_stakes_appearance.png/revision/latest/scale-to-width-down/96?cb=20230120180448",
+        "source": {
+            "page": "Category:Building",
+            "url": "https://valheim.fandom.com/wiki/Sharp_Stakes"
+        }
+    },
+    {
+        "id": "shield_generator",
+        "name": {
+            "en": "Shield Generator",
+            "pt-BR": "Gerador de escudo"
+        },
+        "aliases": {
+            "en": ["Shield Generator"],
+            "pt-BR": ["Gerador de escudo"]
+        },
+        "categories": [
+            {
+                "en": "Crafting structures",
+                "pt-BR": "Estruturas de criação"
+            },
+            {
+                "en": "Misc structures",
+                "pt-BR": "Estruturas diversas"
+            }
+        ],
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/c/c2/Shield_generator_appearance.png/revision/latest/scale-to-width-down/80?cb=20250511100431",
+        "source": {
+            "page": "Category:Building",
+            "url": "https://valheim.fandom.com/wiki/Shield_Generator"
+        }
+    },
+    {
+        "id": "shingle_roofs",
+        "name": {
+            "en": "Shingle Roofs",
+            "pt-BR": "Telhados de telhas"
+        },
+        "aliases": {
+            "en": ["Shingle Roofs"],
+            "pt-BR": ["Telhados de telhas"]
+        },
+        "categories": [
+            {
+                "en": "Building structures",
+                "pt-BR": "Estruturas de construção"
+            },
+            {
+                "en": "Roofs",
+                "pt-BR": "Telhados"
+            }
+        ],
+        "imageUrl": null,
+        "source": {
+            "page": "Category:Building",
+            "url": "https://valheim.fandom.com/wiki/Shingle_Roofs"
+        }
+    },
+    {
+        "id": "sign",
+        "name": {
+            "en": "Sign",
+            "pt-BR": "Placa"
+        },
+        "aliases": {
+            "en": ["Sign"],
+            "pt-BR": ["Placa"]
+        },
+        "categories": [
+            {
+                "en": "Furniture",
+                "pt-BR": "Móveis"
+            }
+        ],
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/b/b2/Sign_HTML_Example.jpg/revision/latest/scale-to-width-down/96?cb=20210314061902",
+        "source": {
+            "page": "Category:Building",
+            "url": "https://valheim.fandom.com/wiki/Sign"
+        }
+    },
+    {
+        "id": "smelter",
+        "name": {
+            "en": "Smelter",
+            "pt-BR": "Fundição"
+        },
+        "aliases": {
+            "en": ["Smelter"],
+            "pt-BR": ["Fundição"]
+        },
+        "categories": [
+            {
+                "en": "Crafting structures",
+                "pt-BR": "Estruturas de criação"
+            }
+        ],
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/f/fc/Smelter_appearance.png/revision/latest/scale-to-width-down/76?cb=20250511074958",
+        "source": {
+            "page": "Category:Building",
+            "url": "https://valheim.fandom.com/wiki/Smelter"
+        }
+    },
+    {
+        "id": "smith_s_anvil",
+        "name": {
+            "en": "Smith's Anvil",
+            "pt-BR": "Bigorna do ferreiro"
+        },
+        "aliases": {
+            "en": ["Smith's Anvil"],
+            "pt-BR": ["Bigorna do ferreiro"]
+        },
+        "categories": [
+            {
+                "en": "Crafting structures",
+                "pt-BR": "Estruturas de criação"
+            }
+        ],
+        "imageUrl": null,
+        "source": {
+            "page": "Category:Building",
+            "url": "https://valheim.fandom.com/wiki/Smith's_Anvil"
+        }
+    },
+    {
+        "id": "smith_s_aprons",
+        "name": {
+            "en": "Smith's Aprons",
+            "pt-BR": "Aventais do ferreiro"
+        },
+        "aliases": {
+            "en": ["Smith's Aprons"],
+            "pt-BR": ["Aventais do ferreiro"]
+        },
+        "categories": [
+            {
+                "en": "Crafting structures",
+                "pt-BR": "Estruturas de criação"
+            }
+        ],
+        "imageUrl": null,
+        "source": {
+            "page": "Category:Building",
+            "url": "https://valheim.fandom.com/wiki/Smith's_Aprons"
+        }
+    },
+    {
+        "id": "spice_rack",
+        "name": {
+            "en": "Spice Rack",
+            "pt-BR": "Prateleira de temperos"
+        },
+        "aliases": {
+            "en": ["Spice Rack"],
+            "pt-BR": ["Prateleira de temperos"]
+        },
+        "categories": [
+            {
+                "en": "Crafting structures",
+                "pt-BR": "Estruturas de criação"
+            }
+        ],
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/4/4d/Spice_Rack_appearance.png/revision/latest/scale-to-width-down/96?cb=20230624185459",
+        "source": {
+            "page": "Category:Building",
+            "url": "https://valheim.fandom.com/wiki/Spice_Rack"
+        }
+    },
+    {
+        "id": "spinning_wheel",
+        "name": {
+            "en": "Spinning Wheel",
+            "pt-BR": "Roda de fiar"
+        },
+        "aliases": {
+            "en": ["Spinning Wheel"],
+            "pt-BR": ["Roda de fiar"]
+        },
+        "categories": [
+            {
+                "en": "Crafting structures",
+                "pt-BR": "Estruturas de criação"
+            }
+        ],
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/8/80/Spinning_wheel_appearance.png/revision/latest/scale-to-width-down/96?cb=20250511074208",
+        "source": {
+            "page": "Category:Building",
+            "url": "https://valheim.fandom.com/wiki/Spinning_Wheel"
+        }
+    },
+    {
+        "id": "stakes",
+        "name": {
+            "en": "Stakes",
+            "pt-BR": "Estacas"
+        },
+        "aliases": {
+            "en": ["Stakes"],
+            "pt-BR": ["Estacas"]
+        },
+        "categories": [
+            {
+                "en": "Building structures",
+                "pt-BR": "Estruturas de construção"
+            },
+            {
+                "en": "Misc structures",
+                "pt-BR": "Estruturas diversas"
+            }
+        ],
+        "imageUrl": null,
+        "source": {
+            "page": "Category:Building",
+            "url": "https://valheim.fandom.com/wiki/Stakes"
+        }
+    },
+    {
+        "id": "stakewall",
+        "name": {
+            "en": "Stakewall",
+            "pt-BR": "Estacada"
+        },
+        "aliases": {
+            "en": ["Stakewall"],
+            "pt-BR": ["Estacada"]
+        },
+        "categories": [
+            {
+                "en": "Building structures",
+                "pt-BR": "Estruturas de construção"
+            },
+            {
+                "en": "Misc structures",
+                "pt-BR": "Estruturas diversas"
+            }
+        ],
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/c/ca/Stakewall_appearance.png/revision/latest/scale-to-width-down/93?cb=20230120175003",
+        "source": {
+            "page": "Category:Building",
+            "url": "https://valheim.fandom.com/wiki/Stakewall"
+        }
+    },
+    {
+        "id": "standing_blue_burning_iron_torch",
+        "name": {
+            "en": "Standing Blue-burning Iron Torch",
+            "pt-BR": "Tocha de ferro azul de chão"
+        },
+        "aliases": {
+            "en": ["Standing Blue-burning Iron Torch"],
+            "pt-BR": ["Tocha de ferro azul de chão"]
+        },
+        "categories": [
+            {
+                "en": "Furniture",
+                "pt-BR": "Móveis"
+            }
+        ],
+        "imageUrl": null,
+        "source": {
+            "page": "Category:Building",
+            "url": "https://valheim.fandom.com/wiki/Standing_Blue-burning_Iron_Torch"
+        }
+    },
+    {
+        "id": "standing_brazier",
+        "name": {
+            "en": "Standing Brazier",
+            "pt-BR": "Braseiro de chão"
+        },
+        "aliases": {
+            "en": ["Standing Brazier"],
+            "pt-BR": ["Braseiro de chão"]
+        },
+        "categories": [
+            {
+                "en": "Fires",
+                "pt-BR": "Fogueiras"
+            },
+            {
+                "en": "Furniture",
+                "pt-BR": "Móveis"
+            }
+        ],
+        "imageUrl": null,
+        "source": {
+            "page": "Category:Building",
+            "url": "https://valheim.fandom.com/wiki/Standing_Brazier"
+        }
+    },
+    {
+        "id": "standing_green_burning_iron_torch",
+        "name": {
+            "en": "Standing Green-burning Iron Torch",
+            "pt-BR": "Tocha de ferro verde de chão"
+        },
+        "aliases": {
+            "en": ["Standing Green-burning Iron Torch"],
+            "pt-BR": ["Tocha de ferro verde de chão"]
+        },
+        "categories": [
+            {
+                "en": "Furniture",
+                "pt-BR": "Móveis"
+            }
+        ],
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/7/76/Standing_greenburning_iron_torch.jpg/revision/latest/scale-to-width-down/37?cb=20210216060320",
+        "source": {
+            "page": "Category:Building",
+            "url": "https://valheim.fandom.com/wiki/Standing_Green-burning_Iron_Torch"
+        }
+    },
+    {
+        "id": "standing_iron_torch",
+        "name": {
+            "en": "Standing Iron Torch",
+            "pt-BR": "Tocha de ferro de chão"
+        },
+        "aliases": {
+            "en": ["Standing Iron Torch"],
+            "pt-BR": ["Tocha de ferro de chão"]
+        },
+        "categories": [
+            {
+                "en": "Furniture",
+                "pt-BR": "Móveis"
+            }
+        ],
+        "imageUrl": null,
+        "source": {
+            "page": "Category:Building",
+            "url": "https://valheim.fandom.com/wiki/Standing_Iron_Torch"
+        }
+    },
+    {
+        "id": "standing_wood_torch",
+        "name": {
+            "en": "Standing Wood Torch",
+            "pt-BR": "Tocha de madeira de chão"
+        },
+        "aliases": {
+            "en": ["Standing Wood Torch"],
+            "pt-BR": ["Tocha de madeira de chão"]
+        },
+        "categories": [
+            {
+                "en": "Furniture",
+                "pt-BR": "Móveis"
+            }
+        ],
+        "imageUrl": null,
+        "source": {
+            "page": "Category:Building",
+            "url": "https://valheim.fandom.com/wiki/Standing_Wood_Torch"
+        }
+    },
+    {
+        "id": "stone_oven",
+        "name": {
+            "en": "Stone Oven",
+            "pt-BR": "Forno de pedra"
+        },
+        "aliases": {
+            "en": ["Stone Oven"],
+            "pt-BR": ["Forno de pedra"]
+        },
+        "categories": [
+            {
+                "en": "Crafting structures",
+                "pt-BR": "Estruturas de criação"
+            }
+        ],
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/b/ba/Stone_Oven_appearance.png/revision/latest/scale-to-width-down/96?cb=20240121191706",
+        "source": {
+            "page": "Category:Building",
+            "url": "https://valheim.fandom.com/wiki/Stone_Oven"
+        }
+    },
+    {
+        "id": "stone_pile",
+        "name": {
+            "en": "Stone Pile",
+            "pt-BR": "Pilha de pedras"
+        },
+        "aliases": {
+            "en": ["Stone Pile"],
+            "pt-BR": ["Pilha de pedras"]
+        },
+        "categories": [
+            {
+                "en": "Misc structures",
+                "pt-BR": "Estruturas diversas"
+            },
+            {
+                "en": "Stacks & Piles",
+                "pt-BR": "Pilhas e montes"
+            }
+        ],
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/5/5a/Stone_pile_appearance.png/revision/latest/scale-to-width-down/96?cb=20230114195405",
+        "source": {
+            "page": "Category:Building",
+            "url": "https://valheim.fandom.com/wiki/Stone_Pile"
+        }
+    },
+    {
+        "id": "stone_structures",
+        "name": {
+            "en": "Stone Structures",
+            "pt-BR": "Estruturas de pedra"
+        },
+        "aliases": {
+            "en": ["Stone Structures"],
+            "pt-BR": ["Estruturas de pedra"]
+        },
+        "categories": [
+            {
+                "en": "Building structures",
+                "pt-BR": "Estruturas de construção"
+            }
+        ],
+        "imageUrl": null,
+        "source": {
+            "page": "Category:Building",
+            "url": "https://valheim.fandom.com/wiki/Stone_Structures"
+        }
+    },
+    {
+        "id": "stonecutter",
+        "name": {
+            "en": "Stonecutter",
+            "pt-BR": "Cortador de pedra"
+        },
+        "aliases": {
+            "en": ["Stonecutter"],
+            "pt-BR": ["Cortador de pedra"]
+        },
+        "categories": [
+            {
+                "en": "Building",
+                "pt-BR": "Construção"
+            },
+            {
+                "en": "Crafting structures",
+                "pt-BR": "Estruturas de criação"
+            }
+        ],
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/5/5f/Stonecutter_appearance.png/revision/latest/scale-to-width-down/96?cb=20241207111006",
+        "source": {
+            "page": "Category:Building",
+            "url": "https://valheim.fandom.com/wiki/Stonecutter"
+        }
+    },
+    {
+        "id": "storage",
+        "name": {
+            "en": "Storage",
+            "pt-BR": "Armazenamento"
+        },
+        "aliases": {
+            "en": ["Storage"],
+            "pt-BR": ["Armazenamento"]
+        },
+        "categories": [
+            {
+                "en": "Storage",
+                "pt-BR": "Armazenamento"
+            }
+        ],
+        "imageUrl": null,
+        "source": {
+            "page": "Category:Building",
+            "url": "https://valheim.fandom.com/wiki/Storage"
+        }
+    },
+    {
+        "id": "t_w_i_g",
+        "name": {
+            "en": "T.W.I.G.",
+            "pt-BR": "T.W.I.G."
+        },
+        "aliases": {
+            "en": ["T.W.I.G."],
+            "pt-BR": ["T.W.I.G."]
+        },
+        "categories": [
+            {
+                "en": "Misc structures",
+                "pt-BR": "Estruturas diversas"
+            }
+        ],
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/6/62/T.W.I.G._appearance.png/revision/latest/scale-to-width-down/96?cb=20250823123746",
+        "source": {
+            "page": "Category:Building",
+            "url": "https://valheim.fandom.com/wiki/T.W.I.G."
+        }
+    },
+    {
+        "id": "tables",
+        "name": {
+            "en": "Tables",
+            "pt-BR": "Mesas"
+        },
+        "aliases": {
+            "en": ["Tables"],
+            "pt-BR": ["Mesas"]
+        },
+        "categories": [
+            {
+                "en": "Furniture",
+                "pt-BR": "Móveis"
+            },
+            {
+                "en": "Grants Comfort",
+                "pt-BR": "Concede conforto"
+            }
+        ],
+        "imageUrl": null,
+        "source": {
+            "page": "Category:Building",
+            "url": "https://valheim.fandom.com/wiki/Tables"
+        }
+    },
+    {
+        "id": "tanning_rack",
+        "name": {
+            "en": "Tanning Rack",
+            "pt-BR": "Suporte de curtimento"
+        },
+        "aliases": {
+            "en": ["Tanning Rack"],
+            "pt-BR": ["Suporte de curtimento"]
+        },
+        "categories": [
+            {
+                "en": "Crafting structures",
+                "pt-BR": "Estruturas de criação"
+            }
+        ],
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/e/ef/Tanning_rack_appearance.png/revision/latest/scale-to-width-down/96?cb=20210209031538",
+        "source": {
+            "page": "Category:Building",
+            "url": "https://valheim.fandom.com/wiki/Tanning_Rack"
+        }
+    },
+    {
+        "id": "thatch_roofs",
+        "name": {
+            "en": "Thatch Roofs",
+            "pt-BR": "Telhados de palha"
+        },
+        "aliases": {
+            "en": ["Thatch Roofs"],
+            "pt-BR": ["Telhados de palha"]
+        },
+        "categories": [
+            {
+                "en": "Building structures",
+                "pt-BR": "Estruturas de construção"
+            },
+            {
+                "en": "Roofs",
+                "pt-BR": "Telhados"
+            }
+        ],
+        "imageUrl": null,
+        "source": {
+            "page": "Category:Building",
+            "url": "https://valheim.fandom.com/wiki/Thatch_Roofs"
+        }
+    },
+    {
+        "id": "tool_shelf",
+        "name": {
+            "en": "Tool Shelf",
+            "pt-BR": "Prateleira de ferramentas"
+        },
+        "aliases": {
+            "en": ["Tool Shelf"],
+            "pt-BR": ["Prateleira de ferramentas"]
+        },
+        "categories": [
+            {
+                "en": "Crafting structures",
+                "pt-BR": "Estruturas de criação"
+            }
+        ],
+        "imageUrl": null,
+        "source": {
+            "page": "Category:Building",
+            "url": "https://valheim.fandom.com/wiki/Tool_Shelf"
+        }
+    },
+    {
+        "id": "trailership",
+        "name": {
+            "en": "Trailership",
+            "pt-BR": "Trailership"
+        },
+        "aliases": {
+            "en": ["Trailership"],
+            "pt-BR": ["Trailership"]
+        },
+        "categories": [
+            {
+                "en": "Misc structures",
+                "pt-BR": "Estruturas diversas"
+            },
+            {
+                "en": "Storage",
+                "pt-BR": "Armazenamento"
+            }
+        ],
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/b/b7/Spawned_Trailership.png/revision/latest/scale-to-width-down/96?cb=20210307225409",
+        "source": {
+            "page": "Category:Building",
+            "url": "https://valheim.fandom.com/wiki/Trailership"
+        }
+    },
+    {
+        "id": "trap",
+        "name": {
+            "en": "Trap",
+            "pt-BR": "Armadilha"
+        },
+        "aliases": {
+            "en": ["Trap"],
+            "pt-BR": ["Armadilha"]
+        },
+        "categories": [
+            {
+                "en": "Misc structures",
+                "pt-BR": "Estruturas diversas"
+            }
+        ],
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/8/87/Trap_appearance.png/revision/latest/scale-to-width-down/96?cb=20230120180852",
+        "source": {
+            "page": "Category:Building",
+            "url": "https://valheim.fandom.com/wiki/Trap"
+        }
+    },
+    {
+        "id": "treasure_chest",
+        "name": {
+            "en": "Treasure chest",
+            "pt-BR": "Baú do tesouro"
+        },
+        "aliases": {
+            "en": ["Treasure chest"],
+            "pt-BR": ["Baú do tesouro"]
+        },
+        "categories": [
+            {
+                "en": "Misc structures",
+                "pt-BR": "Estruturas diversas"
+            }
+        ],
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/d/d9/Treasure_chest_appearance.png/revision/latest/scale-to-width-down/96?cb=20230124162657",
+        "source": {
+            "page": "Category:Building",
+            "url": "https://valheim.fandom.com/wiki/Treasure_chest"
+        }
+    },
+    {
+        "id": "unfading_candles",
+        "name": {
+            "en": "Unfading Candles",
+            "pt-BR": "Velas eternas"
+        },
+        "aliases": {
+            "en": ["Unfading Candles"],
+            "pt-BR": ["Velas eternas"]
+        },
+        "categories": [
+            {
+                "en": "Crafting structures",
+                "pt-BR": "Estruturas de criação"
+            }
+        ],
+        "imageUrl": null,
+        "source": {
+            "page": "Category:Building",
+            "url": "https://valheim.fandom.com/wiki/Unfading_Candles"
+        }
+    },
+    {
+        "id": "vice",
+        "name": {
+            "en": "Vice",
+            "pt-BR": "Morsa"
+        },
+        "aliases": {
+            "en": ["Vice"],
+            "pt-BR": ["Morsa"]
+        },
+        "categories": [
+            {
+                "en": "Crafting structures",
+                "pt-BR": "Estruturas de criação"
+            }
+        ],
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/3/39/Vice_appearance.png/revision/latest/scale-to-width-down/91?cb=20230619201344",
+        "source": {
+            "page": "Category:Building",
+            "url": "https://valheim.fandom.com/wiki/Vice"
+        }
+    },
+    {
+        "id": "volture_nest",
+        "name": {
+            "en": "Volture Nest",
+            "pt-BR": "Ninho de volture"
+        },
+        "aliases": {
+            "en": ["Volture Nest"],
+            "pt-BR": ["Ninho de volture"]
+        },
+        "categories": [
+            {
+                "en": "Building",
+                "pt-BR": "Construção"
+            }
+        ],
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/1/19/Volturenest.png/revision/latest/scale-to-width-down/96?cb=20240520145044",
+        "source": {
+            "page": "Category:Building",
+            "url": "https://valheim.fandom.com/wiki/Volture_Nest"
+        }
+    },
+    {
+        "id": "ward",
+        "name": {
+            "en": "Ward",
+            "pt-BR": "Proteção"
+        },
+        "aliases": {
+            "en": ["Ward"],
+            "pt-BR": ["Proteção"]
+        },
+        "categories": [
+            {
+                "en": "Misc structures",
+                "pt-BR": "Estruturas diversas"
+            }
+        ],
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/1/1f/Ward_appearance.png/revision/latest/scale-to-width-down/93?cb=20230121094357",
+        "source": {
+            "page": "Category:Building",
+            "url": "https://valheim.fandom.com/wiki/Ward"
+        }
+    },
+    {
+        "id": "windmill",
+        "name": {
+            "en": "Windmill",
+            "pt-BR": "Moinho de vento"
+        },
+        "aliases": {
+            "en": ["Windmill"],
+            "pt-BR": ["Moinho de vento"]
+        },
+        "categories": [
+            {
+                "en": "Crafting structures",
+                "pt-BR": "Estruturas de criação"
+            }
+        ],
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/d/d8/Windmill_appearance.png/revision/latest/scale-to-width-down/76?cb=20250509110607",
+        "source": {
+            "page": "Category:Building",
+            "url": "https://valheim.fandom.com/wiki/Windmill"
+        }
+    },
+    {
+        "id": "wisp_fountain",
+        "name": {
+            "en": "Wisp Fountain",
+            "pt-BR": "Fonte de wisps"
+        },
+        "aliases": {
+            "en": ["Wisp Fountain"],
+            "pt-BR": ["Fonte de wisps"]
+        },
+        "categories": [
+            {
+                "en": "Crafting structures",
+                "pt-BR": "Estruturas de criação"
+            }
+        ],
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/1/17/Wisp_fountain_appearance.PNG/revision/latest/scale-to-width-down/85?cb=20241207111843",
+        "source": {
+            "page": "Category:Building",
+            "url": "https://valheim.fandom.com/wiki/Wisp_Fountain"
+        }
+    },
+    {
+        "id": "wisp_torch",
+        "name": {
+            "en": "Wisp Torch",
+            "pt-BR": "Tocha de wisp"
+        },
+        "aliases": {
+            "en": ["Wisp Torch"],
+            "pt-BR": ["Tocha de wisp"]
+        },
+        "categories": [
+            {
+                "en": "Furniture",
+                "pt-BR": "Móveis"
+            }
+        ],
+        "imageUrl": null,
+        "source": {
+            "page": "Category:Building",
+            "url": "https://valheim.fandom.com/wiki/Wisp_Torch"
+        }
+    },
+    {
+        "id": "wolf_adornment",
+        "name": {
+            "en": "Wolf Adornment",
+            "pt-BR": "Adorno de lobo"
+        },
+        "aliases": {
+            "en": ["Wolf Adornment"],
+            "pt-BR": ["Adorno de lobo"]
+        },
+        "categories": [
+            {
+                "en": "Misc structures",
+                "pt-BR": "Estruturas diversas"
+            }
+        ],
+        "imageUrl": null,
+        "source": {
+            "page": "Category:Building",
+            "url": "https://valheim.fandom.com/wiki/Wolf_Adornment"
+        }
+    },
+    {
+        "id": "wood_dragon_adornment",
+        "name": {
+            "en": "Wood Dragon Adornment",
+            "pt-BR": "Adorno de dragão de madeira"
+        },
+        "aliases": {
+            "en": ["Wood Dragon Adornment"],
+            "pt-BR": ["Adorno de dragão de madeira"]
+        },
+        "categories": [
+            {
+                "en": "Misc structures",
+                "pt-BR": "Estruturas diversas"
+            }
+        ],
+        "imageUrl": null,
+        "source": {
+            "page": "Category:Building",
+            "url": "https://valheim.fandom.com/wiki/Wood_Dragon_Adornment"
+        }
+    },
+    {
+        "id": "wood_iron_structures",
+        "name": {
+            "en": "Wood Iron Structures",
+            "pt-BR": "Estruturas de madeira e ferro"
+        },
+        "aliases": {
+            "en": ["Wood Iron Structures"],
+            "pt-BR": ["Estruturas de madeira e ferro"]
+        },
+        "categories": [
+            {
+                "en": "Building structures",
+                "pt-BR": "Estruturas de construção"
+            }
+        ],
+        "imageUrl": null,
+        "source": {
+            "page": "Category:Building",
+            "url": "https://valheim.fandom.com/wiki/Wood_Iron_Structures"
+        }
+    },
+    {
+        "id": "wood_stack",
+        "name": {
+            "en": "Wood Stack",
+            "pt-BR": "Pilha de madeira"
+        },
+        "aliases": {
+            "en": ["Wood Stack"],
+            "pt-BR": ["Pilha de madeira"]
+        },
+        "categories": [
+            {
+                "en": "Misc structures",
+                "pt-BR": "Estruturas diversas"
+            },
+            {
+                "en": "Stacks & Piles",
+                "pt-BR": "Pilhas e montes"
+            }
+        ],
+        "imageUrl": null,
+        "source": {
+            "page": "Category:Building",
+            "url": "https://valheim.fandom.com/wiki/Wood_Stack"
+        }
+    },
+    {
+        "id": "wood_structures",
+        "name": {
+            "en": "Wood Structures",
+            "pt-BR": "Estruturas de madeira"
+        },
+        "aliases": {
+            "en": ["Wood Structures"],
+            "pt-BR": ["Estruturas de madeira"]
+        },
+        "categories": [
+            {
+                "en": "Building structures",
+                "pt-BR": "Estruturas de construção"
+            }
+        ],
+        "imageUrl": null,
+        "source": {
+            "page": "Category:Building",
+            "url": "https://valheim.fandom.com/wiki/Wood_Structures"
+        }
+    },
+    {
+        "id": "workbench",
+        "name": {
+            "en": "Workbench",
+            "pt-BR": "Bancada de trabalho"
+        },
+        "aliases": {
+            "en": ["Workbench"],
+            "pt-BR": ["Bancada de trabalho"]
+        },
+        "categories": [
+            {
+                "en": "Building",
+                "pt-BR": "Construção"
+            },
+            {
+                "en": "Crafting structures",
+                "pt-BR": "Estruturas de criação"
+            }
+        ],
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/0/03/Workbench_appearance.png/revision/latest/scale-to-width-down/96?cb=20241207105509",
+        "source": {
+            "page": "Category:Building",
+            "url": "https://valheim.fandom.com/wiki/Workbench"
+        }
+    },
+    {
+        "id": "yggdrasil_wood_stack",
+        "name": {
+            "en": "Yggdrasil Wood Stack",
+            "pt-BR": "Pilha de madeira de Yggdrasil"
+        },
+        "aliases": {
+            "en": ["Yggdrasil Wood Stack"],
+            "pt-BR": ["Pilha de madeira de Yggdrasil"]
+        },
+        "categories": [
+            {
+                "en": "Misc structures",
+                "pt-BR": "Estruturas diversas"
+            },
+            {
+                "en": "Stacks & Piles",
+                "pt-BR": "Pilhas e montes"
+            }
+        ],
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/5/55/Yggdrasil_wood_stack_appearance.png/revision/latest/scale-to-width-down/96?cb=20230114194731",
+        "source": {
+            "page": "Category:Building",
+            "url": "https://valheim.fandom.com/wiki/Yggdrasil_Wood_Stack"
+        }
+    },
+    {
+        "id": "yule_garland",
+        "name": {
+            "en": "Yule garland",
+            "pt-BR": "Guirlanda de Yule"
+        },
+        "aliases": {
+            "en": ["Yule garland"],
+            "pt-BR": ["Guirlanda de Yule"]
+        },
+        "categories": [
+            {
+                "en": "Furniture",
+                "pt-BR": "Móveis"
+            },
+            {
+                "en": "Seasonal Furniture",
+                "pt-BR": "Móveis sazonais"
+            }
+        ],
+        "imageUrl": null,
+        "source": {
+            "page": "Category:Building",
+            "url": "https://valheim.fandom.com/wiki/Yule_garland"
+        }
+    },
+    {
+        "id": "yule_tree",
+        "name": {
+            "en": "Yule Tree",
+            "pt-BR": "Árvore de Yule"
+        },
+        "aliases": {
+            "en": ["Yule Tree"],
+            "pt-BR": ["Árvore de Yule"]
+        },
+        "categories": [
+            {
+                "en": "Furniture",
+                "pt-BR": "Móveis"
+            },
+            {
+                "en": "Grants Comfort",
+                "pt-BR": "Concede conforto"
+            },
+            {
+                "en": "Seasonal Furniture",
+                "pt-BR": "Móveis sazonais"
+            }
+        ],
+        "imageUrl": "https://static.wikia.nocookie.net/valheim/images/a/a8/Yule_tree_appearance.png/revision/latest/scale-to-width-down/65?cb=20250513074002",
+        "source": {
+            "page": "Category:Building",
+            "url": "https://valheim.fandom.com/wiki/Yule_Tree"
+        }
+    },
+    {
+        "id": "yule_wreath",
+        "name": {
+            "en": "Yule wreath",
+            "pt-BR": "Coroa de Yule"
+        },
+        "aliases": {
+            "en": ["Yule wreath"],
+            "pt-BR": ["Coroa de Yule"]
+        },
+        "categories": [
+            {
+                "en": "Furniture",
+                "pt-BR": "Móveis"
+            },
+            {
+                "en": "Seasonal Furniture",
+                "pt-BR": "Móveis sazonais"
+            }
+        ],
+        "imageUrl": null,
+        "source": {
+            "page": "Category:Building",
+            "url": "https://valheim.fandom.com/wiki/Yule_wreath"
+        }
+    },
+    {
+        "id": "yuleklapp",
+        "name": {
+            "en": "Yuleklapp",
+            "pt-BR": "Yuleklapp"
+        },
+        "aliases": {
+            "en": ["Yuleklapp"],
+            "pt-BR": ["Yuleklapp"]
+        },
+        "categories": [
+            {
+                "en": "Furniture",
+                "pt-BR": "Móveis"
+            },
+            {
+                "en": "Seasonal Furniture",
+                "pt-BR": "Móveis sazonais"
+            },
+            {
+                "en": "Storage",
+                "pt-BR": "Armazenamento"
+            }
+        ],
+        "imageUrl": null,
+        "source": {
+            "page": "Category:Building",
+            "url": "https://valheim.fandom.com/wiki/Yuleklapp"
+        }
+    }
+]

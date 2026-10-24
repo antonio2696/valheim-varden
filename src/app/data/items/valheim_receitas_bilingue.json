@@ -1,0 +1,4025 @@
+[
+  {
+    "name": {
+      "en": "Raspberries",
+      "pt-BR": "Framboesa"
+    },
+    "biome": "Meadows",
+    "ingredients": [],
+    "duration": "10:00",
+    "craftingStation": {
+      "name": {
+        "en": "(Meadows)",
+        "pt-BR": "Prado"
+      },
+      "level": null
+    },
+    "id": "raspberries",
+    "aliases": {
+      "en": [
+        "Raspberries"
+      ],
+      "pt-BR": [
+        "Framboesa"
+      ]
+    }
+  },
+  {
+    "name": {
+      "en": "Mushroom",
+      "pt-BR": "Cogumelo"
+    },
+    "biome": "Meadows",
+    "ingredients": [],
+    "duration": "15:00",
+    "craftingStation": {
+      "name": {
+        "en": "(Meadows) (Black Forest)",
+        "pt-BR": "(Meadows) (Black Forest)"
+      },
+      "level": null
+    },
+    "id": "mushroom",
+    "aliases": {
+      "en": [
+        "Mushroom"
+      ],
+      "pt-BR": [
+        "Cogumelo"
+      ]
+    }
+  },
+  {
+    "name": {
+      "en": "Grilled neck tail",
+      "pt-BR": "Rabo de lagarto grelhado"
+    },
+    "biome": "Meadows",
+    "ingredients": [
+      {
+        "id": "neck_tail",
+        "name": {
+          "en": "Neck tail",
+          "pt-BR": "Rabo de lagarto"
+        },
+        "quantity": 1
+      }
+    ],
+    "duration": "20:00",
+    "craftingStation": {
+      "name": {
+        "en": "Cooking station",
+        "pt-BR": "Cooking station"
+      },
+      "level": null
+    },
+    "id": "grilled_neck_tail",
+    "aliases": {
+      "en": [
+        "Grilled neck tail"
+      ],
+      "pt-BR": [
+        "Rabo de lagarto grelhado"
+      ]
+    }
+  },
+  {
+    "name": {
+      "en": "Cooked boar meat",
+      "pt-BR": "Carne de javali cozida"
+    },
+    "biome": "Meadows",
+    "ingredients": [
+      {
+        "id": "boar_meat",
+        "name": {
+          "en": "Boar meat",
+          "pt-BR": "Carne de javali"
+        },
+        "quantity": 1
+      }
+    ],
+    "duration": "20:00",
+    "craftingStation": {
+      "name": {
+        "en": "Cooking station",
+        "pt-BR": "Cooking station"
+      },
+      "level": null
+    },
+    "id": "cooked_boar_meat",
+    "aliases": {
+      "en": [
+        "Cooked boar meat"
+      ],
+      "pt-BR": [
+        "Carne de javali cozida"
+      ]
+    }
+  },
+  {
+    "name": {
+      "en": "Honey",
+      "pt-BR": "Mel"
+    },
+    "biome": "Meadows",
+    "ingredients": [],
+    "duration": "15:00",
+    "craftingStation": {
+      "name": {
+        "en": "(Beehive)",
+        "pt-BR": "(Beehive)"
+      },
+      "level": null
+    },
+    "id": "honey",
+    "aliases": {
+      "en": [
+        "Honey"
+      ],
+      "pt-BR": [
+        "Mel"
+      ]
+    }
+  },
+  {
+    "name": {
+      "en": "Cooked deer meat",
+      "pt-BR": "Carne de cervo cozida"
+    },
+    "biome": "Meadows",
+    "ingredients": [
+      {
+        "id": "deer_meat",
+        "name": {
+          "en": "Deer meat",
+          "pt-BR": "Carne de cervo"
+        },
+        "quantity": 1
+      }
+    ],
+    "duration": "20:00",
+    "craftingStation": {
+      "name": {
+        "en": "Cooking station",
+        "pt-BR": "Cooking station"
+      },
+      "level": null
+    },
+    "id": "cooked_deer_meat",
+    "aliases": {
+      "en": [
+        "Cooked deer meat"
+      ],
+      "pt-BR": [
+        "Carne de cervo cozida"
+      ]
+    }
+  },
+  {
+    "name": {
+      "en": "Bukeperries",
+      "pt-BR": "Bagas de Buke"
+    },
+    "biome": "Black Forest",
+    "ingredients": [],
+    "duration": "00:15",
+    "craftingStation": {
+      "name": {
+        "en": "(Greydwarf Shaman) (Fuling Shaman)",
+        "pt-BR": "(Greydwarf Shaman) (Fuling Shaman)"
+      },
+      "level": null
+    },
+    "id": "bukeperries",
+    "aliases": {
+      "en": [
+        "Bukeperries"
+      ],
+      "pt-BR": [
+        "Bagas de Buke"
+      ]
+    }
+  },
+  {
+    "name": {
+      "en": "Blueberries",
+      "pt-BR": "Mirtilos"
+    },
+    "biome": "Black Forest",
+    "ingredients": [],
+    "duration": "10:00",
+    "craftingStation": {
+      "name": {
+        "en": "(Black Forest)",
+        "pt-BR": "Floresta Negra"
+      },
+      "level": null
+    },
+    "id": "blueberries",
+    "aliases": {
+      "en": [
+        "Blueberries"
+      ],
+      "pt-BR": [
+        "Mirtilos"
+      ]
+    }
+  },
+  {
+    "name": {
+      "en": "Yellow mushroom",
+      "pt-BR": "Cogumelo amarelo"
+    },
+    "biome": "Black Forest",
+    "ingredients": [],
+    "duration": "10:00",
+    "craftingStation": {
+      "name": {
+        "en": "(Dungeons)",
+        "pt-BR": "(Dungeons)"
+      },
+      "level": null
+    },
+    "id": "yellow_mushroom",
+    "aliases": {
+      "en": [
+        "Yellow mushroom"
+      ],
+      "pt-BR": [
+        "Cogumelo amarelo"
+      ]
+    }
+  },
+  {
+    "name": {
+      "en": "Carrot",
+      "pt-BR": "Cenoura"
+    },
+    "biome": "Black Forest",
+    "ingredients": [],
+    "duration": "15:00",
+    "craftingStation": {
+      "name": {
+        "en": "(Carrot seeds)",
+        "pt-BR": "(Carrot seeds)"
+      },
+      "level": null
+    },
+    "id": "carrot",
+    "aliases": {
+      "en": [
+        "Carrot"
+      ],
+      "pt-BR": [
+        "Cenoura"
+      ]
+    }
+  },
+  {
+    "name": {
+      "en": "Boar jerky",
+      "pt-BR": "Carne seca de javali"
+    },
+    "biome": "Black Forest",
+    "ingredients": [
+      {
+        "id": "boar_meat",
+        "name": {
+          "en": "Boar meat",
+          "pt-BR": "Carne de javali"
+        },
+        "quantity": 1
+      },
+      {
+        "id": "honey",
+        "name": {
+          "en": "Honey",
+          "pt-BR": "Mel"
+        },
+        "quantity": 1
+      }
+    ],
+    "duration": "30:00",
+    "craftingStation": {
+      "name": {
+        "en": "Cauldron",
+        "pt-BR": "Caldeirão"
+      },
+      "level": 1,
+      "craftingMultiplier": 2
+    },
+    "craftingMultiplier": 2,
+    "craftingMultiplierUnit": "items",
+    "id": "boar_jerky",
+    "aliases": {
+      "en": [
+        "Boar jerky"
+      ],
+      "pt-BR": [
+        "Carne seca de javali"
+      ]
+    }
+  },
+  {
+    "name": {
+      "en": "Cooked bear meat",
+      "pt-BR": "Carne de urso cozida"
+    },
+    "biome": "Black Forest",
+    "ingredients": [
+      {
+        "id": "bear_meat",
+        "name": {
+          "en": "Bear Meat",
+          "pt-BR": "Carne de urso"
+        },
+        "quantity": 1
+      }
+    ],
+    "duration": "20:00",
+    "craftingStation": {
+      "name": {
+        "en": "Cooking station",
+        "pt-BR": "Cooking station"
+      },
+      "level": null
+    },
+    "id": "cooked_bear_meat",
+    "aliases": {
+      "en": [
+        "Cooked bear meat"
+      ],
+      "pt-BR": [
+        "Carne de urso cozida"
+      ]
+    }
+  },
+  {
+    "name": {
+      "en": "Minced meat sauce",
+      "pt-BR": "Molho de carne moída"
+    },
+    "biome": "Black Forest",
+    "ingredients": [
+      {
+        "id": "boar_meat",
+        "name": {
+          "en": "Boar meat",
+          "pt-BR": "Carne de javali"
+        },
+        "quantity": 1
+      },
+      {
+        "id": "neck_tail",
+        "name": {
+          "en": "Neck tail",
+          "pt-BR": "Rabo de lagarto"
+        },
+        "quantity": 1
+      },
+      {
+        "id": "carrot",
+        "name": {
+          "en": "Carrot",
+          "pt-BR": "Cenoura"
+        },
+        "quantity": 1
+      }
+    ],
+    "duration": "25:00",
+    "craftingStation": {
+      "name": {
+        "en": "Cauldron",
+        "pt-BR": "Caldeirão"
+      },
+      "level": 1
+    },
+    "id": "minced_meat_sauce",
+    "aliases": {
+      "en": [
+        "Minced meat sauce"
+      ],
+      "pt-BR": [
+        "Molho de carne moída"
+      ]
+    }
+  },
+  {
+    "name": {
+      "en": "Queen's jam",
+      "pt-BR": "Geleia de rainhas"
+    },
+    "biome": "Black Forest",
+    "ingredients": [
+      {
+        "id": "raspberries",
+        "name": {
+          "en": "Raspberries",
+          "pt-BR": "Framboesa"
+        },
+        "quantity": 8
+      },
+      {
+        "id": "blueberries",
+        "name": {
+          "en": "Blueberries",
+          "pt-BR": "Mirtilos"
+        },
+        "quantity": 6
+      }
+    ],
+    "duration": "20:00",
+    "craftingStation": {
+      "name": {
+        "en": "Cauldron",
+        "pt-BR": "Caldeirão"
+      },
+      "level": 1,
+      "craftingMultiplier": 4
+    },
+    "craftingMultiplier": 4,
+    "craftingMultiplierUnit": "items",
+    "id": "queen_s_jam",
+    "aliases": {
+      "en": [
+        "Queen's jam"
+      ],
+      "pt-BR": [
+        "Geleia de rainhas"
+      ]
+    }
+  },
+  {
+    "name": {
+      "en": "Carrot soup",
+      "pt-BR": "Sopa de cenoura"
+    },
+    "biome": "Black Forest",
+    "ingredients": [
+      {
+        "id": "mushroom",
+        "name": {
+          "en": "Mushroom",
+          "pt-BR": "Cogumelo"
+        },
+        "quantity": 1
+      },
+      {
+        "id": "carrot",
+        "name": {
+          "en": "Carrot",
+          "pt-BR": "Cenoura"
+        },
+        "quantity": 3
+      }
+    ],
+    "duration": "25:00",
+    "craftingStation": {
+      "name": {
+        "en": "Cauldron",
+        "pt-BR": "Caldeirão"
+      },
+      "level": 1
+    },
+    "id": "carrot_soup",
+    "aliases": {
+      "en": [
+        "Carrot soup"
+      ],
+      "pt-BR": [
+        "Sopa de cenoura"
+      ]
+    }
+  },
+  {
+    "name": {
+      "en": "Deer stew",
+      "pt-BR": "Ensopado de cervo"
+    },
+    "biome": "Black Forest",
+    "ingredients": [
+      {
+        "id": "blueberries",
+        "name": {
+          "en": "Blueberries",
+          "pt-BR": "Mirtilos"
+        },
+        "quantity": 1
+      },
+      {
+        "id": "carrot",
+        "name": {
+          "en": "Carrot",
+          "pt-BR": "Cenoura"
+        },
+        "quantity": 1
+      },
+      {
+        "id": "cooked_deer_meat",
+        "name": {
+          "en": "Cooked deer meat",
+          "pt-BR": "Carne de cervo cozida"
+        },
+        "quantity": 1
+      }
+    ],
+    "duration": "25:00",
+    "craftingStation": {
+      "name": {
+        "en": "Cauldron",
+        "pt-BR": "Caldeirão"
+      },
+      "level": 1
+    },
+    "id": "deer_stew",
+    "aliases": {
+      "en": [
+        "Deer stew"
+      ],
+      "pt-BR": [
+        "Ensopado de cervo"
+      ]
+    }
+  },
+  {
+    "name": {
+      "en": "Pulled Bear",
+      "pt-BR": "Carne de urso desfiada"
+    },
+    "biome": "Black Forest",
+    "ingredients": [
+      {
+        "id": "cooked_bear_meat",
+        "name": {
+          "en": "Cooked bear meat",
+          "pt-BR": "Carne de urso cozida"
+        },
+        "quantity": 1
+      },
+      {
+        "id": "carrot",
+        "name": {
+          "en": "Carrot",
+          "pt-BR": "Cenoura"
+        },
+        "quantity": 2
+      },
+      {
+        "id": "blueberries",
+        "name": {
+          "en": "Blueberries",
+          "pt-BR": "Mirtilos"
+        },
+        "quantity": 1
+      }
+    ],
+    "duration": "30:00",
+    "craftingStation": {
+      "name": {
+        "en": "Cauldron",
+        "pt-BR": "Caldeirão"
+      },
+      "level": 1
+    },
+    "id": "pulled_bear",
+    "aliases": {
+      "en": [
+        "Pulled Bear"
+      ],
+      "pt-BR": [
+        "Carne de urso desfiada"
+      ]
+    }
+  },
+  {
+    "name": {
+      "en": "Cooked fish",
+      "pt-BR": "Peixe cozido"
+    },
+    "biome": "Swamp",
+    "ingredients": [
+      {
+        "id": "raw_fish",
+        "name": {
+          "en": "Raw fish",
+          "pt-BR": "Peixe cru"
+        },
+        "quantity": 1
+      }
+    ],
+    "duration": "20:00",
+    "craftingStation": {
+      "name": {
+        "en": "Cooking station",
+        "pt-BR": "Cooking station"
+      },
+      "level": null
+    },
+    "id": "cooked_fish",
+    "aliases": {
+      "en": [
+        "Cooked fish"
+      ],
+      "pt-BR": [
+        "Peixe cozido"
+      ]
+    }
+  },
+  {
+    "name": {
+      "en": "Muckshake",
+      "pt-BR": "Vitamina de gosma"
+    },
+    "biome": "Swamp",
+    "ingredients": [
+      {
+        "id": "ooze",
+        "name": {
+          "en": "Ooze",
+          "pt-BR": "Gosma"
+        },
+        "quantity": 1
+      },
+      {
+        "id": "raspberries",
+        "name": {
+          "en": "Raspberries",
+          "pt-BR": "Framboesa"
+        },
+        "quantity": 2
+      },
+      {
+        "id": "blueberries",
+        "name": {
+          "en": "Blueberries",
+          "pt-BR": "Mirtilos"
+        },
+        "quantity": 2
+      }
+    ],
+    "duration": "20:00",
+    "craftingStation": {
+      "name": {
+        "en": "Cauldron",
+        "pt-BR": "Caldeirão"
+      },
+      "level": 2
+    },
+    "id": "muckshake",
+    "aliases": {
+      "en": [
+        "Muckshake"
+      ],
+      "pt-BR": [
+        "Vitamina de gosma"
+      ]
+    }
+  },
+  {
+    "name": {
+      "en": "Turnip stew",
+      "pt-BR": "Cozido de nabo"
+    },
+    "biome": "Swamp",
+    "ingredients": [
+      {
+        "id": "boar_meat",
+        "name": {
+          "en": "Boar meat",
+          "pt-BR": "Carne de javali"
+        },
+        "quantity": 1
+      },
+      {
+        "id": "turnip",
+        "name": {
+          "en": "Turnip",
+          "pt-BR": "Nabo"
+        },
+        "quantity": 3
+      }
+    ],
+    "duration": "25:00",
+    "craftingStation": {
+      "name": {
+        "en": "Cauldron",
+        "pt-BR": "Caldeirão"
+      },
+      "level": 2
+    },
+    "id": "turnip_stew",
+    "aliases": {
+      "en": [
+        "Turnip stew"
+      ],
+      "pt-BR": [
+        "Cozido de nabo"
+      ]
+    }
+  },
+  {
+    "name": {
+      "en": "Sausages",
+      "pt-BR": "Linguiças"
+    },
+    "biome": "Swamp",
+    "ingredients": [
+      {
+        "id": "entrails",
+        "name": {
+          "en": "Entrails",
+          "pt-BR": "Entranhas"
+        },
+        "quantity": 4
+      },
+      {
+        "id": "boar_meat",
+        "name": {
+          "en": "Boar meat",
+          "pt-BR": "Carne de javali"
+        },
+        "quantity": 1
+      },
+      {
+        "id": "thistle",
+        "name": {
+          "en": "Thistle",
+          "pt-BR": "Cardo"
+        },
+        "quantity": 1
+      }
+    ],
+    "duration": "25:00",
+    "craftingStation": {
+      "name": {
+        "en": "Cauldron",
+        "pt-BR": "Caldeirão"
+      },
+      "level": 2,
+      "craftingMultiplier": 4
+    },
+    "craftingMultiplier": 4,
+    "craftingMultiplierUnit": "items",
+    "id": "sausages",
+    "aliases": {
+      "en": [
+        "Sausages"
+      ],
+      "pt-BR": [
+        "Linguiças"
+      ]
+    }
+  },
+  {
+    "name": {
+      "en": "Black soup",
+      "pt-BR": "Sopa preta"
+    },
+    "biome": "Swamp",
+    "ingredients": [
+      {
+        "id": "bloodbag",
+        "name": {
+          "en": "Bloodbag",
+          "pt-BR": "Bolsa de sangue"
+        },
+        "quantity": 1
+      },
+      {
+        "id": "honey",
+        "name": {
+          "en": "Honey",
+          "pt-BR": "Mel"
+        },
+        "quantity": 1
+      },
+      {
+        "id": "turnip",
+        "name": {
+          "en": "Turnip",
+          "pt-BR": "Nabo"
+        },
+        "quantity": 1
+      }
+    ],
+    "duration": "20:00",
+    "craftingStation": {
+      "name": {
+        "en": "Cauldron",
+        "pt-BR": "Caldeirão"
+      },
+      "level": 2
+    },
+    "id": "black_soup",
+    "aliases": {
+      "en": [
+        "Black soup"
+      ],
+      "pt-BR": [
+        "Sopa preta"
+      ]
+    }
+  },
+  {
+    "name": {
+      "en": "Whole roasted Meadow boar",
+      "pt-BR": "Javali do prado assado inteiro"
+    },
+    "biome": "Swamp",
+    "ingredients": [
+      {
+        "id": "cooked_deer_meat",
+        "name": {
+          "en": "Cooked deer meat",
+          "pt-BR": "Carne de cervo cozida"
+        },
+        "quantity": 2
+      },
+      {
+        "id": "cooked_boar_meat",
+        "name": {
+          "en": "Cooked boar meat",
+          "pt-BR": "Carne de javali cozida"
+        },
+        "quantity": 5
+      },
+      {
+        "id": "dandelion",
+        "name": {
+          "en": "Dandelion",
+          "pt-BR": "Dente-de-leão"
+        },
+        "quantity": 4
+      },
+      {
+        "id": "woodland_herb_blend",
+        "name": {
+          "en": "Woodland herb blend",
+          "pt-BR": "Mistura de ervas dos bosques"
+        },
+        "quantity": 1
+      }
+    ],
+    "duration": "50:00",
+    "craftingStation": {
+      "name": {
+        "en": "Food preparation table",
+        "pt-BR": "Mesa de preparação de alimentos"
+      },
+      "level": null,
+      "uses": 10
+    },
+    "craftingMultiplier": 10,
+    "craftingMultiplierUnit": "uses",
+    "id": "whole_roasted_meadow_boar",
+    "aliases": {
+      "en": [
+        "Whole roasted Meadow boar"
+      ],
+      "pt-BR": [
+        "Javali do prado assado inteiro"
+      ]
+    }
+  },
+  {
+    "name": {
+      "en": "Black Forest buffet platter",
+      "pt-BR": "Bandeja de bufê da Floresta Negra"
+    },
+    "biome": "Swamp",
+    "ingredients": [
+      {
+        "id": "deer_stew",
+        "name": {
+          "en": "Deer stew",
+          "pt-BR": "Ensopado de cervo"
+        },
+        "quantity": 3
+      },
+      {
+        "id": "thistle",
+        "name": {
+          "en": "Thistle",
+          "pt-BR": "Cardo"
+        },
+        "quantity": 5
+      },
+      {
+        "id": "queen_s_jam",
+        "name": {
+          "en": "Queen's jam",
+          "pt-BR": "Geleia de rainhas"
+        },
+        "quantity": 4
+      },
+      {
+        "id": "woodland_herb_blend",
+        "name": {
+          "en": "Woodland herb blend",
+          "pt-BR": "Mistura de ervas dos bosques"
+        },
+        "quantity": 1
+      }
+    ],
+    "duration": "50:00",
+    "craftingStation": {
+      "name": {
+        "en": "Food preparation table",
+        "pt-BR": "Mesa de preparação de alimentos"
+      },
+      "level": null,
+      "uses": 10
+    },
+    "craftingMultiplier": 10,
+    "craftingMultiplierUnit": "uses",
+    "id": "black_forest_buffet_platter",
+    "aliases": {
+      "en": [
+        "Black Forest buffet platter"
+      ],
+      "pt-BR": [
+        "Bandeja de bufê da Floresta Negra"
+      ]
+    }
+  },
+  {
+    "name": {
+      "en": "Swamp dweller's delight",
+      "pt-BR": "Delícia de habitante do pântano"
+    },
+    "biome": "Swamp",
+    "ingredients": [
+      {
+        "id": "sausages",
+        "name": {
+          "en": "Sausages",
+          "pt-BR": "Linguiças"
+        },
+        "quantity": 8
+      },
+      {
+        "id": "bloodbag",
+        "name": {
+          "en": "Bloodbag",
+          "pt-BR": "Bolsa de sangue"
+        },
+        "quantity": 4
+      },
+      {
+        "id": "turnip_stew",
+        "name": {
+          "en": "Turnip stew",
+          "pt-BR": "Cozido de nabo"
+        },
+        "quantity": 2
+      },
+      {
+        "id": "woodland_herb_blend",
+        "name": {
+          "en": "Woodland herb blend",
+          "pt-BR": "Mistura de ervas dos bosques"
+        },
+        "quantity": 1
+      }
+    ],
+    "duration": "50:00",
+    "craftingStation": {
+      "name": {
+        "en": "Food preparation table",
+        "pt-BR": "Mesa de preparação de alimentos"
+      },
+      "level": null,
+      "uses": 10
+    },
+    "craftingMultiplier": 10,
+    "craftingMultiplierUnit": "uses",
+    "id": "swamp_dweller_s_delight",
+    "aliases": {
+      "en": [
+        "Swamp dweller's delight"
+      ],
+      "pt-BR": [
+        "Delícia de habitante do pântano"
+      ]
+    }
+  },
+  {
+    "name": {
+      "en": "Cooked serpent meat",
+      "pt-BR": "Carne de serpente cozida"
+    },
+    "biome": "Swamp",
+    "ingredients": [
+      {
+        "id": "serpent_meat",
+        "name": {
+          "en": "Serpent meat",
+          "pt-BR": "Carne de serpente"
+        },
+        "quantity": 1
+      }
+    ],
+    "duration": "25:00",
+    "craftingStation": {
+      "name": {
+        "en": "Iron cooking station",
+        "pt-BR": "Iron cooking station"
+      },
+      "level": null
+    },
+    "id": "cooked_serpent_meat",
+    "aliases": {
+      "en": [
+        "Cooked serpent meat"
+      ],
+      "pt-BR": [
+        "Carne de serpente cozida"
+      ]
+    }
+  },
+  {
+    "name": {
+      "en": "Serpent stew",
+      "pt-BR": "Cozido de serpente"
+    },
+    "biome": "Swamp",
+    "ingredients": [
+      {
+        "id": "mushroom",
+        "name": {
+          "en": "Mushroom",
+          "pt-BR": "Cogumelo"
+        },
+        "quantity": 1
+      },
+      {
+        "id": "cooked_serpent_meat",
+        "name": {
+          "en": "Cooked serpent meat",
+          "pt-BR": "Carne de serpente cozida"
+        },
+        "quantity": 1
+      },
+      {
+        "id": "honey",
+        "name": {
+          "en": "Honey",
+          "pt-BR": "Mel"
+        },
+        "quantity": 2
+      }
+    ],
+    "duration": "30:00",
+    "craftingStation": {
+      "name": {
+        "en": "Cauldron",
+        "pt-BR": "Caldeirão"
+      },
+      "level": 2
+    },
+    "id": "serpent_stew",
+    "aliases": {
+      "en": [
+        "Serpent stew"
+      ],
+      "pt-BR": [
+        "Cozido de serpente"
+      ]
+    }
+  },
+  {
+    "name": {
+      "en": "Sailor's bounty",
+      "pt-BR": "Manjar do marinheiro"
+    },
+    "biome": "Swamp",
+    "ingredients": [
+      {
+        "id": "cooked_fish",
+        "name": {
+          "en": "Cooked fish",
+          "pt-BR": "Peixe cozido"
+        },
+        "quantity": 5
+      },
+      {
+        "id": "thistle",
+        "name": {
+          "en": "Thistle",
+          "pt-BR": "Cardo"
+        },
+        "quantity": 4
+      },
+      {
+        "id": "cooked_serpent_meat",
+        "name": {
+          "en": "Cooked serpent meat",
+          "pt-BR": "Carne de serpente cozida"
+        },
+        "quantity": 2
+      },
+      {
+        "id": "seafarer_s_herbs",
+        "name": {
+          "en": "Seafarer's herbs",
+          "pt-BR": "Ervas do marinheiro"
+        },
+        "quantity": 1
+      }
+    ],
+    "duration": "50:00",
+    "craftingStation": {
+      "name": {
+        "en": "Food preparation table",
+        "pt-BR": "Mesa de preparação de alimentos"
+      },
+      "level": null,
+      "uses": 10
+    },
+    "craftingMultiplier": 10,
+    "craftingMultiplierUnit": "uses",
+    "id": "sailor_s_bounty",
+    "aliases": {
+      "en": [
+        "Sailor's bounty"
+      ],
+      "pt-BR": [
+        "Manjar do marinheiro"
+      ]
+    }
+  },
+  {
+    "name": {
+      "en": "Onion",
+      "pt-BR": "Cebola"
+    },
+    "biome": "Mountain",
+    "ingredients": [],
+    "duration": "15:00",
+    "craftingStation": {
+      "name": {
+        "en": "(Onion seeds)",
+        "pt-BR": "(Onion seeds)"
+      },
+      "level": null
+    },
+    "id": "onion",
+    "aliases": {
+      "en": [
+        "Onion"
+      ],
+      "pt-BR": [
+        "Cebola"
+      ]
+    }
+  },
+  {
+    "name": {
+      "en": "Cooked wolf meat",
+      "pt-BR": "Carne de lobo cozida"
+    },
+    "biome": "Mountain",
+    "ingredients": [
+      {
+        "id": "wolf_meat",
+        "name": {
+          "en": "Wolf meat",
+          "pt-BR": "Carne de lobo"
+        },
+        "quantity": 1
+      }
+    ],
+    "duration": "20:00",
+    "craftingStation": {
+      "name": {
+        "en": "Cooking station",
+        "pt-BR": "Cooking station"
+      },
+      "level": null
+    },
+    "id": "cooked_wolf_meat",
+    "aliases": {
+      "en": [
+        "Cooked wolf meat"
+      ],
+      "pt-BR": [
+        "Carne de lobo cozida"
+      ]
+    }
+  },
+  {
+    "name": {
+      "en": "Wolf jerky",
+      "pt-BR": "Carne seca de lobo"
+    },
+    "biome": "Mountain",
+    "ingredients": [
+      {
+        "id": "wolf_meat",
+        "name": {
+          "en": "Wolf meat",
+          "pt-BR": "Carne de lobo"
+        },
+        "quantity": 1
+      },
+      {
+        "id": "honey",
+        "name": {
+          "en": "Honey",
+          "pt-BR": "Mel"
+        },
+        "quantity": 1
+      }
+    ],
+    "duration": "30:00",
+    "craftingStation": {
+      "name": {
+        "en": "Cauldron",
+        "pt-BR": "Caldeirão"
+      },
+      "level": 3,
+      "craftingMultiplier": 2
+    },
+    "craftingMultiplier": 2,
+    "craftingMultiplierUnit": "items",
+    "id": "wolf_jerky",
+    "aliases": {
+      "en": [
+        "Wolf jerky"
+      ],
+      "pt-BR": [
+        "Carne seca de lobo"
+      ]
+    }
+  },
+  {
+    "name": {
+      "en": "Onion soup",
+      "pt-BR": "Sopa de cebola"
+    },
+    "biome": "Mountain",
+    "ingredients": [
+      {
+        "id": "onion",
+        "name": {
+          "en": "Onion",
+          "pt-BR": "Cebola"
+        },
+        "quantity": 3
+      }
+    ],
+    "duration": "20:00",
+    "craftingStation": {
+      "name": {
+        "en": "Cauldron",
+        "pt-BR": "Caldeirão"
+      },
+      "level": 2
+    },
+    "id": "onion_soup",
+    "aliases": {
+      "en": [
+        "Onion soup"
+      ],
+      "pt-BR": [
+        "Sopa de cebola"
+      ]
+    }
+  },
+  {
+    "name": {
+      "en": "Wolf skewer",
+      "pt-BR": "Espetinho de lobo"
+    },
+    "biome": "Mountain",
+    "ingredients": [
+      {
+        "id": "wolf_meat",
+        "name": {
+          "en": "Wolf meat",
+          "pt-BR": "Carne de lobo"
+        },
+        "quantity": 1
+      },
+      {
+        "id": "mushroom",
+        "name": {
+          "en": "Mushroom",
+          "pt-BR": "Cogumelo"
+        },
+        "quantity": 2
+      },
+      {
+        "id": "onion",
+        "name": {
+          "en": "Onion",
+          "pt-BR": "Cebola"
+        },
+        "quantity": 1
+      }
+    ],
+    "duration": "25:00",
+    "craftingStation": {
+      "name": {
+        "en": "Cauldron",
+        "pt-BR": "Caldeirão"
+      },
+      "level": 3
+    },
+    "id": "wolf_skewer",
+    "aliases": {
+      "en": [
+        "Wolf skewer"
+      ],
+      "pt-BR": [
+        "Espetinho de lobo"
+      ]
+    }
+  },
+  {
+    "name": {
+      "en": "Eyescream",
+      "pt-BR": "Sorvetolho"
+    },
+    "biome": "Mountain",
+    "ingredients": [
+      {
+        "id": "greydwarf_eye",
+        "name": {
+          "en": "Greydwarf eye",
+          "pt-BR": "Olho de Anão Cinzento"
+        },
+        "quantity": 3
+      },
+      {
+        "id": "freeze_gland",
+        "name": {
+          "en": "Freeze gland",
+          "pt-BR": "Glândula de gelo"
+        },
+        "quantity": 1
+      }
+    ],
+    "duration": "25:00",
+    "craftingStation": {
+      "name": {
+        "en": "Cauldron",
+        "pt-BR": "Caldeirão"
+      },
+      "level": 3
+    },
+    "id": "eyescream",
+    "aliases": {
+      "en": [
+        "Eyescream"
+      ],
+      "pt-BR": [
+        "Sorvetolho"
+      ]
+    }
+  },
+  {
+    "name": {
+      "en": "Hearty Mountain logger's stew",
+      "pt-BR": "Ensopado farto de lenhador da montanha"
+    },
+    "biome": "Mountain",
+    "ingredients": [
+      {
+        "id": "wolf_skewer",
+        "name": {
+          "en": "Wolf skewer",
+          "pt-BR": "Espetinho de lobo"
+        },
+        "quantity": 2
+      },
+      {
+        "id": "onion_soup",
+        "name": {
+          "en": "Onion soup",
+          "pt-BR": "Sopa de cebola"
+        },
+        "quantity": 3
+      },
+      {
+        "id": "carrot",
+        "name": {
+          "en": "Carrot",
+          "pt-BR": "Cenoura"
+        },
+        "quantity": 4
+      },
+      {
+        "id": "mountain_peak_pepper_powder",
+        "name": {
+          "en": "Mountain peak pepper powder",
+          "pt-BR": "Pimenta em pó das montanhas"
+        },
+        "quantity": 1
+      }
+    ],
+    "duration": "50:00",
+    "craftingStation": {
+      "name": {
+        "en": "Food preparation table",
+        "pt-BR": "Mesa de preparação de alimentos"
+      },
+      "level": null,
+      "uses": 10
+    },
+    "craftingMultiplier": 10,
+    "craftingMultiplierUnit": "uses",
+    "id": "hearty_mountain_logger_s_stew",
+    "aliases": {
+      "en": [
+        "Hearty Mountain logger's stew"
+      ],
+      "pt-BR": [
+        "Ensopado farto de lenhador da montanha"
+      ]
+    }
+  },
+  {
+    "name": {
+      "en": "Cloudberries",
+      "pt-BR": "Amora do Ártico"
+    },
+    "biome": "Plains",
+    "ingredients": [],
+    "duration": "15:00",
+    "craftingStation": {
+      "name": {
+        "en": "(Plains)",
+        "pt-BR": "Planícies"
+      },
+      "level": null
+    },
+    "id": "cloudberries",
+    "aliases": {
+      "en": [
+        "Cloudberries"
+      ],
+      "pt-BR": [
+        "Amora do Ártico"
+      ]
+    }
+  },
+  {
+    "name": {
+      "en": "Cooked egg",
+      "pt-BR": "Ovo cozido"
+    },
+    "biome": "Plains",
+    "ingredients": [
+      {
+        "id": "egg",
+        "name": {
+          "en": "Egg",
+          "pt-BR": "Ovo"
+        },
+        "quantity": 1
+      }
+    ],
+    "duration": "20:00",
+    "craftingStation": {
+      "name": {
+        "en": "Cauldron",
+        "pt-BR": "Caldeirão"
+      },
+      "level": 1
+    },
+    "id": "cooked_egg",
+    "aliases": {
+      "en": [
+        "Cooked egg"
+      ],
+      "pt-BR": [
+        "Ovo cozido"
+      ]
+    }
+  },
+  {
+    "name": {
+      "en": "Cooked chicken meat",
+      "pt-BR": "Carne de frango cozida"
+    },
+    "biome": "Plains",
+    "ingredients": [
+      {
+        "id": "chicken_meat",
+        "name": {
+          "en": "Chicken meat",
+          "pt-BR": "Carne de frango"
+        },
+        "quantity": 1
+      }
+    ],
+    "duration": "20:00",
+    "craftingStation": {
+      "name": {
+        "en": "Iron cooking station",
+        "pt-BR": "Iron cooking station"
+      },
+      "level": null
+    },
+    "id": "cooked_chicken_meat",
+    "aliases": {
+      "en": [
+        "Cooked chicken meat"
+      ],
+      "pt-BR": [
+        "Carne de frango cozida"
+      ]
+    }
+  },
+  {
+    "name": {
+      "en": "Cooked lox meat",
+      "pt-BR": "Filé de Lox grelhado"
+    },
+    "biome": "Plains",
+    "ingredients": [
+      {
+        "id": "lox_meat",
+        "name": {
+          "en": "Lox meat",
+          "pt-BR": "Carne de Lox"
+        },
+        "quantity": 1
+      }
+    ],
+    "duration": "20:00",
+    "craftingStation": {
+      "name": {
+        "en": "Iron cooking station",
+        "pt-BR": "Iron cooking station"
+      },
+      "level": null
+    },
+    "id": "cooked_lox_meat",
+    "aliases": {
+      "en": [
+        "Cooked lox meat"
+      ],
+      "pt-BR": [
+        "Filé de Lox grelhado"
+      ]
+    }
+  },
+  {
+    "name": {
+      "en": "Fish wraps",
+      "pt-BR": "Embrulhos de peixe"
+    },
+    "biome": "Plains",
+    "ingredients": [
+      {
+        "id": "cooked_fish",
+        "name": {
+          "en": "Cooked fish",
+          "pt-BR": "Peixe cozido"
+        },
+        "quantity": 2
+      },
+      {
+        "id": "barley_flour",
+        "name": {
+          "en": "Barley flour",
+          "pt-BR": "Farinha de cevada"
+        },
+        "quantity": 4
+      }
+    ],
+    "duration": "25:00",
+    "craftingStation": {
+      "name": {
+        "en": "Cauldron",
+        "pt-BR": "Caldeirão"
+      },
+      "level": 4
+    },
+    "id": "fish_wraps",
+    "aliases": {
+      "en": [
+        "Fish wraps"
+      ],
+      "pt-BR": [
+        "Embrulhos de peixe"
+      ]
+    }
+  },
+  {
+    "name": {
+      "en": "Lox meat pie",
+      "pt-BR": "Torta de carne de Lox"
+    },
+    "biome": "Plains",
+    "ingredients": [
+      {
+        "id": "barley_flour",
+        "name": {
+          "en": "Barley flour",
+          "pt-BR": "Farinha de cevada"
+        },
+        "quantity": 4
+      },
+      {
+        "id": "cloudberries",
+        "name": {
+          "en": "Cloudberries",
+          "pt-BR": "Amora do Ártico"
+        },
+        "quantity": 2
+      },
+      {
+        "id": "lox_meat",
+        "name": {
+          "en": "Lox meat",
+          "pt-BR": "Carne de Lox"
+        },
+        "quantity": 2
+      }
+    ],
+    "duration": "30:00",
+    "craftingStation": {
+      "name": {
+        "en": "Food preparation table + Stone Oven",
+        "pt-BR": "Mesa de preparação de alimentos + Forno de pedra"
+      },
+      "level": null
+    },
+    "id": "lox_meat_pie",
+    "aliases": {
+      "en": [
+        "Lox meat pie"
+      ],
+      "pt-BR": [
+        "Torta de carne de Lox"
+      ]
+    }
+  },
+  {
+    "name": {
+      "en": "Blood pudding",
+      "pt-BR": "Pudim de sangue"
+    },
+    "biome": "Plains",
+    "ingredients": [
+      {
+        "id": "thistle",
+        "name": {
+          "en": "Thistle",
+          "pt-BR": "Cardo"
+        },
+        "quantity": 2
+      },
+      {
+        "id": "bloodbag",
+        "name": {
+          "en": "Bloodbag",
+          "pt-BR": "Bolsa de sangue"
+        },
+        "quantity": 2
+      },
+      {
+        "id": "barley_flour",
+        "name": {
+          "en": "Barley flour",
+          "pt-BR": "Farinha de cevada"
+        },
+        "quantity": 4
+      }
+    ],
+    "duration": "30:00",
+    "craftingStation": {
+      "name": {
+        "en": "Cauldron",
+        "pt-BR": "Caldeirão"
+      },
+      "level": 4
+    },
+    "id": "blood_pudding",
+    "aliases": {
+      "en": [
+        "Blood pudding"
+      ],
+      "pt-BR": [
+        "Pudim de sangue"
+      ]
+    }
+  },
+  {
+    "name": {
+      "en": "Bread",
+      "pt-BR": "Pão"
+    },
+    "biome": "Plains",
+    "ingredients": [
+      {
+        "id": "bread_dough",
+        "name": {
+          "en": "Bread dough",
+          "pt-BR": "Massa de pão"
+        },
+        "quantity": 1
+      }
+    ],
+    "duration": "25:00",
+    "craftingStation": {
+      "name": {
+        "en": "Food preparation table + Stone Oven",
+        "pt-BR": "Mesa de preparação de alimentos + Forno de pedra"
+      },
+      "level": null,
+      "craftingMultiplier": 2
+    },
+    "craftingMultiplier": 2,
+    "craftingMultiplierUnit": "items",
+    "id": "bread",
+    "aliases": {
+      "en": [
+        "Bread"
+      ],
+      "pt-BR": [
+        "Pão"
+      ]
+    }
+  },
+  {
+    "name": {
+      "en": "Frosted sweetbread",
+      "pt-BR": "Pão doce glaceado"
+    },
+    "biome": "Plains",
+    "ingredients": [
+      {
+        "id": "unbaked_sweetbread",
+        "name": {
+          "en": "Unbaked sweetbread",
+          "pt-BR": "Pão doce cru"
+        },
+        "quantity": 1
+      }
+    ],
+    "duration": "30:00",
+    "craftingStation": {
+      "name": {
+        "en": "Food preparation table + Stone Oven",
+        "pt-BR": "Mesa de preparação de alimentos + Forno de pedra"
+      },
+      "level": null
+    },
+    "id": "frosted_sweetbread",
+    "aliases": {
+      "en": [
+        "Frosted sweetbread"
+      ],
+      "pt-BR": [
+        "Pão doce glaceado"
+      ]
+    }
+  },
+  {
+    "name": {
+      "en": "Plains pie picnic",
+      "pt-BR": "Piquenique da Planície"
+    },
+    "biome": "Plains",
+    "ingredients": [
+      {
+        "id": "bread",
+        "name": {
+          "en": "Bread",
+          "pt-BR": "Pão"
+        },
+        "quantity": 3
+      },
+      {
+        "id": "lox_meat_pie",
+        "name": {
+          "en": "Lox meat pie",
+          "pt-BR": "Torta de carne de Lox"
+        },
+        "quantity": 2
+      },
+      {
+        "id": "cloudberries",
+        "name": {
+          "en": "Cloudberries",
+          "pt-BR": "Amora do Ártico"
+        },
+        "quantity": 5
+      },
+      {
+        "id": "grasslands_herbalist_harvest",
+        "name": {
+          "en": "Grasslands herbalist harvest",
+          "pt-BR": "Colheita do herborista"
+        },
+        "quantity": 1
+      }
+    ],
+    "duration": "50:00",
+    "craftingStation": {
+      "name": {
+        "en": "Food preparation table",
+        "pt-BR": "Mesa de preparação de alimentos"
+      },
+      "level": null,
+      "uses": 10
+    },
+    "craftingMultiplier": 10,
+    "craftingMultiplierUnit": "uses",
+    "id": "plains_pie_picnic",
+    "aliases": {
+      "en": [
+        "Plains pie picnic"
+      ],
+      "pt-BR": [
+        "Piquenique da Planície"
+      ]
+    }
+  },
+  {
+    "name": {
+      "en": "Magecap",
+      "pt-BR": "Cogumelo mágico"
+    },
+    "biome": "Mistlands",
+    "ingredients": [],
+    "duration": "15:00",
+    "craftingStation": {
+      "name": {
+        "en": "(Mistlands)",
+        "pt-BR": "Terras Nevoadas"
+      },
+      "level": null
+    },
+    "id": "magecap",
+    "aliases": {
+      "en": [
+        "Magecap"
+      ],
+      "pt-BR": [
+        "Cogumelo mágico"
+      ]
+    }
+  },
+  {
+    "name": {
+      "en": "Jotun puffs",
+      "pt-BR": "Sopro de Jotun"
+    },
+    "biome": "Mistlands",
+    "ingredients": [],
+    "duration": "15:00",
+    "craftingStation": {
+      "name": {
+        "en": "(Mistlands)",
+        "pt-BR": "Terras Nevoadas"
+      },
+      "level": null
+    },
+    "id": "jotun_puffs",
+    "aliases": {
+      "en": [
+        "Jotun puffs"
+      ],
+      "pt-BR": [
+        "Sopro de Jotun"
+      ]
+    }
+  },
+  {
+    "name": {
+      "en": "Cooked seeker meat",
+      "pt-BR": "Carne de buscador cozida"
+    },
+    "biome": "Mistlands",
+    "ingredients": [
+      {
+        "id": "seeker_meat",
+        "name": {
+          "en": "Seeker meat",
+          "pt-BR": "Carne de buscador"
+        },
+        "quantity": 1
+      }
+    ],
+    "duration": "20:00",
+    "craftingStation": {
+      "name": {
+        "en": "Iron cooking station",
+        "pt-BR": "Iron cooking station"
+      },
+      "level": null
+    },
+    "id": "cooked_seeker_meat",
+    "aliases": {
+      "en": [
+        "Cooked seeker meat"
+      ],
+      "pt-BR": [
+        "Carne de buscador cozida"
+      ]
+    }
+  },
+  {
+    "name": {
+      "en": "Cooked hare meat",
+      "pt-BR": "Carne de lebre cozida"
+    },
+    "biome": "Mistlands",
+    "ingredients": [
+      {
+        "id": "hare_meat",
+        "name": {
+          "en": "Hare meat",
+          "pt-BR": "Carne de lebre"
+        },
+        "quantity": 1
+      }
+    ],
+    "duration": "20:00",
+    "craftingStation": {
+      "name": {
+        "en": "Iron cooking station",
+        "pt-BR": "Iron cooking station"
+      },
+      "level": null
+    },
+    "id": "cooked_hare_meat",
+    "aliases": {
+      "en": [
+        "Cooked hare meat"
+      ],
+      "pt-BR": [
+        "Carne de lebre cozida"
+      ]
+    }
+  },
+  {
+    "name": {
+      "en": "Meat platter",
+      "pt-BR": "Prato de carne"
+    },
+    "biome": "Mistlands",
+    "ingredients": [
+      {
+        "id": "seeker_meat",
+        "name": {
+          "en": "Seeker meat",
+          "pt-BR": "Carne de buscador"
+        },
+        "quantity": 1
+      },
+      {
+        "id": "lox_meat",
+        "name": {
+          "en": "Lox meat",
+          "pt-BR": "Carne de Lox"
+        },
+        "quantity": 1
+      },
+      {
+        "id": "hare_meat",
+        "name": {
+          "en": "Hare meat",
+          "pt-BR": "Carne de lebre"
+        },
+        "quantity": 1
+      }
+    ],
+    "duration": "30:00",
+    "craftingStation": {
+      "name": {
+        "en": "Food preparation table + Stone Oven",
+        "pt-BR": "Mesa de preparação de alimentos + Forno de pedra"
+      },
+      "level": null
+    },
+    "id": "meat_platter",
+    "aliases": {
+      "en": [
+        "Meat platter"
+      ],
+      "pt-BR": [
+        "Prato de carne"
+      ]
+    }
+  },
+  {
+    "name": {
+      "en": "Honey glazed chicken",
+      "pt-BR": "Galinha grelhada com mel"
+    },
+    "biome": "Mistlands",
+    "ingredients": [
+      {
+        "id": "chicken_meat",
+        "name": {
+          "en": "Chicken meat",
+          "pt-BR": "Carne de frango"
+        },
+        "quantity": 1
+      },
+      {
+        "id": "honey",
+        "name": {
+          "en": "Honey",
+          "pt-BR": "Mel"
+        },
+        "quantity": 3
+      },
+      {
+        "id": "jotun_puffs",
+        "name": {
+          "en": "Jotun puffs",
+          "pt-BR": "Sopro de Jotun"
+        },
+        "quantity": 2
+      }
+    ],
+    "duration": "30:00",
+    "craftingStation": {
+      "name": {
+        "en": "Food preparation table + Stone Oven",
+        "pt-BR": "Mesa de preparação de alimentos + Forno de pedra"
+      },
+      "level": null
+    },
+    "id": "honey_glazed_chicken",
+    "aliases": {
+      "en": [
+        "Honey glazed chicken"
+      ],
+      "pt-BR": [
+        "Galinha grelhada com mel"
+      ]
+    }
+  },
+  {
+    "name": {
+      "en": "Misthare supreme",
+      "pt-BR": "Lebre suprema da névoa"
+    },
+    "biome": "Mistlands",
+    "ingredients": [
+      {
+        "id": "hare_meat",
+        "name": {
+          "en": "Hare meat",
+          "pt-BR": "Carne de lebre"
+        },
+        "quantity": 1
+      },
+      {
+        "id": "jotun_puffs",
+        "name": {
+          "en": "Jotun puffs",
+          "pt-BR": "Sopro de Jotun"
+        },
+        "quantity": 3
+      },
+      {
+        "id": "carrot",
+        "name": {
+          "en": "Carrot",
+          "pt-BR": "Cenoura"
+        },
+        "quantity": 2
+      }
+    ],
+    "duration": "25:00",
+    "craftingStation": {
+      "name": {
+        "en": "Food preparation table + Stone Oven",
+        "pt-BR": "Mesa de preparação de alimentos + Forno de pedra"
+      },
+      "level": null
+    },
+    "id": "misthare_supreme",
+    "aliases": {
+      "en": [
+        "Misthare supreme"
+      ],
+      "pt-BR": [
+        "Lebre suprema da névoa"
+      ]
+    }
+  },
+  {
+    "name": {
+      "en": "Salad",
+      "pt-BR": "Salada"
+    },
+    "biome": "Mistlands",
+    "ingredients": [
+      {
+        "id": "jotun_puffs",
+        "name": {
+          "en": "Jotun puffs",
+          "pt-BR": "Sopro de Jotun"
+        },
+        "quantity": 3
+      },
+      {
+        "id": "onion",
+        "name": {
+          "en": "Onion",
+          "pt-BR": "Cebola"
+        },
+        "quantity": 3
+      },
+      {
+        "id": "cloudberries",
+        "name": {
+          "en": "Cloudberries",
+          "pt-BR": "Amora do Ártico"
+        },
+        "quantity": 3
+      }
+    ],
+    "duration": "25:00",
+    "craftingStation": {
+      "name": {
+        "en": "Cauldron",
+        "pt-BR": "Caldeirão"
+      },
+      "level": 5,
+      "craftingMultiplier": 3
+    },
+    "craftingMultiplier": 3,
+    "craftingMultiplierUnit": "items",
+    "id": "salad",
+    "aliases": {
+      "en": [
+        "Salad"
+      ],
+      "pt-BR": [
+        "Salada"
+      ]
+    }
+  },
+  {
+    "name": {
+      "en": "Mushroom omelette",
+      "pt-BR": "Omelete de cogumelos"
+    },
+    "biome": "Mistlands",
+    "ingredients": [
+      {
+        "id": "egg",
+        "name": {
+          "en": "Egg",
+          "pt-BR": "Ovo"
+        },
+        "quantity": 3
+      },
+      {
+        "id": "jotun_puffs",
+        "name": {
+          "en": "Jotun puffs",
+          "pt-BR": "Sopro de Jotun"
+        },
+        "quantity": 3
+      }
+    ],
+    "duration": "25:00",
+    "craftingStation": {
+      "name": {
+        "en": "Cauldron",
+        "pt-BR": "Caldeirão"
+      },
+      "level": 5
+    },
+    "id": "mushroom_omelette",
+    "aliases": {
+      "en": [
+        "Mushroom omelette"
+      ],
+      "pt-BR": [
+        "Omelete de cogumelos"
+      ]
+    }
+  },
+  {
+    "name": {
+      "en": "Fish 'n' bread",
+      "pt-BR": "Peixe cru e pão"
+    },
+    "biome": "Mistlands",
+    "ingredients": [
+      {
+        "id": "anglerfish",
+        "name": {
+          "en": "Anglerfish",
+          "pt-BR": "Peixe-pescador"
+        },
+        "quantity": 1
+      },
+      {
+        "id": "bread_dough",
+        "name": {
+          "en": "Bread dough",
+          "pt-BR": "Massa de pão"
+        },
+        "quantity": 2
+      }
+    ],
+    "duration": "30:00",
+    "craftingStation": {
+      "name": {
+        "en": "Food preparation table + Stone Oven",
+        "pt-BR": "Mesa de preparação de alimentos + Forno de pedra"
+      },
+      "level": null
+    },
+    "id": "fish_n_bread",
+    "aliases": {
+      "en": [
+        "Fish 'n' bread"
+      ],
+      "pt-BR": [
+        "Peixe cru e pão"
+      ]
+    }
+  },
+  {
+    "name": {
+      "en": "Stuffed mushroom",
+      "pt-BR": "Cogumelo recheado"
+    },
+    "biome": "Mistlands",
+    "ingredients": [
+      {
+        "id": "magecap",
+        "name": {
+          "en": "Magecap",
+          "pt-BR": "Cogumelo mágico"
+        },
+        "quantity": 3
+      },
+      {
+        "id": "blood_clot",
+        "name": {
+          "en": "Blood clot",
+          "pt-BR": "Coágulo de sangue"
+        },
+        "quantity": 1
+      },
+      {
+        "id": "turnip",
+        "name": {
+          "en": "Turnip",
+          "pt-BR": "Nabo"
+        },
+        "quantity": 2
+      }
+    ],
+    "duration": "25:00",
+    "craftingStation": {
+      "name": {
+        "en": "Food preparation table + Stone Oven",
+        "pt-BR": "Mesa de preparação de alimentos + Forno de pedra"
+      },
+      "level": null
+    },
+    "id": "stuffed_mushroom",
+    "aliases": {
+      "en": [
+        "Stuffed mushroom"
+      ],
+      "pt-BR": [
+        "Cogumelo recheado"
+      ]
+    }
+  },
+  {
+    "name": {
+      "en": "Yggdrasil porridge",
+      "pt-BR": "Mingau de Yggdrasil"
+    },
+    "biome": "Mistlands",
+    "ingredients": [
+      {
+        "id": "sap",
+        "name": {
+          "en": "Sap",
+          "pt-BR": "Seiva"
+        },
+        "quantity": 4
+      },
+      {
+        "id": "barley",
+        "name": {
+          "en": "Barley",
+          "pt-BR": "Cevada"
+        },
+        "quantity": 3
+      },
+      {
+        "id": "royal_jelly",
+        "name": {
+          "en": "Royal jelly",
+          "pt-BR": "Geleia real"
+        },
+        "quantity": 2
+      }
+    ],
+    "duration": "25:00",
+    "craftingStation": {
+      "name": {
+        "en": "Cauldron",
+        "pt-BR": "Caldeirão"
+      },
+      "level": 5
+    },
+    "id": "yggdrasil_porridge",
+    "aliases": {
+      "en": [
+        "Yggdrasil porridge"
+      ],
+      "pt-BR": [
+        "Mingau de Yggdrasil"
+      ]
+    }
+  },
+  {
+    "name": {
+      "en": "Seeker aspic",
+      "pt-BR": "Geleia de buscador"
+    },
+    "biome": "Mistlands",
+    "ingredients": [
+      {
+        "id": "seeker_meat",
+        "name": {
+          "en": "Seeker meat",
+          "pt-BR": "Carne de buscador"
+        },
+        "quantity": 2
+      },
+      {
+        "id": "magecap",
+        "name": {
+          "en": "Magecap",
+          "pt-BR": "Cogumelo mágico"
+        },
+        "quantity": 2
+      },
+      {
+        "id": "royal_jelly",
+        "name": {
+          "en": "Royal jelly",
+          "pt-BR": "Geleia real"
+        },
+        "quantity": 2
+      }
+    ],
+    "duration": "30:00",
+    "craftingStation": {
+      "name": {
+        "en": "Cauldron",
+        "pt-BR": "Caldeirão"
+      },
+      "level": 5,
+      "craftingMultiplier": 2
+    },
+    "craftingMultiplier": 2,
+    "craftingMultiplierUnit": "items",
+    "id": "seeker_aspic",
+    "aliases": {
+      "en": [
+        "Seeker aspic"
+      ],
+      "pt-BR": [
+        "Geleia de buscador"
+      ]
+    }
+  },
+  {
+    "name": {
+      "en": "Mushrooms galore á la Mistlands",
+      "pt-BR": "Cogumelância à moda Terras Nevoadas"
+    },
+    "biome": "Mistlands",
+    "ingredients": [
+      {
+        "id": "misthare_supreme",
+        "name": {
+          "en": "Misthare supreme",
+          "pt-BR": "Lebre suprema da névoa"
+        },
+        "quantity": 1
+      },
+      {
+        "id": "cooked_seeker_meat",
+        "name": {
+          "en": "Cooked seeker meat",
+          "pt-BR": "Carne de buscador cozida"
+        },
+        "quantity": 3
+      },
+      {
+        "id": "yggdrasil_porridge",
+        "name": {
+          "en": "Yggdrasil porridge",
+          "pt-BR": "Mingau de Yggdrasil"
+        },
+        "quantity": 1
+      },
+      {
+        "id": "herbs_of_the_hidden_hills",
+        "name": {
+          "en": "Herbs of the hidden hills",
+          "pt-BR": "Ervas das Colinas Ocultas"
+        },
+        "quantity": 1
+      }
+    ],
+    "duration": "50:00",
+    "craftingStation": {
+      "name": {
+        "en": "Food preparation table",
+        "pt-BR": "Mesa de preparação de alimentos"
+      },
+      "level": null,
+      "uses": 10
+    },
+    "craftingMultiplier": 10,
+    "craftingMultiplierUnit": "uses",
+    "id": "mushrooms_galore_a_la_mistlands",
+    "aliases": {
+      "en": [
+        "Mushrooms galore á la Mistlands"
+      ],
+      "pt-BR": [
+        "Cogumelância à moda Terras Nevoadas"
+      ]
+    }
+  },
+  {
+    "name": {
+      "en": "Smoke puff",
+      "pt-BR": "Sopro de fumaça"
+    },
+    "biome": "Ashlands",
+    "ingredients": [],
+    "duration": "15:00",
+    "craftingStation": {
+      "name": {
+        "en": "(Ashlands)",
+        "pt-BR": "Terras de Cinzas"
+      },
+      "level": null
+    },
+    "id": "smoke_puff",
+    "aliases": {
+      "en": [
+        "Smoke puff"
+      ],
+      "pt-BR": [
+        "Sopro de fumaça"
+      ]
+    }
+  },
+  {
+    "name": {
+      "en": "Fiddlehead",
+      "pt-BR": "Broto de samambaia"
+    },
+    "biome": "Ashlands",
+    "ingredients": [],
+    "duration": "15:00",
+    "craftingStation": {
+      "name": {
+        "en": "(Ashlands)",
+        "pt-BR": "Terras de Cinzas"
+      },
+      "level": null
+    },
+    "id": "fiddlehead",
+    "aliases": {
+      "en": [
+        "Fiddlehead"
+      ],
+      "pt-BR": [
+        "Broto de samambaia"
+      ]
+    }
+  },
+  {
+    "name": {
+      "en": "Vineberry cluster",
+      "pt-BR": "Cacho de videibagas"
+    },
+    "biome": "Ashlands",
+    "ingredients": [],
+    "duration": "15:00",
+    "craftingStation": {
+      "name": {
+        "en": "(Ashlands) (Vineberry seeds)",
+        "pt-BR": "(Ashlands) (Vineberry seeds)"
+      },
+      "level": null
+    },
+    "id": "vineberry_cluster",
+    "aliases": {
+      "en": [
+        "Vineberry cluster"
+      ],
+      "pt-BR": [
+        "Cacho de videibagas"
+      ]
+    }
+  },
+  {
+    "name": {
+      "en": "Cooked asksvin tail",
+      "pt-BR": "Rabo de asksvin assado"
+    },
+    "biome": "Ashlands",
+    "ingredients": [
+      {
+        "id": "asksvin_tail",
+        "name": {
+          "en": "Asksvin tail",
+          "pt-BR": "Rabo de asksvin"
+        },
+        "quantity": 1
+      }
+    ],
+    "duration": "20:00",
+    "craftingStation": {
+      "name": {
+        "en": "Iron cooking station",
+        "pt-BR": "Iron cooking station"
+      },
+      "level": null
+    },
+    "id": "cooked_asksvin_tail",
+    "aliases": {
+      "en": [
+        "Cooked asksvin tail"
+      ],
+      "pt-BR": [
+        "Rabo de asksvin assado"
+      ]
+    }
+  },
+  {
+    "name": {
+      "en": "Cooked volture meat",
+      "pt-BR": "Carne de uruvul assada"
+    },
+    "biome": "Ashlands",
+    "ingredients": [
+      {
+        "id": "volture_meat",
+        "name": {
+          "en": "Volture meat",
+          "pt-BR": "Carne de uruvul"
+        },
+        "quantity": 1
+      }
+    ],
+    "duration": "20:00",
+    "craftingStation": {
+      "name": {
+        "en": "Iron cooking station",
+        "pt-BR": "Iron cooking station"
+      },
+      "level": null
+    },
+    "id": "cooked_volture_meat",
+    "aliases": {
+      "en": [
+        "Cooked volture meat"
+      ],
+      "pt-BR": [
+        "Carne de uruvul assada"
+      ]
+    }
+  },
+  {
+    "name": {
+      "en": "Cooked bonemaw meat",
+      "pt-BR": "Carne de mandibulóssea assada"
+    },
+    "biome": "Ashlands",
+    "ingredients": [
+      {
+        "id": "bonemaw_meat",
+        "name": {
+          "en": "Bonemaw meat",
+          "pt-BR": "Carne de mandibulóssea"
+        },
+        "quantity": 1
+      }
+    ],
+    "duration": "25:00",
+    "craftingStation": {
+      "name": {
+        "en": "Iron cooking station",
+        "pt-BR": "Iron cooking station"
+      },
+      "level": null
+    },
+    "id": "cooked_bonemaw_meat",
+    "aliases": {
+      "en": [
+        "Cooked bonemaw meat"
+      ],
+      "pt-BR": [
+        "Carne de mandibulóssea assada"
+      ]
+    }
+  },
+  {
+    "name": {
+      "en": "Fiery svinstew",
+      "pt-BR": "Ensopado suíno ardente"
+    },
+    "biome": "Ashlands",
+    "ingredients": [
+      {
+        "id": "asksvin_tail",
+        "name": {
+          "en": "Asksvin tail",
+          "pt-BR": "Rabo de asksvin"
+        },
+        "quantity": 1
+      },
+      {
+        "id": "vineberry_cluster",
+        "name": {
+          "en": "Vineberry cluster",
+          "pt-BR": "Cacho de videibagas"
+        },
+        "quantity": 2
+      },
+      {
+        "id": "smoke_puff",
+        "name": {
+          "en": "Smoke puff",
+          "pt-BR": "Sopro de fumaça"
+        },
+        "quantity": 1
+      }
+    ],
+    "duration": "25:00",
+    "craftingStation": {
+      "name": {
+        "en": "Cauldron",
+        "pt-BR": "Caldeirão"
+      },
+      "level": 5
+    },
+    "id": "fiery_svinstew",
+    "aliases": {
+      "en": [
+        "Fiery svinstew"
+      ],
+      "pt-BR": [
+        "Ensopado suíno ardente"
+      ]
+    }
+  },
+  {
+    "name": {
+      "en": "Mashed meat",
+      "pt-BR": "Purê de carne"
+    },
+    "biome": "Ashlands",
+    "ingredients": [
+      {
+        "id": "asksvin_tail",
+        "name": {
+          "en": "Asksvin tail",
+          "pt-BR": "Rabo de asksvin"
+        },
+        "quantity": 1
+      },
+      {
+        "id": "volture_meat",
+        "name": {
+          "en": "Volture meat",
+          "pt-BR": "Carne de uruvul"
+        },
+        "quantity": 1
+      },
+      {
+        "id": "fiddlehead",
+        "name": {
+          "en": "Fiddlehead",
+          "pt-BR": "Broto de samambaia"
+        },
+        "quantity": 1
+      }
+    ],
+    "duration": "25:00",
+    "craftingStation": {
+      "name": {
+        "en": "Cauldron",
+        "pt-BR": "Caldeirão"
+      },
+      "level": 6
+    },
+    "id": "mashed_meat",
+    "aliases": {
+      "en": [
+        "Mashed meat"
+      ],
+      "pt-BR": [
+        "Purê de carne"
+      ]
+    }
+  },
+  {
+    "name": {
+      "en": "Piquant pie",
+      "pt-BR": "Torta picante"
+    },
+    "biome": "Ashlands",
+    "ingredients": [
+      {
+        "id": "asksvin_tail",
+        "name": {
+          "en": "Asksvin tail",
+          "pt-BR": "Rabo de asksvin"
+        },
+        "quantity": 2
+      },
+      {
+        "id": "vineberry_cluster",
+        "name": {
+          "en": "Vineberry cluster",
+          "pt-BR": "Cacho de videibagas"
+        },
+        "quantity": 2
+      },
+      {
+        "id": "barley_flour",
+        "name": {
+          "en": "Barley flour",
+          "pt-BR": "Farinha de cevada"
+        },
+        "quantity": 4
+      }
+    ],
+    "duration": "30:00",
+    "craftingStation": {
+      "name": {
+        "en": "Food preparation table + Stone Oven",
+        "pt-BR": "Mesa de preparação de alimentos + Forno de pedra"
+      },
+      "level": null
+    },
+    "id": "piquant_pie",
+    "aliases": {
+      "en": [
+        "Piquant pie"
+      ],
+      "pt-BR": [
+        "Torta picante"
+      ]
+    }
+  },
+  {
+    "name": {
+      "en": "Spicy marmalade",
+      "pt-BR": "Marmelada picante"
+    },
+    "biome": "Ashlands",
+    "ingredients": [
+      {
+        "id": "vineberry_cluster",
+        "name": {
+          "en": "Vineberry cluster",
+          "pt-BR": "Cacho de videibagas"
+        },
+        "quantity": 3
+      },
+      {
+        "id": "honey",
+        "name": {
+          "en": "Honey",
+          "pt-BR": "Mel"
+        },
+        "quantity": 1
+      },
+      {
+        "id": "fiddlehead",
+        "name": {
+          "en": "Fiddlehead",
+          "pt-BR": "Broto de samambaia"
+        },
+        "quantity": 1
+      }
+    ],
+    "duration": "25:00",
+    "craftingStation": {
+      "name": {
+        "en": "Cauldron",
+        "pt-BR": "Caldeirão"
+      },
+      "level": 5
+    },
+    "id": "spicy_marmalade",
+    "aliases": {
+      "en": [
+        "Spicy marmalade"
+      ],
+      "pt-BR": [
+        "Marmelada picante"
+      ]
+    }
+  },
+  {
+    "name": {
+      "en": "Scorching medley",
+      "pt-BR": "Mistura escaldante"
+    },
+    "biome": "Ashlands",
+    "ingredients": [
+      {
+        "id": "jotun_puffs",
+        "name": {
+          "en": "Jotun puffs",
+          "pt-BR": "Sopro de Jotun"
+        },
+        "quantity": 3
+      },
+      {
+        "id": "onion",
+        "name": {
+          "en": "Onion",
+          "pt-BR": "Cebola"
+        },
+        "quantity": 3
+      },
+      {
+        "id": "fiddlehead",
+        "name": {
+          "en": "Fiddlehead",
+          "pt-BR": "Broto de samambaia"
+        },
+        "quantity": 3
+      }
+    ],
+    "duration": "25:00",
+    "craftingStation": {
+      "name": {
+        "en": "Cauldron",
+        "pt-BR": "Caldeirão"
+      },
+      "level": 6,
+      "craftingMultiplier": 3
+    },
+    "craftingMultiplier": 3,
+    "craftingMultiplierUnit": "items",
+    "id": "scorching_medley",
+    "aliases": {
+      "en": [
+        "Scorching medley"
+      ],
+      "pt-BR": [
+        "Mistura escaldante"
+      ]
+    }
+  },
+  {
+    "name": {
+      "en": "Roasted crust pie",
+      "pt-BR": "Torta de crosta assada"
+    },
+    "biome": "Ashlands",
+    "ingredients": [
+      {
+        "id": "volture_egg",
+        "name": {
+          "en": "Volture egg",
+          "pt-BR": "Ovo de uruvul"
+        },
+        "quantity": 1
+      },
+      {
+        "id": "vineberry_cluster",
+        "name": {
+          "en": "Vineberry cluster",
+          "pt-BR": "Cacho de videibagas"
+        },
+        "quantity": 2
+      },
+      {
+        "id": "barley_flour",
+        "name": {
+          "en": "Barley flour",
+          "pt-BR": "Farinha de cevada"
+        },
+        "quantity": 4
+      }
+    ],
+    "duration": "30:00",
+    "craftingStation": {
+      "name": {
+        "en": "Food preparation table + Stone Oven",
+        "pt-BR": "Mesa de preparação de alimentos + Forno de pedra"
+      },
+      "level": null
+    },
+    "id": "roasted_crust_pie",
+    "aliases": {
+      "en": [
+        "Roasted crust pie"
+      ],
+      "pt-BR": [
+        "Torta de crosta assada"
+      ]
+    }
+  },
+  {
+    "name": {
+      "en": "Sizzling berry broth",
+      "pt-BR": "Caldo de bagas fervente"
+    },
+    "biome": "Ashlands",
+    "ingredients": [
+      {
+        "id": "sap",
+        "name": {
+          "en": "Sap",
+          "pt-BR": "Seiva"
+        },
+        "quantity": 3
+      },
+      {
+        "id": "vineberry_cluster",
+        "name": {
+          "en": "Vineberry cluster",
+          "pt-BR": "Cacho de videibagas"
+        },
+        "quantity": 2
+      },
+      {
+        "id": "fiddlehead",
+        "name": {
+          "en": "Fiddlehead",
+          "pt-BR": "Broto de samambaia"
+        },
+        "quantity": 2
+      }
+    ],
+    "duration": "25:00",
+    "craftingStation": {
+      "name": {
+        "en": "Cauldron",
+        "pt-BR": "Caldeirão"
+      },
+      "level": 5
+    },
+    "id": "sizzling_berry_broth",
+    "aliases": {
+      "en": [
+        "Sizzling berry broth"
+      ],
+      "pt-BR": [
+        "Caldo de bagas fervente"
+      ]
+    }
+  },
+  {
+    "name": {
+      "en": "Sparkling shroomshake",
+      "pt-BR": "Vitamina de cogumelos espumante"
+    },
+    "biome": "Ashlands",
+    "ingredients": [
+      {
+        "id": "sap",
+        "name": {
+          "en": "Sap",
+          "pt-BR": "Seiva"
+        },
+        "quantity": 4
+      },
+      {
+        "id": "magecap",
+        "name": {
+          "en": "Magecap",
+          "pt-BR": "Cogumelo mágico"
+        },
+        "quantity": 2
+      },
+      {
+        "id": "vineberry_cluster",
+        "name": {
+          "en": "Vineberry cluster",
+          "pt-BR": "Cacho de videibagas"
+        },
+        "quantity": 2
+      },
+      {
+        "id": "smoke_puff",
+        "name": {
+          "en": "Smoke puff",
+          "pt-BR": "Sopro de fumaça"
+        },
+        "quantity": 2
+      }
+    ],
+    "duration": "25:00",
+    "craftingStation": {
+      "name": {
+        "en": "Cauldron",
+        "pt-BR": "Caldeirão"
+      },
+      "level": 6
+    },
+    "id": "sparkling_shroomshake",
+    "aliases": {
+      "en": [
+        "Sparkling shroomshake"
+      ],
+      "pt-BR": [
+        "Vitamina de cogumelos espumante"
+      ]
+    }
+  },
+  {
+    "name": {
+      "en": "Marinated greens",
+      "pt-BR": "Verduras marinadas"
+    },
+    "biome": "Ashlands",
+    "ingredients": [
+      {
+        "id": "sap",
+        "name": {
+          "en": "Sap",
+          "pt-BR": "Seiva"
+        },
+        "quantity": 3
+      },
+      {
+        "id": "magecap",
+        "name": {
+          "en": "Magecap",
+          "pt-BR": "Cogumelo mágico"
+        },
+        "quantity": 2
+      },
+      {
+        "id": "fiddlehead",
+        "name": {
+          "en": "Fiddlehead",
+          "pt-BR": "Broto de samambaia"
+        },
+        "quantity": 2
+      },
+      {
+        "id": "smoke_puff",
+        "name": {
+          "en": "Smoke puff",
+          "pt-BR": "Sopro de fumaça"
+        },
+        "quantity": 2
+      }
+    ],
+    "duration": "30:00",
+    "craftingStation": {
+      "name": {
+        "en": "Cauldron",
+        "pt-BR": "Caldeirão"
+      },
+      "level": 6
+    },
+    "id": "marinated_greens",
+    "aliases": {
+      "en": [
+        "Marinated greens"
+      ],
+      "pt-BR": [
+        "Verduras marinadas"
+      ]
+    }
+  },
+  {
+    "name": {
+      "en": "Ashlands gourmet bowl",
+      "pt-BR": "Tigela gourmet das Terras de Cinzas"
+    },
+    "biome": "Ashlands",
+    "ingredients": [
+      {
+        "id": "cooked_asksvin_tail",
+        "name": {
+          "en": "Cooked asksvin tail",
+          "pt-BR": "Rabo de asksvin assado"
+        },
+        "quantity": 3
+      },
+      {
+        "id": "vineberry_cluster",
+        "name": {
+          "en": "Vineberry cluster",
+          "pt-BR": "Cacho de videibagas"
+        },
+        "quantity": 5
+      },
+      {
+        "id": "scorching_medley",
+        "name": {
+          "en": "Scorching medley",
+          "pt-BR": "Mistura escaldante"
+        },
+        "quantity": 2
+      },
+      {
+        "id": "fiery_spice_powder",
+        "name": {
+          "en": "Fiery spice powder",
+          "pt-BR": "Pó de especiarias ardentes"
+        },
+        "quantity": 1
+      }
+    ],
+    "duration": "50:00",
+    "craftingStation": {
+      "name": {
+        "en": "Food preparation table",
+        "pt-BR": "Mesa de preparação de alimentos"
+      },
+      "level": null,
+      "uses": 10
+    },
+    "craftingMultiplier": 10,
+    "craftingMultiplierUnit": "uses",
+    "id": "ashlands_gourmet_bowl",
+    "aliases": {
+      "en": [
+        "Ashlands gourmet bowl"
+      ],
+      "pt-BR": [
+        "Tigela gourmet das Terras de Cinzas"
+      ]
+    }
+  },
+  {
+    "name": {
+      "en": "Rotten meat",
+      "pt-BR": "Carne podre"
+    },
+    "biome": "Ashlands",
+    "ingredients": [],
+    "duration": "00:15",
+    "craftingStation": {
+      "name": {
+        "en": "( Putrid Hole ) ( Vile )",
+        "pt-BR": "( Putrid Hole ) ( Vile )"
+      },
+      "level": null
+    },
+    "id": "rotten_meat",
+    "aliases": {
+      "en": [
+        "Rotten meat"
+      ],
+      "pt-BR": [
+        "Carne podre"
+      ]
+    }
+  },
+  {
+    "name": {
+      "en": "Oats",
+      "pt-BR": "Aveia"
+    },
+    "biome": "Deep North",
+    "ingredients": [],
+    "duration": "25:00",
+    "craftingStation": {
+      "name": {
+        "en": "(Oat Seeds)",
+        "pt-BR": "(Oat Seeds)"
+      },
+      "level": null
+    },
+    "id": "oats",
+    "aliases": {
+      "en": [
+        "Oats"
+      ],
+      "pt-BR": [
+        "Aveia"
+      ]
+    }
+  },
+  {
+    "name": {
+      "en": "Kale",
+      "pt-BR": "Couve"
+    },
+    "biome": "Deep North",
+    "ingredients": [],
+    "duration": "15:00",
+    "craftingStation": {
+      "name": {
+        "en": "(Kale Seeds)",
+        "pt-BR": "(Kale Seeds)"
+      },
+      "level": null
+    },
+    "id": "kale",
+    "aliases": {
+      "en": [
+        "Kale"
+      ],
+      "pt-BR": [
+        "Couve"
+      ]
+    }
+  },
+  {
+    "name": {
+      "en": "Lingonberry",
+      "pt-BR": "Arando"
+    },
+    "biome": "Deep North",
+    "ingredients": [],
+    "duration": "15:00",
+    "craftingStation": {
+      "name": {
+        "en": "(Deep North)",
+        "pt-BR": "(Deep North)"
+      },
+      "level": null
+    },
+    "id": "lingonberry",
+    "aliases": {
+      "en": [
+        "Lingonberry"
+      ],
+      "pt-BR": [
+        "Arando"
+      ]
+    }
+  },
+  {
+    "name": {
+      "en": "Poteitr",
+      "pt-BR": "Batáter"
+    },
+    "biome": "Deep North",
+    "ingredients": [],
+    "duration": "15:00",
+    "craftingStation": {
+      "name": {
+        "en": "(Seed Poteitr)",
+        "pt-BR": "(Seed Poteitr)"
+      },
+      "level": null
+    },
+    "id": "poteitr",
+    "aliases": {
+      "en": [
+        "Poteitr"
+      ],
+      "pt-BR": [
+        "Batáter"
+      ]
+    }
+  },
+  {
+    "name": {
+      "en": "Cooked Seal Blubber",
+      "pt-BR": "Gordura de foca cozida"
+    },
+    "biome": "Deep North",
+    "ingredients": [
+      {
+        "id": "seal_blubber",
+        "name": {
+          "en": "Seal Blubber",
+          "pt-BR": "Gordura de foca"
+        },
+        "quantity": 1
+      }
+    ],
+    "duration": "20:00",
+    "craftingStation": {
+      "name": {
+        "en": "Stone Oven",
+        "pt-BR": "Forno de pedra"
+      },
+      "level": null
+    },
+    "id": "cooked_seal_blubber",
+    "aliases": {
+      "en": [
+        "Cooked Seal Blubber"
+      ],
+      "pt-BR": [
+        "Gordura de foca cozida"
+      ]
+    }
+  },
+  {
+    "name": {
+      "en": "Cooked Moose Meat",
+      "pt-BR": "Carne de alce assada"
+    },
+    "biome": "Deep North",
+    "ingredients": [
+      {
+        "id": "moose_meat",
+        "name": {
+          "en": "Moose Meat",
+          "pt-BR": "Carne de alce"
+        },
+        "quantity": 1
+      }
+    ],
+    "duration": "20:00",
+    "craftingStation": {
+      "name": {
+        "en": "Iron cooking station",
+        "pt-BR": "Iron cooking station"
+      },
+      "level": null
+    },
+    "id": "cooked_moose_meat",
+    "aliases": {
+      "en": [
+        "Cooked Moose Meat"
+      ],
+      "pt-BR": [
+        "Carne de alce assada"
+      ]
+    }
+  },
+  {
+    "name": {
+      "en": "Lingonberry Juice",
+      "pt-BR": "Suco de arando"
+    },
+    "biome": "Deep North",
+    "ingredients": [
+      {
+        "id": "lingonberries",
+        "name": {
+          "en": "Lingonberries",
+          "pt-BR": "Arandos"
+        },
+        "quantity": 5
+      },
+      {
+        "id": "ice",
+        "name": {
+          "en": "Ice",
+          "pt-BR": "Gelo"
+        },
+        "quantity": 5
+      }
+    ],
+    "duration": "25:00",
+    "craftingStation": {
+      "name": {
+        "en": "Cauldron",
+        "pt-BR": "Caldeirão"
+      },
+      "level": 6
+    },
+    "id": "lingonberry_juice",
+    "aliases": {
+      "en": [
+        "Lingonberry Juice"
+      ],
+      "pt-BR": [
+        "Suco de arando"
+      ]
+    }
+  },
+  {
+    "name": {
+      "en": "Meatballs and Poteitr",
+      "pt-BR": "Almôndegas e batáters"
+    },
+    "biome": "Deep North",
+    "ingredients": [
+      {
+        "id": "moose_meat",
+        "name": {
+          "en": "Moose Meat",
+          "pt-BR": "Carne de alce"
+        },
+        "quantity": 1
+      },
+      {
+        "id": "lingonberries",
+        "name": {
+          "en": "Lingonberries",
+          "pt-BR": "Arandos"
+        },
+        "quantity": 2
+      },
+      {
+        "id": "poteitr",
+        "name": {
+          "en": "Poteitr",
+          "pt-BR": "Batáter"
+        },
+        "quantity": 2
+      }
+    ],
+    "duration": "25:00",
+    "craftingStation": {
+      "name": {
+        "en": "Cauldron",
+        "pt-BR": "Caldeirão"
+      },
+      "level": 7
+    },
+    "id": "meatballs_and_poteitr",
+    "aliases": {
+      "en": [
+        "Meatballs and Poteitr"
+      ],
+      "pt-BR": [
+        "Almôndegas e batáters"
+      ]
+    }
+  },
+  {
+    "name": {
+      "en": "Meat In Bread",
+      "pt-BR": "Pão com carne"
+    },
+    "biome": "Deep North",
+    "ingredients": [
+      {
+        "id": "moose_meat",
+        "name": {
+          "en": "Moose Meat",
+          "pt-BR": "Carne de alce"
+        },
+        "quantity": 1
+      },
+      {
+        "id": "kale",
+        "name": {
+          "en": "Kale",
+          "pt-BR": "Couve"
+        },
+        "quantity": 2
+      },
+      {
+        "id": "oat_flour",
+        "name": {
+          "en": "Oat Flour",
+          "pt-BR": "Farinha de aveia"
+        },
+        "quantity": 1
+      },
+      {
+        "id": "lingonberries",
+        "name": {
+          "en": "Lingonberries",
+          "pt-BR": "Arandos"
+        },
+        "quantity": 2
+      }
+    ],
+    "duration": "30:00",
+    "craftingStation": {
+      "name": {
+        "en": "Cauldron",
+        "pt-BR": "Caldeirão"
+      },
+      "level": 6,
+      "craftingMultiplier": 2
+    },
+    "craftingMultiplier": 2,
+    "craftingMultiplierUnit": "items",
+    "id": "meat_in_bread",
+    "aliases": {
+      "en": [
+        "Meat In Bread"
+      ],
+      "pt-BR": [
+        "Pão com carne"
+      ]
+    }
+  },
+  {
+    "name": {
+      "en": "Oatmilk",
+      "pt-BR": "Leite de aveia"
+    },
+    "biome": "Deep North",
+    "ingredients": [
+      {
+        "id": "oats",
+        "name": {
+          "en": "Oats",
+          "pt-BR": "Aveia"
+        },
+        "quantity": 5
+      },
+      {
+        "id": "ice",
+        "name": {
+          "en": "Ice",
+          "pt-BR": "Gelo"
+        },
+        "quantity": 5
+      }
+    ],
+    "duration": "25:00",
+    "craftingStation": {
+      "name": {
+        "en": "Mead Ketill",
+        "pt-BR": "Mead Ketill"
+      },
+      "level": null
+    },
+    "id": "oatmilk",
+    "aliases": {
+      "en": [
+        "Oatmilk"
+      ],
+      "pt-BR": [
+        "Leite de aveia"
+      ]
+    }
+  },
+  {
+    "name": {
+      "en": "Oatmeal",
+      "pt-BR": "Mingau de aveia"
+    },
+    "biome": "Deep North",
+    "ingredients": [
+      {
+        "id": "oats",
+        "name": {
+          "en": "Oats",
+          "pt-BR": "Aveia"
+        },
+        "quantity": 2
+      },
+      {
+        "id": "lingonberries",
+        "name": {
+          "en": "Lingonberries",
+          "pt-BR": "Arandos"
+        },
+        "quantity": 2
+      },
+      {
+        "id": "oat_milk",
+        "name": {
+          "en": "Oat Milk",
+          "pt-BR": "Leite de aveia"
+        },
+        "quantity": 1
+      }
+    ],
+    "duration": "30:00",
+    "craftingStation": {
+      "name": {
+        "en": "Cauldron",
+        "pt-BR": "Caldeirão"
+      },
+      "level": 6
+    },
+    "id": "oatmeal",
+    "aliases": {
+      "en": [
+        "Oatmeal"
+      ],
+      "pt-BR": [
+        "Mingau de aveia"
+      ]
+    }
+  },
+  {
+    "name": {
+      "en": "Pancakes",
+      "pt-BR": "Panquecas"
+    },
+    "biome": "Deep North",
+    "ingredients": [
+      {
+        "id": "oat_milk",
+        "name": {
+          "en": "Oat Milk",
+          "pt-BR": "Leite de aveia"
+        },
+        "quantity": 1
+      },
+      {
+        "id": "oat_flour",
+        "name": {
+          "en": "Oat Flour",
+          "pt-BR": "Farinha de aveia"
+        },
+        "quantity": 2
+      },
+      {
+        "id": "egg",
+        "name": {
+          "en": "Egg",
+          "pt-BR": "Ovo"
+        },
+        "quantity": 2
+      },
+      {
+        "id": "blueberries",
+        "name": {
+          "en": "Blueberries",
+          "pt-BR": "Mirtilos"
+        },
+        "quantity": 2
+      }
+    ],
+    "duration": "30:00",
+    "craftingStation": {
+      "name": {
+        "en": "Cauldron",
+        "pt-BR": "Caldeirão"
+      },
+      "level": 6,
+      "craftingMultiplier": 3
+    },
+    "craftingMultiplier": 3,
+    "craftingMultiplierUnit": "items",
+    "id": "pancakes",
+    "aliases": {
+      "en": [
+        "Pancakes"
+      ],
+      "pt-BR": [
+        "Panquecas"
+      ]
+    }
+  },
+  {
+    "name": {
+      "en": "Seal Meat Soup",
+      "pt-BR": "Sopa de carne de foca"
+    },
+    "biome": "Deep North",
+    "ingredients": [
+      {
+        "id": "seal_blubber",
+        "name": {
+          "en": "Seal Blubber",
+          "pt-BR": "Gordura de foca"
+        },
+        "quantity": 2
+      },
+      {
+        "id": "kale",
+        "name": {
+          "en": "Kale",
+          "pt-BR": "Couve"
+        },
+        "quantity": 2
+      },
+      {
+        "id": "ice",
+        "name": {
+          "en": "Ice",
+          "pt-BR": "Gelo"
+        },
+        "quantity": 2
+      }
+    ],
+    "duration": "30:00",
+    "craftingStation": {
+      "name": {
+        "en": "Cauldron",
+        "pt-BR": "Caldeirão"
+      },
+      "level": 7
+    },
+    "id": "seal_meat_soup",
+    "aliases": {
+      "en": [
+        "Seal Meat Soup"
+      ],
+      "pt-BR": [
+        "Sopa de carne de foca"
+      ]
+    }
+  },
+  {
+    "name": {
+      "en": "Smoked Fish",
+      "pt-BR": "Peixe defumado"
+    },
+    "biome": "Deep North",
+    "ingredients": [
+      {
+        "id": "raw_fish",
+        "name": {
+          "en": "Raw Fish",
+          "pt-BR": "Peixe cru"
+        },
+        "quantity": 1
+      },
+      {
+        "id": "kale",
+        "name": {
+          "en": "Kale",
+          "pt-BR": "Couve"
+        },
+        "quantity": 1
+      },
+      {
+        "id": "poteitr",
+        "name": {
+          "en": "Poteitr",
+          "pt-BR": "Batáter"
+        },
+        "quantity": 1
+      }
+    ],
+    "duration": "25:00",
+    "craftingStation": {
+      "name": {
+        "en": "Cauldron",
+        "pt-BR": "Caldeirão"
+      },
+      "level": 7
+    },
+    "id": "smoked_fish",
+    "aliases": {
+      "en": [
+        "Smoked Fish"
+      ],
+      "pt-BR": [
+        "Peixe defumado"
+      ]
+    }
+  },
+  {
+    "name": {
+      "en": "Smoked Moose Meat",
+      "pt-BR": "Carne de alce defumada"
+    },
+    "biome": "Deep North",
+    "ingredients": [
+      {
+        "id": "moose_meat",
+        "name": {
+          "en": "Moose Meat",
+          "pt-BR": "Carne de alce"
+        },
+        "quantity": 1
+      },
+      {
+        "id": "kale",
+        "name": {
+          "en": "Kale",
+          "pt-BR": "Couve"
+        },
+        "quantity": 2
+      }
+    ],
+    "duration": "25:00",
+    "craftingStation": {
+      "name": {
+        "en": "Cauldron",
+        "pt-BR": "Caldeirão"
+      },
+      "level": 7
+    },
+    "id": "smoked_moose_meat",
+    "aliases": {
+      "en": [
+        "Smoked Moose Meat"
+      ],
+      "pt-BR": [
+        "Carne de alce defumada"
+      ]
+    }
+  },
+  {
+    "name": {
+      "en": "Kale Chips",
+      "pt-BR": "Chips de couve"
+    },
+    "biome": "Deep North",
+    "ingredients": [
+      {
+        "id": "kale",
+        "name": {
+          "en": "Kale",
+          "pt-BR": "Couve"
+        },
+        "quantity": 12
+      }
+    ],
+    "duration": "25:00",
+    "craftingStation": {
+      "name": {
+        "en": "Cauldron + Stone Oven",
+        "pt-BR": "Cauldron + Stone Oven"
+      },
+      "level": 6,
+      "craftingMultiplier": 4
+    },
+    "craftingMultiplier": 4,
+    "craftingMultiplierUnit": "items",
+    "id": "kale_chips",
+    "aliases": {
+      "en": [
+        "Kale Chips"
+      ],
+      "pt-BR": [
+        "Chips de couve"
+      ]
+    }
+  },
+  {
+    "name": {
+      "en": "Baked Poteitr",
+      "pt-BR": "Batáter assada"
+    },
+    "biome": "Deep North",
+    "ingredients": [
+      {
+        "id": "seal_blubber",
+        "name": {
+          "en": "Seal Blubber",
+          "pt-BR": "Gordura de foca"
+        },
+        "quantity": 1
+      },
+      {
+        "id": "kale",
+        "name": {
+          "en": "Kale",
+          "pt-BR": "Couve"
+        },
+        "quantity": 2
+      },
+      {
+        "id": "poteitr",
+        "name": {
+          "en": "Poteitr",
+          "pt-BR": "Batáter"
+        },
+        "quantity": 1
+      },
+      {
+        "id": "oat_flour",
+        "name": {
+          "en": "Oat Flour",
+          "pt-BR": "Farinha de aveia"
+        },
+        "quantity": 2
+      }
+    ],
+    "duration": "25:00",
+    "craftingStation": {
+      "name": {
+        "en": "Cauldron + Stone Oven",
+        "pt-BR": "Cauldron + Stone Oven"
+      },
+      "level": 7
+    },
+    "id": "baked_poteitr",
+    "aliases": {
+      "en": [
+        "Baked Poteitr"
+      ],
+      "pt-BR": [
+        "Batáter assada"
+      ]
+    }
+  },
+  {
+    "name": {
+      "en": "Oven Pancake",
+      "pt-BR": "Panqueca de forno"
+    },
+    "biome": "Deep North",
+    "ingredients": [
+      {
+        "id": "moose_meat",
+        "name": {
+          "en": "Moose Meat",
+          "pt-BR": "Carne de alce"
+        },
+        "quantity": 1
+      },
+      {
+        "id": "poteitr",
+        "name": {
+          "en": "Poteitr",
+          "pt-BR": "Batáter"
+        },
+        "quantity": 2
+      },
+      {
+        "id": "lingonberries",
+        "name": {
+          "en": "Lingonberries",
+          "pt-BR": "Arandos"
+        },
+        "quantity": 2
+      },
+      {
+        "id": "oat_flour",
+        "name": {
+          "en": "Oat Flour",
+          "pt-BR": "Farinha de aveia"
+        },
+        "quantity": 2
+      }
+    ],
+    "duration": "30:00",
+    "craftingStation": {
+      "name": {
+        "en": "Cauldron + Stone Oven",
+        "pt-BR": "Cauldron + Stone Oven"
+      },
+      "level": 6
+    },
+    "id": "oven_pancake",
+    "aliases": {
+      "en": [
+        "Oven Pancake"
+      ],
+      "pt-BR": [
+        "Panqueca de forno"
+      ]
+    }
+  },
+  {
+    "name": {
+      "en": "Northern Morning Fare",
+      "pt-BR": "Café da manhã do norte"
+    },
+    "biome": "Deep North",
+    "ingredients": [
+      {
+        "id": "cooked_moose_meat",
+        "name": {
+          "en": "Cooked Moose Meat",
+          "pt-BR": "Carne de alce assada"
+        },
+        "quantity": 3
+      },
+      {
+        "id": "poteitr",
+        "name": {
+          "en": "Poteitr",
+          "pt-BR": "Batáter"
+        },
+        "quantity": 5
+      },
+      {
+        "id": "oat_flour",
+        "name": {
+          "en": "Oat Flour",
+          "pt-BR": "Farinha de aveia"
+        },
+        "quantity": 2
+      },
+      {
+        "id": "seasoning_of_the_gourd",
+        "name": {
+          "en": "Seasoning of the Gourd",
+          "pt-BR": "Tempero de abóbora"
+        },
+        "quantity": 1
+      }
+    ],
+    "duration": "50:00",
+    "craftingStation": {
+      "name": {
+        "en": "Food preparation table",
+        "pt-BR": "Mesa de preparação de alimentos"
+      },
+      "level": null,
+      "uses": 10
+    },
+    "craftingMultiplier": 10,
+    "craftingMultiplierUnit": "uses",
+    "id": "northern_morning_fare",
+    "aliases": {
+      "en": [
+        "Northern Morning Fare"
+      ],
+      "pt-BR": [
+        "Café da manhã do norte"
+      ]
+    }
+  }
+]

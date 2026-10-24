@@ -1,0 +1,4738 @@
+[
+  {
+    "id": "cape_of_odin_dlc",
+    "name": {
+      "en": "Cape of Odin (DLC)",
+      "pt-BR": "Capa de Odin"
+    },
+    "aliases": {
+      "en": [
+        "Cape of Odin (DLC)"
+      ],
+      "pt-BR": [
+        "Capa de Odin"
+      ]
+    },
+    "slot": "cape",
+    "armorByQuality": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "weight": 4.0,
+    "additionalEffects": {
+      "en": "",
+      "pt-BR": ""
+    },
+    "ingredients": [
+      {
+        "id": "leather_scraps",
+        "name": {
+          "en": "Leather scraps",
+          "pt-BR": "Retalhos de couro"
+        },
+        "quantityByQuality": [
+          10,
+          5,
+          10,
+          15
+        ]
+      },
+      {
+        "id": "coal",
+        "name": {
+          "en": "Coal",
+          "pt-BR": "Carvão"
+        },
+        "quantityByQuality": [
+          4,
+          2,
+          4,
+          6
+        ]
+      }
+    ],
+    "craftingStation": {
+      "name": {
+        "en": "Workbench",
+        "pt-BR": "Bancada de trabalho"
+      },
+      "levelByQuality": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    "source": {
+      "page": "Armor",
+      "url": "https://valheim.fandom.com/wiki/Armor"
+    }
+  },
+  {
+    "id": "deer_hide_cape",
+    "name": {
+      "en": "Deer hide cape",
+      "pt-BR": "Capa de pele de cervo"
+    },
+    "aliases": {
+      "en": [
+        "Deer hide cape"
+      ],
+      "pt-BR": [
+        "Capa de pele de cervo"
+      ]
+    },
+    "slot": "cape",
+    "armorByQuality": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "weight": 4.0,
+    "additionalEffects": {
+      "en": "",
+      "pt-BR": ""
+    },
+    "ingredients": [
+      {
+        "id": "deer_hide",
+        "name": {
+          "en": "Deer hide",
+          "pt-BR": "Pele de cervo"
+        },
+        "quantityByQuality": [
+          4,
+          4,
+          8,
+          12
+        ]
+      },
+      {
+        "id": "bone_fragments",
+        "name": {
+          "en": "Bone fragments",
+          "pt-BR": "Fragmentos de osso"
+        },
+        "quantityByQuality": [
+          5,
+          5,
+          10,
+          15
+        ]
+      }
+    ],
+    "craftingStation": {
+      "name": {
+        "en": "Workbench",
+        "pt-BR": "Bancada de trabalho"
+      },
+      "levelByQuality": [
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    "source": {
+      "page": "Armor",
+      "url": "https://valheim.fandom.com/wiki/Armor"
+    }
+  },
+  {
+    "id": "troll_hide_cape",
+    "name": {
+      "en": "Troll hide cape",
+      "pt-BR": "Capa de pele de troll"
+    },
+    "aliases": {
+      "en": [
+        "Troll hide cape"
+      ],
+      "pt-BR": [
+        "Capa de pele de troll"
+      ]
+    },
+    "slot": "cape",
+    "armorByQuality": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "weight": 4.0,
+    "additionalEffects": {
+      "en": "Troll Set bonus: +15 Sneak (Skill)",
+      "pt-BR": "Bônus do conjunto Troll: +15 de furtividade (habilidade)"
+    },
+    "ingredients": [
+      {
+        "id": "troll_hide",
+        "name": {
+          "en": "Troll hide",
+          "pt-BR": "Pele de troll"
+        },
+        "quantityByQuality": [
+          10,
+          5,
+          10,
+          15
+        ]
+      },
+      {
+        "id": "bone_fragments",
+        "name": {
+          "en": "Bone fragments",
+          "pt-BR": "Fragmentos de osso"
+        },
+        "quantityByQuality": [
+          10,
+          5,
+          10,
+          15
+        ]
+      }
+    ],
+    "craftingStation": {
+      "name": {
+        "en": "Workbench",
+        "pt-BR": "Bancada de trabalho"
+      },
+      "levelByQuality": [
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    "source": {
+      "page": "Armor",
+      "url": "https://valheim.fandom.com/wiki/Armor"
+    }
+  },
+  {
+    "id": "wolf_fur_cape",
+    "name": {
+      "en": "Wolf fur cape",
+      "pt-BR": "Capa de pele de lobo"
+    },
+    "aliases": {
+      "en": [
+        "Wolf fur cape"
+      ],
+      "pt-BR": [
+        "Capa de pele de lobo"
+      ]
+    },
+    "slot": "cape",
+    "armorByQuality": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "weight": 4.0,
+    "additionalEffects": {
+      "en": "Resistant(0.5x) VS Frost",
+      "pt-BR": "Resistência (0,5x) contra gelo"
+    },
+    "ingredients": [
+      {
+        "id": "silver",
+        "name": {
+          "en": "Silver",
+          "pt-BR": "Prata"
+        },
+        "quantityByQuality": [
+          4,
+          2,
+          4,
+          6
+        ]
+      },
+      {
+        "id": "wolf_pelt",
+        "name": {
+          "en": "Wolf pelt",
+          "pt-BR": "Pele de lobo"
+        },
+        "quantityByQuality": [
+          6,
+          4,
+          8,
+          12
+        ]
+      },
+      {
+        "id": "wolf_trophy",
+        "name": {
+          "en": "Wolf trophy",
+          "pt-BR": "Troféu de lobo"
+        },
+        "quantityByQuality": [
+          1,
+          null,
+          null,
+          null
+        ]
+      }
+    ],
+    "craftingStation": {
+      "name": {
+        "en": "Workbench",
+        "pt-BR": "Bancada de trabalho"
+      },
+      "levelByQuality": [
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    "source": {
+      "page": "Armor",
+      "url": "https://valheim.fandom.com/wiki/Armor"
+    }
+  },
+  {
+    "id": "lox_cape",
+    "name": {
+      "en": "Lox cape",
+      "pt-BR": "Capa de lox"
+    },
+    "aliases": {
+      "en": [
+        "Lox cape"
+      ],
+      "pt-BR": [
+        "Capa de lox"
+      ]
+    },
+    "slot": "cape",
+    "armorByQuality": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "weight": 4.0,
+    "additionalEffects": {
+      "en": "Resistant(0.5x) VS Frost",
+      "pt-BR": "Resistência (0,5x) contra gelo"
+    },
+    "ingredients": [
+      {
+        "id": "lox_pelt",
+        "name": {
+          "en": "Lox pelt",
+          "pt-BR": "Pele de lox"
+        },
+        "quantityByQuality": [
+          6,
+          2,
+          4,
+          6
+        ]
+      },
+      {
+        "id": "silver",
+        "name": {
+          "en": "Silver",
+          "pt-BR": "Prata"
+        },
+        "quantityByQuality": [
+          2,
+          null,
+          null,
+          null
+        ]
+      }
+    ],
+    "craftingStation": {
+      "name": {
+        "en": "Workbench",
+        "pt-BR": "Bancada de trabalho"
+      },
+      "levelByQuality": [
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    "source": {
+      "page": "Armor",
+      "url": "https://valheim.fandom.com/wiki/Armor"
+    }
+  },
+  {
+    "id": "linen_cape",
+    "name": {
+      "en": "Linen cape",
+      "pt-BR": "Capa de linho"
+    },
+    "aliases": {
+      "en": [
+        "Linen cape"
+      ],
+      "pt-BR": [
+        "Capa de linho"
+      ]
+    },
+    "slot": "cape",
+    "armorByQuality": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "weight": 4.0,
+    "additionalEffects": {
+      "en": "",
+      "pt-BR": ""
+    },
+    "ingredients": [
+      {
+        "id": "linen_thread",
+        "name": {
+          "en": "Linen thread",
+          "pt-BR": "Fio de linho"
+        },
+        "quantityByQuality": [
+          20,
+          4,
+          8,
+          12
+        ]
+      },
+      {
+        "id": "silver",
+        "name": {
+          "en": "Silver",
+          "pt-BR": "Prata"
+        },
+        "quantityByQuality": [
+          1,
+          null,
+          null,
+          null
+        ]
+      }
+    ],
+    "craftingStation": {
+      "name": {
+        "en": "Workbench",
+        "pt-BR": "Bancada de trabalho"
+      },
+      "levelByQuality": [
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    "source": {
+      "page": "Armor",
+      "url": "https://valheim.fandom.com/wiki/Armor"
+    }
+  },
+  {
+    "id": "feather_cape",
+    "name": {
+      "en": "Feather cape",
+      "pt-BR": "Capa de penas"
+    },
+    "aliases": {
+      "en": [
+        "Feather cape"
+      ],
+      "pt-BR": [
+        "Capa de penas"
+      ]
+    },
+    "slot": "cape",
+    "armorByQuality": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "weight": 4.0,
+    "additionalEffects": {
+      "en": "Resistant(0.5x) VS Frost Very Weak (2x) vs. Fire Fall damage: -100% Limit fall speed: 5m/s -20% jump stamina",
+      "pt-BR": "Resistência (0,5x) contra gelo Muito vulnerável (2x) a fogo Dano de queda: -100% Limite de velocidade de queda: 5 m/s -20% de consumo de vigor ao saltar"
+    },
+    "ingredients": [
+      {
+        "id": "feathers",
+        "name": {
+          "en": "Feathers",
+          "pt-BR": "Penas"
+        },
+        "quantityByQuality": [
+          10,
+          2,
+          4,
+          6
+        ]
+      },
+      {
+        "id": "scale_hide",
+        "name": {
+          "en": "Scale hide",
+          "pt-BR": "Pele escamada"
+        },
+        "quantityByQuality": [
+          5,
+          5,
+          10,
+          15
+        ]
+      },
+      {
+        "id": "refined_eitr",
+        "name": {
+          "en": "Refined eitr",
+          "pt-BR": "Eitr refinado"
+        },
+        "quantityByQuality": [
+          20,
+          3,
+          6,
+          9
+        ]
+      }
+    ],
+    "craftingStation": {
+      "name": {
+        "en": "Galdr table",
+        "pt-BR": "Mesa de galdr"
+      },
+      "levelByQuality": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    "source": {
+      "page": "Armor",
+      "url": "https://valheim.fandom.com/wiki/Armor"
+    }
+  },
+  {
+    "id": "asksvin_cloak",
+    "name": {
+      "en": "Asksvin cloak",
+      "pt-BR": "Manto de asksvin"
+    },
+    "aliases": {
+      "en": [
+        "Asksvin cloak"
+      ],
+      "pt-BR": [
+        "Manto de asksvin"
+      ]
+    },
+    "slot": "cape",
+    "armorByQuality": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "weight": 4.0,
+    "additionalEffects": {
+      "en": "Resistant(0.5x) VS Frost Wind Run Dodge stamina usage: -15%",
+      "pt-BR": "Resistência (0,5x) contra gelo Vento ao correr consumo de vigor ao esquivar: -15%"
+    },
+    "ingredients": [
+      {
+        "id": "asksvin_hide",
+        "name": {
+          "en": "Asksvin hide",
+          "pt-BR": "Pele de asksvin"
+        },
+        "quantityByQuality": [
+          6,
+          2,
+          4,
+          6
+        ]
+      },
+      {
+        "id": "morgen_sinew",
+        "name": {
+          "en": "Morgen sinew",
+          "pt-BR": "Tendão de morgen"
+        },
+        "quantityByQuality": [
+          2,
+          null,
+          null,
+          null
+        ]
+      }
+    ],
+    "craftingStation": {
+      "name": {
+        "en": "Galdr table",
+        "pt-BR": "Mesa de galdr"
+      },
+      "levelByQuality": [
+        2,
+        3,
+        4,
+        null
+      ]
+    },
+    "source": {
+      "page": "Armor",
+      "url": "https://valheim.fandom.com/wiki/Armor"
+    }
+  },
+  {
+    "id": "ashen_cape",
+    "name": {
+      "en": "Ashen cape",
+      "pt-BR": "Capa das Cinzas"
+    },
+    "aliases": {
+      "en": [
+        "Ashen cape"
+      ],
+      "pt-BR": [
+        "Capa das Cinzas"
+      ]
+    },
+    "slot": "cape",
+    "armorByQuality": [
+      12,
+      14,
+      16,
+      18
+    ],
+    "weight": 4.0,
+    "additionalEffects": {
+      "en": "Resistant(0.5x) VS Frost Attack Stamina Usage: -10% Block Stamina Usage: -20%",
+      "pt-BR": "Resistência (0,5x) contra gelo consumo de vigor ao atacar: -10% consumo de vigor ao bloquear: -20%"
+    },
+    "ingredients": [
+      {
+        "id": "asksvin_hide",
+        "name": {
+          "en": "Asksvin hide",
+          "pt-BR": "Pele de asksvin"
+        },
+        "quantityByQuality": [
+          6,
+          2,
+          4,
+          6
+        ]
+      },
+      {
+        "id": "morgen_sinew",
+        "name": {
+          "en": "Morgen sinew",
+          "pt-BR": "Tendão de morgen"
+        },
+        "quantityByQuality": [
+          2,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "id": "flametal",
+        "name": {
+          "en": "Flametal",
+          "pt-BR": "Metal flamejante"
+        },
+        "quantityByQuality": [
+          5,
+          null,
+          null,
+          null
+        ]
+      }
+    ],
+    "craftingStation": {
+      "name": {
+        "en": "Black forge",
+        "pt-BR": "Forja negra"
+      },
+      "levelByQuality": [
+        3,
+        4,
+        5,
+        null
+      ]
+    },
+    "source": {
+      "page": "Armor",
+      "url": "https://valheim.fandom.com/wiki/Armor"
+    }
+  },
+  {
+    "id": "midsummer_crown",
+    "name": {
+      "en": "Midsummer Crown",
+      "pt-BR": "Coroa de Solstício de Verão"
+    },
+    "aliases": {
+      "en": [
+        "Midsummer Crown"
+      ],
+      "pt-BR": [
+        "Coroa de Solstício de Verão"
+      ]
+    },
+    "slot": "head",
+    "armorByQuality": [
+      1,
+      null,
+      null,
+      null
+    ],
+    "weight": 1.0,
+    "additionalEffects": {
+      "en": "",
+      "pt-BR": ""
+    },
+    "ingredients": [
+      {
+        "id": "dandelion",
+        "name": {
+          "en": "Dandelion",
+          "pt-BR": "Dente-de-leão"
+        },
+        "quantityByQuality": [
+          10
+        ]
+      }
+    ],
+    "craftingStation": {
+      "name": {
+        "en": "Workbench",
+        "pt-BR": "Bancada de trabalho"
+      },
+      "levelByQuality": [
+        1,
+        null,
+        null,
+        null
+      ]
+    },
+    "source": {
+      "page": "Armor",
+      "url": "https://valheim.fandom.com/wiki/Armor"
+    }
+  },
+  {
+    "id": "yule_hat",
+    "name": {
+      "en": "Yule hat",
+      "pt-BR": "Chapéu de Yule"
+    },
+    "aliases": {
+      "en": [
+        "Yule hat"
+      ],
+      "pt-BR": [
+        "Chapéu de Yule"
+      ]
+    },
+    "slot": "head",
+    "armorByQuality": [
+      1,
+      null,
+      null,
+      null
+    ],
+    "weight": 1.0,
+    "additionalEffects": {
+      "en": "",
+      "pt-BR": ""
+    },
+    "ingredients": [
+      {
+        "id": "coins",
+        "name": {
+          "en": "Coins",
+          "pt-BR": "Moedas"
+        },
+        "quantityByQuality": [
+          100
+        ]
+      }
+    ],
+    "craftingStation": {
+      "name": {
+        "en": "Haldor",
+        "pt-BR": "Haldor"
+      },
+      "levelByQuality": null
+    },
+    "source": {
+      "page": "Armor",
+      "url": "https://valheim.fandom.com/wiki/Armor"
+    }
+  },
+  {
+    "id": "celebratory_cap",
+    "name": {
+      "en": "Celebratory cap",
+      "pt-BR": "Gorro comemorativo"
+    },
+    "aliases": {
+      "en": [
+        "Celebratory cap"
+      ],
+      "pt-BR": [
+        "Gorro comemorativo"
+      ]
+    },
+    "slot": "head",
+    "armorByQuality": [
+      1,
+      3,
+      5,
+      7
+    ],
+    "weight": 3.0,
+    "additionalEffects": {
+      "en": "",
+      "pt-BR": ""
+    },
+    "ingredients": [
+      {
+        "id": "deer_hide",
+        "name": {
+          "en": "Deer hide",
+          "pt-BR": "Pele de cervo"
+        },
+        "quantityByQuality": [
+          2,
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "id": "bronze",
+        "name": {
+          "en": "Bronze",
+          "pt-BR": "Bronze"
+        },
+        "quantityByQuality": [
+          1,
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "id": "bear_hide",
+        "name": {
+          "en": "Bear hide",
+          "pt-BR": "Pele de urso"
+        },
+        "quantityByQuality": [
+          1,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "id": "amber_pearl",
+        "name": {
+          "en": "Amber pearl",
+          "pt-BR": "Pérola de âmbar"
+        },
+        "quantityByQuality": [
+          1,
+          null,
+          null,
+          null
+        ]
+      }
+    ],
+    "craftingStation": {
+      "name": {
+        "en": "Workbench",
+        "pt-BR": "Bancada de trabalho"
+      },
+      "levelByQuality": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    "source": {
+      "page": "Armor",
+      "url": "https://valheim.fandom.com/wiki/Armor"
+    }
+  },
+  {
+    "id": "dverger_circlet",
+    "name": {
+      "en": "Dverger circlet",
+      "pt-BR": "Diadema dos dvergr"
+    },
+    "aliases": {
+      "en": [
+        "Dverger circlet"
+      ],
+      "pt-BR": [
+        "Diadema dos dvergr"
+      ]
+    },
+    "slot": "head",
+    "armorByQuality": [
+      2,
+      null,
+      null,
+      null
+    ],
+    "weight": 1.0,
+    "additionalEffects": {
+      "en": "Cone shaped light source",
+      "pt-BR": "Fonte de luz em formato de cone"
+    },
+    "ingredients": [
+      {
+        "id": "coins",
+        "name": {
+          "en": "Coins",
+          "pt-BR": "Moedas"
+        },
+        "quantityByQuality": [
+          620
+        ]
+      }
+    ],
+    "craftingStation": {
+      "name": {
+        "en": "Haldor",
+        "pt-BR": "Haldor"
+      },
+      "levelByQuality": null
+    },
+    "source": {
+      "page": "Armor",
+      "url": "https://valheim.fandom.com/wiki/Armor"
+    }
+  },
+  {
+    "id": "hood_of_odin_dlc",
+    "name": {
+      "en": "Hood of Odin (DLC)",
+      "pt-BR": "Capuz de Odin"
+    },
+    "aliases": {
+      "en": [
+        "Hood of Odin (DLC)"
+      ],
+      "pt-BR": [
+        "Capuz de Odin"
+      ]
+    },
+    "slot": "head",
+    "armorByQuality": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "weight": 1.0,
+    "additionalEffects": {
+      "en": "",
+      "pt-BR": ""
+    },
+    "ingredients": [
+      {
+        "id": "leather_scraps",
+        "name": {
+          "en": "Leather scraps",
+          "pt-BR": "Retalhos de couro"
+        },
+        "quantityByQuality": [
+          10,
+          5,
+          10,
+          15
+        ]
+      },
+      {
+        "id": "coal",
+        "name": {
+          "en": "Coal",
+          "pt-BR": "Carvão"
+        },
+        "quantityByQuality": [
+          4,
+          2,
+          4,
+          6
+        ]
+      }
+    ],
+    "craftingStation": {
+      "name": {
+        "en": "Workbench",
+        "pt-BR": "Bancada de trabalho"
+      },
+      "levelByQuality": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    "source": {
+      "page": "Armor",
+      "url": "https://valheim.fandom.com/wiki/Armor"
+    }
+  },
+  {
+    "id": "leather_helmet",
+    "name": {
+      "en": "Leather helmet",
+      "pt-BR": "Capacete de couro"
+    },
+    "aliases": {
+      "en": [
+        "Leather helmet"
+      ],
+      "pt-BR": [
+        "Capacete de couro"
+      ]
+    },
+    "slot": "head",
+    "armorByQuality": [
+      2,
+      4,
+      6,
+      8
+    ],
+    "weight": 1.0,
+    "additionalEffects": {
+      "en": "",
+      "pt-BR": ""
+    },
+    "ingredients": [
+      {
+        "id": "deer_hide",
+        "name": {
+          "en": "Deer hide",
+          "pt-BR": "Pele de cervo"
+        },
+        "quantityByQuality": [
+          6,
+          6,
+          12,
+          18
+        ]
+      },
+      {
+        "id": "bone_fragments",
+        "name": {
+          "en": "Bone fragments",
+          "pt-BR": "Fragmentos de osso"
+        },
+        "quantityByQuality": [
+          null,
+          5,
+          10,
+          15
+        ]
+      }
+    ],
+    "craftingStation": {
+      "name": {
+        "en": "Workbench",
+        "pt-BR": "Bancada de trabalho"
+      },
+      "levelByQuality": [
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    "source": {
+      "page": "Armor",
+      "url": "https://valheim.fandom.com/wiki/Armor"
+    }
+  },
+  {
+    "id": "troll_leather_helmet",
+    "name": {
+      "en": "Troll leather helmet",
+      "pt-BR": "Capacete de couro de troll"
+    },
+    "aliases": {
+      "en": [
+        "Troll leather helmet"
+      ],
+      "pt-BR": [
+        "Capacete de couro de troll"
+      ]
+    },
+    "slot": "head",
+    "armorByQuality": [
+      6,
+      8,
+      10,
+      12
+    ],
+    "weight": 1.0,
+    "additionalEffects": {
+      "en": "Troll Set bonus: +15 Sneak (Skill)",
+      "pt-BR": "Bônus do conjunto Troll: +15 de furtividade (habilidade)"
+    },
+    "ingredients": [
+      {
+        "id": "troll_hide",
+        "name": {
+          "en": "Troll hide",
+          "pt-BR": "Pele de troll"
+        },
+        "quantityByQuality": [
+          5,
+          2,
+          4,
+          6
+        ]
+      },
+      {
+        "id": "bone_fragments",
+        "name": {
+          "en": "Bone fragments",
+          "pt-BR": "Fragmentos de osso"
+        },
+        "quantityByQuality": [
+          3,
+          1,
+          2,
+          3
+        ]
+      }
+    ],
+    "craftingStation": {
+      "name": {
+        "en": "Workbench",
+        "pt-BR": "Bancada de trabalho"
+      },
+      "levelByQuality": [
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    "source": {
+      "page": "Armor",
+      "url": "https://valheim.fandom.com/wiki/Armor"
+    }
+  },
+  {
+    "id": "headdress_of_the_bear",
+    "name": {
+      "en": "Headdress of the Bear",
+      "pt-BR": "Cocar do Urso"
+    },
+    "aliases": {
+      "en": [
+        "Headdress of the Bear"
+      ],
+      "pt-BR": [
+        "Cocar do Urso"
+      ]
+    },
+    "slot": "head",
+    "armorByQuality": [
+      7,
+      9,
+      11,
+      13
+    ],
+    "weight": 1.0,
+    "additionalEffects": {
+      "en": "Berserk : +30% Health regen +15% Stamina regen Slightly weak (+25%) vs Blunt, Slash and Pierce +10% Slash and Chop",
+      "pt-BR": "Berserk : +30% regeneração de vida +15% regeneração de vigor Levemente vulnerável (+25%) a contundente, cortante e perfurante +10% de dano cortante e de corte"
+    },
+    "ingredients": [
+      {
+        "id": "bear_hide",
+        "name": {
+          "en": "Bear hide",
+          "pt-BR": "Pele de urso"
+        },
+        "quantityByQuality": [
+          5,
+          2,
+          4,
+          6
+        ]
+      },
+      {
+        "id": "bear_trophy",
+        "name": {
+          "en": "Bear trophy",
+          "pt-BR": "Troféu de urso"
+        },
+        "quantityByQuality": [
+          1,
+          null,
+          null,
+          null
+        ]
+      }
+    ],
+    "craftingStation": {
+      "name": {
+        "en": "Workbench",
+        "pt-BR": "Bancada de trabalho"
+      },
+      "levelByQuality": [
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    "source": {
+      "page": "Armor",
+      "url": "https://valheim.fandom.com/wiki/Armor"
+    }
+  },
+  {
+    "id": "bronze_helmet",
+    "name": {
+      "en": "Bronze helmet",
+      "pt-BR": "Capacete de bronze"
+    },
+    "aliases": {
+      "en": [
+        "Bronze helmet"
+      ],
+      "pt-BR": [
+        "Capacete de bronze"
+      ]
+    },
+    "slot": "head",
+    "armorByQuality": [
+      8,
+      10,
+      12,
+      14
+    ],
+    "weight": 3.0,
+    "additionalEffects": {
+      "en": "",
+      "pt-BR": ""
+    },
+    "ingredients": [
+      {
+        "id": "bronze",
+        "name": {
+          "en": "Bronze",
+          "pt-BR": "Bronze"
+        },
+        "quantityByQuality": [
+          5,
+          3,
+          6,
+          9
+        ]
+      },
+      {
+        "id": "deer_hide",
+        "name": {
+          "en": "Deer hide",
+          "pt-BR": "Pele de cervo"
+        },
+        "quantityByQuality": [
+          2,
+          null,
+          null,
+          null
+        ]
+      }
+    ],
+    "craftingStation": {
+      "name": {
+        "en": "Forge",
+        "pt-BR": "Forja"
+      },
+      "levelByQuality": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    "source": {
+      "page": "Armor",
+      "url": "https://valheim.fandom.com/wiki/Armor"
+    }
+  },
+  {
+    "id": "root_mask",
+    "name": {
+      "en": "Root mask",
+      "pt-BR": "Máscara de raiz"
+    },
+    "aliases": {
+      "en": [
+        "Root mask"
+      ],
+      "pt-BR": [
+        "Máscara de raiz"
+      ]
+    },
+    "slot": "head",
+    "armorByQuality": [
+      8,
+      10,
+      12,
+      14
+    ],
+    "weight": 3.0,
+    "additionalEffects": {
+      "en": "Resistant(0.5x) VS Poison Weak(1.5x) VS Fire Root Set bonus: +15 Bows (Skill)",
+      "pt-BR": "Resistência (0,5x) contra veneno Fraqueza (1,5x) contra fogo Bônus do conjunto Raiz: +15 de arcos (habilidade)"
+    },
+    "ingredients": [
+      {
+        "id": "ancient_bark",
+        "name": {
+          "en": "Ancient bark",
+          "pt-BR": "Casca ancestral"
+        },
+        "quantityByQuality": [
+          10,
+          5,
+          10,
+          15
+        ]
+      },
+      {
+        "id": "leather_scraps",
+        "name": {
+          "en": "Leather scraps",
+          "pt-BR": "Retalhos de couro"
+        },
+        "quantityByQuality": [
+          4,
+          null,
+          null,
+          null
+        ]
+      }
+    ],
+    "craftingStation": {
+      "name": {
+        "en": "Workbench",
+        "pt-BR": "Bancada de trabalho"
+      },
+      "levelByQuality": [
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    "source": {
+      "page": "Armor",
+      "url": "https://valheim.fandom.com/wiki/Armor"
+    }
+  },
+  {
+    "id": "iron_helmet",
+    "name": {
+      "en": "Iron helmet",
+      "pt-BR": "Capacete de ferro"
+    },
+    "aliases": {
+      "en": [
+        "Iron helmet"
+      ],
+      "pt-BR": [
+        "Capacete de ferro"
+      ]
+    },
+    "slot": "head",
+    "armorByQuality": [
+      14,
+      16,
+      18,
+      20
+    ],
+    "weight": 3.0,
+    "additionalEffects": {
+      "en": "",
+      "pt-BR": ""
+    },
+    "ingredients": [
+      {
+        "id": "iron",
+        "name": {
+          "en": "Iron",
+          "pt-BR": "Ferro"
+        },
+        "quantityByQuality": [
+          20,
+          5,
+          10,
+          15
+        ]
+      },
+      {
+        "id": "deer_hide",
+        "name": {
+          "en": "Deer hide",
+          "pt-BR": "Pele de cervo"
+        },
+        "quantityByQuality": [
+          2,
+          null,
+          null,
+          null
+        ]
+      }
+    ],
+    "craftingStation": {
+      "name": {
+        "en": "Forge",
+        "pt-BR": "Forja"
+      },
+      "levelByQuality": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    "source": {
+      "page": "Armor",
+      "url": "https://valheim.fandom.com/wiki/Armor"
+    }
+  },
+  {
+    "id": "fenris_hood",
+    "name": {
+      "en": "Fenris hood",
+      "pt-BR": "Capuz de Fenris"
+    },
+    "aliases": {
+      "en": [
+        "Fenris hood"
+      ],
+      "pt-BR": [
+        "Capuz de Fenris"
+      ]
+    },
+    "slot": "head",
+    "armorByQuality": [
+      10,
+      12,
+      14,
+      16
+    ],
+    "weight": 1.0,
+    "additionalEffects": {
+      "en": "+3% Movement speed Fenris Set bonus: + 15 Fists (Skill) Resistant(0.5x) VS Fire",
+      "pt-BR": "+3% velocidade de movimento Bônus do conjunto Fenris: +15 de punhos (habilidade) Resistência (0,5x) contra fogo"
+    },
+    "ingredients": [
+      {
+        "id": "fenris_hair",
+        "name": {
+          "en": "Fenris hair",
+          "pt-BR": "Pelo de Fenris"
+        },
+        "quantityByQuality": [
+          20,
+          5,
+          10,
+          15
+        ]
+      },
+      {
+        "id": "wolf_pelt",
+        "name": {
+          "en": "Wolf pelt",
+          "pt-BR": "Pele de lobo"
+        },
+        "quantityByQuality": [
+          2,
+          4,
+          8,
+          12
+        ]
+      },
+      {
+        "id": "cultist_trophy",
+        "name": {
+          "en": "Cultist trophy",
+          "pt-BR": "Troféu de cultista"
+        },
+        "quantityByQuality": [
+          1,
+          null,
+          null,
+          null
+        ]
+      }
+    ],
+    "craftingStation": {
+      "name": {
+        "en": "Workbench",
+        "pt-BR": "Bancada de trabalho"
+      },
+      "levelByQuality": [
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    "source": {
+      "page": "Armor",
+      "url": "https://valheim.fandom.com/wiki/Armor"
+    }
+  },
+  {
+    "id": "drake_helmet",
+    "name": {
+      "en": "Drake helmet",
+      "pt-BR": "Capacete de draco"
+    },
+    "aliases": {
+      "en": [
+        "Drake helmet"
+      ],
+      "pt-BR": [
+        "Capacete de draco"
+      ]
+    },
+    "slot": "head",
+    "armorByQuality": [
+      20,
+      22,
+      24,
+      26
+    ],
+    "weight": 3.0,
+    "additionalEffects": {
+      "en": "",
+      "pt-BR": ""
+    },
+    "ingredients": [
+      {
+        "id": "silver",
+        "name": {
+          "en": "Silver",
+          "pt-BR": "Prata"
+        },
+        "quantityByQuality": [
+          20,
+          5,
+          10,
+          15
+        ]
+      },
+      {
+        "id": "wolf_pelt",
+        "name": {
+          "en": "Wolf pelt",
+          "pt-BR": "Pele de lobo"
+        },
+        "quantityByQuality": [
+          2,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "id": "drake_trophy",
+        "name": {
+          "en": "Drake trophy",
+          "pt-BR": "Troféu de draco"
+        },
+        "quantityByQuality": [
+          2,
+          null,
+          null,
+          null
+        ]
+      }
+    ],
+    "craftingStation": {
+      "name": {
+        "en": "Forge",
+        "pt-BR": "Forja"
+      },
+      "levelByQuality": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    "source": {
+      "page": "Armor",
+      "url": "https://valheim.fandom.com/wiki/Armor"
+    }
+  },
+  {
+    "id": "padded_helmet",
+    "name": {
+      "en": "Padded helmet",
+      "pt-BR": "Capacete acolchoado"
+    },
+    "aliases": {
+      "en": [
+        "Padded helmet"
+      ],
+      "pt-BR": [
+        "Capacete acolchoado"
+      ]
+    },
+    "slot": "head",
+    "armorByQuality": [
+      26,
+      28,
+      30,
+      32
+    ],
+    "weight": 3.0,
+    "additionalEffects": {
+      "en": "",
+      "pt-BR": ""
+    },
+    "ingredients": [
+      {
+        "id": "iron",
+        "name": {
+          "en": "Iron",
+          "pt-BR": "Ferro"
+        },
+        "quantityByQuality": [
+          10,
+          5,
+          10,
+          15
+        ]
+      },
+      {
+        "id": "linen_thread",
+        "name": {
+          "en": "Linen thread",
+          "pt-BR": "Fio de linho"
+        },
+        "quantityByQuality": [
+          15,
+          10,
+          20,
+          30
+        ]
+      }
+    ],
+    "craftingStation": {
+      "name": {
+        "en": "Forge",
+        "pt-BR": "Forja"
+      },
+      "levelByQuality": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    "source": {
+      "page": "Armor",
+      "url": "https://valheim.fandom.com/wiki/Armor"
+    }
+  },
+  {
+    "id": "vilebone_visage",
+    "name": {
+      "en": "Vilebone Visage",
+      "pt-BR": "Visagem de osso vil"
+    },
+    "aliases": {
+      "en": [
+        "Vilebone Visage"
+      ],
+      "pt-BR": [
+        "Visagem de osso vil"
+      ]
+    },
+    "slot": "head",
+    "armorByQuality": [
+      12,
+      14,
+      16,
+      18
+    ],
+    "weight": 1.0,
+    "additionalEffects": {
+      "en": "Vilebone Wrath : +20% Health regen +40% Stamina regen Slightly weak (+25%) vs Blunt, Slash and Pierce +20% Blunt +20% Pierce",
+      "pt-BR": "Fúria de Osso Vil : +20% regeneração de vida +40% regeneração de vigor Levemente vulnerável (+25%) a contundente, cortante e perfurante +20% de dano contundente +20% de dano perfurante"
+    },
+    "ingredients": [
+      {
+        "id": "bear_hide",
+        "name": {
+          "en": "Bear hide",
+          "pt-BR": "Pele de urso"
+        },
+        "quantityByQuality": [
+          5,
+          2,
+          4,
+          6
+        ]
+      },
+      {
+        "id": "vile_trophy",
+        "name": {
+          "en": "Vile trophy",
+          "pt-BR": "Troféu vil"
+        },
+        "quantityByQuality": [
+          1,
+          null,
+          null,
+          null
+        ]
+      }
+    ],
+    "craftingStation": {
+      "name": {
+        "en": "Forge",
+        "pt-BR": "Forja"
+      },
+      "levelByQuality": [
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    "source": {
+      "page": "Armor",
+      "url": "https://valheim.fandom.com/wiki/Armor"
+    }
+  },
+  {
+    "id": "eitr_weave_hood",
+    "name": {
+      "en": "Eitr-weave hood",
+      "pt-BR": "Capuz de tecido de eitr"
+    },
+    "aliases": {
+      "en": [
+        "Eitr-weave hood"
+      ],
+      "pt-BR": [
+        "Capuz de tecido de eitr"
+      ]
+    },
+    "slot": "head",
+    "armorByQuality": [
+      16,
+      18,
+      20,
+      22
+    ],
+    "weight": 1.0,
+    "additionalEffects": {
+      "en": "+20% Eitr regen",
+      "pt-BR": "+20% de regeneração de eitr"
+    },
+    "ingredients": [
+      {
+        "id": "iron",
+        "name": {
+          "en": "Iron",
+          "pt-BR": "Ferro"
+        },
+        "quantityByQuality": [
+          2,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "id": "linen_thread",
+        "name": {
+          "en": "Linen thread",
+          "pt-BR": "Fio de linho"
+        },
+        "quantityByQuality": [
+          16,
+          8,
+          16,
+          24
+        ]
+      },
+      {
+        "id": "refined_eitr",
+        "name": {
+          "en": "Refined eitr",
+          "pt-BR": "Eitr refinado"
+        },
+        "quantityByQuality": [
+          15,
+          5,
+          10,
+          15
+        ]
+      }
+    ],
+    "craftingStation": {
+      "name": {
+        "en": "Galdr table",
+        "pt-BR": "Mesa de galdr"
+      },
+      "levelByQuality": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    "source": {
+      "page": "Armor",
+      "url": "https://valheim.fandom.com/wiki/Armor"
+    }
+  },
+  {
+    "id": "carapace_helmet",
+    "name": {
+      "en": "Carapace helmet",
+      "pt-BR": "Capacete de carapaça"
+    },
+    "aliases": {
+      "en": [
+        "Carapace helmet"
+      ],
+      "pt-BR": [
+        "Capacete de carapaça"
+      ]
+    },
+    "slot": "head",
+    "armorByQuality": [
+      32,
+      34,
+      36,
+      38
+    ],
+    "weight": 3.0,
+    "additionalEffects": {
+      "en": "",
+      "pt-BR": ""
+    },
+    "ingredients": [
+      {
+        "id": "carapace",
+        "name": {
+          "en": "Carapace",
+          "pt-BR": "Carapaça"
+        },
+        "quantityByQuality": [
+          16,
+          8,
+          16,
+          24
+        ]
+      },
+      {
+        "id": "scale_hide",
+        "name": {
+          "en": "Scale hide",
+          "pt-BR": "Pele escamada"
+        },
+        "quantityByQuality": [
+          3,
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "id": "mandible",
+        "name": {
+          "en": "Mandible",
+          "pt-BR": "Mandíbula"
+        },
+        "quantityByQuality": [
+          2,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "id": "refined_eitr",
+        "name": {
+          "en": "Refined eitr",
+          "pt-BR": "Eitr refinado"
+        },
+        "quantityByQuality": [
+          4,
+          2,
+          4,
+          6
+        ]
+      }
+    ],
+    "craftingStation": {
+      "name": {
+        "en": "Black forge",
+        "pt-BR": "Forja negra"
+      },
+      "levelByQuality": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    "source": {
+      "page": "Armor",
+      "url": "https://valheim.fandom.com/wiki/Armor"
+    }
+  },
+  {
+    "id": "hood_of_embla",
+    "name": {
+      "en": "Hood of Embla",
+      "pt-BR": "Capuz de Embla"
+    },
+    "aliases": {
+      "en": [
+        "Hood of Embla"
+      ],
+      "pt-BR": [
+        "Capuz de Embla"
+      ]
+    },
+    "slot": "head",
+    "armorByQuality": [
+      19,
+      21,
+      23,
+      25
+    ],
+    "weight": 1.0,
+    "additionalEffects": {
+      "en": "+30% Eitr regen",
+      "pt-BR": "+30% de regeneração de eitr"
+    },
+    "ingredients": [
+      {
+        "id": "linen_thread",
+        "name": {
+          "en": "Linen thread",
+          "pt-BR": "Fio de linho"
+        },
+        "quantityByQuality": [
+          16,
+          8,
+          16,
+          24
+        ]
+      },
+      {
+        "id": "refined_eitr",
+        "name": {
+          "en": "Refined eitr",
+          "pt-BR": "Eitr refinado"
+        },
+        "quantityByQuality": [
+          15,
+          5,
+          10,
+          15
+        ]
+      },
+      {
+        "id": "asksvin_hide",
+        "name": {
+          "en": "Asksvin hide",
+          "pt-BR": "Pele de asksvin"
+        },
+        "quantityByQuality": [
+          2,
+          null,
+          null,
+          null
+        ]
+      }
+    ],
+    "craftingStation": {
+      "name": {
+        "en": "Galdr table",
+        "pt-BR": "Mesa de galdr"
+      },
+      "levelByQuality": [
+        2,
+        3,
+        4,
+        null
+      ]
+    },
+    "source": {
+      "page": "Armor",
+      "url": "https://valheim.fandom.com/wiki/Armor"
+    }
+  },
+  {
+    "id": "hood_of_ask",
+    "name": {
+      "en": "Hood of Ask",
+      "pt-BR": "Capuz de Ask"
+    },
+    "aliases": {
+      "en": [
+        "Hood of Ask"
+      ],
+      "pt-BR": [
+        "Capuz de Ask"
+      ]
+    },
+    "slot": "head",
+    "armorByQuality": [
+      28,
+      30,
+      32,
+      34
+    ],
+    "weight": 1.0,
+    "additionalEffects": {
+      "en": "Ask's Endurance (full set)",
+      "pt-BR": "Resistência de Ask (conjunto completo)"
+    },
+    "ingredients": [
+      {
+        "id": "linen_thread",
+        "name": {
+          "en": "Linen thread",
+          "pt-BR": "Fio de linho"
+        },
+        "quantityByQuality": [
+          15,
+          10,
+          20,
+          30
+        ]
+      },
+      {
+        "id": "lox_pelt",
+        "name": {
+          "en": "Lox pelt",
+          "pt-BR": "Pele de lox"
+        },
+        "quantityByQuality": [
+          4,
+          2,
+          4,
+          6
+        ]
+      },
+      {
+        "id": "asksvin_hide",
+        "name": {
+          "en": "Asksvin hide",
+          "pt-BR": "Pele de asksvin"
+        },
+        "quantityByQuality": [
+          10,
+          5,
+          10,
+          15
+        ]
+      }
+    ],
+    "craftingStation": {
+      "name": {
+        "en": "Black forge",
+        "pt-BR": "Forja negra"
+      },
+      "levelByQuality": [
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "source": {
+      "page": "Armor",
+      "url": "https://valheim.fandom.com/wiki/Armor"
+    }
+  },
+  {
+    "id": "flametal_helmet",
+    "name": {
+      "en": "Flametal helmet",
+      "pt-BR": "Capacete de metal flamejante"
+    },
+    "aliases": {
+      "en": [
+        "Flametal helmet"
+      ],
+      "pt-BR": [
+        "Capacete de metal flamejante"
+      ]
+    },
+    "slot": "head",
+    "armorByQuality": [
+      38,
+      40,
+      42,
+      44
+    ],
+    "weight": 3.0,
+    "additionalEffects": {
+      "en": "",
+      "pt-BR": ""
+    },
+    "ingredients": [
+      {
+        "id": "flametal",
+        "name": {
+          "en": "Flametal",
+          "pt-BR": "Metal flamejante"
+        },
+        "quantityByQuality": [
+          16,
+          8,
+          16,
+          24
+        ]
+      },
+      {
+        "id": "asksvin_hide",
+        "name": {
+          "en": "Asksvin hide",
+          "pt-BR": "Pele de asksvin"
+        },
+        "quantityByQuality": [
+          3,
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "id": "charred_bone",
+        "name": {
+          "en": "Charred bone",
+          "pt-BR": "Osso carbonizado"
+        },
+        "quantityByQuality": [
+          2,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "id": "refined_eitr",
+        "name": {
+          "en": "Refined eitr",
+          "pt-BR": "Eitr refinado"
+        },
+        "quantityByQuality": [
+          4,
+          2,
+          4,
+          6
+        ]
+      }
+    ],
+    "craftingStation": {
+      "name": {
+        "en": "Black forge",
+        "pt-BR": "Forja negra"
+      },
+      "levelByQuality": [
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "source": {
+      "page": "Armor",
+      "url": "https://valheim.fandom.com/wiki/Armor"
+    }
+  },
+  {
+    "id": "hood_of_the_vanguard",
+    "name": {
+      "en": "Hood of the Vanguard",
+      "pt-BR": "Capuz da Vanguarda"
+    },
+    "aliases": {
+      "en": [
+        "Hood of the Vanguard"
+      ],
+      "pt-BR": [
+        "Capuz da Vanguarda"
+      ]
+    },
+    "slot": "head",
+    "armorByQuality": [
+      34,
+      36,
+      38
+    ],
+    "weight": 1.0,
+    "additionalEffects": {
+      "en": "Vanguard set bonus: Run stamina usage: -10% Health regen: +10% Stamina regen: +10% Dodge stamina usage: -20% Pierce: +10%",
+      "pt-BR": "Bônus do conjunto Vanguarda: consumo de vigor ao correr: -10% regeneração de vida: +10% regeneração de vigor: +10% consumo de vigor ao esquivar: -20% Pierce: +10%"
+    },
+    "ingredients": [
+      {
+        "id": "mould_hood_of_the_vanguard",
+        "name": {
+          "en": "Mould: Hood of the Vanguard",
+          "pt-BR": "Molde: Capuz da Vanguarda"
+        },
+        "quantityByQuality": [
+          1,
+          null,
+          null
+        ]
+      }
+    ],
+    "craftingStation": {
+      "name": {
+        "en": "Black forge",
+        "pt-BR": "Forja negra"
+      },
+      "levelByQuality": [
+        4,
+        5,
+        6
+      ]
+    },
+    "source": {
+      "page": "Armor",
+      "url": "https://valheim.fandom.com/wiki/Armor"
+    }
+  },
+  {
+    "id": "rag_tunic",
+    "name": {
+      "en": "Rag tunic",
+      "pt-BR": "Túnica esfarrapada"
+    },
+    "aliases": {
+      "en": [
+        "Rag tunic"
+      ],
+      "pt-BR": [
+        "Túnica esfarrapada"
+      ]
+    },
+    "slot": "chest",
+    "armorByQuality": [
+      1,
+      2,
+      null,
+      null
+    ],
+    "weight": 2.0,
+    "additionalEffects": {
+      "en": "",
+      "pt-BR": ""
+    },
+    "ingredients": [
+      {
+        "id": "leather_scraps",
+        "name": {
+          "en": "Leather scraps",
+          "pt-BR": "Retalhos de couro"
+        },
+        "quantityByQuality": [
+          5,
+          5
+        ]
+      }
+    ],
+    "craftingStation": {
+      "name": {
+        "en": "Workbench",
+        "pt-BR": "Bancada de trabalho"
+      },
+      "levelByQuality": [
+        1,
+        2
+      ]
+    },
+    "source": {
+      "page": "Armor",
+      "url": "https://valheim.fandom.com/wiki/Armor"
+    }
+  },
+  {
+    "id": "leather_tunic",
+    "name": {
+      "en": "Leather tunic",
+      "pt-BR": "Túnica de couro"
+    },
+    "aliases": {
+      "en": [
+        "Leather tunic"
+      ],
+      "pt-BR": [
+        "Túnica de couro"
+      ]
+    },
+    "slot": "chest",
+    "armorByQuality": [
+      2,
+      4,
+      6,
+      8
+    ],
+    "weight": 5.0,
+    "additionalEffects": {
+      "en": "",
+      "pt-BR": ""
+    },
+    "ingredients": [
+      {
+        "id": "deer_hide",
+        "name": {
+          "en": "Deer hide",
+          "pt-BR": "Pele de cervo"
+        },
+        "quantityByQuality": [
+          6,
+          6,
+          12,
+          18
+        ]
+      },
+      {
+        "id": "bone_fragments",
+        "name": {
+          "en": "Bone fragments",
+          "pt-BR": "Fragmentos de osso"
+        },
+        "quantityByQuality": [
+          null,
+          5,
+          10,
+          15
+        ]
+      }
+    ],
+    "craftingStation": {
+      "name": {
+        "en": "Workbench",
+        "pt-BR": "Bancada de trabalho"
+      },
+      "levelByQuality": [
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    "source": {
+      "page": "Armor",
+      "url": "https://valheim.fandom.com/wiki/Armor"
+    }
+  },
+  {
+    "id": "troll_leather_tunic",
+    "name": {
+      "en": "Troll leather tunic",
+      "pt-BR": "Túnica de couro de troll"
+    },
+    "aliases": {
+      "en": [
+        "Troll leather tunic"
+      ],
+      "pt-BR": [
+        "Túnica de couro de troll"
+      ]
+    },
+    "slot": "chest",
+    "armorByQuality": [
+      6,
+      8,
+      10,
+      12
+    ],
+    "weight": 5.0,
+    "additionalEffects": {
+      "en": "Troll Set bonus: +15 Sneak (Skill)",
+      "pt-BR": "Bônus do conjunto Troll: +15 de furtividade (habilidade)"
+    },
+    "ingredients": [
+      {
+        "id": "troll_hide",
+        "name": {
+          "en": "Troll hide",
+          "pt-BR": "Pele de troll"
+        },
+        "quantityByQuality": [
+          5,
+          2,
+          4,
+          6
+        ]
+      }
+    ],
+    "craftingStation": {
+      "name": {
+        "en": "Workbench",
+        "pt-BR": "Bancada de trabalho"
+      },
+      "levelByQuality": [
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    "source": {
+      "page": "Armor",
+      "url": "https://valheim.fandom.com/wiki/Armor"
+    }
+  },
+  {
+    "id": "patterns_of_the_bear",
+    "name": {
+      "en": "Patterns of the Bear",
+      "pt-BR": "Vestes do Urso"
+    },
+    "aliases": {
+      "en": [
+        "Patterns of the Bear"
+      ],
+      "pt-BR": [
+        "Vestes do Urso"
+      ]
+    },
+    "slot": "chest",
+    "armorByQuality": [
+      7,
+      9,
+      11,
+      13
+    ],
+    "weight": 5.0,
+    "additionalEffects": {
+      "en": "Berserk : +30% Health regen +15% Stamina regen Slightly weak (+25%) vs Blunt, Slash and Pierce +10% Slash and Chop",
+      "pt-BR": "Berserk : +30% regeneração de vida +15% regeneração de vigor Levemente vulnerável (+25%) a contundente, cortante e perfurante +10% de dano cortante e de corte"
+    },
+    "ingredients": [
+      {
+        "id": "bear_hide",
+        "name": {
+          "en": "Bear hide",
+          "pt-BR": "Pele de urso"
+        },
+        "quantityByQuality": [
+          5,
+          2,
+          4,
+          6
+        ]
+      },
+      {
+        "id": "bear_paw",
+        "name": {
+          "en": "Bear paw",
+          "pt-BR": "Pata de urso"
+        },
+        "quantityByQuality": [
+          2,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "id": "blueberries",
+        "name": {
+          "en": "Blueberries",
+          "pt-BR": "Mirtilos"
+        },
+        "quantityByQuality": [
+          4,
+          1,
+          2,
+          3
+        ]
+      }
+    ],
+    "craftingStation": {
+      "name": {
+        "en": "Workbench",
+        "pt-BR": "Bancada de trabalho"
+      },
+      "levelByQuality": [
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    "source": {
+      "page": "Armor",
+      "url": "https://valheim.fandom.com/wiki/Armor"
+    }
+  },
+  {
+    "id": "bronze_plate_cuirass",
+    "name": {
+      "en": "Bronze plate cuirass",
+      "pt-BR": "Couraça de bronze"
+    },
+    "aliases": {
+      "en": [
+        "Bronze plate cuirass"
+      ],
+      "pt-BR": [
+        "Couraça de bronze"
+      ]
+    },
+    "slot": "chest",
+    "armorByQuality": [
+      8,
+      10,
+      12,
+      14
+    ],
+    "weight": 10.0,
+    "additionalEffects": {
+      "en": "-5% Movement speed",
+      "pt-BR": "-5% velocidade de movimento"
+    },
+    "ingredients": [
+      {
+        "id": "bronze",
+        "name": {
+          "en": "Bronze",
+          "pt-BR": "Bronze"
+        },
+        "quantityByQuality": [
+          5,
+          3,
+          6,
+          9
+        ]
+      },
+      {
+        "id": "deer_hide",
+        "name": {
+          "en": "Deer hide",
+          "pt-BR": "Pele de cervo"
+        },
+        "quantityByQuality": [
+          2,
+          null,
+          null,
+          null
+        ]
+      }
+    ],
+    "craftingStation": {
+      "name": {
+        "en": "Forge",
+        "pt-BR": "Forja"
+      },
+      "levelByQuality": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    "source": {
+      "page": "Armor",
+      "url": "https://valheim.fandom.com/wiki/Armor"
+    }
+  },
+  {
+    "id": "root_harnesk",
+    "name": {
+      "en": "Root harnesk",
+      "pt-BR": "Peitoral de raiz"
+    },
+    "aliases": {
+      "en": [
+        "Root harnesk"
+      ],
+      "pt-BR": [
+        "Peitoral de raiz"
+      ]
+    },
+    "slot": "chest",
+    "armorByQuality": [
+      8,
+      10,
+      12,
+      14
+    ],
+    "weight": 10.0,
+    "additionalEffects": {
+      "en": "-2% Movement speed Resistant(0.5x) VS Pierce Weak(1.5x) VS Fire Root Set bonus: +15 Bows (Skill)",
+      "pt-BR": "-2% velocidade de movimento Resistência (0,5x) contra perfuração Fraqueza (1,5x) contra fogo Bônus do conjunto Raiz: +15 de arcos (habilidade)"
+    },
+    "ingredients": [
+      {
+        "id": "ancient_bark",
+        "name": {
+          "en": "Ancient bark",
+          "pt-BR": "Casca ancestral"
+        },
+        "quantityByQuality": [
+          10,
+          5,
+          10,
+          15
+        ]
+      },
+      {
+        "id": "deer_hide",
+        "name": {
+          "en": "Deer hide",
+          "pt-BR": "Pele de cervo"
+        },
+        "quantityByQuality": [
+          2,
+          null,
+          null,
+          null
+        ]
+      }
+    ],
+    "craftingStation": {
+      "name": {
+        "en": "Workbench",
+        "pt-BR": "Bancada de trabalho"
+      },
+      "levelByQuality": [
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    "source": {
+      "page": "Armor",
+      "url": "https://valheim.fandom.com/wiki/Armor"
+    }
+  },
+  {
+    "id": "iron_scale_mail",
+    "name": {
+      "en": "Iron scale mail",
+      "pt-BR": "Cota de malha de ferro"
+    },
+    "aliases": {
+      "en": [
+        "Iron scale mail"
+      ],
+      "pt-BR": [
+        "Cota de malha de ferro"
+      ]
+    },
+    "slot": "chest",
+    "armorByQuality": [
+      14,
+      16,
+      18,
+      20
+    ],
+    "weight": 15.0,
+    "additionalEffects": {
+      "en": "-5% Movement speed",
+      "pt-BR": "-5% velocidade de movimento"
+    },
+    "ingredients": [
+      {
+        "id": "iron",
+        "name": {
+          "en": "Iron",
+          "pt-BR": "Ferro"
+        },
+        "quantityByQuality": [
+          20,
+          5,
+          10,
+          15
+        ]
+      },
+      {
+        "id": "deer_hide",
+        "name": {
+          "en": "Deer hide",
+          "pt-BR": "Pele de cervo"
+        },
+        "quantityByQuality": [
+          2,
+          null,
+          null,
+          null
+        ]
+      }
+    ],
+    "craftingStation": {
+      "name": {
+        "en": "Forge",
+        "pt-BR": "Forja"
+      },
+      "levelByQuality": [
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    "source": {
+      "page": "Armor",
+      "url": "https://valheim.fandom.com/wiki/Armor"
+    }
+  },
+  {
+    "id": "fenris_coat",
+    "name": {
+      "en": "Fenris coat",
+      "pt-BR": "Casaco de Fenris"
+    },
+    "aliases": {
+      "en": [
+        "Fenris coat"
+      ],
+      "pt-BR": [
+        "Casaco de Fenris"
+      ]
+    },
+    "slot": "chest",
+    "armorByQuality": [
+      10,
+      12,
+      14,
+      16
+    ],
+    "weight": 1.0,
+    "additionalEffects": {
+      "en": "+3% Movement speed Fenris Set bonus: + 15 Fists (Skill) Resistant(0.5x) VS Frost",
+      "pt-BR": "+3% velocidade de movimento Bônus do conjunto Fenris: +15 de punhos (habilidade) Resistência (0,5x) contra gelo"
+    },
+    "ingredients": [
+      {
+        "id": "fenris_hair",
+        "name": {
+          "en": "Fenris hair",
+          "pt-BR": "Pelo de Fenris"
+        },
+        "quantityByQuality": [
+          20,
+          5,
+          10,
+          15
+        ]
+      },
+      {
+        "id": "wolf_pelt",
+        "name": {
+          "en": "Wolf pelt",
+          "pt-BR": "Pele de lobo"
+        },
+        "quantityByQuality": [
+          5,
+          3,
+          6,
+          9
+        ]
+      },
+      {
+        "id": "leather_scraps",
+        "name": {
+          "en": "Leather scraps",
+          "pt-BR": "Retalhos de couro"
+        },
+        "quantityByQuality": [
+          10,
+          4,
+          8,
+          12
+        ]
+      }
+    ],
+    "craftingStation": {
+      "name": {
+        "en": "Workbench",
+        "pt-BR": "Bancada de trabalho"
+      },
+      "levelByQuality": [
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    "source": {
+      "page": "Armor",
+      "url": "https://valheim.fandom.com/wiki/Armor"
+    }
+  },
+  {
+    "id": "wolf_armor_chest",
+    "name": {
+      "en": "Wolf armor chest",
+      "pt-BR": "Peitoral de lobo"
+    },
+    "aliases": {
+      "en": [
+        "Wolf armor chest"
+      ],
+      "pt-BR": [
+        "Peitoral de lobo"
+      ]
+    },
+    "slot": "chest",
+    "armorByQuality": [
+      20,
+      22,
+      24,
+      26
+    ],
+    "weight": 15.0,
+    "additionalEffects": {
+      "en": "-5% Movement speed Resistant(0.5x) VS Frost",
+      "pt-BR": "-5% velocidade de movimento Resistência (0,5x) contra gelo"
+    },
+    "ingredients": [
+      {
+        "id": "silver",
+        "name": {
+          "en": "Silver",
+          "pt-BR": "Prata"
+        },
+        "quantityByQuality": [
+          20,
+          5,
+          10,
+          15
+        ]
+      },
+      {
+        "id": "wolf_pelt",
+        "name": {
+          "en": "Wolf pelt",
+          "pt-BR": "Pele de lobo"
+        },
+        "quantityByQuality": [
+          5,
+          2,
+          4,
+          6
+        ]
+      },
+      {
+        "id": "chain",
+        "name": {
+          "en": "Chain",
+          "pt-BR": "Corrente"
+        },
+        "quantityByQuality": [
+          1,
+          null,
+          null,
+          null
+        ]
+      }
+    ],
+    "craftingStation": {
+      "name": {
+        "en": "Forge",
+        "pt-BR": "Forja"
+      },
+      "levelByQuality": [
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    "source": {
+      "page": "Armor",
+      "url": "https://valheim.fandom.com/wiki/Armor"
+    }
+  },
+  {
+    "id": "padded_cuirass",
+    "name": {
+      "en": "Padded cuirass",
+      "pt-BR": "Couraça acolchoada"
+    },
+    "aliases": {
+      "en": [
+        "Padded cuirass"
+      ],
+      "pt-BR": [
+        "Couraça acolchoada"
+      ]
+    },
+    "slot": "chest",
+    "armorByQuality": [
+      26,
+      28,
+      30,
+      32
+    ],
+    "weight": 10.0,
+    "additionalEffects": {
+      "en": "-5% Movement speed",
+      "pt-BR": "-5% velocidade de movimento"
+    },
+    "ingredients": [
+      {
+        "id": "iron",
+        "name": {
+          "en": "Iron",
+          "pt-BR": "Ferro"
+        },
+        "quantityByQuality": [
+          10,
+          3,
+          6,
+          9
+        ]
+      },
+      {
+        "id": "linen_thread",
+        "name": {
+          "en": "Linen thread",
+          "pt-BR": "Fio de linho"
+        },
+        "quantityByQuality": [
+          20,
+          10,
+          20,
+          30
+        ]
+      }
+    ],
+    "craftingStation": {
+      "name": {
+        "en": "Forge",
+        "pt-BR": "Forja"
+      },
+      "levelByQuality": [
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    "source": {
+      "page": "Armor",
+      "url": "https://valheim.fandom.com/wiki/Armor"
+    }
+  },
+  {
+    "id": "vilebone_cage",
+    "name": {
+      "en": "Vilebone Cage",
+      "pt-BR": "Couraça de osso vil"
+    },
+    "aliases": {
+      "en": [
+        "Vilebone Cage"
+      ],
+      "pt-BR": [
+        "Couraça de osso vil"
+      ]
+    },
+    "slot": "chest",
+    "armorByQuality": [
+      18,
+      20,
+      22,
+      24
+    ],
+    "weight": 5.0,
+    "additionalEffects": {
+      "en": "Vilebone Wrath : +20% Health regen +40% Stamina regen Slightly weak (+25%) vs Blunt, Slash and Pierce +20% Blunt +20% Pierce",
+      "pt-BR": "Fúria de Osso Vil : +20% regeneração de vida +40% regeneração de vigor Levemente vulnerável (+25%) a contundente, cortante e perfurante +20% de dano contundente +20% de dano perfurante"
+    },
+    "ingredients": [
+      {
+        "id": "bear_hide",
+        "name": {
+          "en": "Bear hide",
+          "pt-BR": "Pele de urso"
+        },
+        "quantityByQuality": [
+          4,
+          2,
+          4,
+          6
+        ]
+      },
+      {
+        "id": "vile_ribcage",
+        "name": {
+          "en": "Vile ribcage",
+          "pt-BR": "Caixa torácica vil"
+        },
+        "quantityByQuality": [
+          3,
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "id": "linen",
+        "name": {
+          "en": "Linen",
+          "pt-BR": "Linho"
+        },
+        "quantityByQuality": [
+          4,
+          1,
+          2,
+          3
+        ]
+      }
+    ],
+    "craftingStation": {
+      "name": {
+        "en": "Forge",
+        "pt-BR": "Forja"
+      },
+      "levelByQuality": [
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    "source": {
+      "page": "Armor",
+      "url": "https://valheim.fandom.com/wiki/Armor"
+    }
+  },
+  {
+    "id": "eitr_weave_robe",
+    "name": {
+      "en": "Eitr-weave robe",
+      "pt-BR": "Manto de tecido de eitr"
+    },
+    "aliases": {
+      "en": [
+        "Eitr-weave robe"
+      ],
+      "pt-BR": [
+        "Manto de tecido de eitr"
+      ]
+    },
+    "slot": "chest",
+    "armorByQuality": [
+      16,
+      18,
+      20,
+      22
+    ],
+    "weight": 5.0,
+    "additionalEffects": {
+      "en": "+40% Eitr regen -2% Movement speed",
+      "pt-BR": "+40% de regeneração de eitr -2% velocidade de movimento"
+    },
+    "ingredients": [
+      {
+        "id": "feathers",
+        "name": {
+          "en": "Feathers",
+          "pt-BR": "Penas"
+        },
+        "quantityByQuality": [
+          10,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "id": "linen_thread",
+        "name": {
+          "en": "Linen thread",
+          "pt-BR": "Fio de linho"
+        },
+        "quantityByQuality": [
+          20,
+          10,
+          20,
+          30
+        ]
+      },
+      {
+        "id": "refined_eitr",
+        "name": {
+          "en": "Refined eitr",
+          "pt-BR": "Eitr refinado"
+        },
+        "quantityByQuality": [
+          20,
+          5,
+          10,
+          15
+        ]
+      },
+      {
+        "id": "scale_hide",
+        "name": {
+          "en": "Scale hide",
+          "pt-BR": "Pele escamada"
+        },
+        "quantityByQuality": [
+          5,
+          null,
+          null,
+          null
+        ]
+      }
+    ],
+    "craftingStation": {
+      "name": {
+        "en": "Galdr table",
+        "pt-BR": "Mesa de galdr"
+      },
+      "levelByQuality": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    "source": {
+      "page": "Armor",
+      "url": "https://valheim.fandom.com/wiki/Armor"
+    }
+  },
+  {
+    "id": "carapace_breastplate",
+    "name": {
+      "en": "Carapace breastplate",
+      "pt-BR": "Peitoral de carapaça"
+    },
+    "aliases": {
+      "en": [
+        "Carapace breastplate"
+      ],
+      "pt-BR": [
+        "Peitoral de carapaça"
+      ]
+    },
+    "slot": "chest",
+    "armorByQuality": [
+      32,
+      34,
+      36,
+      38
+    ],
+    "weight": 10.0,
+    "additionalEffects": {
+      "en": "-5% Movement speed",
+      "pt-BR": "-5% velocidade de movimento"
+    },
+    "ingredients": [
+      {
+        "id": "carapace",
+        "name": {
+          "en": "Carapace",
+          "pt-BR": "Carapaça"
+        },
+        "quantityByQuality": [
+          20,
+          10,
+          20,
+          30
+        ]
+      },
+      {
+        "id": "scale_hide",
+        "name": {
+          "en": "Scale hide",
+          "pt-BR": "Pele escamada"
+        },
+        "quantityByQuality": [
+          3,
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "id": "iron",
+        "name": {
+          "en": "Iron",
+          "pt-BR": "Ferro"
+        },
+        "quantityByQuality": [
+          5,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "id": "refined_eitr",
+        "name": {
+          "en": "Refined eitr",
+          "pt-BR": "Eitr refinado"
+        },
+        "quantityByQuality": [
+          4,
+          2,
+          4,
+          6
+        ]
+      }
+    ],
+    "craftingStation": {
+      "name": {
+        "en": "Black forge",
+        "pt-BR": "Forja negra"
+      },
+      "levelByQuality": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    "source": {
+      "page": "Armor",
+      "url": "https://valheim.fandom.com/wiki/Armor"
+    }
+  },
+  {
+    "id": "robes_of_embla",
+    "name": {
+      "en": "Robes of Embla",
+      "pt-BR": "Vestes de Embla"
+    },
+    "aliases": {
+      "en": [
+        "Robes of Embla"
+      ],
+      "pt-BR": [
+        "Vestes de Embla"
+      ]
+    },
+    "slot": "chest",
+    "armorByQuality": [
+      19,
+      21,
+      23,
+      25
+    ],
+    "weight": 5.0,
+    "additionalEffects": {
+      "en": "+50% Eitr regen -2% Movement speed",
+      "pt-BR": "+50% de regeneração de eitr -2% velocidade de movimento"
+    },
+    "ingredients": [
+      {
+        "id": "linen_thread",
+        "name": {
+          "en": "Linen thread",
+          "pt-BR": "Fio de linho"
+        },
+        "quantityByQuality": [
+          20,
+          10,
+          20,
+          30
+        ]
+      },
+      {
+        "id": "refined_eitr",
+        "name": {
+          "en": "Refined eitr",
+          "pt-BR": "Eitr refinado"
+        },
+        "quantityByQuality": [
+          20,
+          5,
+          10,
+          15
+        ]
+      },
+      {
+        "id": "asksvin_hide",
+        "name": {
+          "en": "Asksvin hide",
+          "pt-BR": "Pele de asksvin"
+        },
+        "quantityByQuality": [
+          10,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "id": "flametal",
+        "name": {
+          "en": "Flametal",
+          "pt-BR": "Metal flamejante"
+        },
+        "quantityByQuality": [
+          5,
+          2,
+          4,
+          6
+        ]
+      }
+    ],
+    "craftingStation": {
+      "name": {
+        "en": "Galdr table",
+        "pt-BR": "Mesa de galdr"
+      },
+      "levelByQuality": [
+        2,
+        3,
+        4,
+        null
+      ]
+    },
+    "source": {
+      "page": "Armor",
+      "url": "https://valheim.fandom.com/wiki/Armor"
+    }
+  },
+  {
+    "id": "breastplate_of_ask",
+    "name": {
+      "en": "Breastplate of Ask",
+      "pt-BR": "Peitoral de Ask"
+    },
+    "aliases": {
+      "en": [
+        "Breastplate of Ask"
+      ],
+      "pt-BR": [
+        "Peitoral de Ask"
+      ]
+    },
+    "slot": "chest",
+    "armorByQuality": [
+      28,
+      30,
+      32,
+      34
+    ],
+    "weight": 5.0,
+    "additionalEffects": {
+      "en": "Ask's Endurance (full set)",
+      "pt-BR": "Resistência de Ask (conjunto completo)"
+    },
+    "ingredients": [
+      {
+        "id": "linen_thread",
+        "name": {
+          "en": "Linen thread",
+          "pt-BR": "Fio de linho"
+        },
+        "quantityByQuality": [
+          15,
+          10,
+          20,
+          30
+        ]
+      },
+      {
+        "id": "lox_pelt",
+        "name": {
+          "en": "Lox pelt",
+          "pt-BR": "Pele de lox"
+        },
+        "quantityByQuality": [
+          4,
+          2,
+          4,
+          6
+        ]
+      },
+      {
+        "id": "asksvin_hide",
+        "name": {
+          "en": "Asksvin hide",
+          "pt-BR": "Pele de asksvin"
+        },
+        "quantityByQuality": [
+          10,
+          5,
+          10,
+          15
+        ]
+      }
+    ],
+    "craftingStation": {
+      "name": {
+        "en": "Black forge",
+        "pt-BR": "Forja negra"
+      },
+      "levelByQuality": [
+        3,
+        4,
+        5,
+        null
+      ]
+    },
+    "source": {
+      "page": "Armor",
+      "url": "https://valheim.fandom.com/wiki/Armor"
+    }
+  },
+  {
+    "id": "flametal_breastplate",
+    "name": {
+      "en": "Flametal breastplate",
+      "pt-BR": "Peitoral de metal flamejante"
+    },
+    "aliases": {
+      "en": [
+        "Flametal breastplate"
+      ],
+      "pt-BR": [
+        "Peitoral de metal flamejante"
+      ]
+    },
+    "slot": "chest",
+    "armorByQuality": [
+      38,
+      40,
+      42,
+      44
+    ],
+    "weight": 10.0,
+    "additionalEffects": {
+      "en": "+20% Heat Resistance -5% Movement speed",
+      "pt-BR": "+20% de resistência ao calor -5% velocidade de movimento"
+    },
+    "ingredients": [
+      {
+        "id": "flametal",
+        "name": {
+          "en": "Flametal",
+          "pt-BR": "Metal flamejante"
+        },
+        "quantityByQuality": [
+          20,
+          10,
+          20,
+          30
+        ]
+      },
+      {
+        "id": "asksvin_hide",
+        "name": {
+          "en": "Asksvin hide",
+          "pt-BR": "Pele de asksvin"
+        },
+        "quantityByQuality": [
+          3,
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "id": "charred_bone",
+        "name": {
+          "en": "Charred bone",
+          "pt-BR": "Osso carbonizado"
+        },
+        "quantityByQuality": [
+          5,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "id": "morgen_heart",
+        "name": {
+          "en": "Morgen heart",
+          "pt-BR": "Coração de morgen"
+        },
+        "quantityByQuality": [
+          1,
+          null,
+          null,
+          null
+        ]
+      }
+    ],
+    "craftingStation": {
+      "name": {
+        "en": "Black forge",
+        "pt-BR": "Forja negra"
+      },
+      "levelByQuality": [
+        3,
+        4,
+        5,
+        null
+      ]
+    },
+    "source": {
+      "page": "Armor",
+      "url": "https://valheim.fandom.com/wiki/Armor"
+    }
+  },
+  {
+    "id": "rag_pants",
+    "name": {
+      "en": "Rag pants",
+      "pt-BR": "Calças esfarrapadas"
+    },
+    "aliases": {
+      "en": [
+        "Rag pants"
+      ],
+      "pt-BR": [
+        "Calças esfarrapadas"
+      ]
+    },
+    "slot": "legs",
+    "armorByQuality": [
+      1,
+      2,
+      null,
+      null
+    ],
+    "weight": 2.0,
+    "additionalEffects": {
+      "en": "",
+      "pt-BR": ""
+    },
+    "ingredients": [
+      {
+        "id": "leather_scraps",
+        "name": {
+          "en": "Leather scraps",
+          "pt-BR": "Retalhos de couro"
+        },
+        "quantityByQuality": [
+          5,
+          5
+        ]
+      }
+    ],
+    "craftingStation": {
+      "name": {
+        "en": "Workbench",
+        "pt-BR": "Bancada de trabalho"
+      },
+      "levelByQuality": [
+        1,
+        2
+      ]
+    },
+    "source": {
+      "page": "Armor",
+      "url": "https://valheim.fandom.com/wiki/Armor"
+    }
+  },
+  {
+    "id": "leather_pants",
+    "name": {
+      "en": "Leather pants",
+      "pt-BR": "Calças de couro"
+    },
+    "aliases": {
+      "en": [
+        "Leather pants"
+      ],
+      "pt-BR": [
+        "Calças de couro"
+      ]
+    },
+    "slot": "legs",
+    "armorByQuality": [
+      2,
+      4,
+      6,
+      8
+    ],
+    "weight": 5.0,
+    "additionalEffects": {
+      "en": "",
+      "pt-BR": ""
+    },
+    "ingredients": [
+      {
+        "id": "deer_hide",
+        "name": {
+          "en": "Deer hide",
+          "pt-BR": "Pele de cervo"
+        },
+        "quantityByQuality": [
+          6,
+          6,
+          12,
+          18
+        ]
+      },
+      {
+        "id": "bone_fragments",
+        "name": {
+          "en": "Bone fragments",
+          "pt-BR": "Fragmentos de osso"
+        },
+        "quantityByQuality": [
+          null,
+          5,
+          10,
+          15
+        ]
+      }
+    ],
+    "craftingStation": {
+      "name": {
+        "en": "Workbench",
+        "pt-BR": "Bancada de trabalho"
+      },
+      "levelByQuality": [
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    "source": {
+      "page": "Armor",
+      "url": "https://valheim.fandom.com/wiki/Armor"
+    }
+  },
+  {
+    "id": "troll_leather_pants",
+    "name": {
+      "en": "Troll leather pants",
+      "pt-BR": "Calças de couro de troll"
+    },
+    "aliases": {
+      "en": [
+        "Troll leather pants"
+      ],
+      "pt-BR": [
+        "Calças de couro de troll"
+      ]
+    },
+    "slot": "legs",
+    "armorByQuality": [
+      6,
+      8,
+      10,
+      12
+    ],
+    "weight": 5.0,
+    "additionalEffects": {
+      "en": "Troll Set bonus: +15 Sneak (Skill)",
+      "pt-BR": "Bônus do conjunto Troll: +15 de furtividade (habilidade)"
+    },
+    "ingredients": [
+      {
+        "id": "troll_hide",
+        "name": {
+          "en": "Troll hide",
+          "pt-BR": "Pele de troll"
+        },
+        "quantityByQuality": [
+          5,
+          2,
+          4,
+          6
+        ]
+      }
+    ],
+    "craftingStation": {
+      "name": {
+        "en": "Workbench",
+        "pt-BR": "Bancada de trabalho"
+      },
+      "levelByQuality": [
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    "source": {
+      "page": "Armor",
+      "url": "https://valheim.fandom.com/wiki/Armor"
+    }
+  },
+  {
+    "id": "loincloth_of_the_bear",
+    "name": {
+      "en": "Loincloth of the Bear",
+      "pt-BR": "Tanga do Urso"
+    },
+    "aliases": {
+      "en": [
+        "Loincloth of the Bear"
+      ],
+      "pt-BR": [
+        "Tanga do Urso"
+      ]
+    },
+    "slot": "legs",
+    "armorByQuality": [
+      7,
+      9,
+      11,
+      13
+    ],
+    "weight": 5.0,
+    "additionalEffects": {
+      "en": "Berserk : +30% Health regen +15% Stamina regen Slightly weak (+25%) vs Blunt, Slash and Pierce +10% Slash and Chop",
+      "pt-BR": "Berserk : +30% regeneração de vida +15% regeneração de vigor Levemente vulnerável (+25%) a contundente, cortante e perfurante +10% de dano cortante e de corte"
+    },
+    "ingredients": [
+      {
+        "id": "bear_hide",
+        "name": {
+          "en": "Bear hide",
+          "pt-BR": "Pele de urso"
+        },
+        "quantityByQuality": [
+          5,
+          2,
+          4,
+          6
+        ]
+      },
+      {
+        "id": "blueberries",
+        "name": {
+          "en": "Blueberries",
+          "pt-BR": "Mirtilos"
+        },
+        "quantityByQuality": [
+          4,
+          1,
+          2,
+          3
+        ]
+      }
+    ],
+    "craftingStation": {
+      "name": {
+        "en": "Workbench",
+        "pt-BR": "Bancada de trabalho"
+      },
+      "levelByQuality": [
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    "source": {
+      "page": "Armor",
+      "url": "https://valheim.fandom.com/wiki/Armor"
+    }
+  },
+  {
+    "id": "bronze_plate_leggings",
+    "name": {
+      "en": "Bronze plate leggings",
+      "pt-BR": "Perneiras de bronze"
+    },
+    "aliases": {
+      "en": [
+        "Bronze plate leggings"
+      ],
+      "pt-BR": [
+        "Perneiras de bronze"
+      ]
+    },
+    "slot": "legs",
+    "armorByQuality": [
+      8,
+      10,
+      12,
+      14
+    ],
+    "weight": 10.0,
+    "additionalEffects": {
+      "en": "-5% Movement speed",
+      "pt-BR": "-5% velocidade de movimento"
+    },
+    "ingredients": [
+      {
+        "id": "bronze",
+        "name": {
+          "en": "Bronze",
+          "pt-BR": "Bronze"
+        },
+        "quantityByQuality": [
+          5,
+          3,
+          6,
+          9
+        ]
+      },
+      {
+        "id": "deer_hide",
+        "name": {
+          "en": "Deer hide",
+          "pt-BR": "Pele de cervo"
+        },
+        "quantityByQuality": [
+          2,
+          null,
+          null,
+          null
+        ]
+      }
+    ],
+    "craftingStation": {
+      "name": {
+        "en": "Forge",
+        "pt-BR": "Forja"
+      },
+      "levelByQuality": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    "source": {
+      "page": "Armor",
+      "url": "https://valheim.fandom.com/wiki/Armor"
+    }
+  },
+  {
+    "id": "root_leggings",
+    "name": {
+      "en": "Root leggings",
+      "pt-BR": "Perneiras de raiz"
+    },
+    "aliases": {
+      "en": [
+        "Root leggings"
+      ],
+      "pt-BR": [
+        "Perneiras de raiz"
+      ]
+    },
+    "slot": "legs",
+    "armorByQuality": [
+      8,
+      10,
+      12,
+      14
+    ],
+    "weight": 10.0,
+    "additionalEffects": {
+      "en": "-2% Movement speed Weak(1.5x) VS Fire Root Set bonus: +15 Bows (Skill)",
+      "pt-BR": "-2% velocidade de movimento Fraqueza (1,5x) contra fogo Bônus do conjunto Raiz: +15 de arcos (habilidade)"
+    },
+    "ingredients": [
+      {
+        "id": "ancient_bark",
+        "name": {
+          "en": "Ancient bark",
+          "pt-BR": "Casca ancestral"
+        },
+        "quantityByQuality": [
+          10,
+          5,
+          10,
+          15
+        ]
+      },
+      {
+        "id": "deer_hide",
+        "name": {
+          "en": "Deer hide",
+          "pt-BR": "Pele de cervo"
+        },
+        "quantityByQuality": [
+          2,
+          null,
+          null,
+          null
+        ]
+      }
+    ],
+    "craftingStation": {
+      "name": {
+        "en": "Workbench",
+        "pt-BR": "Bancada de trabalho"
+      },
+      "levelByQuality": [
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    "source": {
+      "page": "Armor",
+      "url": "https://valheim.fandom.com/wiki/Armor"
+    }
+  },
+  {
+    "id": "iron_greaves",
+    "name": {
+      "en": "Iron greaves",
+      "pt-BR": "Grevas de ferro"
+    },
+    "aliases": {
+      "en": [
+        "Iron greaves"
+      ],
+      "pt-BR": [
+        "Grevas de ferro"
+      ]
+    },
+    "slot": "legs",
+    "armorByQuality": [
+      14,
+      16,
+      18,
+      20
+    ],
+    "weight": 15.0,
+    "additionalEffects": {
+      "en": "-5% Movement speed",
+      "pt-BR": "-5% velocidade de movimento"
+    },
+    "ingredients": [
+      {
+        "id": "iron",
+        "name": {
+          "en": "Iron",
+          "pt-BR": "Ferro"
+        },
+        "quantityByQuality": [
+          20,
+          5,
+          10,
+          15
+        ]
+      },
+      {
+        "id": "deer_hide",
+        "name": {
+          "en": "Deer hide",
+          "pt-BR": "Pele de cervo"
+        },
+        "quantityByQuality": [
+          2,
+          null,
+          null,
+          null
+        ]
+      }
+    ],
+    "craftingStation": {
+      "name": {
+        "en": "Forge",
+        "pt-BR": "Forja"
+      },
+      "levelByQuality": [
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    "source": {
+      "page": "Armor",
+      "url": "https://valheim.fandom.com/wiki/Armor"
+    }
+  },
+  {
+    "id": "fenris_leggings",
+    "name": {
+      "en": "Fenris leggings",
+      "pt-BR": "Perneiras de Fenris"
+    },
+    "aliases": {
+      "en": [
+        "Fenris leggings"
+      ],
+      "pt-BR": [
+        "Perneiras de Fenris"
+      ]
+    },
+    "slot": "legs",
+    "armorByQuality": [
+      10,
+      12,
+      14,
+      16
+    ],
+    "weight": 1.0,
+    "additionalEffects": {
+      "en": "+3% Movement speed Fenris Set bonus: + 15 Fists (Skill) Resistant(0.5x) VS Fire",
+      "pt-BR": "+3% velocidade de movimento Bônus do conjunto Fenris: +15 de punhos (habilidade) Resistência (0,5x) contra fogo"
+    },
+    "ingredients": [
+      {
+        "id": "fenris_hair",
+        "name": {
+          "en": "Fenris hair",
+          "pt-BR": "Pelo de Fenris"
+        },
+        "quantityByQuality": [
+          20,
+          5,
+          10,
+          15
+        ]
+      },
+      {
+        "id": "wolf_pelt",
+        "name": {
+          "en": "Wolf pelt",
+          "pt-BR": "Pele de lobo"
+        },
+        "quantityByQuality": [
+          5,
+          3,
+          6,
+          9
+        ]
+      },
+      {
+        "id": "leather_scraps",
+        "name": {
+          "en": "Leather scraps",
+          "pt-BR": "Retalhos de couro"
+        },
+        "quantityByQuality": [
+          10,
+          4,
+          8,
+          12
+        ]
+      }
+    ],
+    "craftingStation": {
+      "name": {
+        "en": "Workbench",
+        "pt-BR": "Bancada de trabalho"
+      },
+      "levelByQuality": [
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    "source": {
+      "page": "Armor",
+      "url": "https://valheim.fandom.com/wiki/Armor"
+    }
+  },
+  {
+    "id": "wolf_armor_legs",
+    "name": {
+      "en": "Wolf armor legs",
+      "pt-BR": "Perneiras de lobo"
+    },
+    "aliases": {
+      "en": [
+        "Wolf armor legs"
+      ],
+      "pt-BR": [
+        "Perneiras de lobo"
+      ]
+    },
+    "slot": "legs",
+    "armorByQuality": [
+      20,
+      22,
+      24,
+      26
+    ],
+    "weight": 15.0,
+    "additionalEffects": {
+      "en": "-5% Movement speed",
+      "pt-BR": "-5% velocidade de movimento"
+    },
+    "ingredients": [
+      {
+        "id": "silver",
+        "name": {
+          "en": "Silver",
+          "pt-BR": "Prata"
+        },
+        "quantityByQuality": [
+          20,
+          5,
+          10,
+          15
+        ]
+      },
+      {
+        "id": "wolf_pelt",
+        "name": {
+          "en": "Wolf pelt",
+          "pt-BR": "Pele de lobo"
+        },
+        "quantityByQuality": [
+          5,
+          2,
+          4,
+          6
+        ]
+      },
+      {
+        "id": "wolf_fang",
+        "name": {
+          "en": "Wolf fang",
+          "pt-BR": "Presa de lobo"
+        },
+        "quantityByQuality": [
+          4,
+          1,
+          2,
+          3
+        ]
+      }
+    ],
+    "craftingStation": {
+      "name": {
+        "en": "Forge",
+        "pt-BR": "Forja"
+      },
+      "levelByQuality": [
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    "source": {
+      "page": "Armor",
+      "url": "https://valheim.fandom.com/wiki/Armor"
+    }
+  },
+  {
+    "id": "padded_greaves",
+    "name": {
+      "en": "Padded greaves",
+      "pt-BR": "Grevas acolchoadas"
+    },
+    "aliases": {
+      "en": [
+        "Padded greaves"
+      ],
+      "pt-BR": [
+        "Grevas acolchoadas"
+      ]
+    },
+    "slot": "legs",
+    "armorByQuality": [
+      26,
+      28,
+      30,
+      32
+    ],
+    "weight": 10.0,
+    "additionalEffects": {
+      "en": "-5% Movement speed",
+      "pt-BR": "-5% velocidade de movimento"
+    },
+    "ingredients": [
+      {
+        "id": "iron",
+        "name": {
+          "en": "Iron",
+          "pt-BR": "Ferro"
+        },
+        "quantityByQuality": [
+          10,
+          3,
+          6,
+          9
+        ]
+      },
+      {
+        "id": "linen_thread",
+        "name": {
+          "en": "Linen thread",
+          "pt-BR": "Fio de linho"
+        },
+        "quantityByQuality": [
+          20,
+          10,
+          20,
+          30
+        ]
+      }
+    ],
+    "craftingStation": {
+      "name": {
+        "en": "Forge",
+        "pt-BR": "Forja"
+      },
+      "levelByQuality": [
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    "source": {
+      "page": "Armor",
+      "url": "https://valheim.fandom.com/wiki/Armor"
+    }
+  },
+  {
+    "id": "vilebone_drapes",
+    "name": {
+      "en": "Vilebone Drapes",
+      "pt-BR": "Vestes de osso vil"
+    },
+    "aliases": {
+      "en": [
+        "Vilebone Drapes"
+      ],
+      "pt-BR": [
+        "Vestes de osso vil"
+      ]
+    },
+    "slot": "legs",
+    "armorByQuality": [
+      18,
+      20,
+      22,
+      24
+    ],
+    "weight": 5.0,
+    "additionalEffects": {
+      "en": "Vilebone Wrath : +20% Health regen +40% Stamina regen Slightly weak (+25%) vs Blunt, Slash and Pierce +20% Blunt +20% Pierce",
+      "pt-BR": "Fúria de Osso Vil : +20% regeneração de vida +40% regeneração de vigor Levemente vulnerável (+25%) a contundente, cortante e perfurante +20% de dano contundente +20% de dano perfurante"
+    },
+    "ingredients": [
+      {
+        "id": "bear_hide",
+        "name": {
+          "en": "Bear hide",
+          "pt-BR": "Pele de urso"
+        },
+        "quantityByQuality": [
+          10,
+          5,
+          10,
+          15
+        ]
+      },
+      {
+        "id": "vile_ribcage",
+        "name": {
+          "en": "Vile ribcage",
+          "pt-BR": "Caixa torácica vil"
+        },
+        "quantityByQuality": [
+          1,
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "id": "linen",
+        "name": {
+          "en": "Linen",
+          "pt-BR": "Linho"
+        },
+        "quantityByQuality": [
+          4,
+          1,
+          2,
+          3
+        ]
+      }
+    ],
+    "craftingStation": {
+      "name": {
+        "en": "Forge",
+        "pt-BR": "Forja"
+      },
+      "levelByQuality": [
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    "source": {
+      "page": "Armor",
+      "url": "https://valheim.fandom.com/wiki/Armor"
+    }
+  },
+  {
+    "id": "eitr_weave_trousers",
+    "name": {
+      "en": "Eitr-weave trousers",
+      "pt-BR": "Calças de tecido de eitr"
+    },
+    "aliases": {
+      "en": [
+        "Eitr-weave trousers"
+      ],
+      "pt-BR": [
+        "Calças de tecido de eitr"
+      ]
+    },
+    "slot": "legs",
+    "armorByQuality": [
+      16,
+      18,
+      20,
+      22
+    ],
+    "weight": 5.0,
+    "additionalEffects": {
+      "en": "+40% Eitr regen -2% Movement speed",
+      "pt-BR": "+40% de regeneração de eitr -2% velocidade de movimento"
+    },
+    "ingredients": [
+      {
+        "id": "linen_thread",
+        "name": {
+          "en": "Linen thread",
+          "pt-BR": "Fio de linho"
+        },
+        "quantityByQuality": [
+          20,
+          10,
+          20,
+          30
+        ]
+      },
+      {
+        "id": "refined_eitr",
+        "name": {
+          "en": "Refined eitr",
+          "pt-BR": "Eitr refinado"
+        },
+        "quantityByQuality": [
+          20,
+          5,
+          10,
+          15
+        ]
+      },
+      {
+        "id": "scale_hide",
+        "name": {
+          "en": "Scale hide",
+          "pt-BR": "Pele escamada"
+        },
+        "quantityByQuality": [
+          10,
+          null,
+          null,
+          null
+        ]
+      }
+    ],
+    "craftingStation": {
+      "name": {
+        "en": "Galdr table",
+        "pt-BR": "Mesa de galdr"
+      },
+      "levelByQuality": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    "source": {
+      "page": "Armor",
+      "url": "https://valheim.fandom.com/wiki/Armor"
+    }
+  },
+  {
+    "id": "carapace_greaves",
+    "name": {
+      "en": "Carapace greaves",
+      "pt-BR": "Grevas de carapaça"
+    },
+    "aliases": {
+      "en": [
+        "Carapace greaves"
+      ],
+      "pt-BR": [
+        "Grevas de carapaça"
+      ]
+    },
+    "slot": "legs",
+    "armorByQuality": [
+      32,
+      34,
+      36,
+      38
+    ],
+    "weight": 10.0,
+    "additionalEffects": {
+      "en": "-5% Movement speed",
+      "pt-BR": "-5% velocidade de movimento"
+    },
+    "ingredients": [
+      {
+        "id": "carapace",
+        "name": {
+          "en": "Carapace",
+          "pt-BR": "Carapaça"
+        },
+        "quantityByQuality": [
+          20,
+          10,
+          20,
+          30
+        ]
+      },
+      {
+        "id": "scale_hide",
+        "name": {
+          "en": "Scale hide",
+          "pt-BR": "Pele escamada"
+        },
+        "quantityByQuality": [
+          3,
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "id": "iron",
+        "name": {
+          "en": "Iron",
+          "pt-BR": "Ferro"
+        },
+        "quantityByQuality": [
+          5,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "id": "refined_eitr",
+        "name": {
+          "en": "Refined eitr",
+          "pt-BR": "Eitr refinado"
+        },
+        "quantityByQuality": [
+          4,
+          2,
+          4,
+          6
+        ]
+      }
+    ],
+    "craftingStation": {
+      "name": {
+        "en": "Black forge",
+        "pt-BR": "Forja negra"
+      },
+      "levelByQuality": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    "source": {
+      "page": "Armor",
+      "url": "https://valheim.fandom.com/wiki/Armor"
+    }
+  },
+  {
+    "id": "trousers_of_embla",
+    "name": {
+      "en": "Trousers of Embla",
+      "pt-BR": "Calças de Embla"
+    },
+    "aliases": {
+      "en": [
+        "Trousers of Embla"
+      ],
+      "pt-BR": [
+        "Calças de Embla"
+      ]
+    },
+    "slot": "legs",
+    "armorByQuality": [
+      19,
+      21,
+      23,
+      25
+    ],
+    "weight": 5.0,
+    "additionalEffects": {
+      "en": "+50% Eitr regen -2% Movement speed",
+      "pt-BR": "+50% de regeneração de eitr -2% velocidade de movimento"
+    },
+    "ingredients": [
+      {
+        "id": "linen_thread",
+        "name": {
+          "en": "Linen thread",
+          "pt-BR": "Fio de linho"
+        },
+        "quantityByQuality": [
+          20,
+          10,
+          20,
+          30
+        ]
+      },
+      {
+        "id": "refined_eitr",
+        "name": {
+          "en": "Refined eitr",
+          "pt-BR": "Eitr refinado"
+        },
+        "quantityByQuality": [
+          20,
+          5,
+          10,
+          15
+        ]
+      },
+      {
+        "id": "asksvin_hide",
+        "name": {
+          "en": "Asksvin hide",
+          "pt-BR": "Pele de asksvin"
+        },
+        "quantityByQuality": [
+          10,
+          null,
+          null,
+          null
+        ]
+      }
+    ],
+    "craftingStation": {
+      "name": {
+        "en": "Galdr table",
+        "pt-BR": "Mesa de galdr"
+      },
+      "levelByQuality": [
+        2,
+        3,
+        4,
+        null
+      ]
+    },
+    "source": {
+      "page": "Armor",
+      "url": "https://valheim.fandom.com/wiki/Armor"
+    }
+  },
+  {
+    "id": "trousers_of_ask",
+    "name": {
+      "en": "Trousers of Ask",
+      "pt-BR": "Calças de Ask"
+    },
+    "aliases": {
+      "en": [
+        "Trousers of Ask"
+      ],
+      "pt-BR": [
+        "Calças de Ask"
+      ]
+    },
+    "slot": "legs",
+    "armorByQuality": [
+      28,
+      30,
+      32,
+      34
+    ],
+    "weight": 5.0,
+    "additionalEffects": {
+      "en": "Ask's Endurance (full set)",
+      "pt-BR": "Resistência de Ask (conjunto completo)"
+    },
+    "ingredients": [
+      {
+        "id": "linen_thread",
+        "name": {
+          "en": "Linen thread",
+          "pt-BR": "Fio de linho"
+        },
+        "quantityByQuality": [
+          15,
+          10,
+          20,
+          30
+        ]
+      },
+      {
+        "id": "lox_pelt",
+        "name": {
+          "en": "Lox pelt",
+          "pt-BR": "Pele de lox"
+        },
+        "quantityByQuality": [
+          4,
+          2,
+          4,
+          6
+        ]
+      },
+      {
+        "id": "asksvin_hide",
+        "name": {
+          "en": "Asksvin hide",
+          "pt-BR": "Pele de asksvin"
+        },
+        "quantityByQuality": [
+          10,
+          5,
+          10,
+          15
+        ]
+      }
+    ],
+    "craftingStation": {
+      "name": {
+        "en": "Black forge",
+        "pt-BR": "Forja negra"
+      },
+      "levelByQuality": [
+        3,
+        4,
+        5,
+        null
+      ]
+    },
+    "source": {
+      "page": "Armor",
+      "url": "https://valheim.fandom.com/wiki/Armor"
+    }
+  },
+  {
+    "id": "flametal_greaves",
+    "name": {
+      "en": "Flametal Greaves",
+      "pt-BR": "Grevas de metal flamejante"
+    },
+    "aliases": {
+      "en": [
+        "Flametal Greaves"
+      ],
+      "pt-BR": [
+        "Grevas de metal flamejante"
+      ]
+    },
+    "slot": "legs",
+    "armorByQuality": [
+      38,
+      40,
+      42,
+      44
+    ],
+    "weight": 10.0,
+    "additionalEffects": {
+      "en": "+20% Heat Resistance -5% Movement speed",
+      "pt-BR": "+20% de resistência ao calor -5% velocidade de movimento"
+    },
+    "ingredients": [
+      {
+        "id": "flametal",
+        "name": {
+          "en": "Flametal",
+          "pt-BR": "Metal flamejante"
+        },
+        "quantityByQuality": [
+          20,
+          10,
+          20,
+          30
+        ]
+      },
+      {
+        "id": "asksvin_hide",
+        "name": {
+          "en": "Asksvin hide",
+          "pt-BR": "Pele de asksvin"
+        },
+        "quantityByQuality": [
+          3,
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "id": "charred_bone",
+        "name": {
+          "en": "Charred bone",
+          "pt-BR": "Osso carbonizado"
+        },
+        "quantityByQuality": [
+          5,
+          null,
+          null,
+          null
+        ]
+      }
+    ],
+    "craftingStation": {
+      "name": {
+        "en": "Black forge",
+        "pt-BR": "Forja negra"
+      },
+      "levelByQuality": [
+        3,
+        4,
+        5,
+        null
+      ]
+    },
+    "source": {
+      "page": "Armor",
+      "url": "https://valheim.fandom.com/wiki/Armor"
+    }
+  }
+]

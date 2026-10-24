@@ -1,0 +1,1027 @@
+[
+  {
+    "name": {
+      "en": "Fire resistance barley wine",
+      "pt-BR": "Vinho de cevada de resistência ao fogo"
+    },
+    "ingredients": [
+      {
+        "id": "barley",
+        "name": {
+          "en": "Barley",
+          "pt-BR": "Cevada"
+        },
+        "quantity": 10
+      },
+      {
+        "id": "cloudberries",
+        "name": {
+          "en": "Cloudberries",
+          "pt-BR": "Amora do Ártico"
+        },
+        "quantity": 10
+      }
+    ],
+    "recipeOutput": 6,
+    "effect": {
+      "en": "Fire resistance",
+      "pt-BR": "Resistência ao fogo"
+    },
+    "duration": "10m",
+    "cooldown": "10m",
+    "id": "fire_resistance_barley_wine",
+    "aliases": {
+      "en": [
+        "Fire resistance barley wine"
+      ],
+      "pt-BR": [
+        "Vinho de cevada de resistência ao fogo"
+      ]
+    }
+  },
+  {
+    "name": {
+      "en": "Frost resistance mead",
+      "pt-BR": "Hidromel de resistência contra gelo"
+    },
+    "ingredients": [
+      {
+        "id": "honey",
+        "name": {
+          "en": "Honey",
+          "pt-BR": "Mel"
+        },
+        "quantity": 10
+      },
+      {
+        "id": "thistle",
+        "name": {
+          "en": "Thistle",
+          "pt-BR": "Cardo"
+        },
+        "quantity": 5
+      },
+      {
+        "id": "bloodbag",
+        "name": {
+          "en": "Bloodbag",
+          "pt-BR": "Bolsa de sangue"
+        },
+        "quantity": 2
+      },
+      {
+        "id": "greydwarf_eye",
+        "name": {
+          "en": "Greydwarf eye",
+          "pt-BR": "Olho de Anão Cinzento"
+        },
+        "quantity": 1
+      }
+    ],
+    "recipeOutput": 6,
+    "effect": {
+      "en": "Frost resistance",
+      "pt-BR": "Resistência ao frio"
+    },
+    "duration": "10m",
+    "cooldown": "10m",
+    "id": "frost_resistance_mead",
+    "aliases": {
+      "en": [
+        "Frost resistance mead"
+      ],
+      "pt-BR": [
+        "Hidromel de resistência contra gelo"
+      ]
+    }
+  },
+  {
+    "name": {
+      "en": "Minor healing mead",
+      "pt-BR": "Hidromel saudável"
+    },
+    "ingredients": [
+      {
+        "id": "honey",
+        "name": {
+          "en": "Honey",
+          "pt-BR": "Mel"
+        },
+        "quantity": 10
+      },
+      {
+        "id": "blueberries",
+        "name": {
+          "en": "Blueberries",
+          "pt-BR": "Mirtilos"
+        },
+        "quantity": 5
+      },
+      {
+        "id": "raspberries",
+        "name": {
+          "en": "Raspberries",
+          "pt-BR": "Framboesa"
+        },
+        "quantity": 10
+      },
+      {
+        "id": "dandelion",
+        "name": {
+          "en": "Dandelion",
+          "pt-BR": "Dente-de-leão"
+        },
+        "quantity": 1
+      }
+    ],
+    "recipeOutput": 6,
+    "effect": {
+      "en": "50 health",
+      "pt-BR": "50 de vida"
+    },
+    "duration": "10s",
+    "cooldown": "2m",
+    "id": "minor_healing_mead",
+    "aliases": {
+      "en": [
+        "Minor healing mead"
+      ],
+      "pt-BR": [
+        "Hidromel saudável"
+      ]
+    }
+  },
+  {
+    "name": {
+      "en": "Medium healing mead",
+      "pt-BR": "Hidromel muito saudável"
+    },
+    "ingredients": [
+      {
+        "id": "honey",
+        "name": {
+          "en": "Honey",
+          "pt-BR": "Mel"
+        },
+        "quantity": 10
+      },
+      {
+        "id": "bloodbag",
+        "name": {
+          "en": "Bloodbag",
+          "pt-BR": "Bolsa de sangue"
+        },
+        "quantity": 4
+      },
+      {
+        "id": "raspberries",
+        "name": {
+          "en": "Raspberries",
+          "pt-BR": "Framboesa"
+        },
+        "quantity": 10
+      },
+      {
+        "id": "dandelion",
+        "name": {
+          "en": "Dandelion",
+          "pt-BR": "Dente-de-leão"
+        },
+        "quantity": 1
+      }
+    ],
+    "recipeOutput": 6,
+    "effect": {
+      "en": "75 health",
+      "pt-BR": "75 de vida"
+    },
+    "duration": "10s",
+    "cooldown": "2m",
+    "id": "medium_healing_mead",
+    "aliases": {
+      "en": [
+        "Medium healing mead"
+      ],
+      "pt-BR": [
+        "Hidromel muito saudável"
+      ]
+    }
+  },
+  {
+    "name": {
+      "en": "Major healing mead",
+      "pt-BR": "Hidromel de cura maior"
+    },
+    "ingredients": [
+      {
+        "id": "honey",
+        "name": {
+          "en": "Honey",
+          "pt-BR": "Mel"
+        },
+        "quantity": 10
+      },
+      {
+        "id": "blood_clot",
+        "name": {
+          "en": "Blood clot",
+          "pt-BR": "Coágulo de sangue"
+        },
+        "quantity": 4
+      },
+      {
+        "id": "royal_jelly",
+        "name": {
+          "en": "Royal jelly",
+          "pt-BR": "Geleia real"
+        },
+        "quantity": 5
+      }
+    ],
+    "recipeOutput": 6,
+    "effect": {
+      "en": "125 health",
+      "pt-BR": "125 de vida"
+    },
+    "duration": "10s",
+    "cooldown": "2m",
+    "id": "major_healing_mead",
+    "aliases": {
+      "en": [
+        "Major healing mead"
+      ],
+      "pt-BR": [
+        "Hidromel de cura maior"
+      ]
+    }
+  },
+  {
+    "name": {
+      "en": "Lingering healing mead",
+      "pt-BR": "Hidromel de cura prolongada"
+    },
+    "ingredients": [
+      {
+        "id": "sap",
+        "name": {
+          "en": "Sap",
+          "pt-BR": "Seiva"
+        },
+        "quantity": 10
+      },
+      {
+        "id": "vineberry_cluster",
+        "name": {
+          "en": "Vineberry cluster",
+          "pt-BR": "Cacho de videibagas"
+        },
+        "quantity": 10
+      },
+      {
+        "id": "smoke_puff",
+        "name": {
+          "en": "Smoke puff",
+          "pt-BR": "Sopro de fumaça"
+        },
+        "quantity": 10
+      }
+    ],
+    "recipeOutput": 6,
+    "effect": {
+      "en": "+25% health regen",
+      "pt-BR": "+25% de regeneração de vida"
+    },
+    "duration": "5m",
+    "cooldown": "5m",
+    "id": "lingering_healing_mead",
+    "aliases": {
+      "en": [
+        "Lingering healing mead"
+      ],
+      "pt-BR": [
+        "Hidromel de cura prolongada"
+      ]
+    }
+  },
+  {
+    "name": {
+      "en": "Minor stamina mead",
+      "pt-BR": "Hidromel de vigor"
+    },
+    "ingredients": [
+      {
+        "id": "honey",
+        "name": {
+          "en": "Honey",
+          "pt-BR": "Mel"
+        },
+        "quantity": 10
+      },
+      {
+        "id": "raspberries",
+        "name": {
+          "en": "Raspberries",
+          "pt-BR": "Framboesa"
+        },
+        "quantity": 10
+      },
+      {
+        "id": "yellow_mushroom",
+        "name": {
+          "en": "Yellow mushroom",
+          "pt-BR": "Cogumelo amarelo"
+        },
+        "quantity": 10
+      }
+    ],
+    "recipeOutput": 6,
+    "effect": {
+      "en": "80 stamina",
+      "pt-BR": "80 de vigor"
+    },
+    "duration": "2s",
+    "cooldown": "2m",
+    "id": "minor_stamina_mead",
+    "aliases": {
+      "en": [
+        "Minor stamina mead"
+      ],
+      "pt-BR": [
+        "Hidromel de vigor"
+      ]
+    }
+  },
+  {
+    "name": {
+      "en": "Medium stamina mead",
+      "pt-BR": "Hidromel de vigor médio"
+    },
+    "ingredients": [
+      {
+        "id": "honey",
+        "name": {
+          "en": "Honey",
+          "pt-BR": "Mel"
+        },
+        "quantity": 10
+      },
+      {
+        "id": "cloudberries",
+        "name": {
+          "en": "Cloudberries",
+          "pt-BR": "Amora do Ártico"
+        },
+        "quantity": 10
+      },
+      {
+        "id": "yellow_mushroom",
+        "name": {
+          "en": "Yellow mushroom",
+          "pt-BR": "Cogumelo amarelo"
+        },
+        "quantity": 10
+      }
+    ],
+    "recipeOutput": 6,
+    "effect": {
+      "en": "160 stamina",
+      "pt-BR": "160 de vigor"
+    },
+    "duration": "2s",
+    "cooldown": "2m",
+    "id": "medium_stamina_mead",
+    "aliases": {
+      "en": [
+        "Medium stamina mead"
+      ],
+      "pt-BR": [
+        "Hidromel de vigor médio"
+      ]
+    }
+  },
+  {
+    "name": {
+      "en": "Lingering stamina mead",
+      "pt-BR": "Hidromel de vigor prolongado"
+    },
+    "ingredients": [
+      {
+        "id": "sap",
+        "name": {
+          "en": "Sap",
+          "pt-BR": "Seiva"
+        },
+        "quantity": 10
+      },
+      {
+        "id": "cloudberries",
+        "name": {
+          "en": "Cloudberries",
+          "pt-BR": "Amora do Ártico"
+        },
+        "quantity": 10
+      },
+      {
+        "id": "jotun_puffs",
+        "name": {
+          "en": "Jotun puffs",
+          "pt-BR": "Sopro de Jotun"
+        },
+        "quantity": 10
+      }
+    ],
+    "recipeOutput": 6,
+    "effect": {
+      "en": "+25% stamina regen",
+      "pt-BR": "+25% de regeneração de vigor"
+    },
+    "duration": "5m",
+    "cooldown": "5m",
+    "id": "lingering_stamina_mead",
+    "aliases": {
+      "en": [
+        "Lingering stamina mead"
+      ],
+      "pt-BR": [
+        "Hidromel de vigor prolongado"
+      ]
+    }
+  },
+  {
+    "name": {
+      "en": "Minor eitr mead",
+      "pt-BR": "Hidromel de éter menor"
+    },
+    "ingredients": [
+      {
+        "id": "honey",
+        "name": {
+          "en": "Honey",
+          "pt-BR": "Mel"
+        },
+        "quantity": 10
+      },
+      {
+        "id": "sap",
+        "name": {
+          "en": "Sap",
+          "pt-BR": "Seiva"
+        },
+        "quantity": 5
+      },
+      {
+        "id": "jotun_puffs",
+        "name": {
+          "en": "Jotun puffs",
+          "pt-BR": "Sopro de Jotun"
+        },
+        "quantity": 2
+      },
+      {
+        "id": "magecap",
+        "name": {
+          "en": "Magecap",
+          "pt-BR": "Cogumelo mágico"
+        },
+        "quantity": 5
+      }
+    ],
+    "recipeOutput": 6,
+    "effect": {
+      "en": "125 Eitr",
+      "pt-BR": "125 de éter"
+    },
+    "duration": "10s",
+    "cooldown": "2m",
+    "id": "minor_eitr_mead",
+    "aliases": {
+      "en": [
+        "Minor eitr mead"
+      ],
+      "pt-BR": [
+        "Hidromel de éter menor"
+      ]
+    }
+  },
+  {
+    "name": {
+      "en": "Lingering eitr mead",
+      "pt-BR": "Hidromel de éter prolongado"
+    },
+    "ingredients": [
+      {
+        "id": "sap",
+        "name": {
+          "en": "Sap",
+          "pt-BR": "Seiva"
+        },
+        "quantity": 10
+      },
+      {
+        "id": "vineberry_cluster",
+        "name": {
+          "en": "Vineberry cluster",
+          "pt-BR": "Cacho de videibagas"
+        },
+        "quantity": 10
+      },
+      {
+        "id": "magecap",
+        "name": {
+          "en": "Magecap",
+          "pt-BR": "Cogumelo mágico"
+        },
+        "quantity": 10
+      }
+    ],
+    "recipeOutput": 6,
+    "effect": {
+      "en": "+25% Eitr regen",
+      "pt-BR": "+25% de regeneração de éter"
+    },
+    "duration": "5m",
+    "cooldown": "5m",
+    "id": "lingering_eitr_mead",
+    "aliases": {
+      "en": [
+        "Lingering eitr mead"
+      ],
+      "pt-BR": [
+        "Hidromel de éter prolongado"
+      ]
+    }
+  },
+  {
+    "name": {
+      "en": "Poison resistance mead",
+      "pt-BR": "Hidromel de resistência a veneno"
+    },
+    "ingredients": [
+      {
+        "id": "honey",
+        "name": {
+          "en": "Honey",
+          "pt-BR": "Mel"
+        },
+        "quantity": 10
+      },
+      {
+        "id": "thistle",
+        "name": {
+          "en": "Thistle",
+          "pt-BR": "Cardo"
+        },
+        "quantity": 5
+      },
+      {
+        "id": "neck_tail",
+        "name": {
+          "en": "Neck tail",
+          "pt-BR": "Rabo de lagarto"
+        },
+        "quantity": 1
+      },
+      {
+        "id": "coal",
+        "name": {
+          "en": "Coal",
+          "pt-BR": "Carvão"
+        },
+        "quantity": 10
+      }
+    ],
+    "recipeOutput": 6,
+    "effect": {
+      "en": "Poison resistance",
+      "pt-BR": "Resistência a veneno"
+    },
+    "duration": "10m",
+    "cooldown": "10m",
+    "id": "poison_resistance_mead",
+    "aliases": {
+      "en": [
+        "Poison resistance mead"
+      ],
+      "pt-BR": [
+        "Hidromel de resistência a veneno"
+      ]
+    }
+  },
+  {
+    "name": {
+      "en": "Tasty mead",
+      "pt-BR": "Hidromel saboroso"
+    },
+    "ingredients": [
+      {
+        "id": "honey",
+        "name": {
+          "en": "Honey",
+          "pt-BR": "Mel"
+        },
+        "quantity": 10
+      },
+      {
+        "id": "raspberries",
+        "name": {
+          "en": "Raspberries",
+          "pt-BR": "Framboesa"
+        },
+        "quantity": 10
+      },
+      {
+        "id": "blueberries",
+        "name": {
+          "en": "Blueberries",
+          "pt-BR": "Mirtilos"
+        },
+        "quantity": 5
+      }
+    ],
+    "recipeOutput": 6,
+    "effect": {
+      "en": "-50% health regen +100% stamina regen",
+      "pt-BR": "-50% de regeneração de vida, +100% de regeneração de vigor"
+    },
+    "duration": "10s",
+    "cooldown": "10s",
+    "id": "tasty_mead",
+    "aliases": {
+      "en": [
+        "Tasty mead"
+      ],
+      "pt-BR": [
+        "Hidromel saboroso"
+      ]
+    }
+  },
+  {
+    "name": {
+      "en": "Love potion",
+      "pt-BR": "Poção do amor"
+    },
+    "ingredients": [
+      {
+        "id": "coins",
+        "name": {
+          "en": "Coins",
+          "pt-BR": "Moedas"
+        },
+        "quantity": 110
+      }
+    ],
+    "recipeOutput": 5,
+    "effect": {
+      "en": "Increases Troll spawning",
+      "pt-BR": "Aumenta o surgimento de Trolls"
+    },
+    "duration": "5m",
+    "cooldown": "0s",
+    "meadBase": null,
+    "id": "love_potion",
+    "aliases": {
+      "en": [
+        "Love potion"
+      ],
+      "pt-BR": [
+        "Poção do amor"
+      ]
+    }
+  },
+  {
+    "name": {
+      "en": "Berserkir mead",
+      "pt-BR": "Hidromel da fúria"
+    },
+    "ingredients": [
+      {
+        "id": "mushroom",
+        "name": {
+          "en": "Mushroom",
+          "pt-BR": "Cogumelo"
+        },
+        "quantity": 10
+      },
+      {
+        "id": "yellow_mushroom",
+        "name": {
+          "en": "Yellow mushroom",
+          "pt-BR": "Cogumelo amarelo"
+        },
+        "quantity": 10
+      },
+      {
+        "id": "toadstool",
+        "name": {
+          "en": "Toadstool",
+          "pt-BR": "Amanita"
+        },
+        "quantity": 1
+      }
+    ],
+    "recipeOutput": 3,
+    "effect": {
+      "en": "Attack, Block and Dodge Stamina use -80% Weak (x1.5) against Slash , Blunt and Pierce damage",
+      "pt-BR": "Consumo de vigor de ataque, bloqueio e esquiva -80%; fraco (x1,5) contra dano cortante, contundente e perfurante"
+    },
+    "duration": "20s",
+    "cooldown": "2m",
+    "id": "berserkir_mead",
+    "aliases": {
+      "en": [
+        "Berserkir mead"
+      ],
+      "pt-BR": [
+        "Hidromel da fúria"
+      ]
+    }
+  },
+  {
+    "name": {
+      "en": "Anti-sting concoction",
+      "pt-BR": "Mistura repelente de mortesquito"
+    },
+    "ingredients": [
+      {
+        "id": "cloudberries",
+        "name": {
+          "en": "Cloudberries",
+          "pt-BR": "Amora do Ártico"
+        },
+        "quantity": 10
+      },
+      {
+        "id": "grouper",
+        "name": {
+          "en": "Grouper",
+          "pt-BR": "Garoupa"
+        },
+        "quantity": 3
+      },
+      {
+        "id": "fragrant_bundle",
+        "name": {
+          "en": "Fragrant bundle",
+          "pt-BR": "Punhado perfumado"
+        },
+        "quantity": 1
+      }
+    ],
+    "recipeOutput": 6,
+    "effect": {
+      "en": "Prevent Deathsquito attacks",
+      "pt-BR": "Impede ataques de mortesquitos"
+    },
+    "duration": "10m",
+    "cooldown": "0s",
+    "id": "anti_sting_concoction",
+    "aliases": {
+      "en": [
+        "Anti-sting concoction"
+      ],
+      "pt-BR": [
+        "Mistura repelente de mortesquito"
+      ]
+    }
+  },
+  {
+    "name": {
+      "en": "Draught of Vananidir",
+      "pt-BR": "Elixir de Vananidir"
+    },
+    "ingredients": [
+      {
+        "id": "dandelion",
+        "name": {
+          "en": "Dandelion",
+          "pt-BR": "Dente-de-leão"
+        },
+        "quantity": 10
+      },
+      {
+        "id": "perch",
+        "name": {
+          "en": "Perch",
+          "pt-BR": "Perca"
+        },
+        "quantity": 2
+      },
+      {
+        "id": "fresh_seaweed",
+        "name": {
+          "en": "Fresh seaweed",
+          "pt-BR": "Algas marinhas frescas"
+        },
+        "quantity": 1
+      }
+    ],
+    "recipeOutput": 6,
+    "effect": {
+      "en": "-50% swimming stamina consumption",
+      "pt-BR": "-50% de consumo de vigor ao nadar"
+    },
+    "duration": "5m",
+    "cooldown": "0s",
+    "id": "draught_of_vananidir",
+    "aliases": {
+      "en": [
+        "Draught of Vananidir"
+      ],
+      "pt-BR": [
+        "Elixir de Vananidir"
+      ]
+    }
+  },
+  {
+    "name": {
+      "en": "Tonic of Ratatosk",
+      "pt-BR": "Tônico de Ratatosk"
+    },
+    "ingredients": [
+      {
+        "id": "honey",
+        "name": {
+          "en": "Honey",
+          "pt-BR": "Mel"
+        },
+        "quantity": 10
+      },
+      {
+        "id": "blueberries",
+        "name": {
+          "en": "Blueberries",
+          "pt-BR": "Mirtilos"
+        },
+        "quantity": 10
+      },
+      {
+        "id": "cured_squirrel_hamstring",
+        "name": {
+          "en": "Cured squirrel hamstring",
+          "pt-BR": "Tendão de esquilo curado"
+        },
+        "quantity": 1
+      }
+    ],
+    "recipeOutput": 6,
+    "effect": {
+      "en": "+15% walking and running speed +7.5% swimming speed",
+      "pt-BR": "+15% de velocidade ao andar e correr; +7,5% de velocidade ao nadar"
+    },
+    "duration": "10m",
+    "cooldown": "0s",
+    "id": "tonic_of_ratatosk",
+    "aliases": {
+      "en": [
+        "Tonic of Ratatosk"
+      ],
+      "pt-BR": [
+        "Tônico de Ratatosk"
+      ]
+    }
+  },
+  {
+    "name": {
+      "en": "Mead of Troll endurance",
+      "pt-BR": "Hidromel de força de troll"
+    },
+    "ingredients": [
+      {
+        "id": "trollfish",
+        "name": {
+          "en": "Trollfish",
+          "pt-BR": "Peixe Troll"
+        },
+        "quantity": 2
+      },
+      {
+        "id": "honey",
+        "name": {
+          "en": "Honey",
+          "pt-BR": "Mel"
+        },
+        "quantity": 10
+      },
+      {
+        "id": "powdered_dragon_eggshells",
+        "name": {
+          "en": "Powdered dragon eggshells",
+          "pt-BR": "Casca de ovo de dragão em pó"
+        },
+        "quantity": 1
+      }
+    ],
+    "recipeOutput": 6,
+    "effect": {
+      "en": "+250 carry weight",
+      "pt-BR": "+250 de capacidade de carga"
+    },
+    "duration": "5m",
+    "cooldown": "2m",
+    "id": "mead_of_troll_endurance",
+    "aliases": {
+      "en": [
+        "Mead of Troll endurance"
+      ],
+      "pt-BR": [
+        "Hidromel de força de troll"
+      ]
+    }
+  },
+  {
+    "name": {
+      "en": "Brew of animal whispers",
+      "pt-BR": "Infusão de sussurros selvagens"
+    },
+    "ingredients": [
+      {
+        "id": "onion",
+        "name": {
+          "en": "Onion",
+          "pt-BR": "Cebola"
+        },
+        "quantity": 5
+      },
+      {
+        "id": "carrot",
+        "name": {
+          "en": "Carrot",
+          "pt-BR": "Cenoura"
+        },
+        "quantity": 10
+      },
+      {
+        "id": "pungent_pebbles",
+        "name": {
+          "en": "Pungent pebbles",
+          "pt-BR": "Adubo pungente"
+        },
+        "quantity": 1
+      }
+    ],
+    "recipeOutput": 6,
+    "effect": {
+      "en": "x2 Taming speed",
+      "pt-BR": "Velocidade de domesticação x2"
+    },
+    "duration": "10m",
+    "cooldown": "0s",
+    "id": "brew_of_animal_whispers",
+    "aliases": {
+      "en": [
+        "Brew of animal whispers"
+      ],
+      "pt-BR": [
+        "Infusão de sussurros selvagens"
+      ]
+    }
+  },
+  {
+    "name": {
+      "en": "Lightfoot mead",
+      "pt-BR": "Hidromel dos pés leves"
+    },
+    "ingredients": [
+      {
+        "id": "scale_hide",
+        "name": {
+          "en": "Scale hide",
+          "pt-BR": "Pele de escama"
+        },
+        "quantity": 2
+      },
+      {
+        "id": "feathers",
+        "name": {
+          "en": "Feathers",
+          "pt-BR": "Penas"
+        },
+        "quantity": 5
+      },
+      {
+        "id": "magecap",
+        "name": {
+          "en": "Magecap",
+          "pt-BR": "Cogumelo mágico"
+        },
+        "quantity": 5
+      }
+    ],
+    "recipeOutput": 6,
+    "effect": {
+      "en": "-30% jump stamina cost +20% jump height",
+      "pt-BR": "-30% de custo de vigor ao saltar; +20% de altura do salto"
+    },
+    "duration": "10m",
+    "cooldown": "0s",
+    "id": "lightfoot_mead",
+    "aliases": {
+      "en": [
+        "Lightfoot mead"
+      ],
+      "pt-BR": [
+        "Hidromel dos pés leves"
+      ]
+    }
+  }
+]
